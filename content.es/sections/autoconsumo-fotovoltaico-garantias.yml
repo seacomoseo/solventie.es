@@ -1,0 +1,18 @@
+id: garantias
+title: ¿Por qué nosotros?
+# color: dark
+# bg: autoconsumo-fotovoltaico-estudio.webp
+rows:
+- type: columns
+  design:
+    align_y: top
+    gap: 4
+    icon: badge-check
+    icon_size: 1
+  items:
+  - title: Garantía de <br> eficiencia
+    description: Nuestro equipo de ingenieros con experiencia, tanto en autoconsumo fotovoltaico para industria, como en grandes plantas solares de generación, se encargará de realizar tu proyecto a medida en tiempo.
+  - title: Garantía de <br> calidad
+    description: Trabajamos con marcas de primera calidad en cuanto a módulos solares e inversores, para que tu instalación de autoconsumo fotovoltaico sea lo más eficiente, duradero y rentable posible.
+  - title: Garantía de <br> transparencia
+    description: Fuera incertidumbre, te informaremos de los hitos de tu proyecto en tiempo real. Conocerás cuando se inicia y finaliza la redacción del proyecto técnico, la tramitación de licencias y autorizaciones y el planning de la obra, entre otros.

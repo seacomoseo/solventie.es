@@ -1,0 +1,79 @@
+id: aliados
+title: Algunos de nuestros mayores aliados
+rows:
+- type: columns
+  design:
+    num: 4
+    slider: true
+    interval: 8
+    padding: 2
+  items:
+  - description: |
+      ![16x9](aliado-acuamed-alt.svg#src)
+      ![16x9](aliado-apellan.svg#src)
+      ![16x9](aliado-ayuntamiento-de-buendia.svg#src)
+  - description: |
+      ![16x9](aliado-blancasol.svg#src)
+      ![16x9](aliado-comunidad-regantes-campotejar.svg#src)
+      ![](aliado-confederacion-hidrografica.png)
+  - description: |
+      ![16x9](aliado-conservas-el-raal.svg#src)
+      ![16x9](aliado-construcciones-alpi.svg#src)
+      ![16x9](aliado-diputacion-castellon.svg#src)
+  - description: |
+      ![16x9](aliado-etiquetas-adhegrafic.svg#src)
+      ![16x9](aliado-ferrovial.svg#src)
+      ![16x9](aliado-fruveco.svg#src)
+  - description: |
+      ![16x9](aliado-grupo-fuentes.svg#src)
+      ![16x9](aliado-hydrodiseno.svg#src)
+      ![16x9](aliado-lord-spices-group.svg#src)
+  - description: |
+      ![16x9](aliado-marin-gimenez.svg#src)
+      ![16x9](aliado-montalban-rodriguez.svg#src)
+      ![16x9](aliado-omega-spices.svg#src)
+  - description: |
+      ![16x9](aliado-pasteleria-gimar.svg#src)
+      ![16x9](aliado-penaplast.svg#src)
+      ![16x9](aliado-siepse.svg#src)
+  - description: |
+      ![16x9](aliado-sol9.svg#src)
+      ![16x9](aliado-soltec.svg#src)
+      ![16x9](aliado-terrazos-fortuna.svg#src)
+  - description: |
+      ![16x9](aliado-universidad-tarragona.svg#src)
+      ![16x9](aliado-westaflex.svg#src)
+      ![16x9](aliado-zamora-company.svg#src)
+
+  # num_xs: true
+  # ratio: 16x9
+  # contain: true
+  # shadow: true
+  # items:
+  # - image: aliado-acuamed-alt.svg#src
+  # - image: aliado-apellan.svg#src
+  # - image: aliado-ayuntamiento-de-buendia.svg#src
+  # - image: aliado-blancasol.svg#src
+  # - image: aliado-comunidad-regantes-campotejar.svg#src
+  # - image: aliado-confederacion-hidrografica.png
+  # - image: aliado-conservas-el-raal.svg#src
+  # - image: aliado-construcciones-alpi.svg#src
+  # - image: aliado-diputacion-castellon.svg#src
+  # - image: aliado-etiquetas-adhegrafic.svg#src
+  # - image: aliado-ferrovial.svg#src
+  # - image: aliado-fruveco.svg#src
+  # - image: aliado-grupo-fuentes.svg#src
+  # - image: aliado-hydrodiseno.svg#src
+  # - image: aliado-lord-spices-group.svg#src
+  # - image: aliado-marin-gimenez.svg#src
+  # - image: aliado-montalban-rodriguez.svg#src
+  # - image: aliado-omega-spices.svg#src
+  # - image: aliado-pasteleria-gimar.svg#src
+  # - image: aliado-penaplast.svg#src
+  # - image: aliado-siepse.svg#src
+  # - image: aliado-sol9.svg#src
+  # - image: aliado-soltec.svg#src
+  # - image: aliado-terrazos-fortuna.svg#src
+  # - image: aliado-universidad-tarragona.svg#src
+  # - image: aliado-westaflex.svg#src
+  # - image: aliado-zamora-company.svg#src

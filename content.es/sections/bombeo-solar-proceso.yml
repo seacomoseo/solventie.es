@@ -1,0 +1,41 @@
+id: proceso
+title: ¿Cuál es el proceso?
+color: dark
+bg: bombeo-solar-proceso.webp
+rows:
+- type: steps
+  design:
+    icon_size: 1
+  items:
+  - icon: 1
+    title: Conocemos tu empresa
+    description: |
+      Estudiamos cuáles son tus consumos de energía en tu bombeo, la superficie que dispones y tu perfil de consumo.
+  - icon: 2
+    title: Realizamos el proyecto a medida
+    description: |
+      Simulamos en 3D todos los elementos y obstáculos que puedan generar sombras donde se instalarán las placas solares, basándonos hora a hora y día a día en los datos climáticos.
+
+      Diseñamos la instalación que genera la energía necesaria para tu bombeo de agua.
+
+      Realizamos un estudio de viabilidad de amortización de la inversión, teniendo en cuenta tanto el ahorro acorde a tus precios, como los gastos de mantenimientos que conllevan los mismos.
+  - icon: 3
+    title: Tramitamos las licencias
+    description: |
+      Gestionamos todos los permisos, licencias de obra y autorizaciones administrativas y ambientales.
+  - icon: 4
+    title: Preparamos el plan de seguridad
+    description: |
+      Elaboramos el plan de seguridad y salud en el que se evalúan los riesgos a la hora de realizar la instalación solar y proponemos las medidas para evitarlos.
+  - icon: 5
+    title: Nos ponemos manos a la obra
+    description: |
+      Realizamos la instalación solar en los plazos acordados, manteniendo siempre la seguridad e higiene en tu empresa.
+  - icon: 6
+    title: Optimización de factura
+    description: |
+      Revisamos y te asesoramos con tu factura eléctrica para optimizarla tras la implantación.
+  - icon: 7
+    title: Te seguimos acompañando
+    description: |
+      Supervisamos el funcionamiento de tu instalación solar mediante monitorización semanal. Revisamos presencialmente el estado de tu instalación cada año comprobando las conexiones, el cableado, el estado de los módulos mediante termografía, los inversores y el anclaje a la estructura.

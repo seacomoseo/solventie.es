@@ -1,0 +1,16 @@
+id: garantias
+title: ¿Por qué nosotros?
+rows:
+- type: columns
+  design:
+    align_y: top
+    gap: 4
+    icon: badge-check
+    icon_size: 1
+  items:
+  - title: Garantía de <br> calidad
+    description: Queremos que quedes satisfecho con tu proyecto. Si esto no ocurre, te rehacemos el diseño tal y como necesites.
+  - title: Garantía de <br> seguridad
+    description: No tendrás que preocuparte si surge cualquier defecto de diseño, tu proyecto estará asegurado por una aseguradora de primer nivel.
+  - title: Garantía de <br> transparencia
+    description: Fuera incertidumbre, cada semana te informaremos del punto en el que se encuentra tu proyecto y de los avances conseguidos.

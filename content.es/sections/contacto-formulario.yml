@@ -1,0 +1,34 @@
+anchor: Formulario
+subtitle: Escríbenos si tienes cualquier duda o consulta
+size: sm
+rows:
+- type: contact
+  data:
+  - type: address
+    active: false
+    name: Ingeniería Solvent
+    streetAddress: Calle Molina de Segura, 5, bloque 3, 2ºC-D
+    postalCode: 30007
+    addressLocality: Murcia
+    addressRegion: Murcia
+    addressCountry: España
+    coordinates: '{"type":"Point","coordinates":[-1.1147510,37.9926277]}'
+  form:
+    fill_inputs: false
+    items:
+    - type: text
+      name: Nombre
+      placeholder: Tu nombre
+      required: true
+    - type: email
+      name: Email
+      placeholder: Tu correo electrónico
+      required: true
+    - type: textarea
+      name: Mensaje
+      placeholder: Cuéntanos
+      required: true
+  map:
+    active: true
+    link: https://g.page/r/CT7T0hQ29sriEB0
+    iframe: ''

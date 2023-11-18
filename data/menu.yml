@@ -1,0 +1,57 @@
+logo: logo-alt.svg
+color: white
+screen_sticky: 820
+size_sticky: ''
+articles_sticky: true
+transparent: false
+hide_anchors: true
+hide_icons: false
+show_modals: true
+show_blog_auto: false
+show_products_auto: false
+show_taxonomies_auto: false
+search: false
+google_translate: false
+langs_in_more: false
+langs_out: true
+callnow_active: true
+callnow_buttons:
+- type: whatsapp
+  label: 644 546 418
+- type: phone
+  label: 968 27 16 89
+normal:
+- label: Inicio
+  link: /
+- label: Conócenos
+  link: /nosotros/
+- label: Servicios
+  items:
+  - label: Autoconsumo industrial
+    link: /autoconsumo-fotovoltaico/
+  - label: Bombeo solar
+    link: /bombeo-solar/
+  - label: Ingeniería
+    link: /ingenieria/
+  - label: Eficiencia energética
+    link: /eficiencia-energetica/
+- label: Proyectos
+  link: /proyectos/
+- label: Blog
+  link: /blog/
+- label: Contacto
+  link: /contacto/
+  button: link
+- label: none
+  link: /buscador/
+  icon: magnifying-glass
+  # button: light
+# - label: none
+#   icon: phone
+#   link: tel:+34968271689
+#   ofuscate: true
+# - label: none
+#   icon: envelope
+#   link: mailto:info@solventie.es
+#   ofuscate: true
+more: []

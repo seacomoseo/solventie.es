@@ -1,0 +1,23 @@
+id: proceso
+title: ¿Cuál es el proceso?
+color: dark
+bg: eficiencia-energetica-proceso.webp
+rows:
+- type: steps
+  design:
+    icon_size: 1
+  items:
+  - icon: 1
+    title: Conocemos tu industria
+    description: |
+      Conocemos tu empresa a fondo para su estudio; proceso productivo, facturación energética, distribución de la maquinaria, horarios de funcionamiento, etc.
+
+      Nuestro equipo realizará todas las visitas a tu industria necesarias hasta recabar los datos suficientes para proponerte las Medidas de Ahorro Energético (MAEs).
+  - icon: 2
+    title: Realizamos la auditoria energética
+    description: |
+      Con todos los datos necesarios de tu industria, realizamos la auditoría energética proponiendo medidas que maximizan el ahorro.
+  - icon: 3
+    title: Te lo contamos todo
+    description: |
+      Te presentamos la auditoria energética a ti y a tu equipo para que aprendáis la manera de ser más eficientes. Vas a conocer cuál es tu consumo de energía por unidad producida.

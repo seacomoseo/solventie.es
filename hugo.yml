@@ -1,0 +1,32 @@
+baseURL: https://solventie.es
+Paginate: 24
+buildFuture: false
+theme: [sansoul]
+params:
+  git_url: https://github.com/solventie/solventie.es
+  netlify_name: solventie
+  netlify_id: 23e4a232-b796-4795-9f71-17f574c48bfe
+  drive_link: https://drive.google.com/file/d/1GvIJGYxRdTgC7J8l4lpKJnKkKKCRDdYx
+  drive_mails: solventiemarketing@gmail.com
+defaultContentLanguage: es
+disableLanguages: [en]
+languages:
+  es:
+    paginatePath: pagina
+    permalinks:
+      page:
+        pages: :slug
+        blog: :slug
+        events: evento/:year/:month/:day/:slug
+        products: producto/:slug
+        categories: categoria/:slug
+        tags: etiqueta/:slug
+        authors: autor/:slug
+      section:
+        pages: paginas
+        blog: blog
+        events: eventos
+        products: productos
+        categories: categorias
+        tags: etiquetas
+        authors: autores

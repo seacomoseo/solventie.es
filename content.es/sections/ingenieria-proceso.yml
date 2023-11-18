@@ -1,0 +1,24 @@
+id: proceso
+title: ¿Cuál es el proceso?
+color: dark
+bg: ingenieria-proceso.jpg
+rows:
+- type: steps
+  design:
+    icon_size: 1
+  items:
+  - icon: 1
+    title: Te escuchamos
+    description: Escuchamos lo que necesitas para realizar el diseño pensando en lo mejor para tu empresa, ni más ni menos.
+  - icon: 2
+    title: Desarrollamos el proyecto
+    description: Desarrollamos el proyecto a medida con soluciones orientadas a minimizar costes.
+  - icon: 3
+    title: Legalizamos el proyecto
+    description: Nos encargamos de todo el papeleo y tramitación que conlleva la legalización del proyecto.
+  - icon: 4
+    title: Entrega del proyecto
+    description: Te explicamos con detalle el proyecto realizado para tu empresa y te lo entregamos.
+  - icon: 5
+    title: Te asesoramos
+    description: Te informamos de los próximos pasos y consejos que tienes que dar una vez finalicemos nuestro trabajo.

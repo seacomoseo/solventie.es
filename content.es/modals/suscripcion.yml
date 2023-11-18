@@ -1,0 +1,18 @@
+anchor: Suscripción
+title: Descubre los precios futuros de la energía
+subtitle: Déjanos tus datos y te enviaremos nuestro informe completo.
+size: xs
+more:
+  container: white
+rows:
+- type: contact
+  form:
+    fill_inputs: false
+    items:
+    - type: text
+      name: Nombre
+      required: true
+    - type: email
+      name: Email
+      placeholder: Correo electrónico
+      required: true

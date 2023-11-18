@@ -1,0 +1,76 @@
+
+#body-inicio {
+  #header {
+    @mixin show-up($delay) {
+      animation: show-up .5s (.5 + .25s * $delay) both;
+    }
+    .section__title {       @include show-up(1); }
+    .description p {        @include show-up(2); }
+    .description .buttons { @include show-up(3); }
+    // &.bg--image-fixed > .bg-figure .bg-figure-image {
+    //   object-position: center -120px;
+    // }
+  }
+  #proyectos {
+    .columns {
+      .subtitle {
+        font-size: 1.5em;
+      }
+    }
+  }
+  #servicios {
+    .column {
+      --radius-bg: 0em;
+    }
+    .section__icon--top {
+      margin-bottom: 1em;
+    }
+    .column__button {
+      width: auto;
+      flex-direction: row-reverse;
+    }
+  }
+  #blog {
+    button[title="Más Entradas"] svg {
+      display: none;
+    }
+  }
+}
+
+#body-nosotros {
+  #politica-calidad-medio-ambiente {
+    .section__title {
+      justify-content: flex-start;
+    }
+    .columns--some-bottomless {
+      row-gap: var(--gap-columns);
+    }
+  }
+}
+
+// #header,
+// #caracteristicas,
+// #estudio {
+//   .columns {
+//     margin-top: 2em;
+//     row-gap: 5em;
+//   }
+// }
+
+#body-proyectos {
+  #portfolio {
+    .columns {
+      .subtitle {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+#aliados {
+  [src="/media/aliado-confederacion-hidrografica.png"] {
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    object-position: center;
+  }
+}

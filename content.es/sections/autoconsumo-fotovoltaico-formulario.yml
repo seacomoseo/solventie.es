@@ -1,0 +1,28 @@
+id: formulario
+title: Déjanos tus datos, <br> nosotros nos encargamos del resto
+color: link
+bg: autoconsumo-fotovoltaico-estudio.webp
+size: sm
+more:
+  padding_top: 0
+  container: white
+rows:
+- type: contact
+  form:
+    fill_inputs: false
+    items:
+    - type: text
+      name: Nombre
+      required: true
+    - type: email
+      name: Email
+      placeholder: Correo electrónico
+      required: true
+    - type: tel
+      name: Teléfono
+      required: true
+    - type: file
+      name: Factura
+      hint: Adjunta tu factura eléctrica
+      accept: .pdf,.png,.jpg,.jpeg
+      required: true

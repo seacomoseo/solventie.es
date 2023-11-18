@@ -1,0 +1,23 @@
+id: formulario
+title: ¿Tienes alguna duda o consulta?
+subtitle: Te respondemos encantados
+color: dark
+bg: dudas.webp
+size: sm
+rows:
+- type: contact
+  form:
+    fill_inputs: false
+    items:
+    - type: text
+      name: Nombre
+      placeholder: Tu nombre
+      required: true
+    - type: email
+      name: Email
+      placeholder: Tu correo electrónico
+      required: true
+    - type: textarea
+      name: Mensaje
+      placeholder: Cuéntanos
+      required: true

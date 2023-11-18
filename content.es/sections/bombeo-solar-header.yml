@@ -1,0 +1,22 @@
+anchor: Empresa de Bombeo Solar en Murcia y Alicante
+title: Bombeo solar
+subtitle: Bombea con tu propia energía solar
+color: dark
+bg: bombeo-solar.webp
+rows:
+- type: columns
+  design:
+    align_y: top
+    gap: 4
+    icon_size: 1
+    icon_color: light
+  items:
+  - title: Estabilidad <br> de costes
+    description: Con el bombeo solar conseguirás una estabilidad de costes para tus consumos al tener mayor independencia de la red eléctrica
+    icon: lightbulb-on
+  - title: Mucho <br> ahorro
+    description: Podrás ajustar el bombeo solar a la producción de energía solar, así reducirás tus costes energéticos
+    icon: money-bill-wave
+  - title: Sostenibilidad <br> ambiental
+    description: La energía solar es una fuente de energía limpia y renovable con la que reducirás tu huella de carbono
+    icon: leaf
