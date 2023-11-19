@@ -94,7 +94,7 @@
   - `Continue`
   - `Activate domain` (if `Begin DNS transfer` end)
   - Repeat with `www.solventie.es`
-  - ..........................................................
+  - ...........................................................
 
 
 #### [Google Search Console](https://search.google.com/search-console)
