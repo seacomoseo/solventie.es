@@ -44,22 +44,12 @@ Respecto de las cookies de terceros, es decir aquellas que son ajenas a nuestro 
 
 A continuación le informamos detalladamente de las cookies que pueden instalarse desde nuestro sitio web. En función de su navegación podrán instalarse todas o sólo algunas de ellas.
 
-| Nombre                              | Categoria     | Descripción                                                                    | Propiedad | Duración                            |
-| ----------------------------------- | ------------- | ------------------------------------------------------------------------------ | --------- | ----------------------------------- |
-| `_ga`                               | Análisis      | Se usa para distinguir a los usuarios.                                         | Terceros  | 2 años                              |
-| `_gid`                              | Análisis      | Se usa para distinguir a los usuarios.                                         | Terceros  | 24 horas                            |
-| `wordpress_`                        | Funcionalidad | Se activa durante el login y guarda los detalles de autentificación.           | Propia    | 1 año                               |
-| `wordpress_logged_in_`              | Funcionalidad | Se activa durante el login y guarda los detalles de autentificación.           | Propia    | 1 año                               |
-| `wordpress_test_cookie`             | Funcionalidad | Se activa durante el login y guarda los detalles de autentificación.           | Propia    | 1 año                               |
-| `wp-settings-`                      | Funcionalidad | Sirve para personalizar la Interfaz de Usuario.                                | Propia    | 1 año                               |
-| `wp-settings-time-`                 | Funcionalidad | Sirve para personalizar la Interfaz de Usuario.                                | Propia    | Finalización de la sesión           |
-| `catAccCookies`                     | Funcionalidad | Contiene un código para verificar que la política de cookies ha sido aceptada. | Propia    | 1 día                               |
-| `gadwp_wg_default_dimension`        | Funcionalidad | Gestiona la gestión del acceso a la web y el despliegue de imágenes.           | Propia    | 1 semana                            |
-| `gadwp_wg_default_metric`           | Funcionalidad | Gestiona la gestión del acceso a la web y el despliegue de imágenes.           | Propia    | 1 semana                            |
-| `et-editor-available-post-3114-bb`  | Funcionalidad | Desconocemos el origen de la cookie                                            | Terceros  | Desconocemos el origen de la cookie |
-| `et-editor-available-post-2651-bb`  | Funcionalidad | Desconocemos el origen de la cookie                                            | Terceros  | Desconocemos el origen de la cookie |
-| `et-editor-available-post-53950-bb` | Funcionalidad | Desconocemos el origen de la cookie                                            | Terceros  | Desconocemos el origen de la cookie |
-| `et-pb-recent-items-colors`         | Funcionalidad | Desconocemos el origen de la cookie                                            | Terceros  | Desconocemos el origen de la cookie |
+| Cookie        | Dominio         | Descripción                                                                      | Duración               | Tipo         |
+|---------------|-----------------|----------------------------------------------------------------------------------|------------------------|--------------|
+| `_ga_*`       | solventie.es    | Google Analytics establece esta cookie para almacenar y contar vistas de página. | 1 año 1 mes 4 días     | Analítica    |
+| `_ga`         | solventie.es    | Google Analytics establece esta cookie para calcular visitantes, sesión y datos de campaña y hacer seguimiento del uso del sitio web para el informe de analíticas del sitio. La cookie almacena información de forma anónima y asigna un número generado aleatoriamente para reconocer visitantes únicos. | 1 año 1 mes 4 días     | Analítica    |
+| `_gcl_au`     | solventie.es    | Google Tag Manager establece la cookie para experimentar la eficiencia del anuncio de sitios web que utilizan sus servicios. | 3 meses                | Analítica    |
+| `test_cookie` | doubleclick.net | doubleclick.net establece esta cookie para determinar si el navegador del usuario soporta cookies. | 15 minutos             | Publicidad   |
 
 Se puede modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos, por ello se aconseja a los Usuarios que la visiten periódicamente.
 
