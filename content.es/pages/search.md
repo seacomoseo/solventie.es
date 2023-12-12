@@ -9,5 +9,5 @@ draft: false
 noindex: true
 translationKey: search
 ---
-{{< search >}}
-{{< forms >}}
+{{% search %}}
+{{% forms %}}

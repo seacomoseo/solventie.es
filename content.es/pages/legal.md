@@ -10,18 +10,18 @@ noindex: true
 translationKey: legal
 ---
 
-El presente Aviso Legal regula las condiciones generales de acceso y utilización del sitio web accesible en la dirección URL **{{< legal https >}}** (en adelante, el sitio web), que **SOLVENT** pone a disposición de los usuarios de Internet.
+El presente Aviso Legal regula las condiciones generales de acceso y utilización del sitio web accesible en la dirección URL **{{% legal https %}}** (en adelante, el sitio web), que **SOLVENT** pone a disposición de los usuarios de Internet.
 
 La utilización del sitio web implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal. En consecuencia, el usuario del sitio web debe leer atentamente el presente Aviso Legal en cada una de las ocasiones en que se proponga utilizar la web, ya que el texto podría sufrir modificaciones a criterio del titular de la web, o a causa de un cambio legislativo, jurisprudencial o en la práctica empresarial.
 
 ## TITULARIDAD DEL SITIO WEB
 
-- Razón Social de la Empresa: **{{< legal name >}}**
+- Razón Social de la Empresa: **{{% legal name %}}**
 - Nombre del titular: **Francisco Javier Rincón Pedreño**
-- Domicilio social: **{{< legal location >}}**
-- C.I.F. -- D.N.I.: **{{< legal dni >}}**
+- Domicilio social: **{{% legal location %}}**
+- C.I.F. -- D.N.I.: **{{% legal dni %}}**
 - Teléfono de contacto: **968 27 16 89**
-- Correo electrónico: **{{< legal email >}}**
+- Correo electrónico: **{{% legal email %}}**
 
 ## OBJETO
 
@@ -74,7 +74,7 @@ Todos los datos facilitados por nuestras empresas clientes a **SOLVENT** o a su 
 
 Los datos facilitados serán tratados según el Reglamento de Medidas de Seguridad (Real Decreto 1720/2007 de 21 de Diciembre), en este sentido **SOLVENT** ha adoptado los niveles de protección que legalmente se exigen, y ha instalado todas las medidas técnicas a su alcance para evitar la perdida, mal uso, alteración, acceso no autorizado por terceros. No obstante, el usuario debe ser consciente de que las medidas de seguridad en Internet no son inexpugnables. En caso en que considere oportuno que se cedan sus datos de carácter personal a otras entidades, el usuario será informado de los datos cedidos, de la finalidad del fichero y del nombre y dirección del cesionario, para que de su consentimiento inequívoco al respecto.
 
-En cumplimiento de lo establecido en la RGPD, el usuario podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición. Para ello debe de contactar con nosotros en **{{< legal email >}}**
+En cumplimiento de lo establecido en la RGPD, el usuario podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición. Para ello debe de contactar con nosotros en **{{% legal email %}}**
 
 ## LEGISLACIÓN APLICABLE Y JURISDICCIÓN COMPETENTE
 

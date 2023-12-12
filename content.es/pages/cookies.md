@@ -10,7 +10,7 @@ noindex: true
 translationKey: cookies
 ---
 
-En la web **{{< legal https >}}** utilizamos cookies para facilitar la relación de los visitantes con nuestro contenido y para permitir elaborar estadísticas sobre las visitantes que recibimos.
+En la web **{{% legal https %}}** utilizamos cookies para facilitar la relación de los visitantes con nuestro contenido y para permitir elaborar estadísticas sobre las visitantes que recibimos.
 
 En cumplimiento de la Directiva 2009/136/CE, desarrollada en nuestro ordenamiento por el apartado segundo del artículo 22 de la Ley de Servicios de Sociedad de la Información, siguiendo las directrices de la Agencia Española de Protección de Datos, procedemos a informarle detalladamente del uso que se realiza en nuestra web.
 

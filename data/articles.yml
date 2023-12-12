@@ -56,3 +56,4 @@ products: {}
 taxonomies:
   image: ''
   card: false
+custom: {}
