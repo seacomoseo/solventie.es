@@ -1,6 +1,7 @@
 # general
-http://solventie.com/* https://solventie.es/ 301!
-https://solventie.com/* https://solventie.es/ 301!
+
+http://solventie.com/* https://solventie.es/:splat 301!
+https://solventie.com/* https://solventie.es/:splat 301!
 
 
 # sitemap
