@@ -1,8 +1,10 @@
 id: proyectos
 title: ¿Aún no aprovechas la energía solar en tu empresa?
 subtitle: Es el momento de eliminar tus costes energéticos
-description: |
-  En [Solvent](/nosotros/) nos avalan más de 15 años de experiencia ayudando a las empresas a ahorrar y ser más eficientes mientras generan su propia energía y cuidan del planeta.
+description: >
+  En [Solvent](/nosotros/) nos avalan más de 15 años de experiencia ayudando a
+  las empresas a ahorrar y ser más eficientes mientras generan su propia energía
+  y cuidan del planeta.
 rows:
 - type: columns
   design:
@@ -10,21 +12,20 @@ rows:
     color: white
     inset: true
     ratio: 16x9
-    title_size: .6
+    title_size: 0.6
   items:
   - title: Autoconsumo de <br> 248,8 KWp
     subtitle: Prefabricados Hormigones Montalbán y Rodríguez
-    image: proyecto--instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm#mute # https://solventie.es/wp-content/uploads/2022/11/prefabricados-montalban-webm.webm
+    image: proyecto--instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm#mute
   - title: Autoconsumo de <br> 168 KWp
     subtitle: Lord Spices Group
-    image: proyecto--instalacion-fotovoltaica-168-kwp--lord-spices.webm#mute               # https://solventie.es/wp-content/uploads/2022/11/Lord-Spices-formato-webp.webm
+    image: proyecto--instalacion-fotovoltaica-168-kwp--lord-spices.webm#mute
   - title: Autoconsumo de <br> 149,6kWp
     subtitle: Zamora Company
-    image: proyecto--instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm#mute # https://solventie.es/wp-content/uploads/2023/04/Diego-Zamora-Web-1.webm
-  - title: Autoconsumo de <br> 98 KWp
-    subtitle: Pastelería Gimar
-    image: proyecto--instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm#mute           # https://solventie.es/wp-content/uploads/2022/11/Pasteleria-Gimar-Webm.webm
-
+    image: proyecto--instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm#mute
+  - title: Autoconsumo de <br> 240 KWp
+    subtitle: Etiquetas adhegrafic
+    image: /etiquetas-adhegrafic.jpg
 - type: columns
   design:
     num: 1
