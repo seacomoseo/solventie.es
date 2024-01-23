@@ -1,3 +1,8 @@
+# general
+http://solventie.com/* https://solventie.es/ 301!
+https://solventie.com/* https://solventie.es/ 301!
+
+
 # sitemap
 
 /sitemap_index.xml /sitemap.xml
