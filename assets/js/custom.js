@@ -1,12 +1,12 @@
 // SUSCRIPTION
 const popup = document.getElementById('suscripcion')
-if(popup) {
+if (popup) {
   // Popup when scroll a little from the top of the page
-  scrollShot(
-    '20% 0% -120%',
-    'body',
-    undefined,
-    e => {
+  // eslint-disable-next-line
+  scrollShot({
+    rootMargin: '20% 0% -120%',
+    query: 'body',
+    doStart: e => {
       // If the form has never been submitted
       if (!localStorage.submited_form_inicio_suscripcion) {
         const now = new Date().getTime()
@@ -18,9 +18,8 @@ if(popup) {
           location.hash = 'suscripcion'
         }
       }
-    },
-    undefined
-  )
+    }
+  })
   // When popup form is submit
   document.addEventListener('submited_form_inicio_suscripcion', e => {
     // Download the pdf
