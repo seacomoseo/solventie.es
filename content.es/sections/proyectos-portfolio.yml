@@ -8,36 +8,39 @@ rows:
     ratio: 16x9
     title_size: 0.6
   items:
-  - title: Instalación fotovoltaica <br> 80 KWp
-    subtitle: Semilleros el Jimenado
-    image: proyecto--instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm#mute
-  - title: Instalación fotovoltaica 400 KW
-    subtitle: Acrena SAT
-    image: proyecto--instalacion-fotovoltaica-400-kw--acrena-sat-el-ejido.webp
-  - title: Instalación fotovoltaica <br> 5 MWp
-    subtitle: Molina de Segura, Murcia
-    image: proyecto--instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp
-  - title: Instalación fotovoltaica <br> 68 KWp
-    subtitle: Apellán
-    image: proyecto--instalacion-fotovoltaica-68-kwp--apellan.webm#mute
+  - title: Instalación fotovoltaica <br> 240 kWp
+    subtitle: Etiquetas Adhegrafic
+    image: etiquetas-adhegrafic.webm#mute
   - title: Instalación fotovoltaica <br> 248,8 KWp
     subtitle: Prefabricados Montalbán
     image: proyecto--instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm#mute
-  - title: Instalación fotovoltaica <br> 121 KWp
-    subtitle: Doscadesa 2000
-    image: proyecto--instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm#mute
-  - title: Diseño de vivienda con instalaciones de gama alta
-    subtitle: Varios
-    image: proyecto--diseno-vivienda-instalaciones-gama-alta--varios.webp
   - title: Instalación fotovoltaica <br> 3,75 MWp
     subtitle: Cartagena, Murcia
     image: proyecto--instalacion-fotovoltaica-3-75-mwp--cartagena-murcia.webp
   - title: Instalación fotovoltaica <br> 6 MWp
     subtitle: Fuente Álamo, Murcia
     image: proyecto--instalacion-fotovoltaica-6-mwp--fuente-alamo-murcia.webp
+  - title: Instalación fotovoltaica 400 KW
+    subtitle: Acrena SAT
+    image: proyecto--instalacion-fotovoltaica-400-kw--acrena-sat-el-ejido.webp
+  - title: Instalación fotovoltaica <br> 80 KWp
+    subtitle: Semilleros el Jimenado
+    image: proyecto--instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm#mute
+  - title: Instalación fotovoltaica <br> 5 MWp
+    subtitle: Molina de Segura, Murcia
+    image: proyecto--instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp
+  - title: Instalación fotovoltaica <br> 68 KWp
+    subtitle: Apellán
+    image: proyecto--instalacion-fotovoltaica-68-kwp--apellan.webm#mute
+  - title: Instalación fotovoltaica <br> 121 KWp
+    subtitle: Doscadesa 2000
+    image: proyecto--instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm#mute
   - title: Instalación fotovoltaica <br> 98 KWp
     subtitle: Pastelería Gimar
     image: proyecto--instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm#mute
+  - title: Diseño de vivienda con instalaciones de gama alta
+    subtitle: Varios
+    image: proyecto--diseno-vivienda-instalaciones-gama-alta--varios.webp
   - title: Instalación fotovoltaica <br> 66 KWp
     subtitle: Naturalfrío
     image: proyecto--instalacion-fotovoltaica-66-kwp--natural-frio.webm#mute
@@ -49,6 +52,9 @@ rows:
     image: proyecto--auditoria-energetica-industria--omega-spice.webp
     more:
       contain: true
+  - title: Instalación fotovoltaica <br> 4,5 MWp
+    subtitle: Puerto Lumbreras, Murcia
+    image: proyecto--instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp
   - title: Instalación fotovoltaica <br> para autoconsumo <br> 199,98 KWp
     subtitle: E.D.A.R. de Yecla, Murcia
     image: proyecto--instalacion-fotovoltaica-autoconsumo-199-98-kwp--edar-yecla-murcia.webp
@@ -73,9 +79,6 @@ rows:
   - title: Instalación fotovoltaica <br> 19,95 MWp
     subtitle: Torre Pacheco, Cartagena
     image: proyecto--instalacion-fotovoltaica-19-95-mwp--torre-pacheco-cartagena.webp
-  - title: Instalación fotovoltaica <br> 4,5 MWp
-    subtitle: Puerto Lumbreras, Murcia
-    image: proyecto--instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp
   - title: Instalación fotovoltaica <br> 192,93 MWp
     subtitle: Ayora, Albacete
     image: proyecto--instalacion-fotovoltaica-192-93-mwp--ayora-albacete.webp
@@ -132,6 +135,3 @@ rows:
   - title: Instalación solar fotovoltaica de 50 MW en Alvarado
     subtitle: INCOSA
     image: proyecto--instalacion-solar-fotovoltaica-50-mw-alvarado--incosa.webp
-  - title: Instalación fotovoltaica <br> 240 kWp
-    subtitle: Etiquetas Adhegrafic
-    image: etiquetas-adhegrafic.webm#mute
