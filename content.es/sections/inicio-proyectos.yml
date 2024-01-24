@@ -25,7 +25,7 @@ rows:
     image: proyecto--instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm#mute
   - title: Autoconsumo de <br> 240 KWp
     subtitle: Etiquetas adhegrafic
-    image: /etiquetas-adhegrafic.jpg
+    image: proyecto-isfv-etiquetas-adhegrafic.webm
 - type: columns
   design:
     num: 1
