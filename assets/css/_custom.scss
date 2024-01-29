@@ -1,12 +1,12 @@
 
 #body-inicio {
   #header {
-    @mixin show-up($delay) {
-      animation: show-up .5s (.5 + .25s * $delay) both;
+    @mixin show-from($delay) {
+      animation: show-from .5s (.5 + .25s * $delay) both;
     }
-    .section__title {       @include show-up(1); }
-    .description p {        @include show-up(2); }
-    .description .buttons { @include show-up(3); }
+    .section__title {       @include show-from(1); }
+    .description p {        @include show-from(2); }
+    .description .buttons { @include show-from(3); }
     // &.bg--image-fixed > .bg-figure .bg-figure-image {
     //   object-position: center -120px;
     // }
