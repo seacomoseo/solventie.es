@@ -10,7 +10,7 @@ params:
   drive_link: https://drive.google.com/file/d/1GvIJGYxRdTgC7J8l4lpKJnKkKKCRDdYx
   drive_mails: solventiemarketing@gmail.com
 defaultContentLanguage: es
-disableLanguages: [en]
+disableLanguages: [en,fr]
 languages:
   es:
     paginatePath: pagina
