@@ -3,7 +3,7 @@ title: Los diferentes tipos de paneles solares
 title_seo: 'Paneles solares: descubre los diferentes tipos que existen'
 slug: tipos-paneles-solares
 description: 'Monocristalinos: La fabricación de este tipo de paneles solares consiste en dividir el silicio en láminas, lo que da una pureza y eficiencia mayor.'
-image: blog-tipos-paneles-solares.jpg
+image: blog/tipos-paneles-solares.jpg
 categories: [energia-solar]
 tags: []
 author: admin
@@ -15,7 +15,7 @@ lastmod: ''
 ---
 Cada vez la energía [renovable](/importancia-energias-renovables/) representa un porcentaje mayor sobre el total de energía generada. Este último año 2021, tuvo una representación del 46,8%, consiguiendo equilibrar cada vez más la balanza entre el consumo de energías renovables y no renovables. En concreto, la energía que se obtiene de los paneles solares representa el 10,3% del total.
 
-![paneles solares](blog-consumo-energia-2021.png)
+![paneles solares](blog/consumo-energia-2021.png)
 
 ## Tipos de radiación según la incidencia
 
@@ -51,4 +51,4 @@ Dependiendo de la forma en la que se obtenga la energía, los paneles solares so
 
 En las instalaciones fotovoltaicas que realizamos en [Solvent](/instalaciones-solares-fotovoltaicas/), utilizamos paneles solares monocristalinos. Esta opción es la mejor por su eficiencia, ya que proporciona mayores rendimientos que los policristalinos y amorfos.
 
-![paneles solares](blog-paneles-solares.jpg)
+![paneles solares](blog/paneles-solares.jpg)

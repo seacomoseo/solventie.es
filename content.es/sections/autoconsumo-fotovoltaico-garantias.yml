@@ -1,7 +1,7 @@
 id: garantias
 title: ¿Por qué nosotros?
 # color: dark
-# bg: autoconsumo-fotovoltaico-estudio.webp
+# bg: servicios/autoconsumo-fotovoltaico/estudio.webp
 rows:
 - type: columns
   design:

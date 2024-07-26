@@ -2,7 +2,7 @@ anchor: Empresa de Bombeo Solar en Murcia y Alicante
 title: Bombeo solar
 subtitle: Bombea con tu propia energía solar
 color: dark
-bg: bombeo-solar.webp
+bg: servicios/bombeo-solar/paneles.webp
 rows:
 - type: columns
   design:

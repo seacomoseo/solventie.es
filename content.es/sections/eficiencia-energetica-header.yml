@@ -2,7 +2,7 @@ anchor: Empresa de Eficiencia Energética en Murcia y Alicante
 title: Eficiencia energética
 subtitle: Tu empresa será más sostenible y competitiva en el mercado
 color: dark
-bg: servicio-eficiencia-energetica.webp
+bg: servicios/eficiencia-energetica/portada.webp
 rows:
 - type: columns
   design:

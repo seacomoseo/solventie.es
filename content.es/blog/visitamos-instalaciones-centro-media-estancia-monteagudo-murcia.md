@@ -3,7 +3,7 @@ title: Visitamos las instalaciones del Centro de Media Estancia de Monteagudo, e
 title_seo: Visitamos las instalaciones del Centro de Media Estancia de Monteagudo, en Murcia - Ingeniería Solvent
 slug: visitamos-instalaciones-centro-media-estancia-monteagudo-murcia
 description: 'Dentro de las acciones de acercamiento de la Semana de la #DiversidadCultural que organizamos en #DIVEM, nuestro CEO Javier Rincón visitó las instalaciones.'
-image: blog-visitamos-instalaciones-centro-media-estancia-monteagudo-murcia.webp
+image: blog/visitamos-instalaciones-centro-media-estancia-monteagudo-murcia.webp
 categories: [noticias]
 tags: []
 author: admin

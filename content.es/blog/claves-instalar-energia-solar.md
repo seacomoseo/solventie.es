@@ -3,7 +3,7 @@ title: Descubre las 4 claves para instalar energía solar
 title_seo: Descubre las 4 claves para instalar energía solar - Ingeniería Solvent
 slug: claves-instalar-energia-solar
 description: Al estudiar una instalación solar, se consideran la orientación, inclinación, sombras y materiales de los paneles solares. Pero para que sea perfecta, debes
-image: blog-claves-instalar-energia-solar.webp
+image: blog/claves-instalar-energia-solar.webp
 categories: [noticias]
 tags: []
 author: admin

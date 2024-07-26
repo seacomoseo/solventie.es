@@ -3,7 +3,7 @@ title: El sol, el gran aliado de Semilleros Jimenado, le ahorrará casi 21.000 e
 title_seo: El sol, el gran aliado de Semilleros Jimenado, le ahorrará casi 21.000 euros en un año - Ingeniería Solvent
 slug: sol-aliado-semilleros-jimenado
 description: La empresa Semilleros Jimenado apuesta por la sostenibilidad y logra importantes ahorros con la instalación de paneles fotovoltaicos. La empresa de semilleros
-image: blog-sol-aliado-semilleros-jimenado.webp
+image: blog/sol-aliado-semilleros-jimenado.webp
 categories: [noticias]
 tags: []
 author: admin

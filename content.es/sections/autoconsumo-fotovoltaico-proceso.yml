@@ -1,7 +1,7 @@
 id: proceso
 title: ¿Cuál es el proceso?
 color: dark
-bg: autoconsumo-fotovoltaico-proceso.jpg
+bg: servicios/autoconsumo-fotovoltaico/proceso.jpg
 rows:
 - type: steps
   design:

@@ -3,7 +3,7 @@ title: ¿Por qué está aumentando el precio de la electricidad?
 title_seo: ¿Por qué está aumentando el precio de la electricidad? - Ingeniería Solvent
 slug: aumento-precio-electricidad
 description: Desde hace unos meses, los precios del mercado mayorista de la electricidad han aumentado considerablemente. De hecho, este año se espera que llegue a su
-image: blog-aumento-precio-electricidad.jpg
+image: blog/aumento-precio-electricidad.jpg
 categories: [electricidad]
 tags: []
 author: admin

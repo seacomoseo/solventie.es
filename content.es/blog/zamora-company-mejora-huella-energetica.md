@@ -3,7 +3,7 @@ title: Zamora Company sigue mejorando su huella energética con la instalación 
 title_seo: Zamora Company sigue mejorando su huella energética con la instalación solar de 149,6 kWp - Ingeniería Solvent
 slug: zamora-company-mejora-huella-energetica
 description: La empresa Zamora Company, comprometida con la eficiencia energética, disfruta de la energía solar en su planta de Cartagena
-image: blog-zamora-company-mejora-huella-energetica.webp
+image: blog/zamora-company-mejora-huella-energetica.webp
 categories: [noticias]
 tags: []
 author: admin

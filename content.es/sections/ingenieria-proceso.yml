@@ -1,7 +1,7 @@
 id: proceso
 title: ¿Cuál es el proceso?
 color: dark
-bg: ingenieria-proceso.jpg
+bg: servicios/ingenieria/proceso.jpg
 rows:
 - type: steps
   design:

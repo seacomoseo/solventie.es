@@ -26,7 +26,7 @@ if (popup) {
   document.addEventListener('submited_form_inicio_suscripcion', e => {
     // Download the pdf
     const link = document.createElement('a')
-    link.href = '/media/informe-precios-futuros-energia-industria.pdf'
+    link.href = '/media/otros/informe-precios-futuros-energia-industria.pdf'
     link.download = 'informe-precios-futuros-energia-industria.pdf'
     link.click()
     // Write message

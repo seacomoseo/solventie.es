@@ -3,7 +3,7 @@ title: 8 razones para apostar por la fotovoltaica
 title_seo: 8 razones para apostar por la fotovoltaica - Ingeniería Solvent
 slug: razones-apostar-fotovoltaica
 description: Al apostar por la fotovoltaica, tu empresa reduce sus emisiones de CO2 y contribuye a la conservación del planeta.
-image: blog-razones-apostar-fotovoltaica.jpg
+image: blog/razones-apostar-fotovoltaica.jpg
 categories: [general]
 tags: []
 author: admin

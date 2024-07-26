@@ -2,7 +2,7 @@ anchor: Empresa de Servicios de Ingeniería en Murcia y Alicante
 title: Ingeniería
 subtitle: Escuchamos las necesidades de tu empresa
 color: dark
-bg: servicio-ingenieria.webp
+bg: servicios/ingenieria/portada.webp
 rows:
 - type: columns
   design:

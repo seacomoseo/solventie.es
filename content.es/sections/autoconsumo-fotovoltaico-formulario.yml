@@ -1,7 +1,7 @@
 id: formulario
 title: Déjanos tus datos, <br> nosotros nos encargamos del resto
 color: link
-bg: autoconsumo-fotovoltaico-estudio.webp
+bg: servicios/autoconsumo-fotovoltaico/estudio.webp
 size: sm
 more:
   padding_top: 0

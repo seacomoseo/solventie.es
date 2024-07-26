@@ -2,7 +2,7 @@ id: formulario
 title: ¿Tienes alguna duda o consulta?
 subtitle: Te respondemos encantados
 color: dark
-bg: dudas.webp
+bg: otros/dudas.webp
 size: sm
 rows:
 - type: contact

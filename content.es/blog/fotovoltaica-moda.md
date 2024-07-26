@@ -3,7 +3,7 @@ title: La fotovoltaica por fin está de moda
 title_seo: La fotovoltaica por fin está de moda - Ingeniería Solvent
 slug: fotovoltaica-moda
 description: La fotovoltaica en está cada vez más a la orden del día. Aún existe una enorme dependencia de las energías no renovables
-image: blog-fotovoltaica-moda.jpg
+image: blog/fotovoltaica-moda.jpg
 categories: [energia-solar]
 tags: []
 author: admin

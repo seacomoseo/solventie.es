@@ -9,71 +9,71 @@ rows:
     padding: 2
   items:
   - description: |
-      ![16x9](aliado-acuamed-alt.svg#src)
-      ![16x9](aliado-apellan.svg#src)
-      ![16x9](aliado-ayuntamiento-de-buendia.svg#src)
+      ![16x9](aliados/acuamed-alt.svg#src)
+      ![16x9](aliados/apellan.svg#src)
+      ![16x9](aliados/ayuntamiento-de-buendia.svg#src)
   - description: |
-      ![16x9](aliado-blancasol.svg#src)
-      ![16x9](aliado-comunidad-regantes-campotejar.svg#src)
-      ![](aliado-confederacion-hidrografica.png)
+      ![16x9](aliados/blancasol.svg#src)
+      ![16x9](aliados/comunidad-regantes-campotejar.svg#src)
+      ![](aliados/confederacion-hidrografica.png)
   - description: |
-      ![16x9](aliado-conservas-el-raal.svg#src)
-      ![16x9](aliado-construcciones-alpi.svg#src)
-      ![16x9](aliado-diputacion-castellon.svg#src)
+      ![16x9](aliados/conservas-el-raal.svg#src)
+      ![16x9](aliados/construcciones-alpi.svg#src)
+      ![16x9](aliados/diputacion-castellon.svg#src)
   - description: |
-      ![16x9](aliado-etiquetas-adhegrafic.svg#src)
-      ![16x9](aliado-ferrovial.svg#src)
-      ![16x9](aliado-fruveco.svg#src)
+      ![16x9](aliados/etiquetas-adhegrafic.svg#src)
+      ![16x9](aliados/ferrovial.svg#src)
+      ![16x9](aliados/fruveco.svg#src)
   - description: |
-      ![16x9](aliado-grupo-fuentes.svg#src)
-      ![16x9](aliado-hydrodiseno.svg#src)
-      ![16x9](aliado-lord-spices-group.svg#src)
+      ![16x9](aliados/grupo-fuentes.svg#src)
+      ![16x9](aliados/hydrodiseno.svg#src)
+      ![16x9](aliados/lord-spices-group.svg#src)
   - description: |
-      ![16x9](aliado-marin-gimenez.svg#src)
-      ![16x9](aliado-montalban-rodriguez.svg#src)
-      ![16x9](aliado-omega-spices.svg#src)
+      ![16x9](aliados/marin-gimenez.svg#src)
+      ![16x9](aliados/montalban-rodriguez.svg#src)
+      ![16x9](aliados/omega-spices.svg#src)
   - description: |
-      ![16x9](aliado-pasteleria-gimar.svg#src)
-      ![16x9](aliado-penaplast.svg#src)
-      ![16x9](aliado-siepse.svg#src)
+      ![16x9](aliados/pasteleria-gimar.svg#src)
+      ![16x9](aliados/penaplast.svg#src)
+      ![16x9](aliados/siepse.svg#src)
   - description: |
-      ![16x9](aliado-sol9.svg#src)
-      ![16x9](aliado-soltec.svg#src)
-      ![16x9](aliado-terrazos-fortuna.svg#src)
+      ![16x9](aliados/sol9.svg#src)
+      ![16x9](aliados/soltec.svg#src)
+      ![16x9](aliados/terrazos-fortuna.svg#src)
   - description: |
-      ![16x9](aliado-universidad-tarragona.svg#src)
-      ![16x9](aliado-westaflex.svg#src)
-      ![16x9](aliado-zamora-company.svg#src)
+      ![16x9](aliados/universidad-tarragona.svg#src)
+      ![16x9](aliados/westaflex.svg#src)
+      ![16x9](aliados/zamora-company.svg#src)
 
   # num_xs: true
   # ratio: 16x9
   # contain: true
   # shadow: true
   # items:
-  # - image: aliado-acuamed-alt.svg#src
-  # - image: aliado-apellan.svg#src
-  # - image: aliado-ayuntamiento-de-buendia.svg#src
-  # - image: aliado-blancasol.svg#src
-  # - image: aliado-comunidad-regantes-campotejar.svg#src
-  # - image: aliado-confederacion-hidrografica.png
-  # - image: aliado-conservas-el-raal.svg#src
-  # - image: aliado-construcciones-alpi.svg#src
-  # - image: aliado-diputacion-castellon.svg#src
-  # - image: aliado-etiquetas-adhegrafic.svg#src
-  # - image: aliado-ferrovial.svg#src
-  # - image: aliado-fruveco.svg#src
-  # - image: aliado-grupo-fuentes.svg#src
-  # - image: aliado-hydrodiseno.svg#src
-  # - image: aliado-lord-spices-group.svg#src
-  # - image: aliado-marin-gimenez.svg#src
-  # - image: aliado-montalban-rodriguez.svg#src
-  # - image: aliado-omega-spices.svg#src
-  # - image: aliado-pasteleria-gimar.svg#src
-  # - image: aliado-penaplast.svg#src
-  # - image: aliado-siepse.svg#src
-  # - image: aliado-sol9.svg#src
-  # - image: aliado-soltec.svg#src
-  # - image: aliado-terrazos-fortuna.svg#src
-  # - image: aliado-universidad-tarragona.svg#src
-  # - image: aliado-westaflex.svg#src
-  # - image: aliado-zamora-company.svg#src
+  # - image: aliados/acuamed-alt.svg#src
+  # - image: aliados/apellan.svg#src
+  # - image: aliados/ayuntamiento-de-buendia.svg#src
+  # - image: aliados/blancasol.svg#src
+  # - image: aliados/comunidad-regantes-campotejar.svg#src
+  # - image: aliados/confederacion-hidrografica.png
+  # - image: aliados/conservas-el-raal.svg#src
+  # - image: aliados/construcciones-alpi.svg#src
+  # - image: aliados/diputacion-castellon.svg#src
+  # - image: aliados/etiquetas-adhegrafic.svg#src
+  # - image: aliados/ferrovial.svg#src
+  # - image: aliados/fruveco.svg#src
+  # - image: aliados/grupo-fuentes.svg#src
+  # - image: aliados/hydrodiseno.svg#src
+  # - image: aliados/lord-spices-group.svg#src
+  # - image: aliados/marin-gimenez.svg#src
+  # - image: aliados/montalban-rodriguez.svg#src
+  # - image: aliados/omega-spices.svg#src
+  # - image: aliados/pasteleria-gimar.svg#src
+  # - image: aliados/penaplast.svg#src
+  # - image: aliados/siepse.svg#src
+  # - image: aliados/sol9.svg#src
+  # - image: aliados/soltec.svg#src
+  # - image: aliados/terrazos-fortuna.svg#src
+  # - image: aliados/universidad-tarragona.svg#src
+  # - image: aliados/westaflex.svg#src
+  # - image: aliados/zamora-company.svg#src

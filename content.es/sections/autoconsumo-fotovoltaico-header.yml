@@ -2,7 +2,7 @@ anchor: Empresa de Autoconsumo Solar Fotovoltaico en Murcia y Alicante
 title: Autoconsumo fotovoltaico industrial
 subtitle: Produce tu propia energía
 color: dark
-bg: autoconsumo-fotovoltaico.jpg
+bg: servicios/autoconsumo-fotovoltaico/paneles.jpg
 rows:
 - type: columns
   design:

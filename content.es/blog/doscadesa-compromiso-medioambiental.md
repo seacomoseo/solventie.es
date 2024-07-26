@@ -3,7 +3,7 @@ title: Doscadesa apuesta por un futuro más verde con su último compromiso medi
 title_seo: Doscadesa apuesta por un futuro más verde con su último compromiso medioambiental - Ingeniería Solvent
 slug: doscadesa-compromiso-medioambiental
 description: Con la instalación solar de 121 KWp, Doscadesa ha reducido sus emisiones de CO2 en 127 toneladas, ¡lo que equivale a plantar más de 4.000 árboles!
-image: blog-doscadesa-compromiso-medioambiental.webp
+image: blog/doscadesa-compromiso-medioambiental.webp
 categories: [noticias]
 tags: []
 author: admin

@@ -2,7 +2,7 @@ id: estudio
 title: Consigue tu estudio fotovoltaico gratuito
 subtitle: ¿En qué consiste?
 color: link
-bg: autoconsumo-fotovoltaico-estudio.webp
+bg: servicios/autoconsumo-fotovoltaico/estudio.webp
 more:
   container: white
 rows:

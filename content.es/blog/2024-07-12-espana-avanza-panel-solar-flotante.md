@@ -5,13 +5,13 @@ slug: espana-avanza-panel-solar-flotante
 description: España avanza con paneles solares flotantes en embalses públicos,
   ocupando hasta el 15% de la superficie. Este proyecto resalta su liderazgo en
   energías renovables con 8,9 GW instalados en 2023.
-image: /espana-avanza-panel-solar-flotante.png
+image: blog/espana-avanza-panel-solar-flotante.jpg
 categories:
 - energia-solar
 - noticias
 tags: []
 author: admin
-toc: true
+toc: false
 draft: false
 noindex: false
 date: 2024-07-12

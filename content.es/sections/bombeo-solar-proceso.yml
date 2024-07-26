@@ -1,7 +1,7 @@
 id: proceso
 title: ¿Cuál es el proceso?
 color: dark
-bg: bombeo-solar-proceso.webp
+bg: servicios/bombeo-solar/proceso.webp
 rows:
 - type: steps
   design:

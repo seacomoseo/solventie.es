@@ -2,7 +2,7 @@ anchor: Contacto
 title: ¿Hablamos?
 subtitle: Queremos escucharte
 color: dark
-bg: autoconsumo-fotovoltaico.jpg
+bg: servicios/autoconsumo-fotovoltaico/paneles.jpg
 size: sm
 rows:
 - type: contact

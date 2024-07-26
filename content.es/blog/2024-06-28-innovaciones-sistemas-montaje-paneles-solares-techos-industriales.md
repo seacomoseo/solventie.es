@@ -3,7 +3,7 @@ title: Innovaciones en Sistemas de Montaje para Paneles Solares en Techos Indust
 title_seo: Innovaciones en Sistemas de Montaje para Paneles Solares
 slug: innovaciones-sistemas-montaje-paneles-solares-techos-industriales
 description: Innovaciones en sistemas de montaje para paneles solares mejoran eficiencia, seguridad y durabilidad en techos industriales.
-image: innovaciones-sistemas-montaje-paneles-solares-techos-industriales.jpg
+image: blog/innovaciones-sistemas-montaje-paneles-solares-techos-industriales.jpg
 categories:
 - ingenieria
 tags: []
