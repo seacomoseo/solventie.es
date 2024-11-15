@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2022-02-25
-lastmod: ''
+# lastmod: ''
 ---
 ## ¿Qué es la licencia de actividad?
 

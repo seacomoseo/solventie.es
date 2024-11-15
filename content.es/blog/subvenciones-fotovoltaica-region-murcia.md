@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2020-06-23
-lastmod: ''
+# lastmod: ''
 ---
 Hoy te traemos 7 claves que te servirán para conseguir las ayudas para fotovoltaica de autoconsumo de la Región de Murcia. 2020 es el ultimo año de este programa de subvenciones. Estas ayudas pueden ser para ti si estas dentro del sector industrial (secciones B, C y D) o sector terciario (secciones E - N y P - S).
 

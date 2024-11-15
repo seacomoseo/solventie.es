@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2019-10-31
-lastmod: ''
+# lastmod: ''
 ---
 ## 1 Monitoriza y analiza el consumo de energía de tus procesos
 

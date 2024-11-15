@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2019-05-06
-lastmod: ''
+# lastmod: ''
 ---
 La **eficiencia energética** está a la orden del día y se trata de una tarea pendiente en casi todos los sectores. La **auditoría energética** es una herramienta esencial para lograr la eficiencia y ahorro energético.
 

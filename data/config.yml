@@ -20,7 +20,7 @@ google_file_verification: google7467d923cbb3eb4c.html
 disqus: ''
 cookies_legal: false
 analytics_pagespeed: true
-process_all_images: false
+process_all_images: true
 cms: true
 cms_editorial_workflow: false
 development: false

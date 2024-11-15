@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2021-12-16
-lastmod: ''
+# lastmod: ''
 ---
 Hace unos años surgió un nuevo tipo de instalación de placas solares que soluciona el problema de espacio en las superficies terrestres. Esta obtención de [energía renovable](/importancia-energias-renovables/)  es la implementación de [paneles solares](/instalaciones-solares-fotovoltaicas/) flotantes que aprovecha la disponibilidad de espacio en superficies acuáticas.
 

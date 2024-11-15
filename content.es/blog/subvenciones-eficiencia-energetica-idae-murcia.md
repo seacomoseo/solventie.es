@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2020-02-27
-lastmod: ''
+# lastmod: ''
 ---
 A finales del pasado diciembre de 2019 se abrió el plazo de solicitud para las **subvenciones de eficiencia energética** para empresas del sector industrial. Se encuentran dentro del **Programa Operativo FEDER** (Fondo Europeo de Desarrollo Regional).
 

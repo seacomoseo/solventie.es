@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2021-04-22
-lastmod: ''
+# lastmod: ''
 ---
 **La nueva tarifa eléctrica** que estaba prevista entrar el vigor el 1 de abril se retrasa al [1 de junio](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4565) de este mismo año. La nueva tarifa eléctrica, debería haber entrado en vigor en el año 2020, pero a raíz de la pandemia de la COVID-19, se ha ido retrasando. Hablamos del cambio de las 6 tarifas de acceso actual (2.0A, 2.0ODHA, 2ODHS, 2.1, 2.1DHA, 2.1DHS) por **una única tarifa**, la 2OTD.
 

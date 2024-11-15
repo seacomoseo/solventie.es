@@ -11,7 +11,7 @@ toc: false
 draft: false
 noindex: false
 date: 2020-01-22
-lastmod: ''
+# lastmod: ''
 ---
 La huella de carbono es la cantidad de emisiones de gases de efecto invernadero (GEI), producidos directa o indirectamente por una persona, organización, evento o producto. Se contabiliza en toneladas de CO2.
 

@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2019-04-04
-lastmod: ''
+# lastmod: ''
 ---
 El pasado lunes 01 de abril, se presentaron las **Subvenciones de Eficiencia Energética y Energías Renovables** de la **Región de Murcia**. Estas ayudas son financiadas por el Programa Operativo **FEDER**de la Región de Murcia para el periodo 2014-2020 y se encuentran en el Marco del Fondo Europeo de Desarrollo Regional (FEDER).
 

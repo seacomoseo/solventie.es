@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2019-07-09
-lastmod: ''
+# lastmod: ''
 ---
 ## La fotovoltaica en el momento actual
 

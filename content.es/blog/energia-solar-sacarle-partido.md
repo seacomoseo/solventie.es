@@ -11,7 +11,7 @@ toc: true
 draft: false
 noindex: false
 date: 2022-05-23
-lastmod: ''
+# lastmod: ''
 ---
 ## Energía solar: situación en España
 
