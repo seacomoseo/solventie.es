@@ -4,7 +4,7 @@ title_seo: ''
 slug: apoyos
 description: ''
 image: feder-info-ris3-mur-removebg-preview.png
-toc: true
+toc: false
 draft: false
 noindex: true
 translationKey: apoyos
