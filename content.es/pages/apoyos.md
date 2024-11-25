@@ -5,11 +5,10 @@ slug: apoyos
 description: ''
 image: otros/feder-info-ris3-mur.png
 toc: false
-draft: false
+draft: true
 noindex: true
 translationKey: apoyos
 ---
-
 > Una manera de hacer Europa
 
 **Fondo Europeo de Desarrollo Regional**
