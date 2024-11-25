@@ -3,7 +3,7 @@ title: Apoyos
 title_seo: ''
 slug: apoyos
 description: ''
-image: feder-info-ris3-mur-removebg-preview.png
+image: diseno_sin_titulo__3_-removebg-preview.png
 toc: false
 draft: false
 noindex: true
