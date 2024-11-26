@@ -3,7 +3,7 @@ title: Apoyos
 title_seo: ''
 slug: apoyos
 description: ''
-image: union-europea-1-.png
+image: union-europea-2-.png
 toc: false
 draft: false
 noindex: true
@@ -19,13 +19,8 @@ Cofinanciada por el fondo europeo de desarrollo regional (FEDER) y el INFO.
 
 
 
-
-
-
-
 ![](feder-info-ris3-mur-1-.png)
 
->   
 > Una manera de hacer Europa
 
 **Fondo Europeo de Desarrollo Regional**
