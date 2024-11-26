@@ -3,7 +3,7 @@ title: Apoyos
 title_seo: ''
 slug: apoyos
 description: ''
-image: logos_feder_carm_info.png
+image: union-europea-1-.png
 toc: false
 draft: false
 noindex: true
