@@ -25,6 +25,7 @@ Cofinanciada por el fondo europeo de desarrollo regional (FEDER) y el INFO.
 
 ![](feder-info-ris3-mur-1-.png)
 
+>   
 > Una manera de hacer Europa
 
 **Fondo Europeo de Desarrollo Regional**
