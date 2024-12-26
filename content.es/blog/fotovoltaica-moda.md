@@ -54,6 +54,6 @@ Este tipo de instalación es muy rentable para comunidades de vecinos.
 
 ## Solvent en el área de las energías renovables
 
-Desde Solvent apostamos por esta energía cada vez más rentable. Te proponemos un servicio de [instalación solar llave en mano](/instalaciones-solares-fotovoltaicas/), adaptada al tamaño y los consumos de tu empresa. Podrás consumir **tu propia energía****,** la cual es inagotable y responsable.
+Desde Solvent apostamos por esta energía cada vez más rentable. Te proponemos un servicio de [instalación solar llave en mano](/autoconsumo-fotovoltaico/), adaptada al tamaño y los consumos de tu empresa. Podrás consumir **tu propia energía****,** la cual es inagotable y responsable.
 
 [btn ¡Te lo gestionamos!](/contacto/)

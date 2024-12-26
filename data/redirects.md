@@ -195,3 +195,8 @@ https://solventie.com/* https://solventie.es/:splat 301!
 /wp-content/uploads/2023/10/Venta-Hermanos-Mula-Web-1.webm /media/proyectos/instalacion-fotovoltaica-58-31-kwp--venta-hermanos-mula.webm
 
 /media/proyecto--* /media/proyectos/:slug
+
+
+# 2024-12-26
+
+/instalaciones-solares-fotovoltaicas/ /autoconsumo-fotovoltaico/

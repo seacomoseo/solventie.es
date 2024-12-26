@@ -49,6 +49,6 @@ Dependiendo de la forma en la que se obtenga la energía, los paneles solares so
 - Plano: Se compone de una plancha metálica, y dentro de ella hay unos tubos por los que pasa el agua que se calienta. Se utiliza para calentar poca cantidad de agua por su baja potencia.
 - Colector solar de tubo vacío: Estas placas están compuestas por tubos individuales por las que transita el calor. El rendimiento y temperaturas que se obtienen son mucho mayores que con el panel solar térmico plano. La instalación de estos paneles es ideal en zonas donde no hay demasiado sol.
 
-En las instalaciones fotovoltaicas que realizamos en [Solvent](/instalaciones-solares-fotovoltaicas/), utilizamos paneles solares monocristalinos. Esta opción es la mejor por su eficiencia, ya que proporciona mayores rendimientos que los policristalinos y amorfos.
+En las instalaciones fotovoltaicas que realizamos en [Solvent](/autoconsumo-fotovoltaico/), utilizamos paneles solares monocristalinos. Esta opción es la mejor por su eficiencia, ya que proporciona mayores rendimientos que los policristalinos y amorfos.
 
 ![paneles solares](blog/paneles-solares.jpg)

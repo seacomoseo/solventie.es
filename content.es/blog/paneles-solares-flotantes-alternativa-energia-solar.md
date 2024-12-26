@@ -13,7 +13,7 @@ noindex: false
 date: 2021-12-16
 # lastmod: ''
 ---
-Hace unos años surgió un nuevo tipo de instalación de placas solares que soluciona el problema de espacio en las superficies terrestres. Esta obtención de [energía renovable](/importancia-energias-renovables/)  es la implementación de [paneles solares](/instalaciones-solares-fotovoltaicas/) flotantes que aprovecha la disponibilidad de espacio en superficies acuáticas.
+Hace unos años surgió un nuevo tipo de instalación de placas solares que soluciona el problema de espacio en las superficies terrestres. Esta obtención de [energía renovable](/importancia-energias-renovables/) es la implementación de [paneles solares](/autoconsumo-fotovoltaico/) flotantes que aprovecha la disponibilidad de espacio en superficies acuáticas.
 
 Las [placas solares flotantes](https://www.ric.mx/cultura/energia-global/plantas-solares-flotantes/) se instalan en cualquier área acuática, como el mar, los lagos, las presas, los canales, etc. De esta forma se aprovecha al máximo el espacio y el agua obtiene una serie de beneficios que veremos más adelante. Estas plantas solares están compuestas por cuatro partes:
 

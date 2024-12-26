@@ -31,7 +31,8 @@
     }
   }
   #blog {
-    button[title="Más Entradas"] svg {
+    button[title="Más Entradas"] svg,
+    .button[title="Más Entradas"] svg {
       display: none;
     }
   }
