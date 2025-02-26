@@ -37,6 +37,8 @@ normal:
     link: /eficiencia-energetica/
 - label: Proyectos
   link: /proyectos/
+- label: Precios
+  link: /precio-electricidad/
 - label: Blog
   link: /blog/
 - label: Contacto
