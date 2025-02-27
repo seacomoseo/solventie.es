@@ -6,13 +6,13 @@
             width: 100%;
             margin: auto;
         }
-    
+
         @media screen and (min-width: 768px) {
             .chart-container {
                 width: 75%;
             }
         }
-    
+
         #legend-container ul {
             display: flex;
             flex-direction: column !important;
@@ -30,7 +30,7 @@
         #legend-container li:before {
             content: none;
         }
-    
+
         .controls {
             text-align: center;
             margin: 20px 10px;
@@ -40,7 +40,7 @@
             gap: 10px;
             flex-wrap: wrap;
         }
-    
+
         button {
             padding: 8px 12px;
             font-size: 14px;
@@ -52,25 +52,25 @@
             transition: all 0.3s ease;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
-    
+
         button:hover {
             --base: #0a2a3b;
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-    
+
         button:active {
             transform: translateY(0);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
-    
+
         button:disabled {
             --base: #cccccc;
             cursor: not-allowed;
             transform: none;
             box-shadow: none;
         }
-    
+
         #currentDate {
             font-size: 16px;
             font-weight: 500;
@@ -79,18 +79,18 @@
             min-width: 200px;
             text-align: center;
         }
-    
+
         @media screen and (max-width: 600px) {
             .controls {
                 flex-direction: column;
                 gap: 15px;
             }
-    
+
             button {
                 width: 100%;
                 max-width: 200px;
             }
-    
+
             #currentDate {
                 order: -1;
                 margin-bottom: 10px;
