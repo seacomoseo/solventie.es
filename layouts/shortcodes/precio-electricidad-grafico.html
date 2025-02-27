@@ -1,0 +1,360 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    #precio-electricidad {
+        .chart-container {
+            width: 100%;
+            margin: auto;
+        }
+    
+        @media screen and (min-width: 768px) {
+            .chart-container {
+                width: 75%;
+            }
+        }
+    
+        #legend-container ul {
+            display: flex;
+            flex-direction: column !important;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 20px auto !important;
+            padding: 0;
+        }
+
+        #legend-container li {
+            margin: 0 !important;
+            padding: 5px 0;
+        }
+
+        #legend-container li:before {
+            content: none;
+        }
+    
+        .controls {
+            text-align: center;
+            margin: 20px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    
+        button {
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            --base: #0a2a3b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        button:hover {
+            --base: #0a2a3b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        button:disabled {
+            --base: #cccccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+    
+        #currentDate {
+            font-size: 16px;
+            font-weight: 500;
+            color: #333;
+            padding: 0 5px;
+            min-width: 200px;
+            text-align: center;
+        }
+    
+        @media screen and (max-width: 600px) {
+            .controls {
+                flex-direction: column;
+                gap: 15px;
+            }
+    
+            button {
+                width: 100%;
+                max-width: 200px;
+            }
+    
+            #currentDate {
+                order: -1;
+                margin-bottom: 10px;
+            }
+        }
+    }
+</style>
+
+<div id="precio-electricidad">
+    <div class="controls">
+        <button id="prevDay">Día anterior</button>
+        <span id="currentDate"></span>
+        <button id="nextDay">Día siguiente</button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+        <div id="legend-container"></div>
+    </div>
+</div>
+
+<script>
+    let currentDate = new Date();
+    let allData = [];
+
+    function formatDate(date) {
+        return date.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    async function fetchData() {
+        try {
+            const response = await fetch('https://n8n.r4k.es/webhook/b69bc060-fe49-491b-a9e0-c1b54bfcdcc5');
+            const fetchResponse = await response.json();
+
+            return fetchResponse.map(item => {
+                const dateUtc = new Date(item.datetime_utc);
+                const dateMadrid = new Date(dateUtc);
+                return {
+                    ...item,
+                    datetime: dateMadrid,
+                    hour: dateMadrid.getHours()
+                };
+            });
+        } catch (error) {
+            console.error('Error en fetchData:', error);
+            return [];
+        }
+    }
+
+    function filterDataByDate(date) {
+        const targetDate = new Date(date);
+        targetDate.setHours(0, 0, 0, 0);
+
+        return allData.filter(item => {
+            const itemDate = new Date(item.datetime);
+            itemDate.setHours(0, 0, 0, 0);
+            return itemDate.getTime() === targetDate.getTime();
+        });
+    }
+
+    function updateButtonStates() {
+        let prevDate = new Date(currentDate);
+        prevDate.setDate(prevDate.getDate() - 1);
+        let nextDate = new Date(currentDate);
+        nextDate.setDate(nextDate.getDate() + 1);
+
+        document.getElementById('prevDay').disabled = filterDataByDate(prevDate).length < 6;
+        document.getElementById('nextDay').disabled = filterDataByDate(nextDate).length < 6;
+    }
+
+    const getOrCreateLegendList = (chart, id) => {
+        const legendContainer = document.getElementById(id);
+        let listContainer = legendContainer.querySelector('ul');
+
+        if (!listContainer) {
+            listContainer = document.createElement('ul');
+            listContainer.style.display = 'flex';
+            listContainer.style.flexDirection = 'column';
+            listContainer.style.margin = '20px auto';
+            listContainer.style.padding = 0;
+
+            legendContainer.appendChild(listContainer);
+        }
+
+        return listContainer;
+    };
+
+    const htmlLegendPlugin = {
+        id: 'htmlLegend',
+        afterUpdate(chart, args, options) {
+            const ul = getOrCreateLegendList(chart, options.containerID);
+
+            while (ul.firstChild) {
+                ul.firstChild.remove();
+            }
+
+            const items = chart.options.plugins.legend.labels.generateLabels(chart);
+
+            items.forEach(item => {
+                const li = document.createElement('li');
+                li.style.alignItems = 'center';
+                li.style.cursor = 'pointer';
+                li.style.display = 'flex';
+                li.style.flexDirection = 'row';
+                li.style.marginLeft = '10px';
+
+                li.onclick = () => {
+                    const { type } = chart.config;
+                    if (type === 'pie' || type === 'doughnut') {
+                        chart.toggleDataVisibility(item.index);
+                    } else {
+                        chart.setDatasetVisibility(item.datasetIndex, !chart.isDatasetVisible(item.datasetIndex));
+                    }
+                    chart.update();
+                };
+
+                const boxSpan = document.createElement('span');
+                boxSpan.style.background = item.fillStyle;
+                boxSpan.style.borderColor = item.strokeStyle;
+                boxSpan.style.borderWidth = item.lineWidth + 'px';
+                boxSpan.style.display = 'inline-block';
+                boxSpan.style.flexShrink = 0;
+                boxSpan.style.height = '20px';
+                boxSpan.style.marginRight = '10px';
+                boxSpan.style.width = '20px';
+
+                const textContainer = document.createElement('p');
+                textContainer.style.color = item.fontColor;
+                textContainer.style.margin = 0;
+                textContainer.style.padding = 0;
+                textContainer.style.textDecoration = item.hidden ? 'line-through' : '';
+
+                const text = document.createTextNode(item.text);
+                textContainer.appendChild(text);
+
+                li.appendChild(boxSpan);
+                li.appendChild(textContainer);
+                ul.appendChild(li);
+            });
+        }
+    };
+
+    async function renderChart() {
+        if (allData.length === 0) {
+            allData = await fetchData();
+        }
+
+        let data = filterDataByDate(currentDate);
+
+        document.getElementById('currentDate').innerText = formatDate(currentDate);
+        updateButtonStates();
+
+        const labels = data.map(item => item.hour + 'h');
+
+        const tooltipLabels = data.map(item =>
+            '(' + item.period + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
+        );
+
+        const priceMarket = data.map(item => item.pr_market_cents / 100);
+        const priceComponents = data.map(item => (item.pr_components_cents - item.pr_market_cents) / 100);
+        const periods = data.map(item => item.period);
+        const pricePeriods = data.map(item => item.pr_period_cents / 100);
+
+        const periodPricesValues = data.map(item => item.period_price_cents / 100);
+        const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
+
+        const ctx = document.getElementById('barChart').getContext('2d');
+        if (window.barChartInstance) {
+            window.barChartInstance.destroy();
+        }
+        window.barChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        shortLabel: 'Precio mercado (€/MWh)',
+                        label: 'Precio mercado (€/MWh): Es el coste base de la electricidad, determinado en el mercado mayorista.',
+                        data: priceMarket,
+                        backgroundColor: 'rgba(54, 162, 235, 0.8)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1,
+                        stack: 'combined',
+                        fill: true,
+                        stepped: true,
+                    },
+                    {
+                        shortLabel: 'Precio peajes 6.1 TD (€/MWh)',
+                        label: 'Precio peajes 6.1TD (€/MWh): Son los costes de acceso a la red, que varían por horas y afectan el precio final.',
+                        data: pricePeriods,
+                        backgroundColor: 'rgba(255, 99, 132, 0.8)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                        stack: 'combined',
+                        fill: true,
+                        stepped: true,
+                    },
+                    {
+                        shortLabel: 'Precio componentes (€/MWh)',
+                        label: 'Precio componentes (€/MWh): Son costes regulados adicionales que se incluyen en la factura.',
+                        data: priceComponents,
+                        backgroundColor: 'rgba(50, 205, 50, 0.8)',
+                        borderColor: 'rgba(50, 205, 50, 1)',
+                        borderWidth: 1,
+                        stack: 'combined',
+                        fill: true,
+                        stepped: true,
+                    },
+                ]
+            },
+            options: {
+                responsive: true,
+                interaction: {
+                    intersect: false,
+                    axis: 'x'
+                },
+                animations: {
+                    tension: {
+                        duration: 2
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: function (tooltipItems) {
+                                return tooltipLabels[tooltipItems[0].dataIndex];
+                            },
+                            label: function (context) {
+                                return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
+                            },
+                        },
+                    },
+                    htmlLegend: {
+                        containerID: 'legend-container',
+                    },
+                    legend: {
+                        display: false,
+                    },
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        stacked: true
+                    }
+                },
+                hover: {
+                    mode: 'nearest',
+                    axis: 'x',
+                    animationDuration: 0
+                }
+            },
+            plugins: [htmlLegendPlugin],
+        });
+    }
+
+    document.getElementById('prevDay').addEventListener('click', () => {
+        currentDate.setDate(currentDate.getDate() - 1);
+        renderChart();
+    });
+
+    document.getElementById('nextDay').addEventListener('click', () => {
+        currentDate.setDate(currentDate.getDate() + 1);
+        renderChart();
+    });
+
+    fetchData().then(renderChart);
+</script>

@@ -75,32 +75,3 @@
     object-position: center;
   }
 }
-
-:root {
-  --vw-min: #{ $screen-min / 1px };
-  --vw-max: #{ $screen-max / 1px };
-  --vw: #{ $screen-min / 1px };
-  @media (min-width: $screen-xs) { --vw: #{ $screen-xs / 1px }; }
-  @media (min-width: $screen-sm) { --vw: #{ $screen-sm / 1px }; }
-  @media (min-width: $screen-md) { --vw: #{ $screen-md / 1px }; }
-  @media (min-width: $screen-lg) { --vw: #{ $screen-lg / 1px }; }
-  @media (min-width: $screen-xl) { --vw: #{ $screen-xl / 1px }; }
-  --run: calc(var(--vw-max) - var(--vw-min));
-}
-@mixin fluid($name, $unit, $size-min, $size-max) {
-  #{$name}: calc(
-    clamp(
-      min(#{$size-min}, #{$size-max}),
-      ((#{$size-max} - #{$size-min}) / var(--run)) * (var(--vw) - var(--vw-min)) + #{$size-min},
-      max(#{$size-min}, #{$size-max})
-    )
-    * #{$unit}
-  );
-}
-#body-precio-electricidad {
-  iframe {
-    overflow: hidden;
-    width: 100%;
-    @include fluid(aspect-ratio, 1, .9, 1.67);
-  }
-}

@@ -1,8 +1,8 @@
 ---
-title: Precio Electricidad
+title: Precio de la Electricidad Factura indexada 6.1TD
 title_seo: ''
 slug: precio-electricidad
-description: ''
+description: La electricidad no cuesta lo mismo en todas las horas del día. Esta gráfica te lo muestra para puedes tomar decisiones inteligentes y reducir tu gasto.
 image: logo.png
 draft: false
 noindex: true
