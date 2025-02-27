@@ -8,5 +8,8 @@ draft: false
 noindex: true
 translationKey: precio-electricidad
 sections:
+- file: precio-electricidad-header
 - file: precio-electricidad
+- file: precio-electricidad-ahorrar
+- file: precio-electricidad-claim
 ---
