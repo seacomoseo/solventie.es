@@ -199,11 +199,7 @@
 
                 li.onclick = () => {
                     const { type } = chart.config;
-                    if (type === 'pie' || type === 'doughnut') {
-                        chart.toggleDataVisibility(item.index);
-                    } else {
-                        chart.setDatasetVisibility(item.datasetIndex, !chart.isDatasetVisible(item.datasetIndex));
-                    }
+                    chart.setDatasetVisibility(item.datasetIndex, !chart.isDatasetVisible(item.datasetIndex));
                     chart.update();
                 };
 
@@ -256,6 +252,9 @@
 
         const periodPricesValues = data.map(item => item.period_price_cents / 100);
         const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
+
+        const maxTotal = Math.max(...totalValues);
+        const yAxisMax = Math.ceil((maxTotal + 25) / 100) * 100;
 
         const ctx = document.getElementById('barChart').getContext('2d');
         if (window.barChartInstance) {
@@ -321,6 +320,20 @@
                             label: function (context) {
                                 return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
                             },
+                            afterLabel: function (context) {
+                                if (context.datasetIndex === context.chart.data.datasets.length - 1) {
+                                    let total = 0;
+                                    const dataIndex = context.dataIndex;
+
+                                    for (let i = 0; i < context.chart.data.datasets.length; i++) {
+                                        if (context.chart.isDatasetVisible(i)) {
+                                            total += context.chart.data.datasets[i].data[dataIndex];
+                                        }
+                                    }
+                                    return '\nTotal: ' + total.toFixed(2) + ' €/MWh';
+                                }
+                                return null;
+                            },
                         },
                     },
                     htmlLegend: {
@@ -333,7 +346,12 @@
                 scales: {
                     y: {
                         beginAtZero: true,
-                        stacked: true
+                        stacked: true,
+                        min: 0,
+                        max: yAxisMax,
+                        ticks: {
+                            stepSize: 50
+                        }
                     }
                 },
                 hover: {
