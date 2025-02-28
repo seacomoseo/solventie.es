@@ -8,12 +8,16 @@ rows:
     icon_size: 1
     icon_color: light
   items:
-  - title:
+  - title: null
     description: La electricidad no cuesta lo mismo en todas las horas del día.
     icon: money-bill-wave
-  - title:
-    description: Esta gráfica te muestra el precio horario de la energía para la tarifa **6.1TD indexada**, la más utilizada por negocios e industrias con altos consumos.
+  - title: null
+    description: >
+      Esta gráfica te muestra el precio horario de la suma de la energía, peajes
+      y componentes para la tarifa **6.1TD indexada**, la más utilizada por
+      negocios e industrias con altos consumos.
     icon: arrows-rotate
-  - title:
-    description: El objetivo es que puedas **tomar decisiones inteligentes para reducir el gasto energético**.
+  - title: null
+    description: El objetivo es que puedas **tomar decisiones inteligentes para
+      reducir el gasto energético**.
     icon: brain
