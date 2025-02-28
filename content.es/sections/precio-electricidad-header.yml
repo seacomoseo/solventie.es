@@ -14,7 +14,7 @@ rows:
   - title: null
     description: >
       Esta gráfica te muestra el precio horario de la suma del mercado de la
-      energía, peajes y componentes para la tarifa **6.1TD indexada**, la más
+      energía, peajes y componentes, para la tarifa **6.1TD indexada**, la más
       utilizada por negocios e industrias con altos consumos.
     icon: arrows-rotate
   - title: null
