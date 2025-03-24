@@ -35,10 +35,10 @@ Para permitir, conocer, bloquear o eliminar las cookies instaladas en su equipo 
 
 Puede encontrar información sobre cómo configurar los navegadores más usados en las siguientes ubicaciones:
 
-- Internet Explorer: Herramientas -\> Opciones de Internet -\> Privacidad -\> Configuración. Para más información, puede consultar el [soporte de Microsoft](http://windows.microsoft.com/es-ES/windows/support "nofollow") o la Ayuda del navegador.
-- Firefox: Herramientas -\> Opciones -\> Privacidad -\> Historial -\> Configuración Personalizada. Para más información, puede consultar el [soporte de Mozilla](http://support.mozilla.org/es/home "nofollow") o la Ayuda del navegador.
-- Chrome: Configuración -\> Mostrar opciones avanzadas -\> Privacidad -\> Configuración de contenido. Para más información, puede consultar el [soporte de Google](http://support.google.com/chrome/?hl=es "nofollow") o la Ayuda del navegador.
-- Safari: Preferencias -\> Seguridad. Para más información, puede consultar el [soporte de Apple](http://www.apple.com/es/support/safari/ "nofollow") o la Ayuda del navegador.
+- Internet Explorer: Herramientas -\> Opciones de Internet -\> Privacidad -\> Configuración. Para más información, puede consultar el [soporte de Microsoft](http://windows.microsoft.com/es-ES/windows/support "[nofollow]") o la Ayuda del navegador.
+- Firefox: Herramientas -\> Opciones -\> Privacidad -\> Historial -\> Configuración Personalizada. Para más información, puede consultar el [soporte de Mozilla](http://support.mozilla.org/es/home "[nofollow]") o la Ayuda del navegador.
+- Chrome: Configuración -\> Mostrar opciones avanzadas -\> Privacidad -\> Configuración de contenido. Para más información, puede consultar el [soporte de Google](http://support.google.com/chrome/?hl=es "[nofollow]") o la Ayuda del navegador.
+- Safari: Preferencias -\> Seguridad. Para más información, puede consultar el [soporte de Apple](http://www.apple.com/es/support/safari/ "[nofollow]") o la Ayuda del navegador.
 
 Respecto de las cookies de terceros, es decir aquellas que son ajenas a nuestro sitio web, no podemos hacernos responsables del contenido y veracidad de las políticas de privacidad que ellos incluyen por lo que la información que le ofrecemos es siempre con referencia a la fuente.
 
