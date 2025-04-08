@@ -254,7 +254,11 @@
         const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
 
         const maxTotal = Math.max(...totalValues);
-        const yAxisMax = Math.ceil((maxTotal + 25) / 100) * 100;
+        const minTotal = Math.min(...totalValues);
+
+        // Calculate appropriate y-axis limits to show negative values if they exist
+        const yAxisMax = maxTotal < 290 ? 300 : Math.ceil((maxTotal + 25) / 100) * 100;
+        const yAxisMin = minTotal < 0 ? Math.floor((minTotal - 25) / 100) * 100 : 0;
 
         const ctx = document.getElementById('barChart').getContext('2d');
         if (window.barChartInstance) {
@@ -345,9 +349,8 @@
                 },
                 scales: {
                     y: {
-                        beginAtZero: true,
                         stacked: true,
-                        min: 0,
+                        min: yAxisMin,
                         max: yAxisMax,
                         ticks: {
                             stepSize: 50
