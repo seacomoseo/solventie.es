@@ -17,7 +17,7 @@ toc: true
 draft: false
 noindex: false
 date: 2025-04-01
-lastmod: ''
+# lastmod: ''
 ---
 En el ámbito industrial, la gestión eficiente de la energía es un factor clave para mejorar la competitividad, reducir los costes operativos y minimizar el impacto ambiental. Una cuestión recurrente es si la implementación de sistemas de [autoconsumo fotovoltaico](https://solventie.es/como-realizamos-instalacion-fotovoltaica/) conlleva una mejora en la **eficiencia energética** de una instalación industrial.
 
