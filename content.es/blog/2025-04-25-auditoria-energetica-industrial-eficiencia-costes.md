@@ -13,7 +13,7 @@ author: admin
 toc: false
 draft: false
 noindex: false
-date: 2025/04/25
+date: 2025-04-25
 lastmod: ''
 ---
 #### **La importancia de las auditorías energéticas en la industria**
