@@ -13,7 +13,7 @@ author: admin
 toc: false
 draft: false
 noindex: false
-date: 2025/05/04
+date: 2025/04/25
 lastmod: ''
 ---
 #### **La importancia de las auditorías energéticas en la industria**
@@ -28,7 +28,7 @@ Una **auditoría energética industrial** es un análisis técnico y exhaustivo 
 
 Este estudio abarca desde el análisis de facturas y patrones de consumo hasta la inspección in situ de equipos como motores, bombas, sistemas de climatización o procesos térmicos. El resultado es un informe detallado con acciones prioritarias y una estimación del retorno de la inversión.
 
-####  **Ventajas clave de realizar una auditoría energética en tu planta industrial**
+#### **Ventajas clave de realizar una auditoría energética en tu planta industrial**
 
 Auditar el consumo energético permite obtener beneficios concretos a corto y medio plazo:
 
