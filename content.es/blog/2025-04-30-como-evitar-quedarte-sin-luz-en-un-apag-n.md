@@ -14,10 +14,16 @@ author: admin
 toc: true
 draft: false
 noindex: false
-date: 30/04/2025
+date: 2025-04-30
 lastmod: ''
 ---
-# **¿Cómo evitar quedarte sin luz en un apagón?**
+## \
+[https://solventie.es/contacto/](https://solventie.es/contacto/)\
+[nvertir ](https://solventie.es/contacto/)\
+[olvent ](https://solventie.es/contacto/)\
+[olvent](https://solventie.es/contacto/)\
+[olvent](https://solventie.es/contacto/)\
+[olvent](https://solventie.es/contacto/)Cómo evitar quedarte sin luz en un apagón?
 
 El pásado lunes 28 de abril vivimos una situación poco común: un apagón eléctrico masivo que afectó a gran parte de la península durante más de 10 horas. Mientras que hospitales, aeropuertos y grandes superficies como Mercadona siguieron operando con normalidad gracias a sus sistemas de respaldo energético, muchas empresas y hogares se vieron obligados a parar por completo. Sin luz. Sin actividad. Sin margen de maniobra.
 
@@ -47,4 +53,4 @@ No se trata solo de generar tu propia energía. Se trata de estar preparado para
 
 Desde Solvent ayudamos a empresas e industrias a implementar soluciones adaptadas a sus necesidades, con una única misión: que un apagón no apague tu negocio.
 
-**#Apagón #BateríasSolares #AutonomíaEnergética #AlmacenamientoSolar #EnergíaRenovable #Solvent #IndustriaSegura #Autoconsumo #ResilienciaEnergética**
+**#Apagón #BateríasSolares #AutonomíaEnergética #AlmacenamientoSolar #EnergíaRenovable #Solvent #IndustriaSegura #Autoconsumo #Últimahora**
