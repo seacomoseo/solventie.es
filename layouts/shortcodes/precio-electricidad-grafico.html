@@ -256,10 +256,6 @@
         const maxTotal = Math.max(...totalValues);
         const minTotal = Math.min(...totalValues);
 
-        // Calculate appropriate y-axis limits to show negative values if they exist
-        const yAxisMax = maxTotal < 290 ? 300 : Math.ceil((maxTotal + 25) / 100) * 100;
-        const yAxisMin = minTotal < 0 ? Math.floor((minTotal - 25) / 100) * 100 : 0;
-
         const ctx = document.getElementById('barChart').getContext('2d');
         if (window.barChartInstance) {
             window.barChartInstance.destroy();
@@ -350,10 +346,12 @@
                 scales: {
                     y: {
                         stacked: true,
-                        min: yAxisMin,
-                        max: yAxisMax,
+                        // min: minTotal < 0 ? Math.floor((minTotal - 25) / 100) * 100 : 0,
+                        // max: maxTotal < 290 ? 300 : Math.ceil((maxTotal + 25) / 100) * 100,
+                        suggestedMin: minTotal < 0 ? minTotal * 1.1 : 0,
+                        suggestedMax: maxTotal * 1.05,
                         ticks: {
-                            stepSize: 50
+                            stepSize: 10
                         }
                     }
                 },
