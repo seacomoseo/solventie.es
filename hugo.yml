@@ -3,7 +3,7 @@ Paginate: 24
 buildFuture: false
 theme: [sansoul]
 params:
-  git_url: https://github.com/solventie/solventie.es
+  git_url: https://github.com/seacomoseo/solventie.es
   netlify_name: solventie
   netlify_id: 23e4a232-b796-4795-9f71-17f574c48bfe
   hook: NjRmMWUyMDRhZmNjZDE2OGFkNjk0MTUx
