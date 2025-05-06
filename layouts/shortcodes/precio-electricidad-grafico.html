@@ -204,7 +204,11 @@
                 };
 
                 const boxSpan = document.createElement('span');
-                boxSpan.style.background = item.fillStyle;
+                if (item.datasetIndex === chart.data.datasets.length - 1) {
+                    boxSpan.style.background = chart.data.datasets[item.datasetIndex].borderColor;
+                } else {
+                    boxSpan.style.background = item.fillStyle;
+                }
                 boxSpan.style.borderColor = item.strokeStyle;
                 boxSpan.style.borderWidth = item.lineWidth + 'px';
                 boxSpan.style.display = 'inline-block';
@@ -298,6 +302,22 @@
                         fill: true,
                         stepped: true,
                     },
+                    {
+                        shortLabel: 'Total (€/MWh)',
+                        label: 'Total (€/MWh): Suma total del precio de mercado, peajes 6.1 TD y componentes.',
+                        data: totalValues,
+                        borderColor: 'rgba(139, 69, 19, 0.8)',
+                        borderColor: 'rgba(139, 69, 19, 1)',
+                        borderWidth: 3,
+                        type: 'line',
+                        fill: false,
+                        tension: 0.1,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        pointBackgroundColor: 'rgba(139, 69, 19, 1)',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                    }
                 ]
             },
             options: {
@@ -320,20 +340,7 @@
                             label: function (context) {
                                 return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
                             },
-                            afterLabel: function (context) {
-                                if (context.datasetIndex === context.chart.data.datasets.length - 1) {
-                                    let total = 0;
-                                    const dataIndex = context.dataIndex;
 
-                                    for (let i = 0; i < context.chart.data.datasets.length; i++) {
-                                        if (context.chart.isDatasetVisible(i)) {
-                                            total += context.chart.data.datasets[i].data[dataIndex];
-                                        }
-                                    }
-                                    return '\nTotal: ' + total.toFixed(2) + ' €/MWh';
-                                }
-                                return null;
-                            },
                         },
                     },
                     htmlLegend: {
@@ -346,8 +353,6 @@
                 scales: {
                     y: {
                         stacked: true,
-                        // min: minTotal < 0 ? Math.floor((minTotal - 25) / 100) * 100 : 0,
-                        // max: maxTotal < 290 ? 300 : Math.ceil((maxTotal + 25) / 100) * 100,
                         suggestedMin: minTotal < 0 ? minTotal * 1.1 : 0,
                         suggestedMax: maxTotal * 1.05,
                         ticks: {
