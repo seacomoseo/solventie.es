@@ -10,7 +10,7 @@ on:
     # Formato Cron: Minuto Hora DíaDelMes Mes DíaDeLaSemana
     # '30 6 * * 1' significa: A los 30 minutos de la hora 6, cada día del mes, cada mes, cada lunes (1).
     # Recomendable usar "minutos raros" para evitar colisiones con otros cron jobs de github y minimizar la cola.
-    - cron: '23 4 * * 1' # <-- AJUSTA ESTA HORA A UTC
+    - cron: '40 9 * * 1' # <-- AJUSTA ESTA HORA A UTC
 
   # También puedes permitir ejecutarlo manualmente desde la pestaña Actions de GitHub
   workflow_dispatch:
