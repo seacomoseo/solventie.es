@@ -14,7 +14,7 @@ author: admin
 toc: false
 draft: false
 noindex: false
-date: '2025-05-19T00:00:00 '
+date: 2025-05-19
 lastmod: ''
 ---
 ### **Registro Industrial: la base invisible pero crucial para una industria segura y legal**
