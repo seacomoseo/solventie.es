@@ -5,11 +5,15 @@
         .chart-container {
             width: 100%;
             margin: auto;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            padding: 20px;
         }
 
         @media screen and (min-width: 768px) {
             .chart-container {
-                width: 75%;
+                width: 85%;
             }
         }
 
@@ -17,14 +21,19 @@
             display: flex;
             flex-direction: column !important;
             align-items: flex-start;
-            gap: 10px;
-            margin: 20px auto !important;
+            gap: 12px;
+            margin: 24px auto !important;
             padding: 0;
         }
 
         #legend-container li {
             margin: 0 !important;
-            padding: 5px 0;
+            padding: 8px 0;
+            transition: transform 0.2s ease;
+        }
+
+        #legend-container li:hover {
+            transform: translateX(3px);
         }
 
         #legend-container li:before {
@@ -33,57 +42,65 @@
 
         .controls {
             text-align: center;
-            margin: 20px 10px;
+            margin: 24px auto;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 10px;
+            gap: 16px;
             flex-wrap: wrap;
+            max-width: 85%;
         }
 
         button {
-            padding: 8px 12px;
+            padding: 10px 16px;
             font-size: 14px;
+            font-weight: 500;
             cursor: pointer;
-            --base: #0a2a3b;
+            --base: #1976d2;
+            background-color: var(--base);
             color: white;
             border: none;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
         }
 
         button:hover {
-            --base: #0a2a3b;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            --base: #1565c0;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         button:active {
             transform: translateY(0);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
         }
 
         button:disabled {
-            --base: #cccccc;
+            --base: #e0e0e0;
+            color: #9e9e9e;
             cursor: not-allowed;
             transform: none;
             box-shadow: none;
         }
 
         #currentDate {
-            font-size: 16px;
-            font-weight: 500;
+            font-size: 18px;
+            font-weight: 600;
             color: #333;
-            padding: 0 5px;
+            padding: 0 10px;
             min-width: 200px;
             text-align: center;
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 10px 16px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         @media screen and (max-width: 600px) {
             .controls {
                 flex-direction: column;
-                gap: 15px;
+                gap: 16px;
             }
 
             button {
@@ -93,7 +110,7 @@
 
             #currentDate {
                 order: -1;
-                margin-bottom: 10px;
+                margin-bottom: 16px;
             }
         }
     }
@@ -101,9 +118,23 @@
 
 <div id="precio-electricidad">
     <div class="controls">
-        <button id="prevDay">Día anterior</button>
+        <button id="prevDay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 5px;">
+                <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+            Día anterior
+        </button>
         <span id="currentDate"></span>
-        <button id="nextDay">Día siguiente</button>
+        <button id="nextDay">
+            Día siguiente
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                style="vertical-align: middle; margin-left: 5px;">
+                <path d="M9 18l6-6-6-6"></path>
+            </svg>
+        </button>
     </div>
 
     <div class="chart-container">
@@ -196,6 +227,17 @@
                 li.style.display = 'flex';
                 li.style.flexDirection = 'row';
                 li.style.marginLeft = '10px';
+                li.style.transition = 'all 0.2s ease';
+                li.style.padding = '8px 12px';
+                li.style.borderRadius = '8px';
+
+                li.onmouseover = () => {
+                    li.style.backgroundColor = 'rgba(0, 0, 0, 0.05)';
+                };
+
+                li.onmouseout = () => {
+                    li.style.backgroundColor = 'transparent';
+                };
 
                 li.onclick = () => {
                     const { type } = chart.config;
@@ -214,14 +256,17 @@
                 boxSpan.style.display = 'inline-block';
                 boxSpan.style.flexShrink = 0;
                 boxSpan.style.height = '20px';
-                boxSpan.style.marginRight = '10px';
+                boxSpan.style.marginRight = '12px';
                 boxSpan.style.width = '20px';
+                boxSpan.style.borderRadius = '4px';
+                boxSpan.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
 
                 const textContainer = document.createElement('p');
                 textContainer.style.color = item.fontColor;
                 textContainer.style.margin = 0;
                 textContainer.style.padding = 0;
                 textContainer.style.textDecoration = item.hidden ? 'line-through' : '';
+                textContainer.style.fontWeight = '500';
 
                 const text = document.createTextNode(item.text);
                 textContainer.appendChild(text);
@@ -260,6 +305,25 @@
         const maxTotal = Math.max(...totalValues);
         const minTotal = Math.min(...totalValues);
 
+        const colors = {
+            market: {
+                bg: 'rgba(0, 128, 128, 0.7)',
+                border: 'rgba(0, 105, 105, 1)'
+            },
+            periods: {
+                bg: 'rgba(214, 40, 40, 0.7)',
+                border: 'rgba(178, 34, 34, 1)'
+            },
+            components: {
+                bg: 'rgba(255, 191, 0, 0.7)',
+                border: 'rgba(230, 172, 0, 1)'
+            },
+            total: {
+                bg: 'rgba(42, 54, 59, 0.7)',
+                border: 'rgba(120, 144, 156, 0.9)'
+            }
+        };
+
         const ctx = document.getElementById('barChart').getContext('2d');
         if (window.barChartInstance) {
             window.barChartInstance.destroy();
@@ -273,66 +337,116 @@
                         shortLabel: 'Precio mercado (€/MWh)',
                         label: 'Precio mercado (€/MWh): Es el coste base de la electricidad, determinado en el mercado mayorista.',
                         data: priceMarket,
-                        backgroundColor: 'rgba(54, 162, 235, 0.8)',
-                        borderColor: 'rgba(54, 162, 235, 1)',
+                        backgroundColor: colors.market.bg,
+                        borderColor: colors.market.border,
                         borderWidth: 1,
+                        borderRadius: 6,
                         stack: 'combined',
                         fill: true,
                         stepped: true,
+                        shadowOffsetX: 6,
+                        shadowOffsetY: 6,
+                        shadowBlur: 15,
+                        shadowColor: 'rgba(0, 0, 0, 0.4)',
                     },
                     {
                         shortLabel: 'Precio peajes 6.1 TD (€/MWh)',
                         label: 'Precio peajes 6.1TD (€/MWh): Son los costes de acceso a la red, que varían por horas y afectan el precio final.',
                         data: pricePeriods,
-                        backgroundColor: 'rgba(255, 99, 132, 0.8)',
-                        borderColor: 'rgba(255, 99, 132, 1)',
+                        backgroundColor: colors.periods.bg,
+                        borderColor: colors.periods.border,
                         borderWidth: 1,
+                        borderRadius: 6,
                         stack: 'combined',
                         fill: true,
                         stepped: true,
+                        shadowOffsetX: 6,
+                        shadowOffsetY: 6,
+                        shadowBlur: 15,
+                        shadowColor: 'rgba(0, 0, 0, 0.4)',
                     },
                     {
                         shortLabel: 'Precio componentes (€/MWh)',
                         label: 'Precio componentes (€/MWh): Son costes regulados adicionales que se incluyen en la factura.',
                         data: priceComponents,
-                        backgroundColor: 'rgba(50, 205, 50, 0.8)',
-                        borderColor: 'rgba(50, 205, 50, 1)',
+                        backgroundColor: colors.components.bg,
+                        borderColor: colors.components.border,
                         borderWidth: 1,
+                        borderRadius: 6,
                         stack: 'combined',
                         fill: true,
                         stepped: true,
+                        shadowOffsetX: 6,
+                        shadowOffsetY: 6,
+                        shadowBlur: 15,
+                        shadowColor: 'rgba(0, 0, 0, 0.4)',
                     },
                     {
                         shortLabel: 'Total (€/MWh)',
                         label: 'Total (€/MWh): Suma total del precio de mercado, peajes 6.1 TD y componentes.',
                         data: totalValues,
-                        borderColor: 'rgba(139, 69, 19, 0.8)',
-                        borderColor: 'rgba(139, 69, 19, 1)',
-                        borderWidth: 3,
+                        borderColor: colors.total.border,
+                        borderWidth: 4,
                         type: 'line',
                         fill: false,
-                        tension: 0.1,
-                        pointRadius: 4,
-                        pointHoverRadius: 6,
-                        pointBackgroundColor: 'rgba(139, 69, 19, 1)',
+                        tension: 0.2,
+                        pointRadius: 6,
+                        pointHoverRadius: 9,
+                        pointBackgroundColor: colors.total.border,
                         pointBorderColor: '#fff',
-                        pointBorderWidth: 2,
+                        pointBorderWidth: 3,
+                        pointStyle: 'circle',
+                        pointShadowBlur: 15,
+                        pointShadowColor: 'rgba(0, 0, 0, 0.4)',
+                        order: -1,
+                        borderShadowColor: 'rgba(0, 0, 0, 0.7)',
+                        borderShadowBlur: 15,
+                        borderShadowOffsetX: 5,
+                        borderShadowOffsetY: 5,
+                        shadowOffsetX: 5,
+                        shadowOffsetY: 5,
+                        shadowBlur: 15,
+                        shadowColor: 'rgba(0, 0, 0, 0.6)',
                     }
                 ]
             },
             options: {
                 responsive: true,
+                maintainAspectRatio: true,
                 interaction: {
                     intersect: false,
-                    axis: 'x'
+                    mode: 'index'
                 },
                 animations: {
                     tension: {
-                        duration: 2
+                        duration: 1000,
+                        easing: 'easeOutQuad'
+                    },
+                    radius: {
+                        duration: 400
                     }
                 },
                 plugins: {
                     tooltip: {
+                        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                        titleColor: '#333',
+                        bodyColor: '#666',
+                        titleFont: {
+                            weight: 'bold',
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        padding: 12,
+                        cornerRadius: 8,
+                        boxPadding: 6,
+                        borderColor: 'rgba(0, 0, 0, 0.1)',
+                        borderWidth: 1,
+                        shadowColor: 'rgba(0, 0, 0, 0.3)',
+                        shadowBlur: 15,
+                        shadowOffsetX: 6,
+                        shadowOffsetY: 6,
                         callbacks: {
                             title: function (tooltipItems) {
                                 return tooltipLabels[tooltipItems[0].dataIndex];
@@ -340,7 +454,6 @@
                             label: function (context) {
                                 return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
                             },
-
                         },
                     },
                     htmlLegend: {
@@ -356,15 +469,76 @@
                         suggestedMin: minTotal < 0 ? minTotal * 1.1 : 0,
                         suggestedMax: maxTotal * 1.05,
                         ticks: {
-                            stepSize: 10
+                            stepSize: 10,
+                            font: {
+                                size: 12
+                            },
+                            color: '#666'
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)',
+                            borderDash: [4, 4]
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 12,
+                                weight: 'bold'
+                            },
+                            color: '#333'
+                        },
+                        grid: {
+                            display: false
                         }
                     }
                 },
                 hover: {
-                    mode: 'nearest',
+                    mode: 'index',
                     axis: 'x',
                     animationDuration: 0
-                }
+                },
+                layout: {
+                    padding: {
+                        left: 5,
+                        right: 5,
+                        top: 20,
+                        bottom: 5
+                    }
+                },
+                elements: {
+                    bar: {
+                        borderWidth: 2,
+                        borderRadius: 8,
+                        backgroundColor: function (context) {
+                            const index = context.dataIndex;
+                            const value = context.dataset.data[index];
+                            const alpha = 0.7;
+                            const bgColor = context.dataset.backgroundColor;
+
+                            const ctx = context.chart.ctx;
+                            const gradient = ctx.createLinearGradient(0, 0, 0, context.chart.height);
+                            gradient.addColorStop(0, bgColor.replace(alpha, alpha + 0.2));
+                            gradient.addColorStop(0.4, bgColor);
+                            gradient.addColorStop(1, bgColor.replace(alpha, alpha - 0.3));
+
+                            return gradient;
+                        }
+                    },
+                    line: {
+                        borderWidth: 4,
+                        borderColor: function (context) {
+                            const ctx = context.chart.ctx;
+                            const gradient = ctx.createLinearGradient(0, 0, 0, context.chart.height);
+                            const color = context.dataset.borderColor;
+
+                            gradient.addColorStop(0, color);
+                            gradient.addColorStop(1, color);
+
+                            return gradient;
+                        }
+                    }
+                },
             },
             plugins: [htmlLegendPlugin],
         });
