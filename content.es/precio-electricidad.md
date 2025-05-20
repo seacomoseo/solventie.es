@@ -12,6 +12,7 @@ translationKey: precio-electricidad
 sections:
 - file: precio-electricidad-header
 - file: precio-electricidad
+- file: precio-electricidad-columns
 - file: precio-electricidad-ahorrar
 - file: precio-electricidad-claim
 ---
