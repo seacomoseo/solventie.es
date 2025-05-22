@@ -37,14 +37,14 @@ Están obligadas a registrarse todas las empresas que dispongan de instalaciones
 - **Cuadros eléctricos de media y baja tensión**.
 - **Sistemas de protección contra incendios**.
 - 
-[**Instalaciones de autoconsumo** ](https://solventie.es/claves-instalar-energia-solar/) **fotovoltaico o bombeo solar**.
+[Instalaciones de autoconsumo ](https://solventie.es/claves-instalar-energia-solar/)**fotovoltaico o bombeo solar**.
 - **Maquinaria fija o líneas de producción industrial.**
 
 Esto aplica especialmente a las **PYMES** que, muchas veces por desconocimiento, no tienen sus instalaciones legalizadas y corren el riesgo de recibir sanciones administrativas.
 
 #### **¿Cada cuánto se actualiza el Registro Industrial?**
 
-El [mantenimiento](https://solventie.es/necesita-mantenimiento-instalacion-solar-fotovoltaica/) del Registro no es un trámite único. La normativa establece que debe renovarse:
+El [mantenimiento](https://solventie.es/necesita-mantenimiento-instalacion-solar-fotovoltaica/)**** del Registro no es un trámite único. La normativa establece que debe renovarse:
 
 - **Cada cinco años.**
 - Siempre que se realicen **modificaciones en la maquinaria** o **reformas relevantes en la instalación**.
@@ -57,11 +57,11 @@ Mantener al día tu **Registro Industrial** es sinónimo de gestión profesional
 
 ✅ **Cumplimiento normativo** sin riesgos de sanción.
 
-✅ [**Agilidad**](https://solventie.es/auditoria-energetica-industrial-eficiencia-costes/) **en inspecciones técnicas** y procesos de certificación.
+✅ [Agilidad](https://solventie.es/auditoria-energetica-industrial-eficiencia-costes/) **en inspecciones técnicas** y procesos de certificación.
 
-✅ **Facilita la obtención de** [**licencias de actividad** ](https://solventie.es/licencia-actividad-apertura/)o apertura.
+✅ **Facilita la obtención de** [licencias de actividad ](https://solventie.es/licencia-actividad-apertura/)o apertura.
 
-✅ **Permite acceder a** [**subvenciones**](https://solventie.es/subvencion-2025-fotovoltaica/) **públicas y contratos con la Administración.**
+✅ **Permite acceder a** [subvenciones](https://solventie.es/subvencion-2025-fotovoltaica/) **públicas y contratos con la Administración.**
 
 ✅ Mejora la imagen de tu empresa ante clientes, socios e inversores.
 
