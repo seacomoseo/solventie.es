@@ -284,6 +284,7 @@
         }
 
         let data = filterDataByDate(currentDate);
+        const isMobile = isMobileDevice();
 
         document.getElementById('currentDate').innerText = formatDate(currentDate);
         updateButtonStates();
@@ -386,17 +387,17 @@
                         label: 'Total (€/MWh): Suma total del precio de mercado, peajes 6.1 TD y componentes.',
                         data: totalValues,
                         borderColor: colors.total.border,
-                        borderWidth: 4,
+                        borderWidth: 2,
                         type: 'line',
                         fill: false,
                         tension: 0.2,
-                        pointRadius: 6,
-                        pointHoverRadius: 9,
                         pointBackgroundColor: colors.total.border,
                         pointBorderColor: '#fff',
-                        pointBorderWidth: 3,
+                        pointBorderWidth: isMobile ? 0 : 1,
+                        pointRadius: isMobile ? 0 : 3,
+                        pointHoverRadius: isMobile ? 3 : 5,
                         pointStyle: 'circle',
-                        pointShadowBlur: 15,
+                        pointShadowBlur: 1,
                         pointShadowColor: 'rgba(0, 0, 0, 0.4)',
                         order: -1,
                         borderShadowColor: 'rgba(0, 0, 0, 0.7)',
@@ -526,7 +527,7 @@
                         }
                     },
                     line: {
-                        borderWidth: 4,
+                        borderWidth: 2,
                         borderColor: function (context) {
                             const ctx = context.chart.ctx;
                             const gradient = ctx.createLinearGradient(0, 0, 0, context.chart.height);
@@ -542,6 +543,10 @@
             },
             plugins: [htmlLegendPlugin],
         });
+    }
+
+    function isMobileDevice() {
+        return window.innerWidth < 768;
     }
 
     document.getElementById('prevDay').addEventListener('click', () => {
