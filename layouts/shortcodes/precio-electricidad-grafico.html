@@ -243,12 +243,6 @@
             })
             .map(item => item.date);
 
-        if (validDates.length > 0) {
-            const sortedDates = [...validDates].sort((a, b) => a - b);
-            const firstDate = sortedDates[0].toISOString().split('T')[0];
-            const lastDate = sortedDates[sortedDates.length - 1].toISOString().split('T')[0];
-        }
-
         return validDates;
     }
 
