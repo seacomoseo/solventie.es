@@ -239,7 +239,6 @@
 
         const validDates = Array.from(uniqueDates.values())
             .filter(item => {
-                console.log(`Fecha ${item.date.toISOString().split('T')[0]}: ${item.count} registros`);
                 return item.count >= 23;
             })
             .map(item => item.date);
@@ -248,7 +247,6 @@
             const sortedDates = [...validDates].sort((a, b) => a - b);
             const firstDate = sortedDates[0].toISOString().split('T')[0];
             const lastDate = sortedDates[sortedDates.length - 1].toISOString().split('T')[0];
-            console.log(`Rango de fechas válidas: ${firstDate} hasta ${lastDate}, total: ${validDates.length} días`);
         }
 
         return validDates;
@@ -263,14 +261,7 @@
         const todayString = today.toISOString().split('T')[0];
         const todayData = filterDataByDate(today);
 
-        // console.log(`Hoy es: ${todayString}`);
-        // console.log(`Datos para hoy: ${todayData.length} registros`);
-        // console.log("Fechas habilitadas:", enabledDates.sort());
-        // console.log("¿Incluye hoy?:", enabledDates.includes(todayString));
-
-        // Si tenemos suficientes datos para hoy pero no está en las fechas disponibles, agregarlo
         if (!enabledDates.includes(todayString) && todayData.length >= 23) {
-            // console.log(`Agregando el día de hoy (${todayString}) que tiene ${todayData.length} registros`);
             enabledDates.push(todayString);
         }
 
