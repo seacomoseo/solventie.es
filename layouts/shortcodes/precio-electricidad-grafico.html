@@ -209,7 +209,7 @@
                 };
             });
         } catch (error) {
-            console.error('Error en fetchData:', error);
+            // console.error('Error en fetchData:', error);
             return [];
         }
     }
@@ -257,7 +257,7 @@
                     await new Promise(resolve => setTimeout(resolve, 100));
                 }
             } catch (error) {
-                console.error(`Error cargando página ${page}:`, error);
+                // console.error(`Error cargando página ${page}:`, error);
                 hasMoreData = false;
             }
         }
@@ -266,7 +266,7 @@
             loadingIndicator.classList.remove('show');
         }
 
-        console.log(`Carga completa: ${allData.length} registros de ${page - 1} páginas`);
+        // console.log(`Carga completa: ${allData.length} registros de ${page - 1} páginas`);
     }
 
     function updateDatepickerWithNewDates() {
@@ -327,7 +327,7 @@
                 return filterDataByDate(targetDate).length >= 23;
             }
         } catch (error) {
-            console.error(`Error cargando datos para fecha ${targetDate}:`, error);
+            // console.error(`Error cargando datos para fecha ${targetDate}:`, error);
         }
 
         return false;
@@ -540,7 +540,7 @@
             if (hasData) {
                 data = filterDataByDate(currentDate);
             } else {
-                console.warn('No se pudieron cargar datos para mostrar el gráfico');
+                // console.warn('No se pudieron cargar datos para mostrar el gráfico');
                 return;
             }
         }
@@ -841,6 +841,6 @@
     });
 
     renderChart().catch(error => {
-        console.error('Error al inicializar el gráfico:', error);
+        // console.error('Error al inicializar el gráfico:', error);
     });
 </script>
