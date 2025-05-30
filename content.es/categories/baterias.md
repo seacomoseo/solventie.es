@@ -1,5 +1,5 @@
 ---
-title: baterias
+title: Baterias
 title_seo: ''
 slug: baterias
 description: ''
