@@ -3,6 +3,7 @@ id: aliados
 title: Algunos de nuestros mayores aliados
 box:
   cols: 4
+  cols_vs: 2
   pd: 2
   slider: true
   time: 8
