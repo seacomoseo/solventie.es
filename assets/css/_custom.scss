@@ -3,6 +3,11 @@
   --menu-py: .75em;
 }
 
+// Blog list
+.box__link:not(.box--card *) {
+  --cta-text: var(--main);
+}
+
 // Home
 #body-home {
   #header {
