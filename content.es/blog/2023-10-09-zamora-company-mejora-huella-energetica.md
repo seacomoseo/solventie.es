@@ -1,12 +1,11 @@
 ---
 title: Zamora Company sigue mejorando su huella energética con la instalación solar de 149,6 kWp
-title_seo: Zamora Company sigue mejorando su huella energética con la instalación solar de 149,6 kWp - Ingeniería Solvent
+seo: Zamora Company sigue mejorando su huella energética con la instalación solar de 149,6 kWp - Ingeniería Solvent
 slug: zamora-company-mejora-huella-energetica
 description: La empresa Zamora Company, comprometida con la eficiencia energética, disfruta de la energía solar en su planta de Cartagena
 image: blog/zamora-company-mejora-huella-energetica.webp
-categories: [noticias]
-tags: []
-author: admin
+category:
+- noticias
 toc: false
 draft: false
 noindex: false
@@ -20,4 +19,4 @@ Solvent se ha encargado de diseñar y realizar la instalación de energía sola
 > La experiencia con Solvent ha sido muy buena, tanto en tiempo de ejecución como en velocidad de respuesta ante incidencias. Su flexibilidad a la hora de **adaptarse a las necesidades** de nuestra empresa es lo que más destacaría de ellos
 > <cite>Ignacio Conesa, director de Proyectos en Zamora Company</cite>
 
-[btn Saber más](https://murciaeconomia.com/art/93039/zamora-company-licor-43-sigue-mejorando-su-huella-energetica-con-la-instalacion-solar-de-solvent)
+[[Saber más]](https://murciaeconomia.com/art/93039/zamora-company-licor-43-sigue-mejorando-su-huella-energetica-con-la-instalacion-solar-de-solvent)

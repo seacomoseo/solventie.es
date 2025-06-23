@@ -1,0 +1,60 @@
+title: Servicios
+base: service
+order: 1
+name: service
+es:
+  permalinks: ''
+tpl:
+  section:
+  - size: lg
+    parallax: fix
+    alpha: .6
+  sections:
+  - file: servicio-_header
+  - file: servicio-caracteristicas
+  - file: servicio-proceso
+  - file: servicio-estudio
+  - file: servicio-formulario
+  - file: servicio-garantias
+params:
+
+- name: kw
+  label: KW
+  hint: Palabra clave principal
+- name: subtitle
+  label: Subtítulo
+- name: advantages
+  label: Ventajas
+  widget: list
+  params:
+  - var: BOX_TITLE
+  - var: BOX_MD
+  - var: BOX_ICON_ID
+
+- name: features
+  label: Características
+  widget: list
+  params:
+  - var: BOX_TITLE
+  - var: BOX_MD
+  - var: BOX_ICON_ID
+
+- name: process
+  label: Proceso
+  widget: object
+  params:
+  - var: BOX_IMAGE_SRC
+  - var: BOX_STEPS
+
+- name: study
+  label: Estudio
+  hint: Muestra info y formulario
+  widget: boolean
+
+- name: warranties
+  label: Garantías
+  widget: list
+  params:
+  - var: BOX_TITLE
+  - var: BOX_MD
+  - var: BOX_ICON_ID

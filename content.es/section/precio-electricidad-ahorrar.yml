@@ -1,0 +1,12 @@
+name: Precio de la Electricidad ➡️ Ahorrar
+title: ¿Cómo puedes ahorrar?
+color: light
+step:
+  icon_size: 1
+steps:
+- icon: 1
+  subtitle: Identifica las horas más caras y más barata en la gráfica
+- icon: 2
+  subtitle: Desplaza consumos a las horas de menor coste cuando sea posible
+- icon: 3
+  subtitle: Adapta tu estrategia energética para aprovechar los mejores precios

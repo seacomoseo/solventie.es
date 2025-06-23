@@ -1,12 +1,11 @@
 ---
 title: 'La nueva tarifa eléctrica: descubre los nuevos cambios'
-title_seo: 'Nueva tarifa eléctrica: los cambios | Ingeniería Solvent'
+seo: 'Nueva tarifa eléctrica: los cambios | Ingeniería Solvent'
 slug: nueva-tarifa-electrica-cambios
 description: La nueva tarifa eléctrica, debería haber entrado en vigor en el año 2020, pero a raíz de la pandemia de la COVID-19, se ha ido retrasando
 image: blog/nueva-tarifa-electrica-cambios.jpg
-categories: [electricidad]
-tags: []
-author: admin
+category:
+- electricidad
 toc: true
 draft: false
 noindex: false

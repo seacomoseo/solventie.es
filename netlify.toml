@@ -1,9 +1,10 @@
 [build]
 publish = "public"
-command = "sh do hugo-development"
+command = "sh do hugo"
 
 [build.environment]
-HUGO_VERSION = "0.129.0"
+HUGO_VERSION = "0.147.7"
+NODE_VERSION = "23.5.0"
 
 [context.production]
 publish = "public"

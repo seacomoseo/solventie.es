@@ -1,12 +1,11 @@
 ---
 title: Mantenimiento de paneles solares
-title_seo: Mantenimiento de paneles solares - Ingeniería Solvent
+seo: Mantenimiento de paneles solares - Ingeniería Solvent
 slug: necesita-mantenimiento-instalacion-solar-fotovoltaica
 description: Es importante contar con un plan de mantenimiento preventivo para detectar fallos y puntos débiles, reducir los costes de reparación...
 image: blog/necesita-mantenimiento-instalacion-solar-fotovoltaica.jpg
-categories: [energia-solar]
-tags: []
-author: admin
+category:
+- energia-solar
 toc: true
 draft: false
 noindex: false

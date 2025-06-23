@@ -1,0 +1,17 @@
+base: page
+order: 2
+name: category
+tax_of:
+- name: blog
+  multiple: true
+  breadcrumbs: true
+  schema: articleSection
+- name: category
+  multiple: true
+  breadcrumbs: true
+tpl:
+  list:
+    color: dark
+    fade: light
+    fade_type: linear-t
+    rate: 2

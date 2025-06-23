@@ -1,12 +1,11 @@
 ---
 title: Conoce como realizamos una instalación fotovoltaica
-title_seo: Conoce como realizamos una instalación fotovoltaica
+seo: Conoce como realizamos una instalación fotovoltaica
 slug: como-realizamos-instalacion-fotovoltaica
 description: Estudiamos tu industria para que la instalación fotovoltaica sea exactamente la que necesitas, analizando tu consumo de energía, entre otros.
 image: blog/como-realizamos-instalacion-fotovoltaica.jpg
-categories: [energia-solar]
-tags: []
-author: admin
+category:
+- energia-solar
 toc: true
 draft: false
 noindex: false

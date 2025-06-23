@@ -1,36 +1,31 @@
 ---
 title: ¿Tienes placas solares? Así puedes aprovechar toda tu energía (y alargar
   la vida de tu inversor) gracias a la voltimetría legalizada
-title_seo: ''
+seo: ''
 slug: tienes-placas-solares-asi-puedes-aprovechar-toda-tu-energ-a-y-alargar-la-vida-de-tu-inversor-gracias-a-la-voltimetr-a-legalizada
 description: ''
-image: portada-blogs-11.png
-categories:
+image: blog/voltimetria-legalizada.webp
+category:
 - eficiencia-energetica
 - energia-solar
 - ingenieria
 - sostenibilidad
-tags: []
-author: admin
 toc: false
 draft: false
 noindex: false
 date: 2025-06-18
-lastmod: ''
+# lastmod: ''
 ---
 En [Solvent](https://solventie.es) hemos conseguido lo que casi nadie ha logrado: **legalizar instalaciones con sistemas voltimétricos**. Y eso, para tu empresa, puede significar un antes y un después.
 
 Si ya tienes placas solares instaladas, sabrás que muchas veces el sistema de antivertido corta la generación antes de tiempo. El resultado: menos energía aprovechada, más desgaste del inversor, y una instalación que podría dar más... pero no lo hace.
 
-Beneficios clave de instalar [voltimétricas](https://solventie.es/pierde-dinero-no-verter-energia-solar/):
+Beneficios clave de instalar [voltimétricas](/pierde-dinero-no-verter-energia-solar/):
 
-🔋 **Aumentas tu** [autoconsumo](https://solventie.es/autoconsumo-eficiencia-energetica-industria/) Evitas que el antivertido actúe antes de tiempo. Eso significa que puedes consumir más de lo que produces, sin interrupciones innecesarias.
-
-ﺠ️ **Alargas la vida del inversor** Menos paradas, menos sobresfuerzos, menos desgaste. Un inversor que trabaja relajado dura más.
-
-🔌 **Vertido legal a red** Si generas más de lo que consumes, puedes verterlo a la red y obtener ingresos. Nosotros lo legalizamos.
-
-📉 **Más eficiencia sin ampliar la instalación** No necesitas más paneles: solo medir mejor y actuar con inteligencia.
+- ::🔋:: **Aumentas tu** [autoconsumo](/autoconsumo-eficiencia-energetica-industria/) Evitas que el antivertido actúe antes de tiempo. Eso significa que puedes consumir más de lo que produces, sin interrupciones innecesarias.
+- ::ﺠ️:: **Alargas la vida del inversor** Menos paradas, menos sobresfuerzos, menos desgaste. Un inversor que trabaja relajado dura más.
+- ::🔌:: **Vertido legal a red** Si generas más de lo que consumes, puedes verterlo a la red y obtener ingresos. Nosotros lo legalizamos.
+- ::📉:: **Más eficiencia sin ampliar la instalación** No necesitas más paneles: solo medir mejor y actuar con inteligencia.
 
  
 
@@ -46,8 +41,4 @@ Instalar placas solares está bien. **Pero optimizar lo que ya produces es aún 
 
 En Solvent, instalamos y legalizamos sistemas voltimétricos para que tu inversión en fotovoltaica valga más, dure más y rinda mejor.
 
-📢 [Escríbenos](https://solventie.es/contacto/) y te explicamos cómo mejorar tu instalación sin necesidad de ampliarla.
-
- 
-
- 
+📢 [Escríbenos](/contacto/) y te explicamos cómo mejorar tu instalación sin necesidad de ampliarla.

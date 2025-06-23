@@ -1,12 +1,11 @@
 ---
 title: La importancia de las energías renovables
-title_seo: La importancia de las energías renovables - Ingeniería Solvent
+seo: La importancia de las energías renovables - Ingeniería Solvent
 slug: importancia-energias-renovables
 description: Las energías renovables son la mejor alternativa y la más limpia para el medio ambiente frente a las fuentes convencionales. Estas energías son obtenidas de
 image: blog/importancia-energias-renovables.jpg
-categories: [general]
-tags: []
-author: admin
+category:
+- general
 toc: true
 draft: false
 noindex: false

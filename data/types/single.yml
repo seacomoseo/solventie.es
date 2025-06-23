@@ -1,0 +1,13 @@
+title: Únicas
+order: 0
+base: single
+tpl:
+  section:
+  - size: lg
+    parallax: fix
+    alpha: .6
+  list:
+    cols: 3
+    fade: light
+    fade_type: linear-t
+    rate: 2

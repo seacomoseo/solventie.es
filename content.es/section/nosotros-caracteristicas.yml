@@ -1,0 +1,24 @@
+name: Nosotros ➡️ Caracteristicas
+hanchor: Características
+box:
+  cols: 5
+  gap: 2
+  align_y: top
+  icon_size: 3
+  hs: 4
+boxes:
+- title: Compromiso
+  md: Estamos 100% comprometidos. Como nos gustaría que fuera para nosotros. Garantizamos nuestros proyectos y soluciones en dinero, tiempo y producción.
+  icon: handshake
+- title: Innovación
+  md: El mundo evoluciona y tu empresa también. Te ayudamos a desarrollar esa solución tecnológica que va a resolver tu vida de forma más fácil y eficiente.
+  icon: lightbulb
+- title: Transparencia
+  md: Huimos de la incertidumbre. Por eso, conocerás en tiempo real los avances conseguidos de tu proyecto.
+  icon: messages
+- title: Honestidad
+  md: Te escuchamos. Escuchamos tus necesidades, para así conseguir el diseño que más se adapte a tu empresa, ni más ni menos.
+  icon: face-laugh-beam
+- title: Resolución
+  md: Como empresa de ingeniería, desplegamos los recursos que sean necesarios para superar tus expectativas.
+  icon: gears

@@ -1,0 +1,64 @@
+name: Inicio ➡️ Aliados
+id: aliados
+title: Algunos de nuestros mayores aliados
+box:
+  cols: 4
+  pd: 2
+  slider: true
+  time: 8
+boxes:
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/acuamed-alt.svg#src
+  - image: aliados/apellan.svg#src
+  - image: aliados/ayuntamiento-de-buendia.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/blancasol.svg#src
+  - image: aliados/comunidad-regantes-campotejar.svg#src
+  - image: aliados/confederacion-hidrografica.png
+    contain: true
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/conservas-el-raal.svg#src
+  - image: aliados/construcciones-alpi.svg#src
+  - image: aliados/diputacion-castellon.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/etiquetas-adhegrafic.svg#src
+  - image: aliados/ferrovial.svg#src
+  - image: aliados/fruveco.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/grupo-fuentes.svg#src
+  - image: aliados/hydrodiseno.svg#src
+  - image: aliados/lord-spices-group.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/marin-gimenez.svg#src
+  - image: aliados/montalban-rodriguez.svg#src
+  - image: aliados/omega-spices.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/pasteleria-gimar.svg#src
+  - image: aliados/penaplast.svg#src
+  - image: aliados/siepse.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/sol9.svg#src
+  - image: aliados/soltec.svg#src
+  - image: aliados/terrazos-fortuna.svg#src
+- box:
+    ratio: 16/9
+  boxes:
+  - image: aliados/universidad-tarragona.svg#src
+  - image: aliados/westaflex.svg#src
+  - image: aliados/zamora-company.svg#src

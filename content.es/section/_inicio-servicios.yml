@@ -1,0 +1,34 @@
+name: Inicio ➡️ Servicios
+hanchor: Servicios
+box:
+  cols: 2
+  gap_vs: 2
+  pd: 4
+  pd_vs: 2
+  color: dark
+  alpha: .5
+  icon_size: 3
+  icon_color: light
+  label: Saber más
+  pin: arrow-right
+boxes:
+- title: Autoconsumo solar
+  md: Genera tu propia energía con una instalación solar fotovoltaica y ahorra en tu factura mientras cuidas del planeta
+  icon: sun
+  link: /autoconsumo-fotovoltaico/
+  bi: servicios/autoconsumo-fotovoltaico/portada.webp
+- title: Bombeo
+  md: Elimina los costes de energía eléctrica adaptando el bombeo de agua a las horas solares
+  icon: droplet
+  link: /bombeo-solar/
+  bi: servicios/bombeo-solar/portada.jpg
+- title: Ingeniería
+  md: Escuchamos lo que necesitas y realizamos el diseño pensando en lo mejor para tu empresa, siempre con el objetivo de reducir los costes de implantación
+  icon: gear
+  link: /ingenieria/
+  bi: servicios/ingenieria/portada.webp
+- title: Eficiencia energética
+  md: Reducir la energía que cuesta producir cada unidad de lo que fábricas y cómo optimizar tus procesos para mejorar la eficiencia de tu empresa
+  icon: lightbulb
+  link: /eficiencia-energetica/
+  bi: servicios/eficiencia-energetica/portada.webp

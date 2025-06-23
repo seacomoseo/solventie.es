@@ -1,0 +1,20 @@
+name: Contacto ➡️ Formulario
+hanchor: Consultas
+subtitle: Escríbenos si tienes cualquier duda o consulta
+size: sm
+form:
+  id: formulario
+  email: formularios-web@solventie.es
+inputs:
+- type: text
+  name: Nombre
+  label: Tu nombre
+  required: true
+- type: email
+  name: Email
+  label: Tu correo electrónico
+  required: true
+- type: textarea
+  name: Mensaje
+  label: Cuéntanos
+  required: true

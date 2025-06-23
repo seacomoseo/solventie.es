@@ -1,12 +1,11 @@
 ---
 title: 'Energía solar: ¿Cómo sacarle el máximo partido?'
-title_seo: 'Energía solar: ¿Cómo sacarle el máximo partido?'
+seo: 'Energía solar: ¿Cómo sacarle el máximo partido?'
 slug: energia-solar-sacarle-partido
 description: La energía solar es una de las energías renovables que más crecimiento ha tenido en los últimos años.
 image: blog/energia-solar-sacarle-partido.jpg
-categories: [energia-solar]
-tags: []
-author: admin
+category:
+- energia-solar
 toc: true
 draft: false
 noindex: false

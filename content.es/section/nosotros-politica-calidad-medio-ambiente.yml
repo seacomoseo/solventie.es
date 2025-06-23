@@ -1,0 +1,20 @@
+name: Nosotros ➡️ Politica Calidad Medio Ambiente
+id: politica-calidad-medio-ambiente
+title: Política de calidad y medio ambiente
+align: left
+box:
+  cols: 2
+  gap_ny: 1
+  grow: true
+  align_y: top
+boxes:
+- fit: 2
+  md: |
+    En nuestra empresa de ingeniería, incluimos **criterios para la protección y conservación del medio ambiente**, identificando y evaluando el impacto ambiental de los servicios prestados, en especial los relacionados con consumos energéticos y el cambio climático.
+- md: |
+    Tenemos implantado el Sistema de Gestión Ambiental de acuerdo con la **norma UNE-EN ISO 14001**, para garantizar nuestra Política de Calidad y Medio Ambiente.
+- md: |
+    También contamos con el Sistema de Gestión de Calidad según la **norma UNE-EN ISO 9001**, a fin de demostrar la capacidad para proporcionar nuestros servicios, satisfaciendo los requisitos de nuestros clientes.
+- link: /politica-calidad-medio-ambiente/
+  label: Saber más
+  align: center

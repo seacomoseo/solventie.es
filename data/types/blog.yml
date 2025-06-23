@@ -1,0 +1,10 @@
+base: article
+order: 4
+name: blog
+related: true
+es:
+  permalinks: ''
+tpl:
+  list:
+    align: left
+    hs: 6

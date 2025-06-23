@@ -1,0 +1,10 @@
+name: Inicio ➡️ Blog
+id: blog
+title: Últimas entradas al blog
+list:
+  type: blog
+  max: 4
+box:
+  slider: true
+link: /blog/
+label: Ver más

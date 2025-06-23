@@ -1,12 +1,11 @@
 ---
 title: La fotovoltaica por fin está de moda
-title_seo: La fotovoltaica por fin está de moda - Ingeniería Solvent
+seo: La fotovoltaica por fin está de moda - Ingeniería Solvent
 slug: fotovoltaica-moda
 description: La fotovoltaica en está cada vez más a la orden del día. Aún existe una enorme dependencia de las energías no renovables
 image: blog/fotovoltaica-moda.jpg
-categories: [energia-solar]
-tags: []
-author: admin
+category:
+- energia-solar
 toc: true
 draft: false
 noindex: false
@@ -56,4 +55,4 @@ Este tipo de instalación es muy rentable para comunidades de vecinos.
 
 Desde Solvent apostamos por esta energía cada vez más rentable. Te proponemos un servicio de [instalación solar llave en mano](/autoconsumo-fotovoltaico/), adaptada al tamaño y los consumos de tu empresa. Podrás consumir **tu propia energía****,** la cual es inagotable y responsable.
 
-[btn ¡Te lo gestionamos!](/contacto/)
+[[¡Te lo gestionamos!]](/contacto/)

@@ -1,0 +1,20 @@
+name: Contacto ➡️ Reseñas
+hanchor: Reseñas
+review:
+  cols: 3
+  color: white
+  hs: 5
+  slider: true
+reviews:
+- title: Semilleros Jimenado
+  image: resenas/semilleros-jimenado.webp
+  md: Servicio e ingenieros muy atentos
+- title: Prefabr. Montalbán
+  image: resenas/prefabricados-montalban.webp
+  md: La instalación de la planta fotovoltaica ha sido muy bien ejecutada y el funcionamiento es el correcto
+- title: Peñaplast
+  image: resenas/penaplast.webp
+  md: Destacable por el buen servicio prestado y la rapidez
+label: Ver más reseñas
+link: https://g.page/r/CT7T0hQ29sriEB0/review
+lock: true

@@ -1,12 +1,11 @@
 ---
 title: 'Subvenciones de Eficiencia Energética: PREGUNTAS FRECUENTES'
-title_seo: 'Subvenciones de Eficiencia Energética: PREGUNTAS FRECUENTES - Ingeniería Solvent'
+seo: 'Subvenciones de Eficiencia Energética: PREGUNTAS FRECUENTES - Ingeniería Solvent'
 slug: subvenciones-eficiencia-energetica
 description: El pasado lunes 01 de abril, se presentaron las Subvenciones de Eficiencia Energética y Energías Renovables de la Región de Murcia. Estas ayudas son
 image: blog/subvenciones-eficiencia-energetica.jpg
-categories: [ayudas]
-tags: []
-author: admin
+category:
+- ayudas
 toc: true
 draft: false
 noindex: false

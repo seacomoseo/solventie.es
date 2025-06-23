@@ -1,17 +1,15 @@
 ---
 title: Preguntas Frecuentes sobre la Subvención 2025 para Autoconsumo y
   Eficiencia Energética
-title_seo: 'ᐅ FAQ Subvención 2025: Autoconsumo y Eficiencia Energética'
+seo: 'ᐅ FAQ Subvención 2025: Autoconsumo y Eficiencia Energética'
 slug: subvencion-autoconsumo-2025-faq
 description: Resuelve tus dudas sobre la Subvención 2025 para autoconsumo y
   eficiencia energética. Accede a respuestas claras, actualizadas y útiles.
-image: portada-blogs-1-.png
-categories:
+image: blog/subvencion-autoconsumo-2025-faq.webp
+category:
 - ayudas
 - eficiencia-energetica
 - energia-solar
-tags: []
-author: admin
 toc: false
 draft: false
 noindex: false

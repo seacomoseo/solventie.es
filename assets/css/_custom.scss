@@ -1,77 +1,37 @@
+// Menu
+.body-top.body-menu--sticky--active {
+  --menu-py: .75em;
+}
 
-#body-inicio {
+#body-home {
   #header {
     @mixin show-from($delay) {
       animation: show-from .5s (.5 + .25s * $delay) both;
     }
-    .section__title {       @include show-from(1); }
-    .description p {        @include show-from(2); }
-    .description .buttons { @include show-from(3); }
+    .box__title  { @include show-from(1); }
+    .md p        { @include show-from(2); }
+    .md .buttons { @include show-from(3); }
     // &.bg--image-fixed > .bg-figure .bg-figure-image {
     //   object-position: center -120px;
     // }
   }
   #proyectos {
-    .columns {
+    .boxes {
       .subtitle {
         font-size: 1.5em;
       }
     }
   }
   #servicios {
-    .column {
-      --radius-bg: 0em;
+    .box {
+      --radius-pd: 0em;
     }
-    .section__icon--top {
-      margin-bottom: 1em;
+    .box__icon--top {
+      margin-bottom: 1rem;
     }
-    .column__button {
+    .box__button {
       width: auto;
       flex-direction: row-reverse;
     }
-  }
-  #blog {
-    button[title="Más Entradas"] svg,
-    .button[title="Más Entradas"] svg {
-      display: none;
-    }
-  }
-}
-
-#body-nosotros {
-  #politica-calidad-medio-ambiente {
-    .section__title {
-      justify-content: flex-start;
-    }
-    .columns--some-bottomless {
-      row-gap: var(--gap-columns);
-    }
-  }
-}
-
-// #header,
-// #caracteristicas,
-// #estudio {
-//   .columns {
-//     margin-top: 2em;
-//     row-gap: 5em;
-//   }
-// }
-
-#body-proyectos {
-  #portfolio {
-    .columns {
-      .subtitle {
-        font-size: 1.5em;
-      }
-    }
-  }
-}
-
-#aliados {
-  [src="/media/aliados/confederacion-hidrografica.png"] {
-    aspect-ratio: 16/9;
-    object-fit: contain;
-    object-position: center;
   }
 }

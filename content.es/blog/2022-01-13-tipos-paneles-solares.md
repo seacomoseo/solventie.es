@@ -1,12 +1,11 @@
 ---
 title: Los diferentes tipos de paneles solares
-title_seo: 'Paneles solares: descubre los diferentes tipos que existen'
+seo: 'Paneles solares: descubre los diferentes tipos que existen'
 slug: tipos-paneles-solares
 description: 'Monocristalinos: La fabricación de este tipo de paneles solares consiste en dividir el silicio en láminas, lo que da una pureza y eficiencia mayor.'
 image: blog/tipos-paneles-solares.jpg
-categories: [energia-solar]
-tags: []
-author: admin
+category:
+- energia-solar
 toc: true
 draft: false
 noindex: false

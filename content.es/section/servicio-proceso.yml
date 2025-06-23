@@ -1,0 +1,13 @@
+name: Servicio ➡️ Proceso
+id: proceso
+if: process.steps
+title: ¿Cuál es el proceso?
+color: dark
+bi: fondo.jpg
+step:
+  icon_size: 1
+params:
+- page: process.image
+  box: bi
+- page: process.steps
+  box: steps

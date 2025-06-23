@@ -1,0 +1,10 @@
+base: author
+order: 3
+tax_of:
+- name: blog
+  schema: author
+tpl:
+  list:
+    card: false
+    color: similar
+    rate: 1

@@ -1,20 +1,18 @@
 ---
 title: La importancia de las auditorías energéticas en la industria
-title_seo: 'Auditoría energética industrial: mejora tu eficiencia y reduce costes'
+seo: 'Auditoría energética industrial: mejora tu eficiencia y reduce costes'
 slug: auditoria-energetica-industrial-eficiencia-costes
 description: 'Descubre cómo una auditoría energética puede ayudarte a reducir
   consumos, optimizar procesos y mejorar la eficiencia en tu empresa.'
-image: portada-blogs-2-.png
-categories:
+image: blog/auditoria-energetica-industrial-eficiencia-costes.webp
+category:
 - eficiencia-energetica
 - ingenieria
-tags: []
-author: admin
 toc: false
 draft: false
 noindex: false
 date: 2025-05-05
-lastmod: ''
+# lastmod: ''
 ---
 ## La importancia de las auditorías energéticas en la industria
 

@@ -1,23 +1,21 @@
 ---
 title: ¿Cómo evitar quedarte sin luz en un apagón?
-title_seo: '"Cómo proteger tu empresa ante apagones eléctricos: soluciones con
+seo: '"Cómo proteger tu empresa ante apagones eléctricos: soluciones con
   baterías solares y grupos electrógenos"'
 slug: como-evitar-quedarte-sin-luz-en-un-apag-n
 description: Evita apagones en tu empresa con ✅ baterías solares y ⚡ grupos
   electrógenos. Asegura tu actividad y gana en autonomía energética.
-image: portada-blogs-2.png
-categories:
+image: blog/como-evitar-quedarte-sin-luz-en-un-apag-n.webp
+category:
 - electricidad
 - noticias
-tags: []
-author: admin
 toc: false
 draft: false
 noindex: false
 date: 2025-04-30
-lastmod: ''
+# lastmod: ''
 ---
-# **¿Cómo evitar quedarte sin luz en un apagón?**
+## ¿Cómo evitar quedarte sin luz en un apagón?
 
 El pásado lunes 28 de abril vivimos una situación poco común: un apagón eléctrico masivo que afectó a gran parte de la península durante más de 10 horas. Mientras que hospitales, aeropuertos y grandes superficies como Mercadona siguieron operando con normalidad gracias a sus sistemas de respaldo energético, muchas empresas y hogares se vieron obligados a parar por completo. Sin luz. Sin actividad. Sin margen de maniobra.
 
@@ -45,6 +43,6 @@ Otra alternativa muy fiable, especialmente en sectores críticos:
 
 No se trata solo de generar tu propia energía. Se trata de estar preparado para lo inesperado. Invertir en sistemas de respaldo energético ya no es una opción exclusiva para grandes industrias: hoy es una necesidad para proteger tu actividad, tu producto, y tu reputación.
 
-Desde [Solvent](https://solventie.es/contacto/) ayudamos a empresas e industrias a implementar soluciones adaptadas a sus necesidades, con una única misión: que un apagón no apague tu negocio.
+Desde [Solvent](/contacto/) ayudamos a empresas e industrias a implementar soluciones adaptadas a sus necesidades, con una única misión: que un apagón no apague tu negocio.
 
 **#Apagón #BateríasSolares #AutonomíaEnergética #AlmacenamientoSolar #EnergíaRenovable #Solvent #IndustriaSegura #Autoconsumo #Últimahora**

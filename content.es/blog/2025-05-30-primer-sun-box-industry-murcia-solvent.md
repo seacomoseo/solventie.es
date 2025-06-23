@@ -1,21 +1,20 @@
 ---
 title: Murcia estrena su primer sistema de baterías inteligentes Sun Box
   Industry gracias a Solvent
-title_seo: Primer Sun Box Industry de Murcia instalado por Solvent
+seo: Primer Sun Box Industry de Murcia instalado por Solvent
 slug: primer-sun-box-industry-murcia-solvent
 description: Solvent instala en Murcia el primer sistema Sun Box Industry, un
   hito regional en almacenamiento solar inteligente con inteligencia artificial.
-image: portada-blogs-.png
-categories: []
-tags: []
+image: blog/primer-sun-box-industry-murcia-solvent.webp
+category: []
 author: ''
 toc: false
 draft: false
 noindex: false
 date: 2025-05-30
-lastmod: ''
+# lastmod: ''
 ---
-### **Región de Murcia ya cuenta con el primer sistema de baterías inteligentes Sun Box Industry gracias a Solvent**
+### Región de Murcia ya cuenta con el primer sistema de baterías inteligentes Sun Box Industry gracias a Solvent
 
 **En Solvent hemos implantado y puesto en marcha el primer sistema de almacenamiento inteligente Sun Box Industry de la Región de Murcia.** Lo hemos integrado sobre una instalación fotovoltaica ya existente de **58,3 kWp en Venta Hermanos Mula, S.L.**, logrando transformar una planta limitada por antivertido en un sistema inteligente, eficiente y preparado para maximizar el autoconsumo y el ahorro energético.
 
@@ -56,8 +55,8 @@ Este proyecto no es solo un avance técnico, sino **una demostración del papel 
 
 Con esta instalación, **Solvent posiciona a la Región de Murcia a la vanguardia del almacenamiento energético inteligente** y refuerza su liderazgo como ingeniería pionera en soluciones avanzadas de autoconsumo.
 
-## 🔗 ¿Tienes una [ instalación](https://solventie.es/proyectos/) limitada por antivertido o quieres reducir tu factura energética?
+## 🔗 ¿Tienes una [ instalación](/proyectos/) limitada por antivertido o quieres reducir tu factura energética?
 
 En Solvent te ayudamos a transformar tu instalación en un **sistema inteligente y rentable**.
-🔎 [Contacta con nuestro equipo de ingeniería.](https://solventie.es/contacto/)
+🔎 [Contacta con nuestro equipo de ingeniería.](/contacto/)
 
