@@ -13,7 +13,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2025-06-18
+date: 2025-06-18 00:00:00
 # lastmod: ''
 ---
 En [Solvent](https://solventie.es) hemos conseguido lo que casi nadie ha logrado: **legalizar instalaciones con sistemas voltimétricos**. Y eso, para tu empresa, puede significar un antes y un después.

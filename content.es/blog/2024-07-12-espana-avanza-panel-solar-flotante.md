@@ -12,7 +12,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2024-07-12
+date: 2024-07-12 00:00:00
 # lastmod: ''
 ---
 En un movimiento significativo hacia la **sostenibilidad**, España permitirá la instalación de paneles solares flotantes en embalses de dominio público. Estas instalaciones podrán ocupar entre el **5% y el 15%** de la superficie útil de los embalses, con concesiones de hasta **25 años**. Las confederaciones hidrográficas gestionarán los permisos, evaluando la compatibilidad con el **Plan Hidrológico** y las necesidades del embalse.

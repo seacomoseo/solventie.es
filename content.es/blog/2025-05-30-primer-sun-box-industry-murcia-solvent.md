@@ -11,7 +11,7 @@ author: ''
 toc: false
 draft: false
 noindex: false
-date: 2025-05-30
+date: 2025-05-30 00:00:00
 # lastmod: ''
 ---
 ### Región de Murcia ya cuenta con el primer sistema de baterías inteligentes Sun Box Industry gracias a Solvent

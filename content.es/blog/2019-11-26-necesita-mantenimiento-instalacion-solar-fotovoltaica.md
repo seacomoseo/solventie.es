@@ -9,7 +9,7 @@ category:
 toc: true
 draft: false
 noindex: false
-date: 2019-11-26
+date: 2019-11-26 00:00:00
 # lastmod: ''
 ---
 Los paneles solares están compuestos por células fotovoltaicas de silicio por lo que son muy resistentes a agentes externos. Por ello, no hace falta preocuparse demasiado por su **mantenimiento**.

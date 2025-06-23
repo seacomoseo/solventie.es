@@ -12,7 +12,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2025-04-30
+date: 2025-04-30 00:00:00
 # lastmod: ''
 ---
 ## ¿Cómo evitar quedarte sin luz en un apagón?

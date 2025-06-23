@@ -9,7 +9,7 @@ category:
 toc: true
 draft: false
 noindex: false
-date: 2021-03-15
+date: 2021-03-15 00:00:00
 # lastmod: ''
 ---
 Cada vez que sube el precio de la luz, es un tema muy hablado en todos los medios. Comentan y discuten las razones por la cuales se ha llevado a cabo esta subida… pero, realmente ¿conoces las causas de este suceso? Te las explicamos detalladamente.

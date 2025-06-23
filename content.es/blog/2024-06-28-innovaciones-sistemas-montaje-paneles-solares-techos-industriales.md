@@ -9,7 +9,7 @@ category:
 toc: true
 draft: false
 noindex: false
-date: 2024-06-28
+date: 2024-06-28 00:00:00
 # lastmod: ''
 ---
 En los últimos años, las innovaciones en sistemas de montaje para paneles solares en techos industriales han avanzado significativamente, ofreciendo soluciones que son más eficientes, seguras y duraderas.

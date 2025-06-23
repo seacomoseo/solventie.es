@@ -7,5 +7,11 @@ es:
   permalinks: ''
 tpl:
   list:
+    cols: 2
+    card: false
+    color: similar
     align: left
+    inset: true
+    ratio: 16/9
+    md: ''
     hs: 6

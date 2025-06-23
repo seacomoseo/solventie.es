@@ -13,7 +13,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2025-04-16
+date: 2025-04-16 00:00:00
 # lastmod: ''
 ---
 **Preguntas Frecuentes sobre la Subvención 2025 para Autoconsumo y Eficiencia Energética**

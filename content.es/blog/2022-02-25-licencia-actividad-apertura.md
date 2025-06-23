@@ -9,7 +9,7 @@ category:
 toc: true
 draft: false
 noindex: false
-date: 2022-02-25
+date: 2022-02-25 00:00:00
 # lastmod: ''
 ---
 ## ¿Qué es la licencia de actividad?

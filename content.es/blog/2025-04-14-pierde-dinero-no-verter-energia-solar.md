@@ -14,7 +14,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2025-04-14
+date: 2025-04-14 00:00:00
 # lastmod: ''
 ---
 **¿Vas a seguir regalando dinero esta Semana Santa? Descubre cuánto podrías ganar con solo instalar protecciones voltimétricas**

@@ -9,7 +9,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2018-08-21
+date: 2018-08-21 00:00:00
 # lastmod: ''
 ---
 Desde hace unos meses, los precios del mercado mayorista de la electricidad han aumentado considerablemente. De hecho, este año se espera que llegue a su valor máximo en la última década. Esto supone un coste adicional de 6.000 millones de euros aproximadamente, es decir, alrededor del 0,5% del PIB.

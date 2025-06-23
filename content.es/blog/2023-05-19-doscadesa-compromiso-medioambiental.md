@@ -9,7 +9,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2023-05-19
+date: 2023-05-19 00:00:00
 # lastmod: ''
 ---
 Con la **instalación solar de 121 KWp**, [Doscadesa](https://doscadesa.com/) ha reducido sus emisiones de CO2 en 127 toneladas, ¡lo que equivale a plantar más de 4.000 árboles!

@@ -9,7 +9,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2023-10-09
+date: 2023-10-09 00:00:00
 # lastmod: ''
 ---
 La empresa [Zamora Company](https://zamoracompany.com/es/), comprometida con la eficiencia energética, disfruta de la energía solar en su planta de Cartagena gracias a la instalación fotovoltaica de 149,6 kWp.

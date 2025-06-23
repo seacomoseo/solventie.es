@@ -9,7 +9,7 @@ category:
 toc: false
 draft: false
 noindex: false
-date: 2021-07-24
+date: 2021-07-24 00:00:00
 # lastmod: ''
 ---
 Dentro de las acciones de acercamiento de la Semana de la [#DiversidadCultural](https://www.linkedin.com/feed/hashtag/?keywords=diversidadcultural&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6808324338228453376) que organizamos en [#DIVEM](https://www.linkedin.com/feed/hashtag/?keywords=divem&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6808324338228453376), nuestro CEO Javier Rincón visitó las instalaciones. En este dispositivo de emergencias los profesionales de [Accem](https://www.accem.es/) atienden las necesidades básicas de alojamiento, manutención, higiene y atención social de las personas solicitantes de Protección Internacional.
