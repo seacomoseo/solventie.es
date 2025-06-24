@@ -27,7 +27,7 @@ La industria está cada vez más presionada por costes energéticos, exigencias 
 - Mejorar la resiliencia energética con apoyo institucional.
 - Invertir con mayor seguridad jurídica y menos incertidumbre regulatoria.
 
-#### ✅ En Solventie...
+#### ✅ En Solvent...
 
 Estamos preparados para ayudarte a valorar cómo te afecta este cambio, si tu proyecto puede beneficiarse de una prórroga o cómo optimizar tu instalación actual.
 
