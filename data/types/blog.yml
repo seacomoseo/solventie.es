@@ -1,17 +1,21 @@
-title: Blog
-base: article
+title: Actualidad
 order: 4
+base: article
 name: blog
 related: true
-es:
-  permalinks: ''
 tpl:
   list:
-    cols: 2
-    card: false
-    color: similar
     align: left
-    inset: true
-    ratio: 16/9
-    md: ''
     hs: 6
+    view: ''
+    sort: ''
+  modal:
+    view: ''
+    sort: ''
+  related:
+    view: ''
+    sort: ''
+es:
+  permalinks: ''
+  slug: ''
+  title: ''
