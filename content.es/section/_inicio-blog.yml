@@ -11,4 +11,4 @@ box:
   sort: ''
 list:
   type: blog
-  max: 4
+  max: 2
