@@ -1,10 +1,14 @@
-name: Inicio ➡️ Blog
-id: blog
-title: Últimas entradas al blog
+name: Inicio ➡️ Actualidad
+view: ''
+id: actualidad
+title: Últimas noticias de actualidad
+link: /Actualidad/
+label: Ver más
+sort: ''
+box:
+  slider: true
+  view: ''
+  sort: ''
 list:
   type: blog
   max: 4
-box:
-  slider: true
-link: /blog/
-label: Ver más
