@@ -11,6 +11,7 @@ tpl:
   sections:
   - file: _inicio-_header
   - file: _inicio-proyectos
+  - file: _inicio-resenas
   - file: _inicio-servicios
   - file: _inicio-aliados
   - file: _inicio-formulario

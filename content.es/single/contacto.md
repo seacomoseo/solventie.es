@@ -12,5 +12,4 @@ tpl:
   - file: contacto-_header
   - file: contacto-formulario
   - file: contacto-mapa
-  - file: contacto-resenas
 ---

@@ -1,9 +1,10 @@
 title: Actualidad
-order: 4
+order: 2
 base: article
 name: blog
 related: true
 tpl:
+  toc: false
   list:
     cols: 2
     card: false
