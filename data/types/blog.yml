@@ -5,17 +5,14 @@ name: blog
 related: true
 tpl:
   list:
+    cols: 2
+    card: false
+    color: similar
     align: left
+    ratio: 16/9
+    inset: true
+    md: ''
     hs: 6
-    view: ''
-    sort: ''
-  modal:
-    view: ''
-    sort: ''
-  related:
-    view: ''
-    sort: ''
 es:
   permalinks: ''
-  slug: ''
-  title: ''
+  slug: actualidad

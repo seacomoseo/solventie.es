@@ -31,8 +31,8 @@ tpl:
         link: /proyectos/
       - label: Precios E.
         link: /precio-electricidad/
-      - label: Blog
-        link: /blog/
+      - label: Actualidad
+        link: /actualidad/
       - label: Contacto
         link: /contacto/
         button: cta

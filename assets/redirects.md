@@ -200,3 +200,8 @@ https://solventie.com/* https://solventie.es/:splat 301!
 # 2024-12-26
 
 /instalaciones-solares-fotovoltaicas/ /autoconsumo-fotovoltaico/
+
+
+# 2025-06-25
+
+/blog/ /actualidad/

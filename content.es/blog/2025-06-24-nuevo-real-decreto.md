@@ -1,14 +1,14 @@
 ---
 slug: nuevo-real-decreto
 title: 'Nuevo Real Decreto para el impulso de las renovables: una oportunidad clave para la industria española'
-image: /blog/renovables.png
+image: /blog/renovables.jpg
 date: 2025-06-24 15:27:41
 category: []
 author: null
 ---
 Tras el histórico apagón eléctrico del pasado 28 de abril, el Gobierno ha aprobado un Real Decreto Ley que no solo busca evitar que se repita una situación semejante, sino que marca un punto de inflexión en el desarrollo de las energías renovables en España. Para empresas del sector industrial, comunidades de regantes y profesionales del sector energético, esto representa una oportunidad estratégica.
 
-#### 🔋 ¿Qué incluye este nuevo Real Decreto?
+## 🔋 ¿Qué incluye este nuevo Real Decreto?
 
 El decreto contempla una batería de medidas urgentes y ambiciosas para facilitar el desarrollo de proyectos fotovoltaicos y eólicos:
 
@@ -18,7 +18,7 @@ El decreto contempla una batería de medidas urgentes y ambiciosas para facilita
 1. **Repotenciación y simplificación de trámites** Se agiliza la actualización de instalaciones antiguas con nuevos equipos más eficientes, reduciendo tiempos y costes administrativos.
 1. **Impulso a la electrificación industrial y doméstica** Se promoverá la instalación de puntos de recarga eléctrica, aerotermia y bombas de calor, con ventajas fiscales como reducciones en el IBI y el ICIO.
 
-#### 🏭 ¿Por qué es importante para tu empresa?
+## 🏭 ¿Por qué es importante para tu empresa?
 
 La industria está cada vez más presionada por costes energéticos, exigencias medioambientales y criterios ESG. Con este nuevo marco normativo, se abren las puertas a:
 
@@ -27,7 +27,7 @@ La industria está cada vez más presionada por costes energéticos, exigencias 
 - Mejorar la resiliencia energética con apoyo institucional.
 - Invertir con mayor seguridad jurídica y menos incertidumbre regulatoria.
 
-#### ✅ En Solvent...
+## ✅ En Solvent...
 
 Estamos preparados para ayudarte a valorar cómo te afecta este cambio, si tu proyecto puede beneficiarse de una prórroga o cómo optimizar tu instalación actual.
 
