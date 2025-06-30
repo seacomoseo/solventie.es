@@ -4,7 +4,6 @@ base: article
 name: blog
 related: true
 tpl:
-  toc: false
   list:
     cols: 2
     card: false
@@ -17,3 +16,8 @@ tpl:
 es:
   permalinks: ''
   slug: actualidad
+  singular: Artículo
+  title: Actualidad
+
+params:
+- var: P_TOC

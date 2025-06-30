@@ -3,9 +3,12 @@ id: caracteristicas
 if: features
 title: ¿En qué te vamos a ayudar?
 subtitle: En Solvent estamos contigo desde el inicio hasta el final
+size: xl
 box:
-  cols: 3
+  cols: 4
   gap: 4
+  gap_vs: 2
+  gap_ny: 1
   align_y: top
   icon_size: 3
 params:

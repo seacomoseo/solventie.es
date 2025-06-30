@@ -4,6 +4,9 @@
 }
 
 // Blog list
+#body-blog #lists .box--1 {
+  --box-width: 100cqw;
+}
 .box__link:not(.box--card *) {
   --cta-text: var(--main);
 }

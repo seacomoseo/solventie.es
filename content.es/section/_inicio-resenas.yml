@@ -6,15 +6,105 @@ review:
   hs: 5
   slider: true
 reviews:
+
+- title: Torre S.
+  md: |
+    Hemos instalado planta fotovoltaica con Solvent en nuestro edificio en Murcia, como Presidente de la Comunidad tengo que decir que hemos recibido un trato excelente por parte de los técnicos  de Solvent, desde la propuesta y diseño de proyecto más adecuado para nuestra Comunidad por parte del técnico en diseño de la planta, Adrián, como en el planteamiento, instalación, supervisión y puesta en marcha final a cargo de su ingeniero José Patricio.
+
+    Se ha gestionado muy eficazmente la instalación y conexión de nuestra planta con la distribuidora, se nos ha aconsejado siempre  la mejor forma de hacerlo.
+
+    El proceso que suele ser largo y tedioso, ha resultado corto y efectivo.
+
+    Ya tenemos la planta en funcionamiento desde hace poco, esperando a ver los resultados y ventajas de la instalación.
+
+    Recomiendo al 100% a Solvent a aquellas empresas o Comunidades de Vecinos que estén interesados en instalar placas solares en sus instalaciones.
+
+    Muy profesionales y eficaces.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocJb39yUdxnfWrglpetli6OedjirTGI-HAU4hEeh4KO22E4_9A=s136
+
+- title: Rafa K.
+  md: |
+    Hemos trabajado con Solvent para instalar un sistema de energía solar y estamos muy satisfechos con los resultados.
+
+    La instalación fue rápida y eficiente, y desde entonces hemos visto una reducción significativa en nuestras facturas de energía.
+
+    Recomendamos encarecidamente, Solvent a cualquier empresa que busque una solución de energía renovable y confiable.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocKal425FZ_Sy7NsjzCooyZoRTLf3oc9giF8HiToLt-1DGQvcA=s136
+
+- title: Jesús M.
+  md: |
+    Buenos profesionales, me asesoraron en todo momento en la instalación de la planta de mi empresa, y ya hemos reducido nuestra factura de electricidad considerablemente.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocJzOihCKF3KCGPNXDSgf5gHjCWytrC2GVk3rODg6jOzAYZsWA=s136
+
+- title: J. M.
+  md: |
+    Todo perfecto: ingeniería, legalización, asesoramiento en tramitación de subvenciones/ayudas e instalación.
+
+    Expectativas cubiertas
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocKrbOlKUartcnnJUV9gcLJ5zhYCJFUSW-_6QoqpjBwkmRCNXA=s136
+
+- title: Jose I.
+  md: |
+    Un gran equipo de Ingenieros muy profesionales en energía fotovoltaica. Buen asesoramiento.
+
+    Material de primera calidad. Recomendable 100%.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a-/ALV-UjXHK5lkPksyLEoPK-ncGQJKElAYuYzrCnN13lYOwePMzgHie7A7=s136
+
+- title: Diego F.
+  md: |
+    Difícil hacer las cosas mejor.
+
+    Ofrecen exactamente lo que un cliente espera de una empresa de ingeniería: confianza y servicio.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a-/ALV-UjX9yVD3lUcfdI6i8ILorPXe4ife5h5vdVJ8s3DHM4SX0vvCrzk7=s136
+
+- title: Fran P.
+  md: |
+    Muy profesionales y serios, muy recomendables; el trato fue siempre muy profesional y cumplieron los plazos acordados.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocLCoGuyf7b0qHEpU9WFq2iQyNdoZychBnHBlJkKRM2sfFx7Dg=s136
+
+- title: Guillermo R.
+  md: |
+    Da gusto haber trabajado con ellos. Mucha formalidad y seriedad con la instalación de nuestras placas solares; recomendados al 100 %.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocIsXeoB_IqAFsJxkWu7QHBgVU4Q3rRB18wHPMLTtw0pC1x_FQ=s136
+
+- title: Jose F. (Prefabr. Montalbán)
+  md: |
+    La instalación de la planta fotovoltaica ha sido muy bien ejecutada y el funcionamiento es el correcto.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocIH-z_igJmbAjF1p9Eundf6M8o0l47RgaKsHjLuuUmdb_XtCg=s136
+  # image: resenas/prefabricados-montalban.webp
+
+- title: Pascual M.
+  md: |
+    Una de las mejores ingenierías de Murcia: calidad y seriedad.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocJ6m-tk2CCi0kizwnIQEt55rw8ltOfFkskfx7B00z8Hl88YSw=s136
+
+- title: Joaquin B.
+  md: |
+    Gran equipo de profesionales multidisciplinares en la energía fotovoltaica.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocIxELjkXjwr_AH-NpQA2YNf8c8LSu3cGJs_k1YSbAEDetXdAg=s136
+
+- title: Clemente O. (Peñaplast)
+  md: |
+    Destacable por el buen servicio prestado y la rapidez.
+  rating: 5
+  # image: https://lh3.googleusercontent.com/a/ACg8ocKREpxXSV_nKz0QVZY4XT_LyozmGzr79-J8UwQoQTwg24qd0Ag=s136
+  # image: resenas/penaplast.webp
+
 - title: Semilleros Jimenado
-  image: resenas/semilleros-jimenado.webp
+  # image: resenas/semilleros-jimenado.webp
   md: Servicio e ingenieros muy atentos
-- title: Prefabr. Montalbán
-  image: resenas/prefabricados-montalban.webp
-  md: La instalación de la planta fotovoltaica ha sido muy bien ejecutada y el funcionamiento es el correcto
-- title: Peñaplast
-  image: resenas/penaplast.webp
-  md: Destacable por el buen servicio prestado y la rapidez
+
 label: Ver más reseñas
 link: https://g.page/r/CT7T0hQ29sriEB0/review
 lock: true
