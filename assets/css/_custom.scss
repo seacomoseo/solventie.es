@@ -12,14 +12,12 @@
     // grid-auto-rows: auto;
     grid-template-rows: auto 1fr auto;
     .image {
-      width: 50cqw;
+      --image-width: 50cqw;
       grid-row: 1 / span 3;
       margin-right: 0;
       margin-bottom: calc(var(--box-pd) * -1);
     }
     .image__inner {
-      height: auto;
-      max-height: var(--image-ratio-height);
       --radius-end: var(--radius-calc) 0em 0em var(--radius-calc);
     }
     .box__title {
