@@ -1,6 +1,6 @@
 # solventie.es
 
-[![solventie.es](/assets/media/logo.png)](https://solventie.es/)
+[![solventie.es](/assets/media/logo.svg)](https://solventie.es/)
 
 
 ## STEPS
