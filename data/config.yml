@@ -20,5 +20,10 @@ defaults:
   value: admin
   path:
   - /blog/*
+- name: index
+  value: 'false'
+  type: boolean
+  path:
+  - /blog/*
 others:
   process_all_images: true
