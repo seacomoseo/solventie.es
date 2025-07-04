@@ -58,7 +58,7 @@ org:
     region: Murcia
     country: ES
     geo: '{"type":"Point","coordinates":[-1.1147510,37.9926277]}'
-    # link: ''
+    # link: 
   areas:
   - Murcia
   - España
