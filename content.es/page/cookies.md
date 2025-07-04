@@ -5,7 +5,7 @@ seo: ''
 description: ''
 image: ''
 icon: cookie-bite
-toc: false
+toc: true
 draft: false
 noindex: true
 translationKey: cookies

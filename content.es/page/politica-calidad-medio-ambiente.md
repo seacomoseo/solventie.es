@@ -5,7 +5,7 @@ seo: ''
 description: ''
 image: otros/2024-02-07-politica-calidad-medio-ambiente.png
 icon: star
-toc: false
+toc: true
 draft: false
 noindex: true
 translationKey: politica-calidad-medio-ambiente
