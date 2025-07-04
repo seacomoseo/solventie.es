@@ -1,6 +1,5 @@
 title: Todas
 tpl:
-  bg:
     color: white
   menu:
     logo: true
