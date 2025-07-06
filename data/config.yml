@@ -2,6 +2,7 @@ langs:
 - lang: es
   title: Ingeniería Solvent
   description: Somos expertos en energías renovables y eficiencia energética. Optimizamos tu sistema solar para obtener el máximo rendimiento y mejoramos la infraestructura de tu empresa para reducir su consumo y aumentar su eficiencia.
+  google_analytics: G-XT4VMEX7YT
   google_file_verification: google7467d923cbb3eb4c.html
 params:
 - name: footer
