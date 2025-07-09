@@ -15,7 +15,7 @@
 
         @media screen and (min-width: 768px) {
             .chart-container {
-                width: 85%;
+                width: 95%;
             }
         }
 
@@ -66,7 +66,7 @@
             display: block;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 768px) {
             .controls {
                 flex-direction: column;
                 gap: 16px;
@@ -76,6 +76,79 @@
                 order: -1;
                 margin-bottom: 16px;
             }
+        }
+
+        /* Estilos específicos para tooltip en móviles */
+        @media screen and (max-width: 768px) {
+            .chart-container {
+                position: relative;
+                padding-bottom: 60px;
+            }
+
+            .chart-container canvas {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Tooltip externo para móviles */
+        #external-tooltip {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+            color: #666;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 1000;
+            /* word-wrap: break-word; */
+        }
+
+        /* Ancho específico para móviles */
+        @media screen and (max-width: 768px) {
+            #external-tooltip {
+                width: 96% !important;
+                left: 2% !important;
+                right: 2% !important;
+                transform: none !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                padding: 5px !important;
+                box-sizing: border-box !important;
+                max-width: none !important;
+            }
+
+            .chart-container {
+                overflow-x: hidden !important;
+            }
+        }
+
+        #external-tooltip.show {
+            opacity: 1;
+        }
+
+        #external-tooltip .tooltip-title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        #external-tooltip .tooltip-item {
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+        }
+
+        #external-tooltip .tooltip-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            margin-right: 8px;
+            display: inline-block;
         }
     }
 
@@ -118,6 +191,7 @@
         <canvas id="barChart"></canvas>
         <div id="legend-container"></div>
         <div class="loading-indicator" id="loadingIndicator">Cargando datos históricos...</div>
+        <div id="external-tooltip"></div>
     </div>
 </div>
 
@@ -378,6 +452,70 @@
         });
     }
 
+    // Función para tooltip externo en móviles
+    const getOrCreateTooltip = (chart) => {
+        let tooltipEl = document.getElementById('external-tooltip');
+        if (!tooltipEl) {
+            tooltipEl = document.createElement('div');
+            tooltipEl.id = 'external-tooltip';
+            document.body.appendChild(tooltipEl);
+        }
+        return tooltipEl;
+    };
+
+    const externalTooltipHandler = (context) => {
+        const { chart, tooltip } = context;
+        const tooltipEl = getOrCreateTooltip(chart);
+
+        if (tooltip.opacity === 0) {
+            tooltipEl.classList.remove('show');
+            return;
+        }
+
+        if (tooltip.body) {
+            const titleLines = tooltip.title || [];
+            const bodyLines = tooltip.body.map(b => b.lines);
+
+            const tableHead = document.createElement('div');
+            tableHead.className = 'tooltip-title';
+            titleLines.forEach(title => {
+                const span = document.createElement('span');
+                span.innerText = title;
+                tableHead.appendChild(span);
+            });
+
+            const tableBody = document.createElement('div');
+            bodyLines.forEach((body, i) => {
+                const colors = tooltip.labelColors[i];
+                const item = document.createElement('div');
+                item.className = 'tooltip-item';
+
+                const colorBox = document.createElement('span');
+                colorBox.className = 'tooltip-color';
+                colorBox.style.backgroundColor = colors.backgroundColor;
+                colorBox.style.borderColor = colors.borderColor;
+
+                const text = document.createElement('span');
+                text.innerText = body;
+
+                item.appendChild(colorBox);
+                item.appendChild(text);
+                tableBody.appendChild(item);
+            });
+
+            tooltipEl.innerHTML = '';
+            tooltipEl.appendChild(tableHead);
+            tooltipEl.appendChild(tableBody);
+        }
+
+        // Posicionar el tooltip debajo del gráfico
+        tooltipEl.style.position = 'absolute';
+        tooltipEl.style.top = (chart.canvas.offsetHeight + 30) + 'px';
+        // No sobreescribir left, width, transform para que el CSS funcione
+        tooltipEl.classList.add('show');
+    };
+
+
     const getOrCreateLegendList = (chart, id) => {
         const legendContainer = document.getElementById(id);
         let listContainer = legendContainer.querySelector('ul');
@@ -635,6 +773,8 @@
                 },
                 plugins: {
                     tooltip: {
+                        enabled: !isMobile,
+                        external: isMobile ? externalTooltipHandler : undefined,
                         backgroundColor: 'rgba(255, 255, 255, 0.95)',
                         titleColor: '#333',
                         bodyColor: '#666',
@@ -654,6 +794,7 @@
                         shadowBlur: 15,
                         shadowOffsetX: 6,
                         shadowOffsetY: 6,
+                        displayColors: true,
                         callbacks: {
                             title: function (tooltipItems) {
                                 return tooltipLabels[tooltipItems[0].dataIndex];
