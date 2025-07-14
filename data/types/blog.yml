@@ -18,6 +18,3 @@ es:
   slug: actualidad
   singular: Artículo
   title: Actualidad
-
-params:
-- var: P_TOC
