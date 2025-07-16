@@ -1,16 +1,16 @@
 ---
-title: 'Licencia de actividad y apertura: todo lo que debes saber'
-seo: 'Licencia de actividad y apertura: todo lo que debes saber - Ingeniería Solvent'
 slug: licencia-actividad-apertura
-description: La licencia de actividad es un documento en el que queda constancia de que se puede realizar una actividad comercial en un local, nave u oficina.
+title: 'Licencia de actividad y apertura: todo lo que debes saber'
 image: blog/licencia-actividad-apertura.jpg
+date: 2025-05-13 00:00:00
+toc: true
 category:
 - ingenieria
-toc: true
+author: null
 draft: false
 noindex: false
-date: 2022-02-25 00:00:00
-# lastmod: ''
+seo: 'Licencia de actividad y apertura: todo lo que debes saber - Ingeniería Solvent'
+description: La licencia de actividad es un documento en el que queda constancia de que se puede realizar una actividad comercial en un local, nave u oficina.
 ---
 ## ¿Qué es la licencia de actividad?
 
