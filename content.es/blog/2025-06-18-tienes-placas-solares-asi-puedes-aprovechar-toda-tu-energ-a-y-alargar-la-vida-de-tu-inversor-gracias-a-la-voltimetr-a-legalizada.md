@@ -1,20 +1,19 @@
 ---
-title: ¿Tienes placas solares? Así puedes aprovechar toda tu energía (y alargar
-  la vida de tu inversor) gracias a la voltimetría legalizada
-seo: ''
 slug: tienes-placas-solares-asi-puedes-aprovechar-toda-tu-energ-a-y-alargar-la-vida-de-tu-inversor-gracias-a-la-voltimetr-a-legalizada
-description: ''
+title: ¿Tienes placas solares? Así puedes aprovechar toda tu energía (y alargar la vida de tu inversor) gracias a la voltimetría legalizada
 image: blog/voltimetria-legalizada.webp
+date: 2025-06-11 00:00:00
+toc: false
 category:
 - eficiencia-energetica
 - energia-solar
 - ingenieria
 - sostenibilidad
-toc: false
+author: null
 draft: false
 noindex: false
-date: 2025-06-18 00:00:00
-# lastmod: ''
+seo: ''
+description: ''
 ---
 En [Solvent](https://solventie.es) hemos conseguido lo que casi nadie ha logrado: **legalizar instalaciones con sistemas voltimétricos**. Y eso, para tu empresa, puede significar un antes y un después.
 
