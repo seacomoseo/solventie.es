@@ -2,7 +2,7 @@
 slug: nuevo-real-decreto
 title: 'Nuevo Real Decreto para el impulso de las renovables: una oportunidad clave para la industria española'
 image: /blog/renovables.jpg
-date: 2025-06-24 15:27:41
+date: 2025-06-18 15:27:41
 category: []
 author: null
 ---
