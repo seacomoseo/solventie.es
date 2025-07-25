@@ -26,5 +26,7 @@ defaults:
   type: boolean
   path:
   - /blog/*
+cms:
+  logo: base/icon.svg
 others:
   process_all_images: true
