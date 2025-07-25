@@ -1,5 +1,5 @@
 title: Actualidad
-order: 2
+weight: 2
 base: article
 name: blog
 related: true

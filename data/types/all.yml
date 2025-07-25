@@ -9,54 +9,20 @@ tpl:
     sticky: auto
     logo_sticky: true
     color: white
-    es:
-      image: base/logo.svg
-      items:
-      - label: Inicio
-        link: /
-      - label: Conócenos
-        link: /nosotros/
-      - label: Servicios
-        items:
-        - label: Autoconsumo industrial
-          link: /autoconsumo-fotovoltaico/
-        - label: Bombeo solar
-          link: /bombeo-solar/
-        - label: Ingeniería
-          link: /ingenieria/
-        - label: Eficiencia energética
-          link: /eficiencia-energetica/
-      - label: Proyectos
-        link: /proyectos/
-      - label: Precios E.
-        link: /precio-electricidad/
-      - label: Actualidad
-        link: /actualidad/
-      - label: Contacto
-        link: /contacto/
-        button: cta
-      # - link: /buscador/
-      #   icon: magnifying-glass
-  callnow:
-    show: items
-    es:
-    - type: whatsapp
-      label: 644 546 418
-    - type: phone
-      label: 968 27 16 89
+  callnow: custom
   section:
   - size: sm
   sections:
-  - file: base/_header
-  - file: base/toc
-  - file: base/content
-  - file: base/address
-  - file: base/author
-  - file: base/social
-  - file: base/comments
-  - file: base/children
-  - file: base/share
-  - file: base/related
+  - file: base-_header
+  - file: base-toc
+  - file: base-content
+  - file: base-address
+  - file: base-author
+  - file: base-social
+  - file: base-comments
+  - file: base-children
+  - file: base-share
+  - file: base-related
   list:
     cols: 4
     card: true
@@ -69,7 +35,5 @@ tpl:
     - type: date
       hide_hour: true
       hide_lastmod: true
-    # - type: tax
-    #   tax: category
   related:
     slider: true

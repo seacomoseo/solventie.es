@@ -1,0 +1,54 @@
+title: Valores Globales
+menu:
+  image: base/logo.svg
+  items:
+  - label: Inicio
+    link: /
+  - label: Conócenos
+    link: /nosotros/
+  - label: Servicios
+    items:
+    - label: Autoconsumo industrial
+      link: /autoconsumo-fotovoltaico/
+    - label: Bombeo solar
+      link: /bombeo-solar/
+    - label: Ingeniería
+      link: /ingenieria/
+    - label: Eficiencia energética
+      link: /eficiencia-energetica/
+  - label: Proyectos
+    link: /proyectos/
+  - label: Precios E.
+    link: /precio-electricidad/
+  - label: Actualidad
+    link: /actualidad/
+  - label: Contacto
+    link: /contacto/
+    button: cta
+callnows:
+- type: whatsapp
+  label: 644 546 418
+- type: phone
+  label: 968 27 16 89
+footer:
+  dots:
+  - link: https://www.facebook.com/solventie
+  - link: https://www.instagram.com/solventie_/
+  - link: https://www.linkedin.com/company/solventie/
+  - link: https://g.page/r/CT7T0hQ29sriEB0
+  boxes:
+  - md: |
+      - :none: [Autoconsumo Industrial](/autoconsumo-fotovoltaico/)
+      - :none: [Bombeo Solar](/bombeo-solar/)
+      - :none: [Ingeniería](/ingenieria/)
+      - :none: [Eficiencia Energética](/eficiencia-energetica/)
+  - md: |
+      - :none: [Avisos Legales](/legal/ "[nofollow]")
+      - :none: [Política de Privacidad](/privacidad/ "[nofollow]")
+      - :none: [Política de Cookies](/cookies/ "[nofollow]")
+      - :none: [Política de Calidad y Medio Ambiente](/politica-calidad-medio-ambiente/ "[nofollow]")
+  - md: |
+      - :none: [Apoyos](/apoyos/ "[nofollow]")
+      - :none: [Contacto](/contacto/)
+      - :none: [© Solvent](/)
+      - :none: [Diseño web seacomoseo.com](https://seacomoseo.com/)

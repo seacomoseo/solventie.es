@@ -1,0 +1,10 @@
+name: Base ➡️ Relacionados
+node: aside
+if: related
+id: related
+title: '{{% i18n related %}}'
+size: lg
+list:
+  type: related
+box:
+  slider: true
