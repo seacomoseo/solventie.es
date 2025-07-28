@@ -4,7 +4,7 @@ title: '🌊⚡ La revolución solar flota sobre el agua: las balsas de riego se
 summary: 'Convierte tu balsa en energía solar: más ahorro, menos evaporación y sin ocupar terreno agrícola.'
 image: /balsas-flotantes.png
 date: 2025-07-28 13:46:01
-toc: true
+toc: false
 category:
 - eficiencia-energetica.es
 - energia-solar.es
