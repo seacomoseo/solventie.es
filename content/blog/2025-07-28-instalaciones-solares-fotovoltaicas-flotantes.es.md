@@ -3,7 +3,7 @@ slug: instalaciones-solares-fotovoltaicas-flotantes
 title: '🌊⚡ La revolución solar flota sobre el agua: las balsas de riego se convierten en plantas fotovoltaicas'
 summary: 'Convierte tu balsa en energía solar: más ahorro, menos evaporación y sin ocupar terreno agrícola.'
 image: /balsas-flotantes.png
-date: 2025-07-28 13:46:01
+date: 2025-07-29 10:45:47
 toc: false
 category:
 - eficiencia-energetica.es
