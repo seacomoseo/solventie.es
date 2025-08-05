@@ -7,7 +7,7 @@ date: 2025-07-29 16:32:49
 toc: false
 category: null
 author: null
-draft: true
+draft: false
 ---
 El pasado 28 de abril, el sistema eléctrico español vivió un [gran apagón](https://solventie.es/como-evitar-quedarte-sin-luz-en-un-apag-n/) que, aunque fue gestionado con relativa rapidez, ha dejado tras de sí efectos significativos que ya se visibilizan. Más allá de las interrupciones inmediatas en el suministro, lo que ha salido a la luz es una alteración profunda en los componentes regulados del precio final de la electricidad —un aspecto que afecta especialmente a los grandes consumidores industriales.
 
