@@ -15,6 +15,7 @@ author: admin.es
 related:
 - 2019-06-06-importancia-energias-renovables.es
 - 2018-07-26-industrias-sostenibles-energeticamente.es
+draft: true
 ---
 ## 🌞 **La energía, clave para el futuro industrial de Murcia: una oportunidad para la innovación sostenible**
 
