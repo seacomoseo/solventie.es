@@ -3,7 +3,7 @@ slug: analisis-post-apagon
 title: 'Análisis técnico post-apagón: El impacto oculto en los componentes regulados del precio eléctrico'
 summary: El apagón del 28 de abril no solo dejó consecuencias inmediatas en el suministro eléctrico, sino que también provocó un cambio profundo en la estructura de costes de la factura eléctrica. En este análisis técnico explicamos cómo, a pesar de un mercado mayorista barato gracias a la alta generación renovable, los componentes regulados han incrementado de forma significativa. Un fenómeno que ya está afectando la competitividad de la industria intensiva en energía. Descubre por qué ha ocurrido, cómo identificar estos sobrecostes y qué estrategias adoptar para mitigar su impacto.
 image: /apagon.png
-date: 2025-07-29 16:32:49
+date: 2025-08-05 08:35:38
 toc: false
 category: null
 author: null
