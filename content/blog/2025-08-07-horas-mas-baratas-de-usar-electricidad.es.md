@@ -14,6 +14,7 @@ author: admin.es
 related:
 - 2021-03-15-subida-precio-luz.es
 - 2021-04-22-nueva-tarifa-electrica-cambios.es
+draft: true
 ---
 ## ⚡ **¿Cuánto pagarás por la luz mañana? En SOLVENT te lo contamos desde hace meses**
 
@@ -31,7 +32,9 @@ Una herramienta útil tanto para **empresas** como para **usuarios domésticos**
 Hemos desglosado el coste horario de la electricidad en tres componentes clave, para que entiendas claramente qué estás pagando:
 
 ![](/portada-blogs-1-.png)
+
 ![](/screenshot_5.png)
+
 #### 💰 **Total (€/MWh)**
 
 Es el **importe final que pagarías por cada megavatio hora consumido**. Se calcula como la suma de:
