@@ -30,7 +30,8 @@ Una herramienta útil tanto para **empresas** como para **usuarios domésticos**
 
 Hemos desglosado el coste horario de la electricidad en tres componentes clave, para que entiendas claramente qué estás pagando:
 
-![](/precio-energia.png)
+![](/portada-blogs-1-.png)
+![](/screenshot_5.png)
 #### 💰 **Total (€/MWh)**
 
 Es el **importe final que pagarías por cada megavatio hora consumido**. Se calcula como la suma de:
@@ -71,7 +72,3 @@ Gracias a esta herramienta, puedes:
 En [SOLVENT](https://solventie.es/nosotros/), no solo desarrollamos soluciones en eficiencia energética, autoconsumo y energías renovables. También te ayudamos a **entender mejor cómo se comporta el mercado eléctrico**, para que puedas actuar con conocimiento y previsión.
 
 👉 Visita ya nuestra sección de [Precios de la electricidad](https://solventie.es/precio-electricidad/)  y empieza a controlar lo que consumes… y lo que pagas.
-
-
-
-
