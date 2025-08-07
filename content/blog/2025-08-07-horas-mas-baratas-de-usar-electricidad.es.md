@@ -17,7 +17,7 @@ related:
 ---
 ## ⚡ **¿Cuánto pagarás por la luz mañana? En SOLVENT te lo contamos desde hace meses**
 
-En **SOLVENT** creemos firmemente en el poder de la información para tomar mejores decisiones energéticas. Por eso, desde **finales de febrero de 2025**, nuestra página web cuenta con una herramienta exclusiva en el apartado **Precios de la electricidad**.
+Creemos firmemente en el poder de la información para tomar mejores decisiones energéticas. Por eso, desde **finales de febrero de 2025**, nuestra página web cuenta con una herramienta exclusiva en el apartado [Precios de la electricidad](https://solventie.es/precio-electricidad/).
 
 Este servicio, disponible desde hace meses, te permite consultar:
 
@@ -30,6 +30,7 @@ Una herramienta útil tanto para **empresas** como para **usuarios domésticos**
 
 Hemos desglosado el coste horario de la electricidad en tres componentes clave, para que entiendas claramente qué estás pagando:
 
+![](/precio-energia.png)
 #### 💰 **Total (€/MWh)**
 
 Es el **importe final que pagarías por cada megavatio hora consumido**. Se calcula como la suma de:
@@ -42,8 +43,7 @@ Este dato te ofrece una **visión completa y real del coste energético hora a h
 
 #### ⚙️ **Precio mercado (€/MWh)**
 
-Corresponde al precio diario que se fija en el **mercado mayorista eléctrico (“pool”)**, y depende de la oferta y la demanda de cada jornada.
-Este valor es el más volátil y puede cambiar considerablemente de un día a otro.
+Corresponde al precio diario que se fija en el **mercado mayorista eléctrico (“pool”)**, y depende de la oferta y la demanda de cada jornada. Este valor es el más volátil y puede cambiar considerablemente de un día a otro.
 
 #### 🔌 **Precio peajes 6.1TD (€/MWh)**
 
@@ -68,8 +68,10 @@ Gracias a esta herramienta, puedes:
 - Detectar oportunidades de **ahorro energético**
 - Tomar decisiones con información real y contrastada
 
-En **SOLVENT**, no solo desarrollamos soluciones en eficiencia energética, autoconsumo y energías renovables. También te ayudamos a **entender mejor cómo se comporta el mercado eléctrico**, para que puedas actuar con conocimiento y previsión.
+En [SOLVENT](https://solventie.es/nosotros/), no solo desarrollamos soluciones en eficiencia energética, autoconsumo y energías renovables. También te ayudamos a **entender mejor cómo se comporta el mercado eléctrico**, para que puedas actuar con conocimiento y previsión.
 
-👉 Visita ya nuestra sección de **Precios de la electricidad** en la web y empieza a controlar lo que consumes… y lo que pagas.
+👉 Visita ya nuestra sección de [Precios de la electricidad](https://solventie.es/precio-electricidad/)  y empieza a controlar lo que consumes… y lo que pagas.
 
-#TransparenciaEnergética #GestiónEnergética #PreciosElectricidad #AhorroInteligente #EficienciaEnergética #IngenieríaSOLVENT #SeguimosCreciendo
+
+
+
