@@ -27,4 +27,4 @@ El fuerte crecimiento trimestral confirma la tracción del sistema en el tejido 
 
 ## En SOLVENT, te lo hacemos fácil
 
-Somos **sujeto delegado CAE** y **gestionamos tus CAE de principio a fin**: desde la identificación de actuaciones y cálculo de ahorros hasta la verificación, emisión y liquidación. Si quieres aprovechar esta oportunidad en tu empresa, **hablemos**.
+Somos [sujeto delegado CAE](https://solventie.es/somos-sujeto-delegado-cae/) y **gestionamos tus CAE de principio a fin**: desde la identificación de actuaciones y cálculo de ahorros hasta la verificación, emisión y liquidación. Si quieres aprovechar esta oportunidad en tu empresa, [hablemos](https://solventie.es/contacto/).
