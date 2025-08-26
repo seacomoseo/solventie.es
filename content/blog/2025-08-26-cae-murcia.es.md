@@ -6,7 +6,7 @@ image: /cae-crecen.png
 date: 2025-08-26 10:41:52
 category: null
 author: null
-draft: true
+draft: false
 description: 'Murcia dispara el ahorro: +94% y 84,3M CAE. Somos sujeto delegado CAE y gestionamos tus CAE de principio a fin. ⚡'
 ---
 # La Región de Murcia acelera en eficiencia: los CAE crecen un 94% y alcanzan 84,3 millones
