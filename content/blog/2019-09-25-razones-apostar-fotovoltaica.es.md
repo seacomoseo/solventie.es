@@ -7,10 +7,7 @@ image: blog/razones-apostar-fotovoltaica.jpg
 category:
 - general
 toc: true
-draft: false
-noindex: false
 date: 2019-09-25 00:00:00
-# lastmod: ''
 ---
 ## Razón 1: Ahorro en la factura de la luz
 

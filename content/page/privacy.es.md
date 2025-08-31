@@ -1,12 +1,8 @@
 ---
 slug: privacidad
 title: Política de Privacidad
-seo: ''
-description: ''
-image: ''
 icon: shield-keyhole
 toc: true
-draft: false
 noindex: true
 weight: 2
 ---

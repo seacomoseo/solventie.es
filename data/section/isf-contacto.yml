@@ -1,0 +1,20 @@
+name: IFS ➡️ Contacto
+hanchor: Contacto
+title: Contáctanos
+subtitle: Lleva tu balsa al siguiente nivel con SOLVENT
+size: sm
+contact:
+- type: schedule
+  days: Lunes a Viernes
+  hours: 7:30 - 15:30
+- type: br
+- type: phone
+  label: 968 27 16 89
+- type: whatsapp
+  label: 644 546 418
+- type: mail
+  label: info@solventie.es
+  button: light
+- type: address
+  label: Calle Molina de Segura, 5, bloque 3, 2ºC-D, 30007 Murcia
+  anchor: Ingeniería Solvent, Calle Molina de Segura, 5, bloque 3, 2ºC-D, 30007 Murcia

@@ -6,11 +6,7 @@ description: Al estudiar una instalación solar, se consideran la orientación, 
 image: blog/claves-instalar-energia-solar.webp
 category:
 - noticias
-toc: false
-draft: false
-noindex: false
 date: 2023-06-19 00:00:00
-# lastmod: ''
 ---
 Al estudiar una **instalación solar**, se consideran la orientación, inclinación, sombras y materiales de los paneles solares. Pero para que sea perfecta, debes tener en cuenta **4 aspectos clave** para instalar energía solar que garantizarán su adaptación total a tus necesidades.
 

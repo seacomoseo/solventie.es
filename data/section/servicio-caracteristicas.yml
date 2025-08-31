@@ -12,5 +12,5 @@ box:
   align_y: top
   icon_size: 3
 params:
-- page: features
-  box: boxes
+- from: features
+  to: boxes

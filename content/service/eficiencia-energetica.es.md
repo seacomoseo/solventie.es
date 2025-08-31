@@ -9,10 +9,9 @@ service_types:
 - Eficiencia Energética
 service_areas:
 - Región de Murcia
+- Alicante
 - España
 
-draft: false
-noindex: false
 
 kw: Eficiencia Energética
 subtitle: Tu empresa será más sostenible y competitiva en el mercado

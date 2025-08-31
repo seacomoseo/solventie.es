@@ -6,11 +6,7 @@ description: La empresa Semilleros Jimenado apuesta por la sostenibilidad y logr
 image: blog/sol-aliado-semilleros-jimenado.webp
 category:
 - noticias
-toc: false
-draft: false
-noindex: false
 date: 2023-07-17 00:00:00
-# lastmod: ''
 ---
 La empresa [Semilleros Jimenado](https://semillerosjimenado.com/) apuesta por la **sostenibilidad** y logra importantes **ahorros** con la **instalación de paneles fotovoltaicos**. 
 

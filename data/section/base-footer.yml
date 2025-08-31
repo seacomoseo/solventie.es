@@ -2,18 +2,18 @@ name: Base ➡️ Footer
 color: dark
 space: 1
 params:
-- page: footer.size
-  box: size
-- page: footer.color
-  box: color
+- from: footer.size
+  to: size
+- from: footer.color
+  to: color
 boxes:
 - if: footer.dots
   params:
-  - page: footer.dots
-    box: dots
+  - from: footer.dots
+    to: dots
 - params:
-  - page: footer.boxes
-    box: boxes
+  - from: footer.boxes
+    to: boxes
   box:
     cols: 3
     align: left

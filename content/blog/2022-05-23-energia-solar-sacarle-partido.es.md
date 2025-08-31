@@ -7,10 +7,7 @@ image: blog/energia-solar-sacarle-partido.jpg
 category:
 - energia-solar
 toc: true
-draft: false
-noindex: false
 date: 2022-05-23 00:00:00
-# lastmod: ''
 ---
 ## Energía solar: situación en España
 

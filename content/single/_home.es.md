@@ -4,8 +4,6 @@ title: Inicio
 seo: 'Ingeniería Solvent: Eficiencia y Fotovoltaica'
 description: llll➤ Con Solvent genera tu propia energía renovable ✅ con tu instalación fotovoltaica y ahorra en tu factura mientras cuidas del planeta.
 image: base/poster.svg
-draft: false
-noindex: false
 tpl:
   sections:
   - file: _inicio-_header
@@ -57,19 +55,18 @@ org:
     geo: '{"type":"Point","coordinates":[-1.1147510,37.9926277]}'
   areas:
   - Murcia
+  - Alicante
   - España
   schedule:
   - days:
-    - monday
-    - tuesday
-    - wednesday
-    - thursday
-    - friday
+      mon: true
+      tue: true
+      wed: true
+      thu: true
+      fri: true
     hours:
-    - open: 8:00
-      close: 14:30
-    - open: 15:30
-      close: 17:00
+    - open: 7:30
+      close: 15:30
   prices: €€
   services:
   - title: Autoconsumo solar

@@ -9,5 +9,5 @@ box:
   icon: badge-check
   icon_size: 3
 params:
-- page: warranties
-  box: boxes
+- from: warranties
+  to: boxes

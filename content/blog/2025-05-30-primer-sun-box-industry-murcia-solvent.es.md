@@ -6,12 +6,7 @@ slug: primer-sun-box-industry-murcia-solvent
 description: Solvent instala en Murcia el primer sistema Sun Box Industry, un
   hito regional en almacenamiento solar inteligente con inteligencia artificial.
 image: blog/primer-sun-box-industry-murcia-solvent.webp
-category: []
-author: ''
-draft: false
-noindex: false
 date: 2025-05-30 00:00:00
-# lastmod: ''
 ---
 <!-- ## Región de Murcia ya cuenta con el primer sistema de baterías inteligentes Sun Box Industry gracias a Solvent -->
 

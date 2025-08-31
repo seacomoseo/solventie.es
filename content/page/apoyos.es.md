@@ -1,11 +1,8 @@
 ---
 slug: apoyos
 title: Apoyos
-seo: ''
-description: ''
 image: apoyos/feder-info-ris3-mur.png
 icon: handshake-angle
-toc: false
 draft: true
 noindex: true
 weight: 8

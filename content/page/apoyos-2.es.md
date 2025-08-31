@@ -1,12 +1,8 @@
 ---
 slug: apoyos
 title: Apoyos
-seo: ''
-description: ''
 image: apoyos/union-europea.webp
 icon: handshake-angle
-toc: false
-draft: false
 noindex: true
 weight: 8
 ---

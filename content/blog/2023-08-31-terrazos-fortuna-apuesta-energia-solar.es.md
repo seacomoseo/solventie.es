@@ -6,11 +6,7 @@ description: La instalación solar de Terrazos Fortuna de 128 kWp les ha permiti
 image: blog/terrazos-fortuna-apuesta-energia-solar.webp
 category:
 - noticias
-toc: false
-draft: false
-noindex: false
 date: 2023-08-31 00:00:00
-# lastmod: ''
 ---
 [Terrazos Fortuna](https://www.terrazosfortuna.com/) se une a la energía solar con esta instalación fotovoltaica de 128 kWp. Gracias a ella, han estabilizado sus costes productivos y alcanzado una producción anual de 191.507 kWh, lo que garantiza un proceso productivo eficiente. Además de los increíbles **ahorros económicos de 22.000 euros**, la empresa ha reducido sus emisiones de CO<sub>2</sub> a la atmósfera en más de 66.701 kg anualmente.
 

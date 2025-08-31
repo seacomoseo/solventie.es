@@ -7,10 +7,7 @@ image: blog/certificado-energetico-todo.png
 category:
 - eficiencia-energetica
 toc: true
-draft: false
-noindex: false
 date: 2020-04-30 00:00:00
-# lastmod: ''
 ---
 ## ¿Qué es el certificado energético?
 

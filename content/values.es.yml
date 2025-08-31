@@ -10,12 +10,18 @@ menu:
     items:
     - label: Autoconsumo industrial
       link: /autoconsumo-fotovoltaico/
+    - label: Instalaciones Flotantes
+      link: /instalaciones-solares-flotantes/
+    # - label: Gestión CAES
+    #   link: /gestion-caes/
     - label: Bombeo solar
       link: /bombeo-solar/
     - label: Ingeniería
       link: /ingenieria/
     - label: Eficiencia energética
       link: /eficiencia-energetica/
+    # - label: Hydrox.
+    #   link: /hydrox/
   - label: Proyectos
     link: /proyectos/
   - label: Precios E.

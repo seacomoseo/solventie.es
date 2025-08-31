@@ -8,7 +8,7 @@ size: sm
 contact:
 - type: schedule
   days: Lunes a Viernes
-  hours: 8:00 - 14:30 y 15:30 - 17:00
+  hours: 7:30 - 15:30
 - type: br
 - type: phone
   label: 968 27 16 89

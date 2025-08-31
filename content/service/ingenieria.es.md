@@ -10,10 +10,9 @@ service_types:
 - Servicios de Ingeniería
 service_areas:
 - Región de Murcia
+- Alicante
 - España
 
-draft: false
-noindex: false
 
 kw: Servicios de Ingeniería
 subtitle: Escuchamos las necesidades de tu empresa

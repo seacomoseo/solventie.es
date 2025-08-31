@@ -7,7 +7,7 @@ bi: fondo.jpg
 step:
   icon_size: 1
 params:
-- page: process.image
-  box: bi
-- page: process.steps
-  box: steps
+- from: process.image
+  to: bi
+- from: process.steps
+  to: steps

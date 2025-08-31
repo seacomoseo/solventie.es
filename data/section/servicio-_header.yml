@@ -12,11 +12,11 @@ box:
   icon_size: 3
   icon_color: light
 params:
-- page: image
-  box: bi
-- page: title
-  box: title
-- page: subtitle
-  box: subtitle
-- page: advantages
-  box: boxes
+- from: image
+  to: bi
+- from: title
+  to: title
+- from: subtitle
+  to: subtitle
+- from: advantages
+  to: boxes

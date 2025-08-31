@@ -4,11 +4,8 @@ title: ¿Dónde va la luz cuando se va?
 summary: |-
   Una explicación desde la ingeniería del sistema eléctrico
   Cuando se produce un corte de luz, es normal que muchos se pregunten: ¿Qué pasa con la energía que ya estaba lista para ser utilizada? ¿Se pierde? ¿Se guarda? ¿Se desperdicia? La respuesta, desde el punto de vista de la ingeniería energética, puede sorprender: esa energía no se va a ningún sitio… simplemente, deja de producirse.
-image: /instalaciones-solares-fotovoltaicas-flotantes.png
+image: instalaciones-solares-fotovoltaicas-flotantes.jpg
 date: 2025-06-18 15:38:10
-toc: false
-category: null
-author: null
 ---
 # Una explicación desde la ingeniería del sistema eléctrico
 

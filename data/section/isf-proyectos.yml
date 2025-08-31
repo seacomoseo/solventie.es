@@ -1,0 +1,119 @@
+name: IFS ➡️ Proyectos
+title: Proyectos
+box:
+  cols: 3
+  color: white
+  inset: true
+  ratio: 16/9
+  hs: 6
+  caps: true
+  label: Ver más
+boxes:
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
+  title: Capdepera
+  subtitle: Mallorca
+  link: '#capdepera'
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
+  title: Consell
+  subtitle: Mallorca
+  link: '#consell'
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
+  title: SMC
+  subtitle: Mallorca
+  link: '#smc'
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
+  title: INCA
+  subtitle: Mallorca
+  md: '`En desarrollo`'
+  link: '#inca'
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
+  title: Balsa de Artá
+  subtitle: Mallorca
+  md: '`En desarrollo`'
+  link: '#balsa-de-arta'
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
+  title: Balsa de Santa Eulalia Des Riu
+  subtitle: Ibiza
+  md: '`En desarrollo`'
+  link: '#balsa-de-santa-eulalia-des-riu'
+
+modal:
+  color: white
+  inset: true
+  # ratio: 16/9
+  caps: true
+  size: xs
+modals:
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
+  title: Capdepera
+  subtitle: Mallorca
+  md: |
+    - **Ubicación:** Capdepera
+    - **Potencia instalada:** 1.400 kW
+    - **Aplicación:** Agrícola y regadío
+    - **Beneficios obtenidos:**
+      - Incremento generación energía (+15%)
+      - Reducción evaporación del agua (80%)
+      - Adaptación flexible a cambios de nivel del agua
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
+  title: Consell
+  subtitle: Mallorca
+  md: |
+    - **Ubicación:** SMC
+    - **Potencia instalada:** 700 kW
+    - **Aplicación:** Comunidades de regantes e industrial
+    - **Beneficios obtenidos:**
+      - Alta adaptabilidad a fluctuaciones de nivel del agua
+      - Protección y conservación del recurso hídrico
+      - Producción energética estable y optimizada
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
+  title: SMC
+  subtitle: Mallorca
+  md: |
+    - **Ubicación:** Consell
+    - **Potencia instalada:** 700 kW
+    - **Aplicación:** Agrícola y regadío
+    - **Beneficios obtenidos:**
+      - Máximo aprovechamiento del espacio acuático
+      - Optimización energética significativa
+      - Bajo coste de operación y mantenimiento
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
+  title: INCA
+  subtitle: Mallorca
+  md: |
+    `En desarrollo`
+    - **Ubicación:** INCA
+    - **Potencia instalada:** 700 kW
+    - **Aplicación:** Comunidades de regantes e industrial
+    - **Beneficios esperados:**
+      - Alta adaptabilidad a fluctuaciones de nivel del agua
+      - Protección y conservación del recurso hídrico
+      - Producción energética estable y optimizada
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
+  title: Balsa de Artá
+  subtitle: Mallorca
+  md: |
+    `En desarrollo`
+    - **Ubicación:** Artá
+    - **Potencia a instalar:** 2.800 kW
+    - **Aplicación:** Comunidades de regantes e industrial
+
+- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
+  title: Balsa de Santa Eulalia Des Riu
+  subtitle: Ibiza
+  md: |
+    `En desarrollo`
+    - **Ubicación:** Santa Eulalia Des Riu
+    - **Potencia a instalar:** 500 kW
+    - **Aplicación:** Comunidades de regantes e industrial

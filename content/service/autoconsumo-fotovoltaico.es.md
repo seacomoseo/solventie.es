@@ -10,10 +10,9 @@ service_types:
 - Autoconsumo Solar Fotovoltaico
 service_areas:
 - Región de Murcia
+- Alicante
 - España
 
-draft: false
-noindex: false
 
 kw: Autoconsumo Solar Fotovoltaico
 subtitle: Produce tu propia energía

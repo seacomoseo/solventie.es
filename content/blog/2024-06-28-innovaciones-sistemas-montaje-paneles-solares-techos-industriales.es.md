@@ -6,9 +6,6 @@ date: 2025-03-28 00:00:00
 toc: true
 category:
 - ingenieria
-author: null
-draft: false
-noindex: false
 seo: Innovaciones en Sistemas de Montaje para Paneles Solares
 description: Innovaciones en sistemas de montaje para paneles solares mejoran eficiencia, seguridad y durabilidad en techos industriales.
 ---

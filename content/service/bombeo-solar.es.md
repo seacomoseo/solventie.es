@@ -9,10 +9,9 @@ service_types:
 - Bombeo Solar
 service_areas:
 - Región de Murcia
+- Alicante
 - España
 
-draft: false
-noindex: false
 
 kw: Bombeo Solar
 subtitle: Bombea con tu propia energía solar

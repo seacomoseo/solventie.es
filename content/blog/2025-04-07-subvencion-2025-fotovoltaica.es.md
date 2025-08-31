@@ -11,11 +11,7 @@ category:
 - ayudas
 - eficiencia-energetica
 - energia-solar
-toc: false
-draft: false
-noindex: false
 date: 2025-04-07 00:00:00
-# lastmod: ''
 ---
 En [Solvent](/nosotros/) nos complace presentar el borrador de la nueva subvención impulsada por la Consejería de Medio Ambiente, Universidades, Investigación y Mar Menor, dentro del Programa Región de Murcia FEDER2021-2027. Esta ayuda está especialmente diseñada para PYMEs, fomentando inversiones en energías renovables y eficiencia energética, reduciendo significativamente el desembolso inicial y optimizando el consumo energético de tu negocio.
 

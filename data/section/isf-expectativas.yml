@@ -1,0 +1,34 @@
+name: ISF ➡️ Expectativas
+id: expectativas
+title: ¿Qué puedes esperar de nosotros?
+color: dark
+bi: servicios/instalaciones-solares-flotantes/expectativas.jpg
+box:
+  cols: 3
+  gap: 4
+  gap_vs: 2
+  gap_ny: 1
+  align_y: top
+  icon_size: 3
+steps:
+- icon: handshake
+  title: Compromiso
+  md: Garantizamos proyectos y soluciones en tiempo, coste y calidad, tal como si fueran propios
+- icon: lightbulb
+  title: Innovación
+  md: Adaptamos continuamente nuestra tecnología para ofrecer soluciones eficaces que simplifican tus procesos
+- icon: magnifying-glass
+  title: Transparencia
+  md: Conocerás en tiempo real cada avance del proyecto, aportando tranquilidad y claridad a todo el proceso
+- icon: hand-holding-heart
+  title: Honestidad
+  md: Escuchamos atentamente tus necesidades, ofreciendo soluciones que encajen exactamente con lo que buscas
+- icon: box
+  title: Resolución
+  md: Movilizamos todos los recursos necesarios para superar tus expectativas
+# - icon: leaf
+#   title: Sostenibilidad
+#   md: Aplicamos criterios estrictos de protección ambiental, evaluando continuamente nuestro impacto en consumo energético y cambio climático
+- icon: certificate
+  title: Certificaciones
+  md: Contamos con las normas UNE-EN ISO 14001 y 9001, garantizando calidad, satisfacción del cliente y compromiso medioambiental

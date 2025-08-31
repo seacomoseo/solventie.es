@@ -7,10 +7,7 @@ image: blog/importancia-energias-renovables.jpg
 category:
 - general
 toc: true
-draft: false
-noindex: false
 date: 2019-06-06 00:00:00
-# lastmod: ''
 ---
 Las **energías renovables** son la mejor **alternativa** y la más limpia para el medio ambiente frente a las fuentes convencionales. Estas energías son obtenidas de **fuentes naturales** inagotables y tienen un impacto muy bajo o incluso nulo en el entorno. Sin embargo, sufren cierta estacionalidad por lo que se hace necesario su almacenamiento.
 

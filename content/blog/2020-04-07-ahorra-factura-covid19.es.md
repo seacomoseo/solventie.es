@@ -6,11 +6,8 @@ description: Una reducción de potencia os puede hacer ahorrar en vuestra factur
 image: blog/ahorra-factura-covid19.jpg
 category:
 - eficiencia-energetica
-toc: false
 draft: true
-noindex: false
 date: 2020-04-07 00:00:00
-# lastmod: ''
 ---
 Son tiempos difíciles y **desde Solvent queremos poner nuestro granito de arena** ayudando a todas aquellas **empresas que vayan a estar inactivas** durante este periodo.
 

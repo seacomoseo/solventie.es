@@ -3,8 +3,6 @@ slug: nuevo-real-decreto
 title: 'Nuevo Real Decreto para el impulso de las renovables: una oportunidad clave para la industria española'
 image: /blog/renovables.jpg
 date: 2025-06-11 15:27:41
-category: []
-author: null
 ---
 Tras el histórico apagón eléctrico del pasado 28 de abril, el Gobierno ha aprobado un Real Decreto Ley que no solo busca evitar que se repita una situación semejante, sino que marca un punto de inflexión en el desarrollo de las energías renovables en España. Para empresas del sector industrial, comunidades de regantes y profesionales del sector energético, esto representa una oportunidad estratégica.
 

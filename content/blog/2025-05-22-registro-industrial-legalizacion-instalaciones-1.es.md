@@ -9,11 +9,7 @@ image: blog/registro-industrial-nave-fotovoltaica-solvent.webp
 category:
 - ingenieria
 - ayudas
-toc: false
-draft: false
-noindex: false
 date: 2025-05-22 00:00:00
-# lastmod: ''
 ---
 ### Registro Industrial: la base invisible pero crucial para una industria segura y legal
 

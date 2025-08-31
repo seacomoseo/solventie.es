@@ -6,11 +6,7 @@ description: En el marco de “Molina 2020 Avanza Contigo”, el Ayuntamiento de
 image: blog/ayuntamiento-molina-proyecto-rehabilitacion-energetica.jpg
 category:
 - noticias
-toc: false
-draft: false
-noindex: false
 date: 2021-12-12 00:00:00
-# lastmod: ''
 ---
 En el marco de “Molina 2020 Avanza Contigo”, el Ayuntamiento de Molina de Segura presenta el proyecto de las actuaciones de rehabilitación energética y energías renovables para la mejora de la eficiencia y ahorro energéticos en edificios municipales, que ha sido desarrollado por Solvent.
 

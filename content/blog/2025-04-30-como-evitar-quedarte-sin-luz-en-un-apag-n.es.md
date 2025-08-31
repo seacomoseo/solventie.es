@@ -9,11 +9,7 @@ image: blog/como-evitar-quedarte-sin-luz-en-un-apag-n.webp
 category:
 - electricidad
 - noticias
-toc: false
-draft: false
-noindex: false
 date: 2025-04-30 00:00:00
-# lastmod: ''
 ---
 ## ¿Cómo evitar quedarte sin luz en un apagón?
 

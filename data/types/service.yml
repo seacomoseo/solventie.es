@@ -3,7 +3,7 @@ base: service
 weight: 1
 name: service
 es:
-  permalinks: ''
+  permalinks: /
 tpl:
   section:
   - size: lg

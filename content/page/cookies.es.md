@@ -1,12 +1,8 @@
 ---
 slug: cookies
 title: Política de Cookies
-seo: ''
-description: ''
-image: ''
 icon: cookie-bite
 toc: true
-draft: false
 noindex: true
 weight: 3
 ---

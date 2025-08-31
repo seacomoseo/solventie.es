@@ -14,7 +14,7 @@ tpl:
     md: ''
     hs: 6
 es:
-  permalinks: ''
+  permalinks: /
   slug: actualidad
   singular: Artículo
   title: Actualidad
