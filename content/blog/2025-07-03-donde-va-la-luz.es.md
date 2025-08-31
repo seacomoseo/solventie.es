@@ -4,14 +4,14 @@ title: ¿Dónde va la luz cuando se va?
 summary: |-
   Una explicación desde la ingeniería del sistema eléctrico
   Cuando se produce un corte de luz, es normal que muchos se pregunten: ¿Qué pasa con la energía que ya estaba lista para ser utilizada? ¿Se pierde? ¿Se guarda? ¿Se desperdicia? La respuesta, desde el punto de vista de la ingeniería energética, puede sorprender: esa energía no se va a ningún sitio… simplemente, deja de producirse.
-image: instalaciones-solares-fotovoltaicas-flotantes.jpg
+image: blog/instalaciones-solares-fotovoltaicas-flotantes.jpg
 date: 2025-06-18 15:38:10
 ---
-# Una explicación desde la ingeniería del sistema eléctrico
+## Una explicación desde la ingeniería del sistema eléctrico
 
 Cuando se produce un corte de luz, es normal que muchos se pregunten: _¿Qué pasa con la energía que ya estaba lista para ser utilizada? ¿Se pierde? ¿Se guarda? ¿Se desperdicia?_ La respuesta, desde el punto de vista de la ingeniería energética, puede sorprender: **esa energía no se va a ningún sitio… simplemente, deja de producirse**.
 
-# ⚡ Un sistema eléctrico en equilibrio constante
+## ⚡ Un sistema eléctrico en equilibrio constante
 
 En España, el sistema eléctrico está diseñado para que **la producción y el consumo de electricidad estén en equilibrio en todo momento**. Esto significa que la cantidad de energía generada en cada instante es prácticamente la misma que se está consumiendo en ese mismo instante.
 
@@ -19,7 +19,7 @@ Este proceso lo coordina Red Eléctrica de España (REE), que actúa como el gra
 
 La electricidad no se almacena masivamente como otros recursos. Aunque existen tecnologías de almacenamiento energético, su capacidad es aún limitada. Por tanto, la red debe funcionar como un sistema en tiempo real, donde **cada subida o bajada en la demanda debe ser compensada de inmediato**.
 
-# 🚨 ¿Qué ocurre cuando hay un corte de luz?
+## 🚨 ¿Qué ocurre cuando hay un corte de luz?
 
 Cuando se va la luz en una zona, normalmente se trata de una **avería en la red de distribución** (por ejemplo, un fallo en un transformador, una línea caída, etc.) o un **problema puntual en la infraestructura local**.
 
@@ -27,7 +27,7 @@ Desde el punto de vista del sistema general, lo que ocurre es que **una parte de
 
 Por tanto, la respuesta es clara: **la energía no consumida no se acumula; la generación se ajusta**. En otras palabras, **la luz no “se va” a ningún sitio. Simplemente, se deja de producir.**
 
-# ⚙️ ¿Cómo se ajusta la generación?
+## ⚙️ ¿Cómo se ajusta la generación?
 
 El sistema eléctrico español cuenta con herramientas de ajuste rápido, como:
 
@@ -36,7 +36,7 @@ El sistema eléctrico español cuenta con herramientas de ajuste rápido, como:
 - 🔋 **Almacenamiento energético (si lo hay):** se puede enviar el exceso a sistemas de bombeo hidráulico, baterías industriales o, en el futuro, a producción de hidrógeno verde.
 - 🔌 **Desconexiones ordenadas:** si no hay otra solución, el sistema puede ordenar a ciertas centrales que se apaguen o reduzcan su producción para evitar una sobrecarga.
 
-# 📉 ¿Qué pasa si no se ajusta a tiempo?
+## 📉 ¿Qué pasa si no se ajusta a tiempo?
 
 Si no se consigue equilibrar rápidamente la generación con la demanda, se producen **variaciones en la frecuencia del sistema eléctrico**. En Europa, esa frecuencia debe mantenerse en torno a los 50 Hz. Si sube o baja fuera de los márgenes permitidos, pueden producirse:
 
@@ -46,7 +46,7 @@ Si no se consigue equilibrar rápidamente la generación con la demanda, se prod
 
 Por eso, **la estabilidad del sistema es una prioridad absoluta**. Y aunque como consumidores solo notamos “que se fue la luz”, detrás hay un complejo engranaje que evita que ese fallo se convierta en una reacción en cadena.
 
-# 🧠 Conclusión: la luz no se pierde, se gestiona
+## 🧠 Conclusión: la luz no se pierde, se gestiona
 
 La próxima vez que se te corte la luz en casa, recuerda esto: **la electricidad que ibas a consumir no desaparece ni se desperdicia, simplemente no se produce**. El sistema se adapta en tiempo real para mantener el equilibrio global, gracias a la planificación, la tecnología y el control continuo.
 

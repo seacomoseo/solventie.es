@@ -2,7 +2,7 @@
 slug: almacenamiento-energetico
 title: 🔋 Solvent impulsa el futuro energético con 7 nuevos sistemas de almacenamiento con baterías (BESS)
 summary: 🔷 Solvent impulsa el almacenamiento energético con 7 sistemas BESS en España, totalizando 84,8 MW y 307,38 MWh de capacidad para reforzar la red eléctrica.
-image: almacenamiento-energetico.jpg
+image: blog/almacenamiento-energetico.jpg
 date: 2025-07-23 08:45:24
 ---
 
