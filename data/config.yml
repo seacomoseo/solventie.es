@@ -14,8 +14,14 @@ params:
     label: Cajas
     widget: list
     params:
-    - var: box_title
     - var: box_md
+  - name: certificates
+    label: Certificados
+    widget: list
+    params:
+    - var: box_image_src
+    - var: box_image_ratio
+    - var: box_button_link
 defaults:
 - name: author
   value: admin

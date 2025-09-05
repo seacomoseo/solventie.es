@@ -61,7 +61,6 @@ footer:
   certificates:
   - image: otros/iso-9001-14001.svg
     ratio: 4/1
-    link: https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html
   - image: otros/a3e.png
     ratio: 6/1
     link: https://a3e.es/organization/7090/
