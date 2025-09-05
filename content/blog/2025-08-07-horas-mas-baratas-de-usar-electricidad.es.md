@@ -5,15 +5,16 @@ summary: |+
   Desde finales de febrero, en SOLVENT ponemos a tu disposición una herramienta actualizada que te permite consultar el precio de la electricidad para el día siguiente, hora a hora, así como acceder a un histórico detallado de precios. Desglosamos el coste total de la energía en sus tres componentes clave: precio de mercado, peajes 6.1TD y componentes regulados, para que sepas exactamente qué estás pagando y por qué. Una herramienta útil, clara y diseñada para ayudarte a gestionar mejor tu consumo energético.
 
 image: blog/precio-energia.jpg
-date: 2025-08-07 14:52:56
+date: 2025-09-05 15:04:48
 toc: false
 category:
 - electricidad
 - noticias
+author: null
 related:
 - 2021-03-15-subida-precio-luz
 - 2021-04-22-nueva-tarifa-electrica-cambios
-draft: true
+draft: false
 ---
 ## ⚡ ¿Cuánto pagarás por la luz mañana? En SOLVENT te lo contamos desde hace meses
 
