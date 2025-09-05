@@ -1,0 +1,28 @@
+name: CAE ➡️ Formulario
+hanchor: Consultas
+title: Solicitar valoración de CAE
+subtitle: Te contactaremos para estimar tu CAE y confirmar compatibilidades
+color: cta
+bi: servicios/gestion-cae/valoracion.jpg
+box_color: white
+size: sm
+form:
+  id: formulario
+  email: formularios-web@solventie.es
+  label: Quiero monetizar mi ahorro
+inputs:
+- type: text
+  name: Nombre
+  label: Tu nombre
+  required: true
+- type: email
+  name: Email
+  label: Tu correo electrónico
+  required: true
+- type: tel
+  name: Teléfono
+- type: text
+  name: Provincia
+- type: textarea
+  name: Mensaje
+  label: Cuéntanos

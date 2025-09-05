@@ -1,0 +1,44 @@
+name: CAE ➡️ Actuaciones
+id: actuaciones
+title: Actuaciones que generan CAE
+md: |
+  Tramitamos actuaciones estándar (catálogo) y singulares (a medida). Si ahorra energía, podemos monetizarlo.
+
+  Cuéntanos tu proyecto
+box:
+  gap_vs: 2
+boxes:
+
+- box:
+    cols: 3
+    card: true
+    rate: 1/1
+    hs: 5
+    image: servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
+  boxes:
+
+  - image: servicios/gestion-cae/actuaciones/iluminacion-control.jpg
+    title: Iluminación y control
+    md: LED, sensores de presencia, regulación, telegestión
+
+  - image: servicios/gestion-cae/actuaciones/climatizacion-bombas-calor.jpg
+    title: Climatización y bombas de calor
+    md: Sustitución de calderas, alta eficiencia, recuperación de calor
+
+  - image: servicios/gestion-cae/actuaciones/envolvente-edificio.jpg
+    title: Envolvente del edificio
+    md: Aislamiento, carpinterías, cubiertas y puentes térmicos
+
+  - image: servicios/gestion-cae/actuaciones/procesos-industriales.jpg
+    title: Procesos industriales
+    md: Variadores, compresores eficientes, optimización de procesos
+
+  - image: servicios/gestion-cae/actuaciones/transportes-flotas.jpg
+    title: Transportes y flotas
+    md: Neumáticos eficientes, telemetría y gestión inteligente
+
+  - image: servicios/gestion-cae/actuaciones/otras-mejoras.jpg
+    title: Otras mejoras
+    md: 'Estándar o singular: analizamos la vía más rentable para tu caso'
+
+- subtitle: 'Recuerda: 1 CAE = 1 kWh ahorrado/año'

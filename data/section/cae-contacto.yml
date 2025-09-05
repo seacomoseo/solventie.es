@@ -1,0 +1,20 @@
+name: IFS ➡️ Contacto
+hanchor: Contacto
+title: ¿Quieres que estudiemos tus medidas?
+md: |
+  Déjanos tus datos y nuestro equipo analizará tu situación, te ayudará a sacar el máximo beneficio de cada medida implantada para obtener el máximo dinero posible para rentabilizar antes tu inversión.
+
+  Contáctanos :bullseye-pointer:
+  {.subtitle}
+size: sm
+align: center
+color: dark
+bi: servicios/gestion-cae/analisis.jpg
+contact:
+- type: phone
+  label: 968 27 16 89
+- type: whatsapp
+  label: 644 546 418
+- type: mail
+  label: info@solventie.es
+  button: light

@@ -12,8 +12,8 @@ menu:
       link: /autoconsumo-fotovoltaico/
     - label: Instalaciones Flotantes
       link: /instalaciones-solares-flotantes/
-    # - label: Gestión CAES
-    #   link: /gestion-caes/
+    - label: Gestión CAE
+      link: /gestion-cae/
     - label: Bombeo solar
       link: /bombeo-solar/
     - label: Ingeniería

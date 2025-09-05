@@ -2,7 +2,7 @@ name: ISF ➡️ Nosotros
 hanchor: Nosotros
 pt: 8
 box:
-  duo: true
+  duo: 1
   gap: 4
   gap_vs: 2
 boxes:

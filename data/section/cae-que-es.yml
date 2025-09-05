@@ -1,0 +1,20 @@
+name: CAE ➡️ Qué es
+id: que-es
+pt: 8
+# size: md
+box:
+  cols: 2
+  gap: 4
+  gap_vs: 2
+boxes:
+- image: servicios/gestion-cae/que-es.jpg
+  # ratio: 4/3
+  fit: .75
+- title: ¿Qué es un CAE y por qué te interesa?
+  md: |
+    Un **Certificado de Ahorro Energético** (CAE) acredita la energía que **dejas de consumir** tras una mejora de eficiencia (LED, bombas de calor, aislamiento, variadores, etc.). Ese ahorro **se transforma en dinero**: lo convertimos en CAEs y te pagamos por él.
+
+    - :badge-check: Cuentan los **ahorros a partir del 26/01/2023** (RD 36/2023).
+  align: left
+  align_y: center
+  fit: 1.25

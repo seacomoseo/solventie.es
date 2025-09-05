@@ -1,0 +1,25 @@
+name: CAE ➡️ FAQ
+id: faq
+title: Preguntas Frecuentes
+size: sm
+accordion:
+  # button: main
+  hs: 6
+  headers: true
+accordions:
+- title: ¿Qué es un CAE y por qué te interesa?
+  md: Certificado oficial que reconoce tu ahorro tras una mejora de eficiencia. **1 CAE = 1 kWh ahorrado/año**. En SOLVENT lo convertimos en ingresos para ti.
+- title: ¿Qué es el convenio CAE y cómo lo gestionamos?
+  md: Es el acuerdo por el que nos cedes el ahorro a cambio de una contraprestación. Coordinamos verificación y emisión del CAE y te abonamos lo pactado.
+- title: ¿Cómo se fija la contraprestación?
+  md: En el convenio, con un precio claro en **€/kWh** de ahorro certificado.
+- title: ¿Quién puede beneficiarse de un CAE?
+  md: Empresas, pymes, administraciones, comunidades y quienes reciban la **cesión** del ahorro.
+- title: ¿Desde cuándo son válidos los ahorros?
+  md: A partir del **26/01/2023** (entrada en vigor del RD 36/2023).
+- title: ¿Qué es el catálogo de medidas estandarizadas?
+  md: Conjunto de fichas replicables de actuaciones de ahorro. Se actualiza periódicamente.
+- title: ¿Y si mi actuación no está en el catálogo?
+  md: La tramitamos como **actuación singular**, midiendo y verificando el ahorro.
+- title: ¿Son compatibles los CAE con ayudas o subvenciones?
+  md: Sí, salvo las financiadas por el **FNEE**. Revisamos la compatibilidad por ti.
