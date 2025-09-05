@@ -33,7 +33,7 @@ menu:
     button: cta
 callnows:
 - type: whatsapp
-  label: 644 546 418
+  label: 621 056 510
 - type: phone
   label: 968 27 16 89
 footer:
@@ -58,3 +58,13 @@ footer:
       - :none: [Contacto](/contacto/)
       - :none: [© Solvent](/)
       - :none: [Diseño web seacomoseo.com](https://seacomoseo.com/)
+  certificates:
+  - image: otros/iso-9001-14001.svg
+    ratio: 4/1
+    link: https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html
+  - image: otros/a3e.png
+    ratio: 6/1
+    link: https://a3e.es/organization/7090/
+  - image: otros/cae.svg
+    ratio: 3/1
+    link: https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html

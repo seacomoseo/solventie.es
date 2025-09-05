@@ -17,6 +17,16 @@ boxes:
   icon: sun
   link: /autoconsumo-fotovoltaico/
   bi: servicios/autoconsumo-fotovoltaico/portada.webp
+- title: Instalaciones Flotantes
+  md: Ahorrarmos costes y optimizamos recursos para comunidades de regantes y empresas agrícolas mediante en instalaciones solares flotantes
+  icon: water
+  link: /instalaciones-solares-flotantes/
+  bi: servicios/instalaciones-solares-flotantes/portada.jpg
+- title: Gestión CAE
+  md: Gestión de Certificados de Ahorro Energético (CAE) para empresas, maximizamos ingresos y rentabilidad cumpliendo la normativa
+  icon: certificate
+  link: /gestion-cae/
+  bi: servicios/gestion-cae/que-es.jpg
 - title: Bombeo
   md: Elimina los costes de energía eléctrica adaptando el bombeo de agua a las horas solares
   icon: droplet

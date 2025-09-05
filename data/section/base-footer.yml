@@ -26,3 +26,13 @@ boxes:
       - :cookie-bite:    {{< internal-link cookies >}}
       - :seacomoseo:     {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
       {.list-inline}
+- params:
+  - from: footer.certificates
+    to: boxes
+  box:
+    cols: 3
+    align: left
+    align_y: center
+    button: hide
+    lock: true
+    contain: true

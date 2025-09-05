@@ -44,6 +44,7 @@ org:
   - https://g.page/r/CT7T0hQ29sriEB0
   phones:
   - 968 27 16 89
+  - 621 056 510
   - 644 546 418
   address:
     name: Solvent Ingeniería
