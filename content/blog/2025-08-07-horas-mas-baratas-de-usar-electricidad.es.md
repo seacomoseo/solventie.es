@@ -6,10 +6,11 @@ summary: |+
 
 image: blog/precio-energia.jpg
 date: 2025-08-07 14:52:56
-toc: false
+toc: true
 category:
 - electricidad
 - noticias
+author: null
 related:
 - 2021-03-15-subida-precio-luz
 - 2021-04-22-nueva-tarifa-electrica-cambios
