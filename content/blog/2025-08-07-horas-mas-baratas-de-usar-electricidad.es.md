@@ -6,7 +6,7 @@ summary: |+
 
 image: blog/precio-energia.jpg
 date: 2025-09-05 15:04:48
-toc: true
+toc: false
 category:
 - electricidad
 - noticias
