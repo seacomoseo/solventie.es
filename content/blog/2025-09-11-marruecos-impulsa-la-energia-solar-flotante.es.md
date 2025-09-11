@@ -2,13 +2,12 @@
 slug: marruecos-impulsa-la-energia-solar-flotante
 title: 'Energía solar flotante: la solución que Marruecos impulsa para ahorrar agua y producir electricidad limpia'
 summary: Marruecos ha estrenado su primera planta solar flotante, una innovadora solución que combina energía limpia y ahorro de agua. Al instalar paneles fotovoltaicos sobre embalses y balsas, se reduce la evaporación hasta en un 30 % y se genera electricidad renovable sin ocupar terreno adicional. Una tecnología en crecimiento que ofrece grandes oportunidades para propietarios de balsas y embalses, que ahora pueden transformar sus superficies de agua en una fuente de ahorro, sostenibilidad y rentabilidad.
-image: /blog-balsas.png
+image: blog/balsas.jpg
 date: 2025-09-11 09:58:00
 category:
-- eficiencia-energetica.es
-- energia-solar.es
-- ingenieria.es
-author: admin.es
+- eficiencia-energetica
+- energia-solar
+- ingenieria
 ---
 Marruecos está marcando un antes y un después en el uso de la energía renovable con la puesta en marcha de su **primera planta solar flotante** en la presa de Oued Rmel, cerca de Tánger. Este proyecto piloto, con una capacidad de **13 MW**, demuestra cómo la tecnología fotovoltaica flotante no solo produce energía limpia, sino que también contribuye a la **conservación del agua**, un recurso cada vez más valioso.
 

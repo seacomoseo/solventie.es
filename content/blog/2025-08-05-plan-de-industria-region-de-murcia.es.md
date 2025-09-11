@@ -11,7 +11,6 @@ category:
 - energia-solar
 - sostenibilidad
 - noticias
-author: null
 related:
 - 2019-06-06-importancia-energias-renovables
 - 2018-07-26-industrias-sostenibles-energeticamente
