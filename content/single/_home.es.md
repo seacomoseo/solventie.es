@@ -38,7 +38,7 @@ org:
   - servicios/ingenieria/portada.webp
   - servicios/eficiencia-energetica/portada.webp
   as:
-  - https://www.facebook.com/solventie
+  - https://www.facebook.com/Solventiee/
   - https://www.instagram.com/solventie_/
   - https://www.linkedin.com/company/solventie/
   - https://g.page/r/CT7T0hQ29sriEB0
