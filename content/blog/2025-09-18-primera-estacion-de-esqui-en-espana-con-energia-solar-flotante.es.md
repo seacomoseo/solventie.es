@@ -2,6 +2,7 @@
 slug: primera-estacion-de-esqui-en-espana-con-energia-solar-flotante
 title: Primera estación de esquí en España con energía solar flotante
 summary: La estación de esquí de Espot impulsa la primera planta fotovoltaica flotante en una estación de esquí en España. La instalación, ubicada en la balsa de Los Estanyets a 2.120 metros de altura, generará energía limpia para los remontes durante todo el año y reducirá la evaporación del agua, convirtiéndose en un referente de sostenibilidad en alta montaña.
+image: /blog-estacion-de-ski.png
 date: 2025-09-18 10:15:04
 toc: false
 category: null
@@ -11,6 +12,7 @@ author: null
 
 **Espot (Lleida).** La estación de esquí de Espot se ha convertido en pionera en innovación energética con el inicio de las obras de una **planta fotovoltaica flotante de autoconsumo** en la **balsa de Los Estanyets**, a 2.120 metros de altitud. Este proyecto marca un hito en España, al ser la primera instalación de este tipo en una estación de esquí.
 
+![](/blog-ski.png)
 ## Un proyecto con doble objetivo
 
 La iniciativa, promovida por el **Consell Comarcal del Pallars Sobirà** y **Ferrocarrils de la Generalitat de Catalunya (FGC)**, supone una inversión de **406.000 euros**, de los cuales más de 335.000 provienen de los fondos europeos _NextGeneration_. Su propósito principal es **garantizar energía limpia para los remontes** no solo en invierno, sino también en verano, cuando la estación planea diversificar su oferta con actividades como el _bikepark_ y rutas de montaña.
