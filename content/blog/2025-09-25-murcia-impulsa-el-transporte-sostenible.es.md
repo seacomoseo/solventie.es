@@ -10,7 +10,7 @@ author: null
 ---
 ## **Solvent presente en la VIII Jornada Sectorial del Transporte de la Región de Murcia**
 
- Ayer, 24 de septiembre, se celebró en Molina de Segura la **VIII Jornada Sectorial del Transporte de la Región de Murcia**, un evento clave que reunió a expertos, empresas e instituciones para analizar los retos de un sector estratégico en la economía regional.
+Ayer, 24 de septiembre, se celebró en Molina de Segura la **VIII Jornada Sectorial del Transporte de la Región de Murcia**, un evento clave que reunió a expertos, empresas e instituciones para analizar los retos de un sector estratégico en la economía regional.
 
 La inauguración corrió a cargo de **Jorge García Montoro, consejero de Fomento e Infraestructuras**, quien anunció una **inyección de 38,5 millones de euros** para reforzar la competitividad, impulsar la sostenibilidad y consolidar a la Región como centro logístico de referencia.
 
@@ -24,11 +24,13 @@ Destacó la ponencia de **Ginés Ángel García, presidente de A3E**, sobre _“
 
 ![](/screenshot_5.png)
 
-### Solvent, Sujeto Delegado en CAE
+### \
+[Solvent, Sujeto Delegado en CAE](https://solventie.es/gestion-cae/)\
+
 
 En **Solvent** seguimos muy de cerca estas iniciativas porque los **CAE son una oportunidad única para el sector**: permiten a las empresas de transporte recuperar parte de la inversión realizada en eficiencia energética y generar ingresos adicionales.
 
-Como **Sujeto Delegado acreditado**, en Solvent acompañamos a las compañías para que conviertan sus inversiones en **ahorro certificado y monetizado**, maximizando su rentabilidad y asegurando el cumplimiento normativo.
+Como [Sujeto Delegado acreditado](https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html), en Solvent acompañamos a las compañías para que conviertan sus inversiones en **ahorro certificado y monetizado**, maximizando su rentabilidad y asegurando el cumplimiento normativo.
 
 ![](/screenshot_8.png)
 
@@ -36,4 +38,4 @@ Como **Sujeto Delegado acreditado**, en Solvent acompañamos a las compañías p
 
 La jornada concluyó con un llamamiento a reforzar la colaboración público-privada y a exigir las infraestructuras necesarias para que la Región despliegue todo su potencial logístico.
 
-En Solvent compartimos esa visión: un transporte más innovador, sostenible y competitivo, donde los **CAE se consolidan como palanca estratégica de transformación**.si
+En Solvent compartimos esa visión: un transporte más innovador, sostenible y competitivo, donde los **CAE se consolidan como palanca estratégica de transformación**
