@@ -38,4 +38,5 @@ Como [Sujeto Delegado acreditado](https://www.miteco.gob.es/es/energia/eficienci
 
 La jornada concluyó con un llamamiento a reforzar la colaboración público-privada y a exigir las infraestructuras necesarias para que la Región despliegue todo su potencial logístico.
 
-En Solvent compartimos esa visión: un transporte más innovador, sostenible y competitivo, donde los **CAE se consolidan como palanca estratégica de transformación**
+En Solvent compartimos esa visión: un transporte más innovador, sostenible y competitivo, donde los [CAE se consolidan como palanca estratégica de transformación](https://solventie.es/gestion-cae/#consultas)
+
