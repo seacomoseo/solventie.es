@@ -4,6 +4,7 @@ title: El MITECO estrena el panel de Seguimiento del Sistema CAE
 summary: El MITECO lanza el panel del Sistema CAE con datos por comunidades autónomas, sectores y actuaciones, actualizado mensualmente.
 image: /portada-articulo-panel-de-seguimiento-del-sistema-cae.png
 date: 2025-10-03 13:19:51
+toc: false
 category: null
 author: null
 ---
