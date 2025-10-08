@@ -16,7 +16,7 @@ La vicepresidenta del Gobierno y ministra para la Transición Ecológica y el Re
 
 ## **Qué propone el MITECO (en audiencia pública)**
 
-- Figurdel gestor del autoconsumo colectivo como coordinador técnico y administrativo de los usuarios asociados.
+- Figura del gestor del autoconsumo colectivo como coordinador técnico y administrativo de los usuarios asociados.
 - Ampliación de la distancia entre generación y consumo: de 2 km a 5 km, facilitando conexiones entre edificios y polígonos industriales.
 - Flexibilidad en el reparto energético, con posibilidad de modificar mensualmente los porcentajes de asignación entre participantes.
 - Simplificación de trámites administrativos y técnicos, con mejoras en facturación y medición.
