@@ -10,6 +10,7 @@ category:
 - energia-solar.es
 - noticias.es
 author: admin.es
+draft: true
 ---
 **Compartir energía será más fácil: nuevo marco para el autoconsumo colectivo en España**
 
