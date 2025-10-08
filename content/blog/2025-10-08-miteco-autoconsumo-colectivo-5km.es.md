@@ -47,5 +47,3 @@ Gestión integral como herramienta de apoyo al gestor (técnica, económica y le
 El paquete se encuentra en audiencia pública. Su aprobación definitiva permitirá consolidar un modelo de autoconsumo colectivo más accesible y operativo.
 
 ¿Quieres evaluar qué implican estas medidas para tu edificio, cooperativa o empresa? Hablemos. En Solvent te ayudamos a diseñar, implantar y gestionar proyectos de autoconsumo colectivo con seguridad jurídica y máximo ahorro.
-
- 
