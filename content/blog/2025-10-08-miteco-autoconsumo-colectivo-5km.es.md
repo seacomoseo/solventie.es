@@ -10,7 +10,7 @@ category:
 - energia-solar.es
 - noticias.es
 author: admin.es
-draft: true
+draft: false
 ---
 La vicepresidenta del Gobierno y ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, inauguró el 3 de octubre de 2025 la jornada “Autoconsumo, actualizar para seguir creciendo” en el salón de actos del Complejo Ministerial. El 3 de octubre, el MITECO presentó un paquete de medidas para impulsar el autoconsumo colectivo en España, actualmente en trámite de audiencia pública.
 
