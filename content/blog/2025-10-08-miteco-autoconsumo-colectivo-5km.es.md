@@ -2,6 +2,7 @@
 slug: miteco-autoconsumo-colectivo-5km
 title: MITECO impulsa el autoconsumo colectivo tras la jornada “Autoconsumo, actualizar para seguir creciendo”
 summary: 'MITECO impulsa el autoconsumo colectivo: figura del gestor, distancia 5 km, reparto mensual y trámites más simples. Claves de la jornada del 3 de octubre.'
+image: /vicepresidenta-8oct-.jpg
 date: 2025-10-08 09:50:29
 toc: false
 category:
