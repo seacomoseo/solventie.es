@@ -12,11 +12,9 @@ category:
 author: admin.es
 draft: true
 ---
-**Compartir energía será más fácil: nuevo marco para el autoconsumo colectivo en España**
-
 La vicepresidenta del Gobierno y ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, inauguró el 3 de octubre de 2025 la jornada “Autoconsumo, actualizar para seguir creciendo” en el salón de actos del Complejo Ministerial. El 3 de octubre, el MITECO presentó un paquete de medidas para impulsar el autoconsumo colectivo en España, actualmente en trámite de audiencia pública.
 
-**Qué propone el MITECO (en audiencia pública)**
+## **Qué propone el MITECO (en audiencia pública)**
 
 - Figurdel gestor del autoconsumo colectivo como coordinador técnico y administrativo de los usuarios asociados.
 - Ampliación de la distancia entre generación y consumo: de 2 km a 5 km, facilitando conexiones entre edificios y polígonos industriales.
@@ -24,19 +22,17 @@ La vicepresidenta del Gobierno y ministra para la Transición Ecológica y el Re
 - Simplificación de trámites administrativos y técnicos, con mejoras en facturación y medición.
 - Nuevas modalidades de autoconsumo compartido, como el “excedente colectivo”, para compartir únicamente la energía sobrante.
 
- 
-
-**Por qué es relevante**
+##  **Por qué es relevante**
 
 El objetivo es eliminar barreras que aún dificultan que comunidades de vecinos, cooperativas y empresas compartan energía renovable de forma sencilla, eficiente y segura, avanzando hacia un modelo más participativo y descentralizado.
 
-**Impacto esperado en comunidades y empresas:**
+## **Impacto esperado en comunidades y empresas:**
 
 - Comunidades de propietarios: más posibilidades de conexión gracias a los 5 km y al reparto mensual, ajustando la asignación a las necesidades reales.
 - Parques empresariales y cooperativas: menor fricción administrativa para agrupar consumos, optimizar excedentes y gestionar altas/bajas con transparencia.
 - Operación y costes: mejoras en medición y facturación orientadas a agilizar la puesta en marcha y la gestión continua.
 
-**Cómo ayuda Solvent**
+## **Cómo ayuda Solvent**
 
 En Solvent nos alineamos con este marco y ofrecemos soporte en todo el ciclo del autoconsumo colectivo:
 
@@ -46,7 +42,7 @@ Gestión integral como herramienta de apoyo al gestor (técnica, económica y le
 - Transparencia y participación: plataformas donde cada usuario visualiza consumo, ahorro y aportación.
 - Escalabilidad y cumplimiento normativo en comunidades de vecinos, parques empresariales o cooperativas.
 
-**Próximos pasos**
+## **Próximos pasos**
 
 El paquete se encuentra en audiencia pública. Su aprobación definitiva permitirá consolidar un modelo de autoconsumo colectivo más accesible y operativo.
 
