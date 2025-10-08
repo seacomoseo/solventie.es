@@ -2,7 +2,7 @@
 slug: instalaciones-solares-flotantes
 title: Instalaciones Solares Flotantes
 seo: Instalaciones Solares Fotovoltaicas Flotantes [Murcia y Alicante]
-description: llll➤ Especialistas en instalaciones solares flotantes para comunidades de regantes y empresas agrícolas. ✅ Ahorrarmos costes y optimizamos recursos.
+description: llll➤ Especialistas en instalaciones solares flotantes para comunidades de regantes y empresas agrícolas. ✅ Ahorarmos costes y optimizamos recursos.
 image: servicios/instalaciones-solares-flotantes/portada.jpg
 
 tpl:

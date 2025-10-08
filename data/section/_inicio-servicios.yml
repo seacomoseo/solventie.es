@@ -1,82 +1,44 @@
 name: Inicio ➡️ Servicios
-view: ''
 hanchor: Servicios
-sort: ''
 box:
   cols: 2
   gap_vs: 2
   pd: 4
   pd_vs: 2
   color: dark
-  alpha: 0.5
+  alpha: .5
   icon_size: 3
   icon_color: light
   label: Saber más
   pin: arrow-right
-  view: ''
-  sort: ''
 boxes:
 - title: Autoconsumo solar
   md: Genera tu propia energía con una instalación solar fotovoltaica y ahorra en tu factura mientras cuidas del planeta
   icon: sun
   link: /autoconsumo-fotovoltaico/
   bi: servicios/autoconsumo-fotovoltaico/portada.webp
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
 - title: Instalaciones Flotantes
-  md: |
-    Ahorramos costes y optimizamos recursos para comunidades de regantes y empresas agrícolas mediante instalaciones solares flotantes
+  md: Ahorramos costes y optimizamos recursos para comunidades de regantes y empresas agrícolas mediante instalaciones solares flotantes
   icon: water
   link: /instalaciones-solares-flotantes/
   bi: servicios/instalaciones-solares-flotantes/portada.jpg
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
 - title: Gestión CAE
   md: Gestión de Certificados de Ahorro Energético (CAE) para empresas, maximizamos ingresos y rentabilidad cumpliendo la normativa
   icon: certificate
   link: /gestion-cae/
   bi: servicios/gestion-cae/que-es.jpg
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
 - title: Bombeo
   md: Elimina los costes de energía eléctrica adaptando el bombeo de agua a las horas solares
   icon: droplet
   link: /bombeo-solar/
   bi: servicios/bombeo-solar/portada.jpg
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
 - title: Ingeniería
   md: Escuchamos lo que necesitas y realizamos el diseño pensando en lo mejor para tu empresa, siempre con el objetivo de reducir los costes de implantación
   icon: gear
   link: /ingenieria/
   bi: servicios/ingenieria/portada.webp
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
 - title: Eficiencia energética
   md: Reducir la energía que cuesta producir cada unidad de lo que fábricas y cómo optimizar tus procesos para mejorar la eficiencia de tu empresa
   icon: lightbulb
   link: /eficiencia-energetica/
   bi: servicios/eficiencia-energetica/portada.webp
-  view: ''
-  sort: ''
-  box:
-    view: ''
-    sort: ''
-modal:
-  view: ''
-  sort: ''
