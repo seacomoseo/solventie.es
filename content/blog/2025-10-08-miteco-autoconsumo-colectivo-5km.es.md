@@ -2,14 +2,14 @@
 slug: miteco-autoconsumo-colectivo-5km
 title: 'Compartir energía será más fácil: nuevo marco para el autoconsumo colectivo en España'
 summary: 'MITECO impulsa el autoconsumo colectivo: figura del gestor, distancia 5 km, reparto mensual y trámites más simples. Claves de la jornada del 3 de octubre.'
-image: /blog-2-octubre.png
+image: blog/vicepresidenta-8-octubre.jpg
 date: 2025-10-08 09:50:29
 toc: false
 category:
-- eficiencia-energetica.es
-- energia-solar.es
-- noticias.es
-author: admin.es
+- eficiencia-energetica
+- energia-solar
+- noticias
+author: admin
 draft: false
 ---
 La vicepresidenta del Gobierno y ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, inauguró el 3 de octubre de 2025 la jornada “Autoconsumo, actualizar para seguir creciendo” en el salón de actos del Complejo Ministerial. El 3 de octubre, el MITECO presentó un paquete de medidas para impulsar el autoconsumo colectivo en España, actualmente en trámite de audiencia pública.

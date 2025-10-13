@@ -11,55 +11,55 @@ boxes:
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/acuamed-alt.svg#src
-  - image: aliados/apellan.svg#src
-  - image: aliados/ayuntamiento-de-buendia.svg#src
+  - image: aliados/acuamed-alt.svg
+  - image: aliados/apellan.svg
+  - image: aliados/ayuntamiento-de-buendia.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/blancasol.svg#src
-  - image: aliados/comunidad-regantes-campotejar.svg#src
+  - image: aliados/blancasol.svg
+  - image: aliados/comunidad-regantes-campotejar.svg
   - image: aliados/confederacion-hidrografica.png
     contain: true
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/conservas-el-raal.svg#src
-  - image: aliados/construcciones-alpi.svg#src
-  - image: aliados/diputacion-castellon.svg#src
+  - image: aliados/conservas-el-raal.svg
+  - image: aliados/construcciones-alpi.svg
+  - image: aliados/diputacion-castellon.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/etiquetas-adhegrafic.svg#src
-  - image: aliados/ferrovial.svg#src
-  - image: aliados/fruveco.svg#src
+  - image: aliados/etiquetas-adhegrafic.svg
+  - image: aliados/ferrovial.svg
+  - image: aliados/fruveco.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/grupo-fuentes.svg#src
-  - image: aliados/hydrodiseno.svg#src
-  - image: aliados/lord-spices-group.svg#src
+  - image: aliados/grupo-fuentes.svg
+  - image: aliados/hydrodiseno.svg
+  - image: aliados/lord-spices-group.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/marin-gimenez.svg#src
-  - image: aliados/montalban-rodriguez.svg#src
-  - image: aliados/omega-spices.svg#src
+  - image: aliados/marin-gimenez.svg
+  - image: aliados/montalban-rodriguez.svg
+  - image: aliados/omega-spices.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/pasteleria-gimar.svg#src
-  - image: aliados/penaplast.svg#src
-  - image: aliados/siepse.svg#src
+  - image: aliados/pasteleria-gimar.svg
+  - image: aliados/penaplast.svg
+  - image: aliados/siepse.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/sol9.svg#src
-  - image: aliados/soltec.svg#src
-  - image: aliados/terrazos-fortuna.svg#src
+  - image: aliados/sol9.svg
+  - image: aliados/soltec.svg
+  - image: aliados/terrazos-fortuna.svg
 - box:
     ratio: 16/9
   boxes:
-  - image: aliados/universidad-tarragona.svg#src
-  - image: aliados/westaflex.svg#src
-  - image: aliados/zamora-company.svg#src
+  - image: aliados/universidad-tarragona.svg
+  - image: aliados/westaflex.svg
+  - image: aliados/zamora-company.svg

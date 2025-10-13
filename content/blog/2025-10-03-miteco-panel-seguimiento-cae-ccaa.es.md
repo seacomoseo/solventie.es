@@ -5,8 +5,6 @@ summary: El MITECO lanza el panel del Sistema CAE con datos por comunidades aut�
 image: /portada-articulo-panel-de-seguimiento-del-sistema-cae.png
 date: 2025-10-03 13:19:51
 toc: false
-category: null
-author: null
 ---
 El Ministerio para la Transición Ecológica y el Reto Demográfico ha puesto en marcha una página específica de “Seguimiento del Sistema de CAE”. 
 
