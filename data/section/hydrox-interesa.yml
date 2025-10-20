@@ -1,0 +1,20 @@
+name: Hydrox ➡️ Interesa
+id: interesa
+title: ¿Por qué te interesa?
+subtitle: Reducción de costes
+box:
+  cols: 2
+  gap: 4
+boxes:
+- image: servicios/hydrox/ahorro.png
+  order: 2
+  fit_vs: .75
+- steps:
+  - md: Porque te ayuda a gastar menos y trabajar mejor
+    icon: piggy-bank
+  - md: Se encarga de que tu bomba de agua funcione solo cuando la electricidad es más barata, sin que tengas que preocuparte por nada
+    icon: sprinkler
+  - md: 'El sistema calcula automáticamente el mejor momento para funcionar, teniendo en cuenta todos los costes eléctricos reales: precios por horas, peajes, tramos y cualquier otro cargo que afecte a tu factura'
+    icon: calculator-simple
+  - md: Así consigue que consumas al menor coste posible, sin que tú tengas que hacer números ni estar pendiente
+    icon: leaf

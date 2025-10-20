@@ -1,0 +1,22 @@
+name: Hydrox ➡️ Beneficios
+id: beneficios
+title: Optimización inteligente del bombeo agrícola
+size: xl
+box:
+  cols: 5
+  color: dark
+  pd: 2
+  align: left
+  icon: badge-check
+  icon_size: 3
+boxes:
+
+- md: HYDROX es un dispositivo innovador que se integra fácilmente en el sistema de bombeo para maximizar la eficiencia energética y reducir los costes eléctricos.
+
+- md: Cada día, el sistema analiza el mercado eléctrico, considerando todos los factores que influyen en el precio de la energía —como peajes, desvíos y variaciones horarias— y predice el coste del kWh para las siguientes 24 horas.
+
+- md: Con esta información, HYDROX programa automáticamente las horas más económicas para el funcionamiento del bombeo, garantizando un uso inteligente y rentable de la energía.
+
+- md: Puede trabajar de forma totalmente autónoma o ser gestionado desde una aplicación móvil, que permite al agricultor controlar el sistema, supervisar el bombeo y consultar los consumos en tiempo real.
+
+- md: De esta forma, HYDROX consigue un ahorro significativo sin renunciar a la eficacia del bombeo ni a la comodidad en la gestión diaria.

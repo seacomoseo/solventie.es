@@ -6,5 +6,6 @@ title: '{{% i18n related %}}'
 size: lg
 list:
   type: related
+  max: 4
 box:
   slider: true

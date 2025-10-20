@@ -2,20 +2,20 @@
 slug: decreto-renovables-almacenamiento
 title: El Gobierno impulsa el binomio renovables + almacenamiento con un nuevo marco regulatorio
 summary: La nueva normativa del MITECO adapta la regulación eléctrica a los precios bajos del mercado y apuesta por un sistema más flexible, sostenible y seguro.
-image: /renovables-y-almacenamiento-miteco-real-decreto-15-oct.jpeg
+image: blog/renovables-y-almacenamiento-miteco-real-decreto-15-oct.jpg
 date: 2025-10-15 10:34:42
 toc: true
 category: null
 author: null
 related:
-- 2025-10-08-miteco-autoconsumo-colectivo-5km.es
-- 2025-07-17-almacenamiento-energetico.es
-- 2019-09-25-razones-apostar-fotovoltaica.es
-- 2025-04-01-autoconsumo-eficiencia-energetica-industria.es
+- 2025-10-08-miteco-autoconsumo-colectivo-5km
+- 2025-07-17-almacenamiento-energetico
+- 2019-09-25-razones-apostar-fotovoltaica
+- 2025-04-01-autoconsumo-eficiencia-energetica-industria
 ---
-El Consejo de Ministros ha aprobado la [propuesta del Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO)](https://solventie.es/miteco-autoconsumo-colectivo-5km/), un Real Decreto que modifica la normativa que regula la producción de energía eléctrica a partir de fuentes renovables, cogeneración y residuos (RECORE).
+El Consejo de Ministros ha aprobado la [propuesta del Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO)](/miteco-autoconsumo-colectivo-5km/), un Real Decreto que modifica la normativa que regula la producción de energía eléctrica a partir de fuentes renovables, cogeneración y residuos (RECORE).
 
-El [objetivo](https://solventie.es/miteco-autoconsumo-colectivo-5km/#por-que-es-relevante) es adaptar la regulación al nuevo contexto del mercado eléctrico, garantizar la rentabilidad de las instalaciones en escenarios de precios bajos o negativos y reforzar la gestión del sistema mediante una mayor integración del almacenamiento.
+El [objetivo](/miteco-autoconsumo-colectivo-5km/#por-que-es-relevante) es adaptar la regulación al nuevo contexto del mercado eléctrico, garantizar la rentabilidad de las instalaciones en escenarios de precios bajos o negativos y reforzar la gestión del sistema mediante una mayor integración del almacenamiento.
 
 
 

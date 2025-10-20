@@ -1,0 +1,29 @@
+name: Hydrox ➡️ Así Funciona
+id: asi-funciona
+title: Así funciona HYDROX
+
+size: xl
+
+box:
+  cols: 3
+  gap: 2
+  align_y: center
+  align: left
+boxes:
+
+- md: |
+    Cada día, el precio de la electricidad cambia hora a hora.
+
+    Como se ve en la gráfica, hay momentos del día en los que el coste de la energía sube mucho y otros en los que baja considerablemente.
+
+    HYDROX analiza automáticamente estos precios y calcula cuáles son las horas más baratas para poner en marcha la bomba.
+  align_vl: right
+
+- image: servicios/hydrox/grafica.svg
+
+- md: |
+    Ejemplo para un agricultor que necesita bombear 7 horas al día.
+
+    Las franjas coloreadas representan esas horas de menor coste, en las que el sistema activa el bombeo.
+
+    Así, mientras tú te ocupas de tus cultivos, HYDROX trabaja de forma inteligente para que tu instalación funcione siempre al menor coste posible.

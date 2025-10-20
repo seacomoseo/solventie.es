@@ -42,3 +42,8 @@ boxes:
   icon: lightbulb
   link: /eficiencia-energetica/
   bi: servicios/eficiencia-energetica/portada.webp
+- title: Hydrox
+  md: Optimiza el bombeo agrícola activando la bomba en las horas más baratas, analizando precios, peajes y cargos para reducir costes y con control desde app móvil
+  icon: sprinkler
+  link: /hydrox/
+  bi: servicios/hydrox/portada.webp

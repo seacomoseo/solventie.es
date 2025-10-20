@@ -20,8 +20,8 @@ menu:
       link: /ingenieria/
     - label: Eficiencia energética
       link: /eficiencia-energetica/
-    # - label: Hydrox.
-    #   link: /hydrox/
+    - label: Hydrox
+      link: /hydrox/
   - label: Proyectos
     link: /proyectos/
   - label: Precios E.
@@ -50,6 +50,7 @@ footer:
       - :none: [Bombeo Solar](/bombeo-solar/)
       - :none: [Ingeniería](/ingenieria/)
       - :none: [Eficiencia Energética](/eficiencia-energetica/)
+      - :none: [Hydrox](/hydrox/)
   - md: |
       - :none: [Conócenos](/nosotros/)
       - :none: [Proyectos](/proyectos/)
