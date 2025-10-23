@@ -1,6 +1,6 @@
 ---
 slug: solvent-ley-simplificacion-administrativa
-title: Solvent se forma en la nueva Ley de Simplificación Administrativa
+title: Nueva Ley de Simplificación Administrativa
 summary: Solvent se forma en la nueva Ley de Simplificación Administrativa para ofrecer un servicio más ágil, eficiente y adaptado a la normativa vigente.
 image: /portada-blogs-charla-rocio.png
 date: 2025-10-23 11:57:10
