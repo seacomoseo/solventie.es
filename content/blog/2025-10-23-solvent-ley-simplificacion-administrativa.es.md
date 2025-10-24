@@ -59,8 +59,6 @@ La asistencia de Solvent reafirma el compromiso con la **mejora continua y la ex
 
 En [Solvent](https://solventie.es/) entendemos la formación y la actualización constante como pilares fundamentales para el crecimiento y la calidad del servicio. La participación en esta jornada permite incorporar las novedades legislativas a la práctica diaria de la empresa, fortaleciendo nuestra capacidad para acompañar a las organizaciones en su transición hacia un modelo más eficiente, sostenible y digitalizado.
 
-En este sentido, **en Solvent ya estamos actualizados con la nueva Ley de Simplificación Administrativa**, que**entró en vigor el 22 de octubre de 2025**, reforzando nuestro compromiso con la mejora continua y la adecuación a los cambios normativos que impulsan la modernización del sector público y privado.
-
 Con este compromiso constante con la formación y la innovación, **Solvent sigue impulsando el progreso empresarial y contribuyendo activamente al desarrollo energético sostenible de la Región de Murcia.**
 
  
