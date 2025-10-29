@@ -24,9 +24,9 @@ related:
 draft: true
 description: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
 ---
-IFEMA Madrid se prepara para acoger, del 18 al 20 de noviembre de 2025, una nueva edición de **GENERA**, el evento de referencia para los profesionales del sector energético y medioambiental. La cita reunirá las últimas innovaciones en **energías renovables, almacenamiento, movilidad eléctrica, eficiencia y digitalización**, consolidándose como una plataforma clave para compartir conocimiento y generar nuevas oportunidades de colaboración.
+IFEMA Madrid se prepara para acoger, del 18 al 20 de noviembre de 2025, una nueva edición de [GENERA](https://www.ifema.es/genera), el evento de referencia para los profesionales del sector energético y medioambiental. La cita reunirá las últimas innovaciones en **energías renovables, almacenamiento, movilidad eléctrica, eficiencia y digitalización**, consolidándose como una plataforma clave para compartir conocimiento y generar nuevas oportunidades de colaboración.
 
-En esta edición, **GENERA 2025** se enmarca dentro de la **Semana Internacional de la Electrificación y la Descarbonización**, junto con los salones **MATELEC** y **C&R**. Esta sinergia refuerza la visión de un ecosistema energético más interconectado, d onde la tecnología, la sostenibilidad y la innovación convergen para acelerar la transformación del sector en España
+En esta edición, **GENERA 2025** se enmarca dentro de la **Semana Internacional de la Electrificación y la Descarbonización**, junto con los salones [MATELEC](https://www.ifema.es/matelec/entradas?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=&utm_id=21652465641&gad_source=1&gad_campaignid=23042530556&gbraid=0AAAAACuuqL_V7uV50IrC0pApmyx2G1O0N&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mSKmiqp5zg6TC8Vr_4YWKNcBHlcA86lHHIp4rLav7PC7d-aJSBMFFcaAusSEALw_wcB) y **C&R**. Esta sinergia refuerza la visión de un ecosistema energético más interconectado, d onde la tecnología, la sostenibilidad y la innovación convergen para acelerar la transformación del sector en España
 
 **El epicentro de la energía del futuro**
 
