@@ -21,7 +21,7 @@ related:
 - 2020-04-30-certificado-energetico-todo.es
 - 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia.es
 - 2019-06-06-importancia-energias-renovables.es
-draft: true
+draft: false
 description: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
 ---
 IFEMA Madrid se prepara para acoger, del 18 al 20 de noviembre de 2025, una nueva edición de [GENERA](https://www.ifema.es/genera), el evento de referencia para los profesionales del sector energético y medioambiental. La cita reunirá las últimas innovaciones en **energías renovables, almacenamiento, movilidad eléctrica, eficiencia y digitalización**, consolidándose como una plataforma clave para compartir conocimiento y generar nuevas oportunidades de colaboración.
