@@ -26,8 +26,7 @@ description: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Inn
 ---
 IFEMA Madrid se prepara para acoger, del 18 al 20 de noviembre de 2025, una nueva edición de **GENERA**, el evento de referencia para los profesionales del sector energético y medioambiental. La cita reunirá las últimas innovaciones en **energías renovables, almacenamiento, movilidad eléctrica, eficiencia y digitalización**, consolidándose como una plataforma clave para compartir conocimiento y generar nuevas oportunidades de colaboración.
 
-En esta edición, **GENERA 2025** se enmarca dentro de la **Semana Internacional de la Electrificación y la Descarbonización**, junto con los salones **MATELEC** y **C&R**. Esta sinergia refuerza la visión de un ecosistema energético más interconectado, d
-onde la tecnología, la sostenibilidad y la innovación convergen para acelerar la transformación del sector en España
+En esta edición, **GENERA 2025** se enmarca dentro de la **Semana Internacional de la Electrificación y la Descarbonización**, junto con los salones **MATELEC** y **C&R**. Esta sinergia refuerza la visión de un ecosistema energético más interconectado, d onde la tecnología, la sostenibilidad y la innovación convergen para acelerar la transformación del sector en España
 
 **El epicentro de la energía del futuro**
 
@@ -57,14 +56,10 @@ Nuestro equipo estará disponible para ofrecer **asesoramiento técnico personal
 
 **Nos vemos en GENERA 2025**
 
-📅 **Fechas:** del 18 al 20 de noviembre de 2025 
+📅 **Fechas:** del 18 al 20 de noviembre de 2025
 
 📍 **Lugar:** IFEMA Madrid – Feria GENERA 2025
 
 **Te invitamos a visitarnos** en nuestro espacio en GENERA 2025. Será una excelente oportunidad para conocernos, descubrir nuestras soluciones y conversar sobre cómo los **Certificados de Ahorro Energético (CAE)** pueden ayudarte a optimizar tus recursos y potenciar la sostenibilidad de tu empresa.
 
 Nos encontrarás en el pabellón **6** de **MATELEC**, espacio **a3e**, stand (**6A34_04).**
-
-
-
-
