@@ -3,8 +3,8 @@ slug: cnmc-renovables-control-tension
 title: La CNMC insta a que las renovables contribuyan al control de tensión
 summary: La CNMC aprueba medidas para que las energías renovables participen en el control de tensión del sistema eléctrico, reforzando la estabilidad y la eficiencia de la red española.
 image: /portada-blogs-cnmc.png
-date: 2025-10-27 12:54:33
-lastmod: 2025-10-27 12:54:34
+date: 2025-11-03 10:30:40
+lastmod: 2025-11-03 10:30:40
 toc: false
 category:
 - eficiencia-energetica.es
@@ -19,16 +19,13 @@ description: La CNMC exige que las instalaciones renovables colaboren en el cont
 ---
 La Comisión Nacional de los Mercados y la Competencia[ (CNMC)](https://www.cnmc.es/) publica una resolución urgente que exige que las instalaciones renovables colaboren en el control dinámico de la tensión eléctrica, una medida que representa una oportunidad para el sector energético y para empresas especializadas como Solvent.
 
-**Metadescripción SEO:**
 
-La CNMC aprueba medidas urgentes para mitigar las oscilaciones de tensión en el sistema eléctrico español y solicita que las energías renovables participen activamente en su regulación. 
 
- 
 
-**La CNMC insta a que las renovables contribuyan al control
-de tensión**
 
-La Comisión Nacional de los Mercados y la Competencia (CNMC) ha publicado una resolución urgente dirigida a frenar las variaciones de tensión registradas en el sistema eléctrico peninsular. Estas fluctuaciones, derivadas del incremento de la generación renovable, los nuevos intervalos de negociación del mercado eléctrico y la menor capacidad de respuesta de algunas centrales convencionales, podrían comprometer la estabilidad del suministro.
+**La CNMC insta a que las renovables contribuyan al control de tensión**
+
+La [Comisión Nacional de los Mercados y la Competencia (CNMC)](https://www.cnmc.es/) ha publicado una resolución urgente dirigida a frenar las variaciones de tensión registradas en el sistema eléctrico peninsular. Estas fluctuaciones, derivadas del incremento de la generación renovable, los nuevos intervalos de negociación del mercado eléctrico y la menor capacidad de respuesta de algunas centrales convencionales, podrían comprometer la estabilidad del suministro.
 
 La medida introduce cambios en los procedimientos de operación P.O. 3.1 (programación), P.O. 3.2 (restricciones técnicas) y P.O. 7.2 (regulación secundaria). Aunque el P.O. 7.4, referente al control de tensión, aún no ha sido actualizado, la CNMC establece que los grupos asíncronos, como las instalaciones eólicas, fotovoltaicas, de biomasa, hidráulicas e híbridas, deberán colaborar activamente en el control dinámico de la tensión eléctrica.
 
