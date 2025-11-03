@@ -3,8 +3,8 @@ slug: cnmc-renovables-control-tension
 title: La CNMC insta a que las renovables contribuyan al control de tensión
 summary: La CNMC aprueba medidas para que las energías renovables participen en el control de tensión del sistema eléctrico, reforzando la estabilidad y la eficiencia de la red española.
 image: /portada-blogs-cnmc.png
-date: 2025-11-04 09:30:40
-lastmod: 2025-11-04 09:00:40
+date: 2025-11-03 15:36:16
+lastmod: 2025-11-03 15:36:19
 toc: false
 category:
 - eficiencia-energetica.es
@@ -14,7 +14,7 @@ category:
 author: admin.es
 related:
 - 2018-08-21-aumento-precio-electricidad.es
-draft: true
+draft: false
 description: La CNMC exige que las instalaciones renovables colaboren en el control de tensión ⚡ Medida clave para una red más estable y sostenible.
 ---
 La Comisión Nacional de los Mercados y la Competencia[ (CNMC)](https://www.cnmc.es/) publica una resolución urgente que exige que las instalaciones renovables colaboren en el control dinámico de la tensión eléctrica, una medida que representa una oportunidad para el sector energético y para empresas especializadas como Solvent.
