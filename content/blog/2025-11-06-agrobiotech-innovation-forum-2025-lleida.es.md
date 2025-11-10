@@ -14,7 +14,7 @@ related:
 - 2021-12-16-paneles-solares-flotantes-alternativa-energia-solar.es
 - 2024-07-12-espana-avanza-panel-solar-flotante.es
 - 2025-09-18-primera-estacion-de-esqui-en-espana-con-energia-solar-flotante.es
-draft: true
+draft: false
 noindex: true
 ---
 La innovación agrícola y biotecnológica tiene una cita en Lleida. Desde el 25 al 27 de noviembre, la [Fira de Lleida](https://firadelleida.com/es/) acoge una nueva edición del [Agrobiotech Innovation Forum](https://agrobiotechforum.com/), un encuentro destacado como referente en el impulso de la transformación, la eficiencia y la sostenibilidad el sector agroalimentario y biotecnológico. 
