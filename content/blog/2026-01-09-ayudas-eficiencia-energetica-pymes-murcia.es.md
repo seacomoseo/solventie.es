@@ -10,10 +10,10 @@ toc: false
 category: null
 author: null
 related:
-- 2019-04-04-subvenciones-eficiencia-energetica.es
-- 2019-05-06-beneficios-auditoria-energetica-empresa.es
-- 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia.es
-- 2020-06-23-subvenciones-fotovoltaica-region-murcia.es
+- 2019-04-04-subvenciones-eficiencia-energetica
+- 2019-05-06-beneficios-auditoria-energetica-empresa
+- 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia
+- 2020-06-23-subvenciones-fotovoltaica-region-murcia
 description: |
   Nuevas ayudas para pymes en Murcia: mejora la eficiencia energética e instala autoconsumo solar con fondos FEDER hasta 2027.
 ---

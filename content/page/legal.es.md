@@ -16,7 +16,7 @@ La utilización del sitio web implica la aceptación plena y sin reservas de tod
 - Razón Social de la Empresa: **{{% legal name %}}**
 - Nombre del titular: **Francisco Javier Rincón Pedreño**
 - Domicilio social: **{{% legal location %}}**
-- C.I.F. -- D.N.I.: **{{% legal dni %}}**
+- C.I.F. -- D.N.I.: **{{% legal nif %}}**
 - Teléfono de contacto: **968 27 16 89**
 - Correo electrónico: **{{% legal email %}}**
 

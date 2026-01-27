@@ -47,5 +47,5 @@ Las soluciones de montaje actuales están diseñadas para ser extremadamente ver
 
 En conclusión, las innovaciones en sistemas de montaje para paneles solares en techos industriales están impulsando la eficiencia, seguridad y adaptabilidad de las instalaciones solares. Estas innovaciones no solo hacen que la energía solar sea más accesible y viable para las empresas, sino que también contribuyen a un futuro más sostenible y energéticamente eficiente.
 
- Si estás considerando adoptar la energía solar para tu empresa, contáctanos para una evaluación detallada y descubre cómo podemos ayudarte a aprovechar al máximo la energía solar. Para más información, visita nuestra [web](http://www.solventie.es) o síguenos en [LinkedIn](http://www.linkedin.com/company/solventie).
+Si estás considerando adoptar la energía solar para tu empresa, contáctanos para una evaluación detallada y descubre cómo podemos ayudarte a aprovechar al máximo la energía solar. Para más información, visita nuestra [web](/) o síguenos en [LinkedIn](http://www.linkedin.com/company/solventie).
 

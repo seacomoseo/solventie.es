@@ -1,5 +1,5 @@
 baseURL: https://solventie.es
-buildFuture: false
+buildFuture: true
 theme: [sansoul]
 params:
   domain: solventie.es

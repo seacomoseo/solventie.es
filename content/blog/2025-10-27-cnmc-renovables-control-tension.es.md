@@ -7,13 +7,13 @@ date: 2025-11-04 08:24:27
 lastmod: 2025-11-04 08:24:28
 toc: false
 category:
-- eficiencia-energetica.es
-- electricidad.es
-- ingenieria.es
-- noticias.es
-author: admin.es
+- eficiencia-energetica
+- electricidad
+- ingenieria
+- noticias
+author: admin
 related:
-- 2018-08-21-aumento-precio-electricidad.es
+- 2018-08-21-aumento-precio-electricidad
 draft: false
 description: La CNMC exige que las instalaciones renovables colaboren en el control de tensión ⚡ Medida clave para una red más estable y sostenible.
 ---

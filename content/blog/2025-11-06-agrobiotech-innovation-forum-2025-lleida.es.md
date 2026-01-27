@@ -6,14 +6,14 @@ image: /portada-fira-de-lleida-agro-bio-tech-blog.png
 date: 2025-11-10 09:50:01
 lastmod: 2025-11-10 09:50:01
 category: null
-author: admin.es
+author: admin
 related:
-- 2019-06-06-importancia-energias-renovables.es
-- 2020-04-30-certificado-energetico-todo.es
-- 2019-04-04-subvenciones-eficiencia-energetica.es
-- 2021-12-16-paneles-solares-flotantes-alternativa-energia-solar.es
-- 2024-07-12-espana-avanza-panel-solar-flotante.es
-- 2025-09-18-primera-estacion-de-esqui-en-espana-con-energia-solar-flotante.es
+- 2019-06-06-importancia-energias-renovables
+- 2020-04-30-certificado-energetico-todo
+- 2019-04-04-subvenciones-eficiencia-energetica
+- 2021-12-16-paneles-solares-flotantes-alternativa-energia-solar
+- 2024-07-12-espana-avanza-panel-solar-flotante
+- 2025-09-18-primera-estacion-de-esqui-en-espana-con-energia-solar-flotante
 draft: false
 noindex: true
 ---
@@ -43,7 +43,7 @@ Entre los principales ejes temáticos destacan:
 
 **Por qué asistir al Agrobiotech Innovation Forum**
 
-No se trata solo de descubrir las últimas innovaciones tecnológicas en el sector, sino de crear conexiones estratégicas. Desde [Solvent](https://solventie.es/), como colaboradores y asistentes, seguimos apostando por la cercanía con nuestros clientes y colaboradores, y por seguir innovando al ritmo del sector agroalimentario.
+No se trata solo de descubrir las últimas innovaciones tecnológicas en el sector, sino de crear conexiones estratégicas. Desde [Solvent](/), como colaboradores y asistentes, seguimos apostando por la cercanía con nuestros clientes y colaboradores, y por seguir innovando al ritmo del sector agroalimentario.
 
 Empresas, instituciones y profesionales del sector encontrarán un espacio ideal para conocer tendencias, compartir experiencias y explorar colaboraciones que aceleren la transición hacia un modelo agroalimentario más inteligente y sostenible.
 

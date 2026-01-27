@@ -9,8 +9,8 @@ toc: false
 category: null
 author: null
 related:
-- 2025-07-16-somos-sujeto-delegado-cae.es
-- 2025-08-26-cae-murcia.es
+- 2025-07-16-somos-sujeto-delegado-cae
+- 2025-08-26-cae-murcia
 draft: false
 hide: false
 noindex: false

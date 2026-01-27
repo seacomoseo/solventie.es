@@ -7,12 +7,12 @@ date: 2026-01-16 11:02:32
 lastmod: 2026-01-16 11:02:32
 toc: false
 category:
-- baterias.es
-- eficiencia-energetica.es
-- electricidad.es
-- energia-solar.es
-- noticias.es
-- sostenibilidad.es
+- baterias
+- eficiencia-energetica
+- electricidad
+- energia-solar
+- noticias
+- sostenibilidad
 author: null
 draft: false
 hide: false

@@ -7,20 +7,20 @@ date: 2025-10-27 12:33:00
 lastmod: 2025-10-27 12:33:02
 toc: false
 category:
-- eficiencia-energetica.es
-- electricidad.es
-- energia-solar.es
-- general.es
-- ingenieria.es
-- sostenibilidad.es
-- subvenciones.es
-author: admin.es
+- eficiencia-energetica
+- electricidad
+- energia-solar
+- general
+- ingenieria
+- sostenibilidad
+- subvenciones
+author: admin
 related:
-- 2018-07-26-industrias-sostenibles-energeticamente.es
-- 2019-07-09-fotovoltaica-moda.es
-- 2020-04-30-certificado-energetico-todo.es
-- 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia.es
-- 2019-06-06-importancia-energias-renovables.es
+- 2018-07-26-industrias-sostenibles-energeticamente
+- 2019-07-09-fotovoltaica-moda
+- 2020-04-30-certificado-energetico-todo
+- 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia
+- 2019-06-06-importancia-energias-renovables
 draft: false
 description: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
 ---

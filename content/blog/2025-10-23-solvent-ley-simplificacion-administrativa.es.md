@@ -7,14 +7,14 @@ date: 2025-10-23 11:57:10
 lastmod: 2025-10-23 11:57:12
 toc: false
 category:
-- noticias.es
-- eficiencia-energetica.es
-- energia-solar.es
-- electricidad.es
-- sostenibilidad.es
-- ingenieria.es
-- general.es
-author: admin.es
+- noticias
+- eficiencia-energetica
+- energia-solar
+- electricidad
+- sostenibilidad
+- ingenieria
+- general
+author: admin
 ---
 **El equipo de Solvent continúa formándose para seguir creciendo, mejorando y ofreciendo un servicio más ágil y eficiente a sus clientes.**
 
@@ -57,7 +57,7 @@ La asistencia de Solvent reafirma el compromiso con la **mejora continua y la ex
 
 **Compromiso con la innovación y la sostenibilidad**
 
-En [Solvent](https://solventie.es/) entendemos la formación y la actualización constante como pilares fundamentales para el crecimiento y la calidad del servicio. La participación en esta jornada permite incorporar las novedades legislativas a la práctica diaria de la empresa, fortaleciendo nuestra capacidad para acompañar a las organizaciones en su transición hacia un modelo más eficiente, sostenible y digitalizado.
+En [Solvent](/) entendemos la formación y la actualización constante como pilares fundamentales para el crecimiento y la calidad del servicio. La participación en esta jornada permite incorporar las novedades legislativas a la práctica diaria de la empresa, fortaleciendo nuestra capacidad para acompañar a las organizaciones en su transición hacia un modelo más eficiente, sostenible y digitalizado.
 
 Con este compromiso constante con la formación y la innovación, **Solvent sigue impulsando el progreso empresarial y contribuyendo activamente al desarrollo energético sostenible de la Región de Murcia.**
 
