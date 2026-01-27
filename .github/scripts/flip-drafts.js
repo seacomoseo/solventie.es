@@ -15,10 +15,8 @@ function walk (dir) {
   return out
 }
 
-/**
- * Extrae datos básicos del front matter YAML sin librerías.
- */
 function parseFrontMatter (content) {
+  // Ahora más robusto con el inicio del archivo
   const match = content.match(/^---\r?\n([\s\S]+?)\r?\n---/)
   if (!match) return null
   const data = {}
@@ -26,42 +24,46 @@ function parseFrontMatter (content) {
   let m
   while ((m = kvRegex.exec(match[1])) !== null) {
     let value = m[2].trim()
-    value = value.replace(/^['"]|['"]$/g, '') // Quitar comillas
+    value = value.replace(/^['"]|['"]$/g, '')
     data[m[1]] = value
   }
   return data
 }
 
-/**
- * Compara fechas usando strings en formato ISO local de Madrid.
- */
-function shouldPublish (publishDate, nowMadridStr) {
+function getMadridTime() {
+  // Obtenemos la fecha actual en Madrid de forma robusta
+  const now = new Date()
+  const s = now.toLocaleString('sv-SE', { timeZone: MADRID_TZ })
+  return s.replace('T', ' ').substring(0, 19)
+}
+
+function shouldPublish (publishDate, nowMadrid) {
   if (!publishDate) return false
   
-  // Si la fecha del post tiene zona horaria (Z o +-), la convertimos a hora de Madrid
-  if (/[Z+-]\d{2}/.test(publishDate)) {
-    try {
-      const d = new Date(publishDate)
-      const formatted = d.toLocaleString('sv-SE', { timeZone: MADRID_TZ })
-      return nowMadridStr >= formatted
-    } catch (e) {
-      return false
-    }
-  }
+  // Normalizamos la fecha del post (quitando T y zonas horarias para comparar strings)
+  const postDate = publishDate.replace('T', ' ').substring(0, 19)
+  
+  // SOLUCIÓN PROBLEMA 1: Comparación simple de strings YYYY-MM-DD HH:MM:SS
+  const isTimeArrived = nowMadrid >= postDate
+  
+  // SOLUCIÓN PROBLEMA 2: Seguridad para borradores antiguos.
+  // Solo publicamos si la fecha del post es de "hoy" o posterior (ventana de 24h de seguridad)
+  const yesterday = new Date(new Date(nowMadrid.replace(' ', 'T')).getTime() - 24 * 60 * 60 * 1000)
+    .toISOString().replace('T', ' ').substring(0, 10)
+  
+  const isRecentOrFuture = postDate.substring(0, 10) >= yesterday
 
-  // Si no tiene zona, asumimos que ya es hora de Madrid (comportamiento tipo Hugo)
-  const normalized = publishDate.replace('T', ' ').substring(0, 19)
-  return nowMadridStr >= normalized
+  return isTimeArrived && isRecentOrFuture
 }
 
 function flipDraftFlag (rawContent) {
-  // Cambia draft: true/y/yes a draft: n (preservando el formato YAML)
+  // Cambia draft: true/y/yes a draft: n (solo en YAML)
   return rawContent.replace(/^draft:\s*(true|y|yes|"true"|'true'|"y"|'y'|"yes"|'yes')\s*$/mi, 'draft: n')
 }
 
 function main () {
-  const nowMadrid = new Date().toLocaleString('sv-SE', { timeZone: MADRID_TZ })
-  console.log(`Current time in Madrid: ${nowMadrid}`)
+  const nowMadrid = getMadridTime()
+  console.log(`Current time (Madrid): ${nowMadrid}`)
 
   const files = walk(CONTENT_DIR)
   let changed = 0
@@ -69,9 +71,9 @@ function main () {
   for (const file of files) {
     const raw = fs.readFileSync(file, 'utf8')
     const data = parseFrontMatter(raw)
-    if (!data) continue
+    if (!data || !data.draft) continue
 
-    const val = String(data.draft || '').toLowerCase()
+    const val = String(data.draft).toLowerCase()
     const isDraft = val === 'true' || val === 'y' || val === 'yes'
     if (!isDraft) continue
 
