@@ -1,13 +1,7 @@
-'use strict'
-
-const fs = require('fs')
-const path = require('path')
-const matter = require('gray-matter')
-const { DateTime } = require('luxon')
+import fs from 'node:fs'
+import path from 'node:path'
 
 const MADRID_TZ = 'Europe/Madrid'
-
-// Ajusta esto a la estructura real de tu Hugo:
 const CONTENT_DIR = path.join(process.cwd(), 'content')
 
 function walk (dir) {
@@ -21,76 +15,73 @@ function walk (dir) {
   return out
 }
 
-function parsePublishDate (data) {
-  const raw = data.publishDate || data.date
-  if (!raw) return null
-
-  if (raw instanceof Date) {
-    return DateTime.fromJSDate(raw, { zone: MADRID_TZ })
+/**
+ * Extrae datos básicos del front matter YAML sin librerías.
+ */
+function parseFrontMatter (content) {
+  const match = content.match(/^---\r?\n([\s\S]+?)\r?\n---/)
+  if (!match) return null
+  const data = {}
+  const kvRegex = /^\s*([\w-]+)\s*:\s*(.+)$/gm
+  let m
+  while ((m = kvRegex.exec(match[1])) !== null) {
+    let value = m[2].trim()
+    value = value.replace(/^['"]|['"]$/g, '') // Quitar comillas
+    data[m[1]] = value
   }
-
-  if (typeof raw === 'string') {
-    // Si trae offset/Z, Luxon lo respeta. Si no, lo interpreta en Madrid.
-    const dt = DateTime.fromISO(raw, { setZone: true })
-    if (dt.isValid && (raw.includes('Z') || raw.includes('+') || raw.includes('-'))) return dt
-    const dtMadrid = DateTime.fromISO(raw, { zone: MADRID_TZ })
-    return dtMadrid.isValid ? dtMadrid : null
-  }
-
-  return null
+  return data
 }
 
-function flipDraftFlagPreservingStyle (rawContent) {
-  // Detecta YAML o TOML por delimitadores
-  if (rawContent.startsWith('---')) {
-    // YAML front matter
-    return rawContent.replace(
-      /^draft:\s*(true|"true"|'true')\s*$/m,
-      'draft: false'
-    )
+/**
+ * Compara fechas usando strings en formato ISO local de Madrid.
+ */
+function shouldPublish (publishDate, nowMadridStr) {
+  if (!publishDate) return false
+  
+  // Si la fecha del post tiene zona horaria (Z o +-), la convertimos a hora de Madrid
+  if (/[Z+-]\d{2}/.test(publishDate)) {
+    try {
+      const d = new Date(publishDate)
+      const formatted = d.toLocaleString('sv-SE', { timeZone: MADRID_TZ })
+      return nowMadridStr >= formatted
+    } catch (e) {
+      return false
+    }
   }
-  if (rawContent.startsWith('+++')) {
-    // TOML front matter
-    return rawContent.replace(
-      /^draft\s*=\s*true\s*$/m,
-      'draft = false'
-    )
-  }
-  return rawContent
+
+  // Si no tiene zona, asumimos que ya es hora de Madrid (comportamiento tipo Hugo)
+  const normalized = publishDate.replace('T', ' ').substring(0, 19)
+  return nowMadridStr >= normalized
+}
+
+function flipDraftFlag (rawContent) {
+  // Cambia draft: true/y/yes a draft: n (preservando el formato YAML)
+  return rawContent.replace(/^draft:\s*(true|y|yes|"true"|'true'|"y"|'y'|"yes"|'yes')\s*$/mi, 'draft: n')
 }
 
 function main () {
-  const nowMadrid = DateTime.now().setZone(MADRID_TZ)
+  const nowMadrid = new Date().toLocaleString('sv-SE', { timeZone: MADRID_TZ })
+  console.log(`Current time in Madrid: ${nowMadrid}`)
 
   const files = walk(CONTENT_DIR)
   let changed = 0
 
   for (const file of files) {
     const raw = fs.readFileSync(file, 'utf8')
+    const data = parseFrontMatter(raw)
+    if (!data) continue
 
-    // Sólo consideramos archivos con front matter reconocible
-    if (!raw.startsWith('---') && !raw.startsWith('+++')) continue
-
-    let parsed
-    try {
-      parsed = matter(raw)
-    } catch (_) {
-      continue
-    }
-
-    const data = parsed.data || {}
-    const isDraft = data.draft === true || data.draft === 'true'
+    const val = String(data.draft || '').toLowerCase()
+    const isDraft = val === 'true' || val === 'y' || val === 'yes'
     if (!isDraft) continue
 
-    const publishAt = parsePublishDate(data)
-    if (!publishAt) continue
-
-    if (publishAt <= nowMadrid) {
-      const nextRaw = flipDraftFlagPreservingStyle(raw)
+    const dateStr = data.publishDate || data.date
+    if (shouldPublish(dateStr, nowMadrid)) {
+      const nextRaw = flipDraftFlag(raw)
       if (nextRaw !== raw) {
         fs.writeFileSync(file, nextRaw, 'utf8')
         changed++
-        console.log(`Published: ${path.relative(process.cwd(), file)} (publishAt=${publishAt.toISO()})`)
+        console.log(`Published: ${path.relative(process.cwd(), file)} (date=${dateStr})`)
       }
     }
   }

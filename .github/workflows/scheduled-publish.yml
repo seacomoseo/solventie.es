@@ -22,20 +22,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node (with npm cache)
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install deps
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-
       - name: Flip drafts whose publishDate has arrived
         run: node .github/scripts/flip-drafts.js
 
