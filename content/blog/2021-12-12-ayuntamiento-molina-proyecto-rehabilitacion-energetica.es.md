@@ -1,9 +1,10 @@
 ---
 title: El Ayuntamiento de Molina presenta el proyecto de rehabilitación energética desarrollado por Solvent
-seo: El Ayuntamiento de Molina presenta el proyecto de rehabilitación energética desarrollado por Solvent - Ingeniería Solvent
+seo:
+  title: El Ayuntamiento de Molina presenta el proyecto de rehabilitación energética desarrollado por Solvent - Ingeniería Solvent
+  desc: En el marco de “Molina 2020 Avanza Contigo”, el Ayuntamiento de Molina de Segura presenta el proyecto de las actuaciones de rehabilitación energética y
 slug: ayuntamiento-molina-proyecto-rehabilitacion-energetica
-description: En el marco de “Molina 2020 Avanza Contigo”, el Ayuntamiento de Molina de Segura presenta el proyecto de las actuaciones de rehabilitación energética y
-image: blog/ayuntamiento-molina-proyecto-rehabilitacion-energetica.jpg
+img: /u/blog/ayuntamiento-molina-proyecto-rehabilitacion-energetica.jpg
 category:
 - noticias
 date: 2021-12-12 00:00:00

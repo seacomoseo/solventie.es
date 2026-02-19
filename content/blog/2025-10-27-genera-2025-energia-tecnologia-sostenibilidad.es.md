@@ -1,11 +1,11 @@
 ---
 slug: genera-y-matalec-2025-energia-tecnologia-sostenibilidad
 title: 'GENERA y MATALEC 2025: donde la energía, la tecnología y la sostenibilidad convergen'
-summary: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas del sector energético para mostrar las últimas innovaciones en renovables, eficiencia y digitalización, impulsando la transición hacia un modelo más sostenible y colaborativo.
-image: /portada-blog-genera.png
+sum: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas del sector energético para mostrar las últimas innovaciones en renovables, eficiencia y digitalización, impulsando la transición hacia un modelo más sostenible y colaborativo.
+img: /u/blog/portada-genera.webp
 date: 2025-10-27 12:33:00
-lastmod: 2025-10-27 12:33:02
-toc: false
+mod: 2025-10-27 12:33:02
+toc: n
 category:
 - eficiencia-energetica
 - electricidad
@@ -15,14 +15,15 @@ category:
 - sostenibilidad
 - subvenciones
 author: admin
-related:
+rel:
 - 2018-07-26-industrias-sostenibles-energeticamente
 - 2019-07-09-fotovoltaica-moda
 - 2020-04-30-certificado-energetico-todo
 - 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia
 - 2019-06-06-importancia-energias-renovables
-draft: false
-description: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
+draft: n
+seo:
+  desc: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
 ---
 IFEMA Madrid se prepara para acoger, del 18 al 20 de noviembre de 2025, una nueva edición de [GENERA](https://www.ifema.es/genera), el evento de referencia para los profesionales del sector energético y medioambiental. La cita reunirá las últimas innovaciones en **energías renovables, almacenamiento, movilidad eléctrica, eficiencia y digitalización**, consolidándose como una plataforma clave para compartir conocimiento y generar nuevas oportunidades de colaboración.
 

@@ -2,9 +2,9 @@ name: Base ➡️ Autores
 node: aside
 if: author
 id: author
-hanchor: '{{ author 0 hanchor }}'
-title: '{{ author 1 parent }}'
 boxes:
+- hanchor: '{{ author 0 hanchor }}'
+  title: '{{ author 1 parent }}'
 - box:
     cols: 1
     align_x: flex-start
@@ -12,12 +12,67 @@ boxes:
   boxes:
   - fit: .2
     fit_vs: .4
-    image: '{{ author 0 image }}'
+    img: '{{ author 0 img }}'
     ratio: 1/1
+    # border: main
   - fit: .8
     fit_vs: .6
     space: .75
     align: left
     title: '{{% author 0 title %}}'
     md: |
-      {{< author 0 summary >}}
+      {{< author 0 sum >}}
+- if: '{{ author 1 is }}'
+  box:
+    cols: 1
+    align_x: flex-end
+    align_y: top
+  boxes:
+  - fit: .8
+    fit_vs: .6
+    space: .75
+    align: right
+    title: '{{% author 1 title %}}'
+    md: |
+      {{< author 1 sum >}}
+  - fit: .2
+    fit_vs: .4
+    img: '{{ author 1 img }}'
+    ratio: 1/1
+    # border: main
+- if: '{{ author 2 is }}'
+  box:
+    cols: 1
+    align_x: flex-end
+    align_y: top
+  boxes:
+  - fit: .2
+    fit_vs: .4
+    img: '{{ author 2 img }}'
+    ratio: 1/1
+    # border: main
+  - fit: .8
+    fit_vs: .6
+    space: .75
+    align: left
+    title: '{{% author 2 title %}}'
+    md: |
+      {{< author 2 sum >}}
+- if: '{{ author 3 is }}'
+  box:
+    cols: 1
+    align_x: flex-end
+    align_y: top
+  boxes:
+  - fit: .8
+    fit_vs: .6
+    space: .75
+    align: right
+    title: '{{% author 3 title %}}'
+    md: |
+      {{< author 3 sum >}}
+  - fit: .2
+    fit_vs: .4
+    img: '{{ author 3 img }}'
+    ratio: 1/1
+    # border: main

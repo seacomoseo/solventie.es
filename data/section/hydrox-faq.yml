@@ -1,48 +1,39 @@
 name: Hydrox ➡️ FAQ
 id: faq
-title: Preguntas Frecuentes
 size: sm
-accordion:
-  # button: main
-  hs: 6
-  headers: true
-accordions:
+boxes:
+- title: Preguntas Frecuentes
+  faq:
+    hs: 6
+    headers: y
+  faqs:
+  - title: ¿Qué es exactamente Hydrox?
+    md: |
+      HYDROX es un sistema inteligente que se integra con la bomba y elige automáticamente las horas más baratas del día para funcionar, reduciendo los costes eléctricos sin que el agricultor tenga que hacer nada.
+  - title: ¿Cómo funciona?
+    md: |
+      HYDROX analiza cada día el mercado eléctrico, teniendo en cuenta precios, peajes y cargos, y predice el coste de la energía de las próximas 24 horas.
 
-- title: ¿Qué es exactamente Hydrox?
-  md: |
-    HYDROX es un sistema inteligente que se integra con la bomba y elige automáticamente las horas más baratas del día para funcionar, reduciendo los costes eléctricos sin que el agricultor tenga que hacer nada.
+      Con esa información, programa el bombeo en las horas más económicas para ahorrar energía y dinero.
+  - title: ¿Necesito energía solar para usarlo?
+    md: |
+      No. HYDROX funciona con cualquier instalación eléctrica, tanto con conexión a red como con autoconsumo solar.
 
-- title: ¿Cómo funciona?
-  md: |
-    HYDROX analiza cada día el mercado eléctrico, teniendo en cuenta precios, peajes y cargos, y predice el coste de la energía de las próximas 24 horas.
+      Su inteligencia se centra en optimizar el horario de funcionamiento, independientemente del tipo de suministro.
+  - title: ¿Tengo que cambiar mi instalación de bombeo?
+    md: |
+      No. HYDROX se adapta a tu sistema existente. Solo requiere una sencilla instalación eléctrica y de comunicación con la bomba. En la mayoría de los casos, se coloca junto al cuadro de control.
+  - title: ¿Puedo controlar Hydrox desde el móvil?
+    md: |
+      Sí. Hydrox incluye una aplicación móvil desde la que puedes visualizar el estado del sistema, consultar los horarios de bombeo, ajustar la configuración si lo deseas, o incluso activar y desactivar la bomba a distancia.
+  - title: ¿Qué pasa si necesito bombear a una hora concreta?
+    md: |
+      Puedes hacerlo sin problema. HYDROX permite modificar o anular la programación automática en cualquier momento desde la app, manteniendo siempre el control sobre tu bombeo.
+  - title: ¿Qué necesita Hydrox?
+    md: |
+      Hydrox funciona a través de un software, la aplicación de Hydrox. Es un sistema robusto, diseñado para funcionar de forma autónoma. Solventie ofrece soporte técnico en caso de necesitar ajustes o revisión.
+  - title: ¿Por qué me interesa instalar HYDROX?
+    md: |
+      Porque te permite bombear igual que siempre, pero pagando menos.
 
-    Con esa información, programa el bombeo en las horas más económicas para ahorrar energía y dinero.
-
-- title: ¿Necesito energía solar para usarlo?
-  md: |
-    No. HYDROX funciona con cualquier instalación eléctrica, tanto con conexión a red como con autoconsumo solar.
-
-    Su inteligencia se centra en optimizar el horario de funcionamiento, independientemente del tipo de suministro.
-
-- title: ¿Tengo que cambiar mi instalación de bombeo?
-  md: |
-    No. HYDROX se adapta a tu sistema existente. Solo requiere una sencilla instalación eléctrica y de comunicación con la bomba. En la mayoría de los casos, se coloca junto al cuadro de control.
-
-- title: ¿Puedo controlar Hydrox desde el móvil?
-  md: |
-    Sí. Hydrox incluye una aplicación móvil desde la que puedes visualizar el estado del sistema, consultar los horarios de bombeo, ajustar la configuración si lo deseas, o incluso activar y desactivar la bomba a distancia.
-
-- title: ¿Qué pasa si necesito bombear a una hora concreta?
-  md: |
-    Puedes hacerlo sin problema. HYDROX permite modificar o anular la programación automática en cualquier momento desde la app, manteniendo siempre el control sobre tu bombeo.
-
-- title: ¿Qué necesita Hydrox?
-  md: |
-    Hydrox funciona a través de un software, la aplicación de Hydrox. Es un sistema robusto, diseñado para funcionar de forma autónoma. Solventie ofrece soporte técnico en caso de necesitar ajustes o revisión.
-
-- title: ¿Por qué me interesa instalar HYDROX?
-  md: |
-    Porque te permite bombear igual que siempre, pero pagando menos.
-
-    Automatiza tus horarios, reduce el consumo eléctrico y te da control total sobre tu instalación desde tu móvil. Más eficiencia, menos costes, sin complicaciones.
-
+      Automatiza tus horarios, reduce el consumo eléctrico y te da control total sobre tu instalación desde tu móvil. Más eficiencia, menos costes, sin complicaciones.

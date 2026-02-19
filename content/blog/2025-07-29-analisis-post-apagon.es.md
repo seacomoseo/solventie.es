@@ -1,8 +1,8 @@
 ---
 slug: analisis-post-apagon
 title: 'Análisis técnico post-apagón: El impacto oculto en los componentes regulados del precio eléctrico'
-summary: El apagón del 28 de abril no solo dejó consecuencias inmediatas en el suministro eléctrico, sino que también provocó un cambio profundo en la estructura de costes de la factura eléctrica. En este análisis técnico explicamos cómo, a pesar de un mercado mayorista barato gracias a la alta generación renovable, los componentes regulados han incrementado de forma significativa. Un fenómeno que ya está afectando la competitividad de la industria intensiva en energía. Descubre por qué ha ocurrido, cómo identificar estos sobrecostes y qué estrategias adoptar para mitigar su impacto.
-image: blog/apagon.jpg
+sum: El apagón del 28 de abril no solo dejó consecuencias inmediatas en el suministro eléctrico, sino que también provocó un cambio profundo en la estructura de costes de la factura eléctrica. En este análisis técnico explicamos cómo, a pesar de un mercado mayorista barato gracias a la alta generación renovable, los componentes regulados han incrementado de forma significativa. Un fenómeno que ya está afectando la competitividad de la industria intensiva en energía. Descubre por qué ha ocurrido, cómo identificar estos sobrecostes y qué estrategias adoptar para mitigar su impacto.
+img: /u/blog/apagon.jpg
 date: 2025-08-05 08:35:38
 ---
 El pasado 28 de abril, el sistema eléctrico español vivió un [gran apagón](/como-evitar-quedarte-sin-luz-en-un-apag-n/) que, aunque fue gestionado con relativa rapidez, ha dejado tras de sí efectos significativos que ya se visibilizan. Más allá de las interrupciones inmediatas en el suministro, lo que ha salido a la luz es una alteración profunda en los componentes regulados del precio final de la electricidad —un aspecto que afecta especialmente a los grandes consumidores industriales.

@@ -2,19 +2,14 @@ title: Actualidad
 weight: 1
 base: article
 name: blog
-related: true
+rel: y
 tpl:
   list:
     cols: 2
-    card: false
-    color: similar
+    card: n
+    color: such
     align: left
     ratio: 16/9
-    inset: true
-    md: ''
+    inset: y
+    md: '.'
     hs: 6
-es:
-  permalinks: /
-  slug: actualidad
-  singular: Artículo
-  title: Actualidad

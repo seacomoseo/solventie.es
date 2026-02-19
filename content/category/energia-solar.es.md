@@ -1,5 +1,6 @@
 ---
 slug: energia-solar
 title: Energía solar
-noindex: true
+seo:
+  noindex: y
 ---

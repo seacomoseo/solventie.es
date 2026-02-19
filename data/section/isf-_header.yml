@@ -1,12 +1,13 @@
 name: ISF ➡️ Header
-title: Instalaciones Solares <br> Fotovoltaicas Flotantes
-hs: 0
 color: dark
-bi: servicios/instalaciones-solares-flotantes/portada.jpg
-parallax: none
+bi: /u/servicios/instalaciones-solares-flotantes/portada.jpg
+scroll: none
 pt: 8
 pb: 8
-md: |
-  Soluciones solares para el sector agrícola y comunidades de regantes
+boxes:
+- title: Instalaciones Solares <br> Fotovoltaicas Flotantes
+  hs: 0.2
+  md: |
+    Soluciones solares para el sector agrícola y comunidades de regantes
 
-  [[Ver más]](#more)
+    [[Ver más]](#more)

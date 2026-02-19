@@ -1,18 +1,18 @@
 title: Categorías
 base: page
-weight: 3
+weight: 2
 name: category
 tax_of:
 - name: blog
-  multiple: true
-  breadcrumbs: true
+  multi: y
+  crumbs: y
   schema: articleSection
 - name: category
-  multiple: true
-  breadcrumbs: true
+  multi: y
+  crumbs: y
 tpl:
   list:
     color: dark
     fade: light
-    fade_type: linear-t
+    fade_to: t
     rate: 2

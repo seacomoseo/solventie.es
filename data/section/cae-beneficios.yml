@@ -1,26 +1,27 @@
 name: CAE ➡️ Beneficios
 id: beneficios
-title: ¿Cómo ayudan los CAE a tu empresa?
 size: xl
-box:
-  cols: 4
-  color: dark
-  pd: 2
-  align: left
 boxes:
-- title: Ingreso directo
-  md: |
-    - Convierte tus kWh ahorrados en euros.
-    - Por cada ahorro certificado recibes una compensación en €/kWh, aportando liquidez sin endeudarte.
-- title: Mejora de la rentabilidad
-  md: |
-    - Cobras por ahorrar. Los CAE convierten tus kWh ahorrados en ingresos adicionales.
-    - Aceleran el retorno de la inversión y elevan la rentabilidad del proyecto.
-- title: Cumplimiento y confianza
-  md: |
-    - Ahorros verificados por entidad acreditada (ENAC) y expediente trazable.
-    - Gestionado por Sujeto Delegado, cumples normativa sin fricciones.
-- title: Compatibilidad con ayudas
-  md: |
-    - Sumamos CAE a subvenciones compatibles para maximizar el retorno.
-    - Analizamos convocatorias y evitamos incompatibilidades (no aplica si la financiación proviene del FNEE).
+- title: ¿Cómo ayudan los CAE a tu empresa?
+  box:
+    cols: 4
+    color: dark
+    pd: 2
+    align: left
+  boxes:
+  - title: Ingreso directo
+    md: |
+      - Convierte tus kWh ahorrados en euros.
+      - Por cada ahorro certificado recibes una compensación en €/kWh, aportando liquidez sin endeudarte.
+  - title: Mejora de la rentabilidad
+    md: |
+      - Cobras por ahorrar. Los CAE convierten tus kWh ahorrados en ingresos adicionales.
+      - Aceleran el retorno de la inversión y elevan la rentabilidad del proyecto.
+  - title: Cumplimiento y confianza
+    md: |
+      - Ahorros verificados por entidad acreditada (ENAC) y expediente trazable.
+      - Gestionado por Sujeto Delegado, cumples normativa sin fricciones.
+  - title: Compatibilidad con ayudas
+    md: |
+      - Sumamos CAE a subvenciones compatibles para maximizar el retorno.
+      - Analizamos convocatorias y evitamos incompatibilidades (no aplica si la financiación proviene del FNEE).

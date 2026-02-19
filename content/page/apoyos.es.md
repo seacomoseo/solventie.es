@@ -1,10 +1,11 @@
 ---
 slug: apoyos
 title: Apoyos
-image: apoyos/feder-info-ris3-mur.png
-icon: handshake-angle
-draft: true
-noindex: true
+img: /u/apoyos/feder-info-ris3-mur.png
+icon: support
+draft: y
+seo:
+  noindex: y
 weight: 8
 ---
 > Una manera de hacer Europa

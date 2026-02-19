@@ -2,15 +2,16 @@ name: Hydrox ➡️ Qué es
 id: que-es
 pt: 8
 size: md
-box:
-  cols: 2
-  gap: 4
-  gap_vs: 2
 boxes:
-- image: servicios/hydrox/coste.png
-  fit_vs: .75
-- title: ¿Qué es Hydrox?
-  md: Hydrox es un sistema **inteligente** que se conecta con la bomba de agua y **programa** su funcionamiento en **las horas más baratas** para funcionar.
-  align: left
-  align_y: center
-  fit: 1.25
+- box:
+    cols: 2
+    gap: 4
+    gap_vs: 2
+  boxes:
+  - img: /u/servicios/hydrox/coste.png
+    fit_vs: 0.75
+  - title: ¿Qué es Hydrox?
+    md: Hydrox es un sistema **inteligente** que se conecta con la bomba de agua y **programa** su funcionamiento en **las horas más baratas** para funcionar.
+    align: left
+    align_y: center
+    fit: 1.25

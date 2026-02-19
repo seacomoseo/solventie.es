@@ -1,13 +1,14 @@
 name: Servicio ➡️ Garantías
 id: garantias
 if: warranties
-title: ¿Por qué nosotros?
-box:
-  cols: 3
-  gap: 4
-  align_y: top
-  icon: badge-check
-  icon_size: 3
-params:
-- from: warranties
-  to: boxes
+boxes:
+- title: ¿Por qué nosotros?
+  get:
+  - from: warranties
+    to: boxes
+  box:
+    cols: 3
+    gap: 4
+    align_y: top
+    icon: verified
+    icon_size: 3

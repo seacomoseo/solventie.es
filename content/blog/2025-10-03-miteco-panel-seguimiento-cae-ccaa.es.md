@@ -1,10 +1,10 @@
 ---
 slug: miteco-panel-seguimiento-cae-ccaa
 title: El MITECO estrena el panel de Seguimiento del Sistema CAE
-summary: El MITECO lanza el panel del Sistema CAE con datos por comunidades autónomas, sectores y actuaciones, actualizado mensualmente.
-image: /portada-articulo-panel-de-seguimiento-del-sistema-cae.png
+sum: El MITECO lanza el panel del Sistema CAE con datos por comunidades autónomas, sectores y actuaciones, actualizado mensualmente.
+img: /u/blog/portada-articulo-panel-de-seguimiento-del-sistema-cae.webp
 date: 2025-10-03 13:19:51
-toc: false
+toc: /u/n
 ---
 El Ministerio para la Transición Ecológica y el Reto Demográfico ha puesto en marcha una página específica de “Seguimiento del Sistema de CAE”. 
 
@@ -28,7 +28,7 @@ Para quienes impulsan proyectos, este panel les permite tener una lectura clara 
 
 # Paneles
 
-![](/panel-cae-resumen.png)
+![](/u/blog/panel-cae-resumen.webp)
 ## Resumen: visión general y evolución mensual
 
 Esta pestaña muestra los **indicadores clave** del sistema y una panorámica del ritmo de avance:
@@ -45,7 +45,7 @@ Esta pestaña muestra los **indicadores clave** del sistema y una panorámica de
 
 
 
-![](/panel-cae-solicitudes.png)
+![](/u/blog/panel-cae-solicitudes.webp)
 ## Solicitudes: quién pide, en qué estado está y cómo evoluciona
 
 Aquí se detalla el pulso administrativo del sistema:
@@ -62,7 +62,7 @@ Aquí se detalla el pulso administrativo del sistema:
 
 
 
-![](/panel-cae-actuaciones.png)
+![](/u/blog/panel-cae-actuaciones.webp)
 ## Actuaciones: qué medidas tiran del ahorro y dónde se realizan
 
 Esta vista permite pasar del “qué se pide” al **“qué se hace”:**

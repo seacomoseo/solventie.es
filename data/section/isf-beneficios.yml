@@ -1,30 +1,30 @@
 name: ISF ➡️ Beneficios
 id: beneficios
-title: Beneficios Clave
 size: md
-box:
-  cols: 2
-  gap: 4
-  gap_vs: 2
-  gap_ny: 1
-  align_y: top
-  icon_size: 3
 boxes:
-- icon: bolt
-  title: Ahorro y Eficiencia <br> Energética
-  md: |
-    - Generación energética superior (+15%) <br> por refrigeración natural
-- icon: droplet
-  title: Gestión Inteligente <br> del Agua
-  md: |
-    - Reducción evaporación (>80%), <br> preservando agua para riego
-- icon: leaf
-  title: Sostenibilidad <br> Ambiental
-  md: |
-    - Disminución de emisiones CO₂
-    - Protección del medio natural
-- icon: coins
-  title: Economía y Facilidad <br> Operativa
-  md: |
-    - Instalación rápida (aprox. 15 días por MW)
-    - Bajos costes operativos y mantenimiento reducido
+- title: Beneficios Clave
+  box:
+    cols: 2
+    gap: 4
+    gap_vs: 2
+    align_y: top
+    icon_size: 3
+  boxes:
+  - icon: bolt
+    title: Ahorro y Eficiencia <br> Energética
+    md: |
+      - Generación energética superior (+15%) <br> por refrigeración natural
+  - icon: water_drop
+    title: Gestión Inteligente <br> del Agua
+    md: |
+      - Reducción evaporación (>80%), <br> preservando agua para riego
+  - icon: eco
+    title: Sostenibilidad <br> Ambiental
+    md: |
+      - Disminución de emisiones CO₂
+      - Protección del medio natural
+  - icon: paid
+    title: Economía y Facilidad <br> Operativa
+    md: |
+      - Instalación rápida (aprox. 15 días por MW)
+      - Bajos costes operativos y mantenimiento reducido

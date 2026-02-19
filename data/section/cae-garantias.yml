@@ -1,19 +1,19 @@
 name: CAE ➡️ Garantías
 id: garantias
-title: ¿Por qué Solvent?
 color: dark
-bi: servicios/gestion-cae/garantias.jpg
-box:
-  cols: 3
-  gap: 4
-  gap_ny: 1
-  align_y: top
-  icon: badge-check
-  icon_size: 3
+bi: /u/servicios/gestion-cae/garantias.jpg
 boxes:
-- title: Sujeto Delegado acreditado
-  md: Nuestros especialistas en CAEs se encargaran de todo el proceso, asegurando que cada paso se realice conforme a la normativa para asegurarte el máximo beneficio posible.
-- title: Cobertura nacional
-  md: Estamos donde está tu empresa. Operamos en todo el territorio nacional y coordinamos el proceso de CAEs de una punta a otra de España.
-- title: Todas las actuaciones
-  md: Tramitamos tanto actuaciones estandarizadas (catálogo) como proyectos singulares a medida. Así aprovechamos el camino más ágil cuando existe ficha técnica... y maximizamos el valor cuando tu caso requiere modelización específica.
+- title: ¿Por qué Solvent?
+  box:
+    cols: 3
+    gap: 4
+    align_y: top
+    icon: verified
+    icon_size: 3
+  boxes:
+  - title: Sujeto Delegado acreditado
+    md: Nuestros especialistas en CAEs se encargaran de todo el proceso, asegurando que cada paso se realice conforme a la normativa para asegurarte el máximo beneficio posible.
+  - title: Cobertura nacional
+    md: Estamos donde está tu empresa. Operamos en todo el territorio nacional y coordinamos el proceso de CAEs de una punta a otra de España.
+  - title: Todas las actuaciones
+    md: Tramitamos tanto actuaciones estandarizadas (catálogo) como proyectos singulares a medida. Así aprovechamos el camino más ágil cuando existe ficha técnica... y maximizamos el valor cuando tu caso requiere modelización específica.

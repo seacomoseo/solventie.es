@@ -1,12 +1,13 @@
 ---
 title: 'Limpieza de placas solares: 3 tipos de suciedad'
-seo: 'Limpieza de placas solares: descubre los 3 tipos de suciedad'
+seo:
+  title: 'Limpieza de placas solares: descubre los 3 tipos de suciedad'
+  desc: La limpieza de placas solares no siempre es tan importante como parece. En este artículo te contamos cuando sí debes limpiar la instalación solar.
 slug: limpieza-placas-solares-tipos-suciedad
-description: La limpieza de placas solares no siempre es tan importante como parece. En este artículo te contamos cuando sí debes limpiar la instalación solar.
-image: blog/limpieza-placas-solares-tipos-suciedad.jpg
+img: /u/blog/limpieza-placas-solares-tipos-suciedad.jpg
 category:
 - energia-solar
-toc: true
+toc: y
 date: 2022-12-21 00:00:00
 ---
 En este blog, vamos a comentar uno de los temas en los que existe más disparidad de opiniones: la limpieza de placas solares.

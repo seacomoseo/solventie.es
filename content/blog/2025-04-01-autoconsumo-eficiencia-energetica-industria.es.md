@@ -1,17 +1,16 @@
 ---
-title: 'Autoconsumo y eficiencia energética en la industria: ¿sinónimos o
-  conceptos complementarios?'
-seo: Cómo se complementan el autoconsumo y la eficiencia energética en la industria
+title: 'Autoconsumo y eficiencia energética en la industria: ¿sinónimos o conceptos complementarios?'
+seo:
+  title: Cómo se complementan el autoconsumo y la eficiencia energética en la industria
+  desc: |-
+    ¿Son lo mismo el autoconsumo y la eficiencia energética?
+    Descubre cómo se complementan en la industria para optimizar el consumo y el rendimiento.
 slug: autoconsumo-eficiencia-energetica-industria
-description: >-
-  ¿Son lo mismo el autoconsumo y la eficiencia energética?
-
-  Descubre cómo se complementan en la industria para optimizar el consumo y el rendimiento.
-image: blog/autoconsumo-eficiencia-energetica-industria.webp
+img: /u/blog/autoconsumo-eficiencia-energetica-industria.webp
 category:
 - eficiencia-energetica
 - energia-solar
-toc: true
+toc: y
 date: 2025-04-01 00:00:00
 ---
 En el ámbito industrial, la gestión eficiente de la energía es un factor clave para mejorar la competitividad, reducir los costes operativos y minimizar el impacto ambiental. Una cuestión recurrente es si la implementación de sistemas de [autoconsumo fotovoltaico](/como-realizamos-instalacion-fotovoltaica/) conlleva una mejora en la **eficiencia energética** de una instalación industrial.

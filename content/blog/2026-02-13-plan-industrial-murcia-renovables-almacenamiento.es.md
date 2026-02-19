@@ -1,15 +1,14 @@
 ---
 slug: plan-industrial-murcia-renovables-almacenamiento
 title: 'Plan Industrial de la Región de Murcia 2026-2035: el impulso a las energías renovables y el almacenamiento en la industria'
-summary: El Plan Industrial de la Región de Murcia 2026-2035 impulsa energías renovables y almacenamiento para reducir costes, descarbonizar y ganar competitividad.
-image: /13.-plan-industrial-carm-2026-20235.png
+sum: El Plan Industrial de la Región de Murcia 2026-2035 impulsa energías renovables y almacenamiento para reducir costes, descarbonizar y ganar competitividad.
+img: /u/blog/13-plan-industrial-carm-2026-20235.webp
 date: 2026-02-13 12:10:28
-lastmod: 2026-02-13 12:10:28
-toc: false
-author: null
-category: null
-noindex: false
-description: 'Plan Industrial Murcia 2026-2035: renovables y almacenamiento para autoconsumo industrial, PPA, microrredes y descarbonización.'
+mod: 2026-02-13 12:10:28
+toc: n
+seo:
+  desc: 'Plan Industrial Murcia 2026-2035: renovables y almacenamiento para autoconsumo industrial, PPA, microrredes y descarbonización.'
+  noindex: n
 ---
 La Región de Murcia ha presentado el [Plan Industrial de la Región de Murcia 2026-2035](https://www.carm.es/web/descarga?ARCHIVO=Plan%20Industrial%20de%20la%20Regi%C3%B3n%20de%20Murcia%20-%20V.%20Digital_Comprimido.pdf&ALIAS=ARCH&&IDCONTENIDO=204322), una hoja de ruta que sitúa a la industria en el centro de la estrategia económica regional, con el objetivo de reforzar competitividad, empleo de calidad y liderazgo industrial. El Plan contempla **55 medidas y 255 acciones** y una inversión pública directa de **1.731 millones de euros,** con efecto palanca para movilizar inversión adicional y proyectos tractores hasta 2035. 
 

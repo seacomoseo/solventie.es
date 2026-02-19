@@ -1,59 +1,51 @@
 name: IFS ➡️ Proyectos
-title: Proyectos
-box:
-  cols: 3
-  color: white
-  inset: true
-  ratio: 16/9
-  hs: 6
-  caps: true
-  label: Ver más
 boxes:
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
-  title: Capdepera
-  subtitle: Mallorca
-  link: '#capdepera'
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
-  title: Consell
-  subtitle: Mallorca
-  link: '#consell'
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
-  title: SMC
-  subtitle: Mallorca
-  link: '#smc'
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
-  title: INCA
-  subtitle: Mallorca
-  md: '`En desarrollo`'
-  link: '#inca'
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
-  title: Balsa de Artá
-  subtitle: Mallorca
-  md: '`En desarrollo`'
-  link: '#balsa-de-arta'
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
-  title: Balsa de Santa Eulalia Des Riu
-  subtitle: Ibiza
-  md: '`En desarrollo`'
-  link: '#balsa-de-santa-eulalia-des-riu'
-
+- title: Proyectos
+  box:
+    cols: 3
+    color: white
+    inset: y
+    ratio: 16/9
+    hs: 6
+    caps: y
+    label: Ver más
+  boxes:
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
+    title: Capdepera
+    sub: Mallorca
+    url: '#capdepera'
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
+    title: Consell
+    sub: Mallorca
+    url: '#consell'
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
+    title: SMC
+    sub: Mallorca
+    url: '#smc'
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
+    title: INCA
+    sub: Mallorca
+    md: '`En desarrollo`'
+    url: '#inca'
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
+    title: Balsa de Artá
+    sub: Mallorca
+    md: '`En desarrollo`'
+    url: '#balsa-de-arta'
+  - img: /u/servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
+    title: Balsa de Santa Eulalia Des Riu
+    sub: Ibiza
+    md: '`En desarrollo`'
+    url: '#balsa-de-santa-eulalia-des-riu'
 modal:
   color: white
-  inset: true
-  # ratio: 16/9
-  caps: true
+  inset: y
+  caps: y
   size: xs
 modals:
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
   title: Capdepera
-  subtitle: Mallorca
+  sub: Mallorca
   md: |
     - **Ubicación:** Capdepera
     - **Potencia instalada:** 1.400 kW
@@ -62,10 +54,9 @@ modals:
       - Incremento generación energía (+15%)
       - Reducción evaporación del agua (80%)
       - Adaptación flexible a cambios de nivel del agua
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/consell.jpg
   title: Consell
-  subtitle: Mallorca
+  sub: Mallorca
   md: |
     - **Ubicación:** SMC
     - **Potencia instalada:** 700 kW
@@ -74,10 +65,9 @@ modals:
       - Alta adaptabilidad a fluctuaciones de nivel del agua
       - Protección y conservación del recurso hídrico
       - Producción energética estable y optimizada
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/smc.jpg
   title: SMC
-  subtitle: Mallorca
+  sub: Mallorca
   md: |
     - **Ubicación:** Consell
     - **Potencia instalada:** 700 kW
@@ -86,10 +76,9 @@ modals:
       - Máximo aprovechamiento del espacio acuático
       - Optimización energética significativa
       - Bajo coste de operación y mantenimiento
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/inca.jpg
   title: INCA
-  subtitle: Mallorca
+  sub: Mallorca
   md: |
     `En desarrollo`
     - **Ubicación:** INCA
@@ -99,19 +88,17 @@ modals:
       - Alta adaptabilidad a fluctuaciones de nivel del agua
       - Protección y conservación del recurso hídrico
       - Producción energética estable y optimizada
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/balsa-de-arta.jpg
   title: Balsa de Artá
-  subtitle: Mallorca
+  sub: Mallorca
   md: |
     `En desarrollo`
     - **Ubicación:** Artá
     - **Potencia a instalar:** 2.800 kW
     - **Aplicación:** Comunidades de regantes e industrial
-
-- image: servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
+- img: /u/servicios/instalaciones-solares-flotantes/proyectos/balsa-de-santa-eulalia-des-riu.jpg
   title: Balsa de Santa Eulalia Des Riu
-  subtitle: Ibiza
+  sub: Ibiza
   md: |
     `En desarrollo`
     - **Ubicación:** Santa Eulalia Des Riu

@@ -1,9 +1,10 @@
 ---
 title: Acciones para reducir la huella de carbono
-seo: Acciones para reducir la huella de carbono - Ingeniería Solvent
+seo:
+  title: Acciones para reducir la huella de carbono - Ingeniería Solvent
+  desc: La huella de carbono es la cantidad de emisiones de gases de efecto invernadero (GEI), producidos directa o indirectamente por una persona, organización,
 slug: acciones-reducir-huella-carbono-empresa
-description: La huella de carbono es la cantidad de emisiones de gases de efecto invernadero (GEI), producidos directa o indirectamente por una persona, organización,
-image: blog/acciones-reducir-huella-carbono-empresa.jpg
+img: /u/blog/acciones-reducir-huella-carbono-empresa.jpg
 category:
 - sostenibilidad
 date: 2020-01-22 00:00:00

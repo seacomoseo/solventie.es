@@ -1,9 +1,10 @@
 ---
 title: Ayudamos a las industrias a ser sostenibles energéticamente
-seo: Ayudamos a las industrias a ser sostenibles energéticamente - Ingeniería Solvent
+seo:
+  title: Ayudamos a las industrias a ser sostenibles energéticamente - Ingeniería Solvent
+  desc: En cada proyecto ponemos todo nuestro empeño y nuestras ganas. No paramos hasta conseguir los mejores resultados! Una muestra de ello son la empresa Serfrial
 slug: industrias-sostenibles-energeticamente
-description: En cada proyecto ponemos todo nuestro empeño y nuestras ganas. No paramos hasta conseguir los mejores resultados! Una muestra de ello son la empresa Serfrial
-image: blog/industrias-sostenibles-energeticamente.jpg
+img: /u/blog/industrias-sostenibles-energeticamente.jpg
 category:
 - sostenibilidad
 date: 2018-07-26 00:00:00

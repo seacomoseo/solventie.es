@@ -1,11 +1,11 @@
 ---
 slug: nueva-ley-simplificacion-administrativa
 title: Nueva Ley de Simplificación Administrativa
-summary: Solvent se forma en la nueva Ley de Simplificación Administrativa para ofrecer un servicio más ágil, eficiente y adaptado a la normativa vigente.
-image: /portada-blogs-charla-rocio.png
+sum: Solvent se forma en la nueva Ley de Simplificación Administrativa para ofrecer un servicio más ágil, eficiente y adaptado a la normativa vigente.
+img: /u/blog/portada-charla-rocio.webp
 date: 2025-10-23 11:57:10
-lastmod: 2025-10-23 11:57:12
-toc: false
+mod: 2025-10-23 11:57:12
+toc: n
 category:
 - noticias
 - eficiencia-energetica
@@ -25,7 +25,7 @@ La **Consejería de Empresa, Empleo y Economía Social**, en colaboración con l
 
 El encuentro reunió a empresarios, profesionales y representantes institucionales con el fin de analizar las principales medidas del [Decreto-ley 1/2025](https://www.boe.es/buscar/doc.php?id=BORM-s-2025-90130), orientado a **reducir la burocracia, unificar procedimientos y fomentar la competitividad empresarial**.
 
-![](/foto-blog-charla-rocio.png)
+![](/u/blog/charla-rocio.webp)
 
 **Claves de la nueva normativa**
 
@@ -41,7 +41,7 @@ Asimismo, se presentaron las **Entidades de Certificación Urbanística (ECUs)**
 
 Este modelo agiliza los plazos de tramitación, que se reducen a **15 días para licencias básicas y a un mes para licencias urbanísticas**, optimizando la gestión tanto en grandes municipios como en administraciones locales con menos recursos.
 
-![](/foto-blog-charla-rocio-2.png)
+![](/u/blog/charla-rocio-2.webp)
 
 **Un modelo basado en la confianza y la responsabilidad**
 

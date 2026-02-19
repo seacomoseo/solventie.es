@@ -1,20 +1,21 @@
 name: Precio de la Electricidad ➡️ Características
-hanchor: Características
 color: dark
-box:
-  cols: 3
-  gap: 4
-  align_y: top
-  icon_size: 3
-  icon_color: light
 boxes:
-- title: null
-  md: La electricidad no cuesta lo mismo en todas las horas del día.
-  icon: money-bill-wave
-- title: null
-  md: |
-    Esta gráfica te muestra el precio horario de la suma del mercado de la energía, peajes y componentes, para la tarifa **6.1TD indexada**, la más utilizada por negocios e industrias con altos consumos.
-  icon: arrows-rotate
-- title: null
-  md: El objetivo es que puedas **tomar decisiones inteligentes para reducir el gasto energético**.
-  icon: brain
+- hanchor: Características
+  box:
+    cols: 3
+    gap: 4
+    align_y: top
+    icon_size: 3
+    icon_color: light
+  boxes:
+  - title: null
+    md: La electricidad no cuesta lo mismo en todas las horas del día.
+    icon: payments
+  - title: null
+    md: |
+      Esta gráfica te muestra el precio horario de la suma del mercado de la energía, peajes y componentes, para la tarifa **6.1TD indexada**, la más utilizada por negocios e industrias con altos consumos.
+    icon: cached
+  - title: null
+    md: El objetivo es que puedas **tomar decisiones inteligentes para reducir el gasto energético**.
+    icon: neurology

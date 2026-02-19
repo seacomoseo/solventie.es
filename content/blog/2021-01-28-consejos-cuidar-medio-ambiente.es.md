@@ -1,12 +1,13 @@
 ---
 title: 6 consejos para cuidar el medio ambiente
-seo: 'Medio ambiente: 6 consejos para cuidarlo | Solvent'
+seo:
+  title: 'Medio ambiente: 6 consejos para cuidarlo | Solvent'
+  desc: 'Solo el 23% de los españoles cuidan el medio ambiente: consejos para conseguir aumentarlo. ¿Quieres formar parte de ese porcentaje?'
 slug: consejos-cuidar-medio-ambiente
-description: 'Solo el 23% de los españoles cuidan el medio ambiente: consejos para conseguir aumentarlo. ¿Quieres formar parte de ese porcentaje?'
-image: blog/consejos-cuidar-medio-ambiente.jpg
+img: /u/blog/consejos-cuidar-medio-ambiente.jpg
 category:
 - sostenibilidad
-toc: true
+toc: y
 date: 2021-01-28 00:00:00
 ---
 ## Solo el 23% de los españoles cuidan el medio ambiente

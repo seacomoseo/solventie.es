@@ -1,12 +1,13 @@
 ---
 title: Mantenimiento de paneles solares
-seo: Mantenimiento de paneles solares - Ingeniería Solvent
+seo:
+  title: Mantenimiento de paneles solares - Ingeniería Solvent
+  desc: Es importante contar con un plan de mantenimiento preventivo para detectar fallos y puntos débiles, reducir los costes de reparación...
 slug: necesita-mantenimiento-instalacion-solar-fotovoltaica
-description: Es importante contar con un plan de mantenimiento preventivo para detectar fallos y puntos débiles, reducir los costes de reparación...
-image: blog/necesita-mantenimiento-instalacion-solar-fotovoltaica.jpg
+img: /u/blog/necesita-mantenimiento-instalacion-solar-fotovoltaica.jpg
 category:
 - energia-solar
-toc: true
+toc: y
 date: 2019-11-26 00:00:00
 ---
 Los paneles solares están compuestos por células fotovoltaicas de silicio por lo que son muy resistentes a agentes externos. Por ello, no hace falta preocuparse demasiado por su **mantenimiento**.

@@ -1,5 +1,6 @@
 ---
 slug: sostenibilidad
 title: Sostenibilidad
-noindex: true
+seo:
+  noindex: y
 ---

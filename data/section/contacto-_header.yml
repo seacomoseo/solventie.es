@@ -1,22 +1,22 @@
 name: Contacto ➡️ Header
-hanchor: Contacto
-title: ¿Hablamos?
-subtitle: Queremos escucharte
 color: dark
-bi: servicios/autoconsumo-fotovoltaico/paneles.jpg
+bi: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg
 size: sm
-contact:
-- type: schedule
-  days: Lunes a Viernes
-  hours: 7:30 - 15:30
-- type: br
+links:
 - type: phone
   label: 968 27 16 89
 - type: whatsapp
   label: 621 056 510
 - type: mail
   label: info@solventie.es
-  button: light
+  btn: light
 - type: address
   label: Calle Molina de Segura, 5, bloque 3, 2ºC-D, 30007 Murcia
   anchor: Ingeniería Solvent, Calle Molina de Segura, 5, bloque 3, 2ºC-D, 30007 Murcia
+boxes:
+- hanchor: Contacto
+  title: ¿Hablamos?
+  sub: Queremos escucharte
+  when:
+  - days: Lunes a Viernes
+    hours: 7:30 - 15:30

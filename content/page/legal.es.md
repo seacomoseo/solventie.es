@@ -1,9 +1,10 @@
 ---
 slug: legal
 title: Avisos Legales
-icon: scale-balanced
-toc: true
-noindex: true
+icon: balance
+toc: y
+seo:
+  noindex: y
 weight: 1
 ---
 
@@ -18,7 +19,7 @@ La utilización del sitio web implica la aceptación plena y sin reservas de tod
 - Domicilio social: **{{% legal location %}}**
 - C.I.F. -- D.N.I.: **{{% legal nif %}}**
 - Teléfono de contacto: **968 27 16 89**
-- Correo electrónico: **{{% legal email %}}**
+- Correo electrónico: **{{% legal mail %}}**
 
 ## Objeto
 
@@ -71,7 +72,7 @@ Todos los datos facilitados por nuestras empresas clientes a **SOLVENT** o a su 
 
 Los datos facilitados serán tratados según el Reglamento de Medidas de Seguridad (Real Decreto 1720/2007 de 21 de Diciembre), en este sentido **SOLVENT** ha adoptado los niveles de protección que legalmente se exigen, y ha instalado todas las medidas técnicas a su alcance para evitar la perdida, mal uso, alteración, acceso no autorizado por terceros. No obstante, el usuario debe ser consciente de que las medidas de seguridad en Internet no son inexpugnables. En caso en que considere oportuno que se cedan sus datos de carácter personal a otras entidades, el usuario será informado de los datos cedidos, de la finalidad del fichero y del nombre y dirección del cesionario, para que de su consentimiento inequívoco al respecto.
 
-En cumplimiento de lo establecido en la RGPD, el usuario podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición. Para ello debe de contactar con nosotros en **{{% legal email %}}**
+En cumplimiento de lo establecido en la RGPD, el usuario podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición. Para ello debe de contactar con nosotros en **{{% legal mail %}}**
 
 ## Legislación aplicable y jurisdicción competente
 

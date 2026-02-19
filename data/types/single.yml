@@ -1,13 +1,13 @@
-title: Únicas
+title: Páginas Únicas
 weight: 0
 base: single
 tpl:
   section:
   - size: lg
-    parallax: fix
-    alpha: .6
+    scroll: fix
+    alpha: 0.6
   list:
     cols: 3
     fade: light
-    fade_type: linear-t
+    fade_to: t
     rate: 2

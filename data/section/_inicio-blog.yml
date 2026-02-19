@@ -1,10 +1,11 @@
 name: Inicio ➡️ Actualidad
 id: actualidad
-title: Últimas noticias de actualidad
-link: /actualidad/
-label: Ver más
-box:
-  slider: true
-list:
-  type: blog
-  max: 2
+boxes:
+- title: Últimas noticias de actualidad
+  list:
+    type: blog
+    max: 2
+  box:
+    slider: y
+- url: /actualidad/
+  label: Ver más

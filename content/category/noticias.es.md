@@ -1,5 +1,6 @@
 ---
 slug: noticias
 title: Noticias
-noindex: true
+seo:
+  noindex: y
 ---

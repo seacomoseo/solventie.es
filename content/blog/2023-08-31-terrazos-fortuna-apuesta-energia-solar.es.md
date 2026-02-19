@@ -1,9 +1,10 @@
 ---
 title: Apostar por la energía solar le permite a Terrazos Fortuna un ahorro de 22.000 euros al año
-seo: Apostar por la energía solar le permite a Terrazos Fortuna un ahorro de 22.000 euros al año - Ingeniería Solvent
+seo:
+  title: Apostar por la energía solar le permite a Terrazos Fortuna un ahorro de 22.000 euros al año - Ingeniería Solvent
+  desc: La instalación solar de Terrazos Fortuna de 128 kWp les ha permitido estabilizar sus costes productivos
 slug: terrazos-fortuna-apuesta-energia-solar
-description: La instalación solar de Terrazos Fortuna de 128 kWp les ha permitido estabilizar sus costes productivos
-image: blog/terrazos-fortuna-apuesta-energia-solar.webp
+img: /u/blog/terrazos-fortuna-apuesta-energia-solar.webp
 category:
 - noticias
 date: 2023-08-31 00:00:00

@@ -1,5 +1,6 @@
 ---
 slug: general
 title: General
-noindex: true
+seo:
+  noindex: y
 ---

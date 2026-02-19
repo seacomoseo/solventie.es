@@ -1,12 +1,13 @@
 ---
 title: Conoce como realizamos una instalación fotovoltaica
-seo: Conoce como realizamos una instalación fotovoltaica
+seo:
+  title: Conoce como realizamos una instalación fotovoltaica
+  desc: Estudiamos tu industria para que la instalación fotovoltaica sea exactamente la que necesitas, analizando tu consumo de energía, entre otros.
 slug: como-realizamos-instalacion-fotovoltaica
-description: Estudiamos tu industria para que la instalación fotovoltaica sea exactamente la que necesitas, analizando tu consumo de energía, entre otros.
-image: blog/como-realizamos-instalacion-fotovoltaica.jpg
+img: /u/blog/como-realizamos-instalacion-fotovoltaica.jpg
 category:
 - energia-solar
-toc: true
+toc: y
 date: 2022-12-09 00:00:00
 ---
 La instalación fotovoltaica con la que tanto sueñas está más cerca de lo que crees. Sabemos que estás ansioso de autoconsumir tu propia energía y comenzar a ahorrar en tu factura. Has soportado durante muchos meses el desorbitado precio de la electricidad. Por eso, ya es el momento que te pases a la energía solar. No te preocupes por nada, nosotros nos encargamos de todo.
@@ -15,11 +16,11 @@ La instalación fotovoltaica con la que tanto sueñas está más cerca de lo que
 
 Para que la instalación fotovoltaica sea exactamente la que necesitas, primero estudiamos tu industria, teniendo en cuenta:
 
-- El consumo de energía mediante la curva de cargas. En Solvent, calculamos con exactitud como es la instalación que necesitas, ni más ni menos. Para ello, tenemos en cuenta la curva de carga que indica la demanda eléctrica de cada hora durante todo el año. Mediante la curva horaria conocemos cuál es tu perfil de consumo, pudiendo saber con certeza que tamaño de instalación Así, realizamos la instalación perfecta para ti.
+- /u/El consumo de energía mediante la curva de cargas. En Solvent, calculamos con exactitud como es la instalación que necesitas, ni más ni menos. Para ello, tenemos en cuenta la curva de carga que indica la demanda eléctrica de cada hora durante todo el año. Mediante la curva horaria conocemos cuál es tu perfil de consumo, pudiendo saber con certeza que tamaño de instalación Así, realizamos la instalación perfecta para ti.
 - La ubicación de la instalación. Esto es muy importante por 2 motivos. El primero es para saber la inclinación y orientación de los paneles adecuada, obteniendo el mayor rendimiento. El segundo motivo es por la suciedad. Si tu instalación fotovoltaica se encuentra en una zona donde hay polvo o mayor probabilidad de que se ensucien las placas con mayor frecuencia, es importante tenerlo en cuenta.
 - Las sombras. Conoceremos todos los elementos y obstáculos que puedan generar sombras, basándonos hora a hora y día a día en los datos climáticos y estudios de sombras a lo largo del año.
 
-![instalación fotovoltaica](blog/nave-industrial-3d.webp "Imagen 3D de una instalación fotovoltaica")
+![instalación fotovoltaica](/u/blog/nave-industrial-3d.webp "Imagen 3D de una instalación fotovoltaica")
 
 Y tacháaan, levantamos en 3D tu futura instalación fotovoltaica para saber con precisión cómo es la instalación que llevaremos a cabo. Así, podrás saber como será tu instalación antes de ejecutarse.
 
@@ -55,6 +56,6 @@ Y ojo, que la empresa instaladora cumpla con las normas de seguridad es muy impo
 
 Una vez realizada tu instalación fotovoltaica nos aseguramos de que todos los paneles funcionan correctamente mediante el vuelo de nuestro dron. Con él, obtenemos termografías de cada uno de los paneles y comprobamos que no hay puntos calientes.
 
-![instalación fotovoltaica](blog/termografia-paneles-solares.webp "Punto caliente detectado en un panel solar")
+![instalación fotovoltaica](/u/blog/termografia-paneles-solares.webp "Punto caliente detectado en un panel solar")
 
 ¿Después de leer el artículo te has imaginado consumiendo tu propia energía? Entonces es el momento de pasarte a la energía solar, [contacta](/contacto/) con nosotros.

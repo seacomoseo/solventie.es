@@ -1,36 +1,40 @@
 name: Inicio ➡️ Proyectos
 id: proyectos
-title: ¿Aún no aprovechas la energía solar en tu empresa?
-subtitle: Es el momento de eliminar tus costes energéticos
-md: |
-  En [Solvent](/nosotros/) nos avalan más de 20 años de experiencia ayudando a las empresas a ahorrar y ser más eficientes mientras generan su propia energía y cuidan del planeta.
-box:
-  gap_ny: 1
-  gap_vs: 3
 boxes:
-- box:
-    cols: 4
-    gap_vs: 1
-    color: white
-    inset: true
-    ratio: 16/9
-    hs: 6
-    space: 0
+- title: ¿Aún no aprovechas la energía solar en tu empresa?
+  sub: Es el momento de eliminar tus costes energéticos
+  md: |
+    En [Solvent](/nosotros/) nos avalan más de 20 años de experiencia ayudando a las empresas a ahorrar y ser más eficientes mientras generan su propia energía y cuidan del planeta.
+  box:
+    gap_vs: 3
   boxes:
-  - title: Autoconsumo de <br> 248,8 KWp
-    md: Prefabricados Hormigones Montalbán y Rodríguez
-    image: proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm#mute
-  - title: Autoconsumo de <br> 168 KWp
-    md: Lord Spices Group
-    image: proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm#mute
-  - title: Autoconsumo de <br> 149,6kWp
-    md: Zamora Company
-    image: proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm#mute
-  - title: Autoconsumo de <br> 240 KWp
-    md: Etiquetas adhegrafic
-    image: proyectos/etiquetas-adhegrafic.webm#mute
-- box:
-    cols: 1
-  boxes:
-  - label: Ver más proyectos
-    link: /proyectos/
+  - box:
+      cols: 4
+      gap_vs: 1
+      color: white
+      inset: y
+      ratio: 16/9
+      hs: 6
+      space: 0
+    boxes:
+    - title: Autoconsumo de <br> 248,8 KWp
+      md: Prefabricados Hormigones Montalbán y Rodríguez
+      vid: /u/proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm
+      mute: y
+    - title: Autoconsumo de <br> 168 KWp
+      md: Lord Spices Group
+      vid: /u/proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm
+      mute: y
+    - title: Autoconsumo de <br> 149,6kWp
+      md: Zamora Company
+      vid: /u/proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm
+      mute: y
+    - title: Autoconsumo de <br> 240 KWp
+      md: Etiquetas adhegrafic
+      vid: /u/proyectos/etiquetas-adhegrafic.webm
+      mute: y
+  - box:
+      cols: 1
+    boxes:
+    - label: Ver más proyectos
+      url: /proyectos/

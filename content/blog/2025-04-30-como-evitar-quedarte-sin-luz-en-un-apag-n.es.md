@@ -1,11 +1,10 @@
 ---
 title: ¿Cómo evitar quedarte sin luz en un apagón?
-seo: '"Cómo proteger tu empresa ante apagones eléctricos: soluciones con
-  baterías solares y grupos electrógenos"'
+seo:
+  title: '"Cómo proteger tu empresa ante apagones eléctricos: soluciones con baterías solares y grupos electrógenos"'
+  desc: Evita apagones en tu empresa con ✅ baterías solares y ⚡ grupos electrógenos. Asegura tu actividad y gana en autonomía energética.
 slug: como-evitar-quedarte-sin-luz-en-un-apag-n
-description: Evita apagones en tu empresa con ✅ baterías solares y ⚡ grupos
-  electrógenos. Asegura tu actividad y gana en autonomía energética.
-image: blog/como-evitar-quedarte-sin-luz-en-un-apag-n.webp
+img: /u/blog/como-evitar-quedarte-sin-luz-en-un-apag-n.webp
 category:
 - electricidad
 - noticias

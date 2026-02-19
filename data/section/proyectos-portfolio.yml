@@ -1,135 +1,152 @@
 name: Proyectos ➡️ Portfolio
-hanchor: Portfolio
-box:
-  cols: 4
-  color: white
-  inset: true
-  ratio: 16/9
-  hs: 6
-  space: 0
 boxes:
-- title: Instalación fotovoltaica <br> 240 kWp
-  md: Etiquetas Adhegrafic
-  image: proyectos/etiquetas-adhegrafic.webm#mute
-- title: Instalación fotovoltaica <br> 5.000 kWp
-  md: Molina de Segura, Murcia
-  image: proyectos/instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp
-- title: Instalación fotovoltaica <br> 248,8 KWp
-  md: Prefabricados Montalbán
-  image: proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm#mute
-- title: Instalación fotovoltaica <br> 6.000 KWp
-  md: Fuente Álamo, Murcia
-  image: proyectos/instalacion-fotovoltaica-6-mwp--fuente-alamo-murcia.webp
-- title: Instalación fotovoltaica 400 KW
-  md: Acrena SAT
-  image: proyectos/instalacion-fotovoltaica-400-kw--acrena-sat-el-ejido.webp
-- title: Instalación fotovoltaica <br> 149,6 KWp
-  md: Zamora Company, Licor 43
-  image: proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm#mute
-- title: Instalación fotovoltaica <br> 80 KWp
-  md: Semilleros el Jimenado
-  image: proyectos/instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm#mute
-- title: Instalación fotovoltaica <br> 3.750 kWp
-  md: Cartagena, Murcia
-  image: proyectos/instalacion-fotovoltaica-3-75-mwp--cartagena-murcia.webp
-- title: Instalación fotovoltaica <br> 168 KWp
-  md: Lord Spices
-  image: proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm#mute
-- title: Instalación fotovoltaica <br> 132 KWp
-  md: Westaflex Ibérica
-  image: proyectos/instalacion-fotovoltaica-132-kwp--westaflex-iberica.webm#mute
-- title: Instalación fotovoltaica <br> 68 KWp
-  md: Apellán
-  image: proyectos/instalacion-fotovoltaica-68-kwp--apellan.webm#mute
-- title: Instalación fotovoltaica <br> 121 KWp
-  md: Doscadesa 2000
-  image: proyectos/instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm#mute
-- title: Instalación fotovoltaica <br> 98 KWp
-  md: Pastelería Gimar
-  image: proyectos/instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm#mute
-- title: Instalación fotovoltaica <br> 66 KWp
-  md: Naturalfrío
-  image: proyectos/instalacion-fotovoltaica-66-kwp--natural-frio.webm#mute
-- title: Auditoría energética en la industria
-  md: Omega Spice
-  image: proyectos/auditoria-energetica-industria--omega-spice.webp
-  contain: true
-- title: Instalación fotovoltaica <br> 4.500 kWp
-  md: Puerto Lumbreras, Murcia
-  image: proyectos/instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp
-- title: Instalación fotovoltaica <br> para autoconsumo <br> 199,98 KWp
-  md: E.D.A.R. de Yecla, Murcia
-  image: proyectos/instalacion-fotovoltaica-autoconsumo-199-98-kwp--edar-yecla-murcia.webp
-- title: Proyecto de reforma del CIE de Tenerife
-  md: SIEPSE, S.M.E , S.A.
-  image: proyectos/proyecto-reforma-cie-tenerife--siepse-sme-sa.webp
-- title: Instalación fotovoltaica <br> 60 KWp
-  md: Yefrut
-  image: proyectos/instalacion-fotovoltaica-60-kwp--yefrut.webm#mute
-- title: Instalación fotovoltaica <br> 79,8 KWp
-  md: Promociones Tesy
-  image: proyectos/instalacion-fotovoltaica-79-8-kwp--promociones-tesy.webm#mute
-- title: Instalación fotovoltaica <br> 60,5 KWp
-  md: JCC
-  image: proyectos/instalacion-fotovoltaica-60-5-kwp--jcc.webm#mute
-- title: Instalación fotovoltaica <br> para autoconsumo <br> 595 KWp
-  md: Jisap
-  image: proyectos/instalacion-fotovoltaica-autoconsumo-595-kwp--jisap.webp
-- title: Diseño de vivienda con instalaciones de gama alta
-  md: Varios
-  image: proyectos/diseno-vivienda-instalaciones-gama-alta--varios.webp
-- title: Instalación fotovoltaica <br> 58,31 KWp
-  md: Venta Hermanos Mula
-  image: proyectos/instalacion-fotovoltaica-58-31-kwp--venta-hermanos-mula.webm#mute
-- title: Instalación fotovoltaica <br> 19,95 MWp
-  md: Torre Pacheco, Cartagena
-  image: proyectos/instalacion-fotovoltaica-19-95-mwp--torre-pacheco-cartagena.webp
-- title: Instalación fotovoltaica <br> 192,93 MWp
-  md: Ayora, Albacete
-  image: proyectos/instalacion-fotovoltaica-192-93-mwp--ayora-albacete.webp
-- title: Instalación fotovoltaica <br> 24 MWp
-  md: Burguillos del Cerro, Badajoz
-  image: proyectos/instalacion-fotovoltaica-24-mwp--burguillos-del-cerro-badajoz.webp
-- title: Auditoría energética en la industria
-  md: Marín Giménez
-  image: proyectos/auditoria-energetica-industria--marin-gimenez.webp
-  contain: true
-- title: Automatización de la compuerta del Río Segura
-  md: Confederación Hidrográfica del Segura
-  image: proyectos/automatizacion-compuerta-rio-segura--confederacion-hidrografica-del-segura.webp
-- title: Auditoría energética en industria
-  md: Transportes Fuentes
-  image: proyectos/auditoria-energetica-industria--transportes-fuentes.webp
-- title: Auditoría energética en la industria
-  md: Fruveco
-  image: proyectos/auditoria-energetica-industria--fruveco.webp
-- title: Instalación fotovoltaica <br> 20,52 KWp
-  md: IES Pedro Antonio Ruiz Riquelme
-  image: proyectos/instalacion-fotovoltaica-20-52-kwp--ies-pedro-antonio-ruiz-riquelme.webm#mute
-- title: Diseño y cálculo de instalaciones para una vivienda unifamiliar
-  md: Abeman Arquitectos, S.L.P.
-  image: proyectos/diseno-calculo-instalaciones-vivienda-unifamiliar--abeman-arquitectos-slp.webp
-- title: Instalación fotovoltaica <br> 129,15 KWp
-  md: Terrazos Fortuna
-  image: proyectos/instalacion-fotovoltaica-129-15-kwp--terrazos-fortuna.webm#mute
-- title: Instalación fotovoltaica <br> 31,5 MWp
-  md: SOLBIKES, La Aljorra
-  image: proyectos/instalacion-fotovoltaica-31-5-mwp--solbikes-la-aljorra.webp
-- title: Instalación fotovoltaica <br> para autoconsumo <br> 188,1 KWp
-  md: Peñaplast
-  image: proyectos/instalacion-fotovoltaica-autoconsumo-188-1-kwp--penaplast.webp
-- title: Auditoría energética en la industria
-  md: Peñaplast
-  image: proyectos/auditoria-energetica-industria--penaplast.webp
-- title: Instalación solar fotovoltaica de 50 MW en Alvarado
-  md: INCOSA
-  image: proyectos/instalacion-solar-fotovoltaica-50-mw-alvarado--incosa.webp
-- title: Proyecto de adecuación del CIE de Algeciras
-  md: SIEPSE, S.M.E , S.A.
-  image: proyectos/proyecto-adecuacion-cie-algeciras--siepse-sme-sa.webp
-- title: Proyecto de reforma en el Centro Penitenciario de Jaén
-  md: SIEPSE, S.M.E , S.A.
-  image: proyectos/proyecto-reforma-centro-penitenciario-jaen--siepse-sme-sa.webp
-- title: Proyecto de reforma en el Hospital Psiquiátrico Penitenciario de Alicante
-  md: SIEPSE, S.M.E , S.A.
-  image: proyectos/proyecto-reforma-hospital-psiquiatrico-penitenciario-alicante--siepse-sme-sa.webp
+- hanchor: Portfolio
+  box:
+    cols: 4
+    color: white
+    inset: y
+    ratio: 16/9
+    hs: 6
+    space: 0
+  boxes:
+  - title: Instalación fotovoltaica <br> 240 kWp
+    md: Etiquetas Adhegrafic
+    vid: /u/proyectos/etiquetas-adhegrafic.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 5.000 kWp
+    md: Molina de Segura, Murcia
+    img: /u/proyectos/instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp
+  - title: Instalación fotovoltaica <br> 248,8 KWp
+    md: Prefabricados Montalbán
+    vid: /u/proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 6.000 KWp
+    md: Fuente Álamo, Murcia
+    img: /u/proyectos/instalacion-fotovoltaica-6-mwp--fuente-alamo-murcia.webp
+  - title: Instalación fotovoltaica 400 KW
+    md: Acrena SAT
+    img: /u/proyectos/instalacion-fotovoltaica-400-kw--acrena-sat-el-ejido.webp
+  - title: Instalación fotovoltaica <br> 149,6 KWp
+    md: Zamora Company, Licor 43
+    vid: /u/proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 80 KWp
+    md: Semilleros el Jimenado
+    vid: /u/proyectos/instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 3.750 kWp
+    md: Cartagena, Murcia
+    img: /u/proyectos/instalacion-fotovoltaica-3-75-mwp--cartagena-murcia.webp
+  - title: Instalación fotovoltaica <br> 168 KWp
+    md: Lord Spices
+    vid: /u/proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 132 KWp
+    md: Westaflex Ibérica
+    vid: /u/proyectos/instalacion-fotovoltaica-132-kwp--westaflex-iberica.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 68 KWp
+    md: Apellán
+    vid: /u/proyectos/instalacion-fotovoltaica-68-kwp--apellan.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 121 KWp
+    md: Doscadesa 2000
+    vid: /u/proyectos/instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 98 KWp
+    md: Pastelería Gimar
+    vid: /u/proyectos/instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 66 KWp
+    md: Naturalfrío
+    vid: /u/proyectos/instalacion-fotovoltaica-66-kwp--natural-frio.webm
+    mute: y
+  - title: Auditoría energética en la industria
+    md: Omega Spice
+    img: /u/proyectos/auditoria-energetica-industria--omega-spice.webp
+    contain: y
+  - title: Instalación fotovoltaica <br> 4.500 kWp
+    md: Puerto Lumbreras, Murcia
+    img: /u/proyectos/instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp
+  - title: Instalación fotovoltaica <br> para autoconsumo <br> 199,98 KWp
+    md: E.D.A.R. de Yecla, Murcia
+    img: /u/proyectos/instalacion-fotovoltaica-autoconsumo-199-98-kwp--edar-yecla-murcia.webp
+  - title: Proyecto de reforma del CIE de Tenerife
+    md: SIEPSE, S.M.E , S.A.
+    img: /u/proyectos/proyecto-reforma-cie-tenerife--siepse-sme-sa.webp
+  - title: Instalación fotovoltaica <br> 60 KWp
+    md: Yefrut
+    vid: /u/proyectos/instalacion-fotovoltaica-60-kwp--yefrut.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 79,8 KWp
+    md: Promociones Tesy
+    vid: /u/proyectos/instalacion-fotovoltaica-79-8-kwp--promociones-tesy.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 60,5 KWp
+    md: JCC
+    vid: /u/proyectos/instalacion-fotovoltaica-60-5-kwp--jcc.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> para autoconsumo <br> 595 KWp
+    md: Jisap
+    img: /u/proyectos/instalacion-fotovoltaica-autoconsumo-595-kwp--jisap.webp
+  - title: Diseño de vivienda con instalaciones de gama alta
+    md: Varios
+    img: /u/proyectos/diseno-vivienda-instalaciones-gama-alta--varios.webp
+  - title: Instalación fotovoltaica <br> 58,31 KWp
+    md: Venta Hermanos Mula
+    vid: /u/proyectos/instalacion-fotovoltaica-58-31-kwp--venta-hermanos-mula.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 19,95 MWp
+    md: Torre Pacheco, Cartagena
+    img: /u/proyectos/instalacion-fotovoltaica-19-95-mwp--torre-pacheco-cartagena.webp
+  - title: Instalación fotovoltaica <br> 192,93 MWp
+    md: Ayora, Albacete
+    img: /u/proyectos/instalacion-fotovoltaica-192-93-mwp--ayora-albacete.webp
+  - title: Instalación fotovoltaica <br> 24 MWp
+    md: Burguillos del Cerro, Badajoz
+    img: /u/proyectos/instalacion-fotovoltaica-24-mwp--burguillos-del-cerro-badajoz.webp
+  - title: Auditoría energética en la industria
+    md: Marín Giménez
+    img: /u/proyectos/auditoria-energetica-industria--marin-gimenez.webp
+    contain: y
+  - title: Automatización de la compuerta del Río Segura
+    md: Confederación Hidrográfica del Segura
+    img: /u/proyectos/automatizacion-compuerta-rio-segura--confederacion-hidrografica-del-segura.webp
+  - title: Auditoría energética en industria
+    md: Transportes Fuentes
+    img: /u/proyectos/auditoria-energetica-industria--transportes-fuentes.webp
+  - title: Auditoría energética en la industria
+    md: Fruveco
+    img: /u/proyectos/auditoria-energetica-industria--fruveco.webp
+  - title: Instalación fotovoltaica <br> 20,52 KWp
+    md: IES Pedro Antonio Ruiz Riquelme
+    vid: /u/proyectos/instalacion-fotovoltaica-20-52-kwp--ies-pedro-antonio-ruiz-riquelme.webm
+    mute: y
+  - title: Diseño y cálculo de instalaciones para una vivienda unifamiliar
+    md: Abeman Arquitectos, S.L.P.
+    img: /u/proyectos/diseno-calculo-instalaciones-vivienda-unifamiliar--abeman-arquitectos-slp.webp
+  - title: Instalación fotovoltaica <br> 129,15 KWp
+    md: Terrazos Fortuna
+    vid: /u/proyectos/instalacion-fotovoltaica-129-15-kwp--terrazos-fortuna.webm
+    mute: y
+  - title: Instalación fotovoltaica <br> 31,5 MWp
+    md: SOLBIKES, La Aljorra
+    img: /u/proyectos/instalacion-fotovoltaica-31-5-mwp--solbikes-la-aljorra.webp
+  - title: Instalación fotovoltaica <br> para autoconsumo <br> 188,1 KWp
+    md: Peñaplast
+    img: /u/proyectos/instalacion-fotovoltaica-autoconsumo-188-1-kwp--penaplast.webp
+  - title: Auditoría energética en la industria
+    md: Peñaplast
+    img: /u/proyectos/auditoria-energetica-industria--penaplast.webp
+  - title: Instalación solar fotovoltaica de 50 MW en Alvarado
+    md: INCOSA
+    img: /u/proyectos/instalacion-solar-fotovoltaica-50-mw-alvarado--incosa.webp
+  - title: Proyecto de adecuación del CIE de Algeciras
+    md: SIEPSE, S.M.E , S.A.
+    img: /u/proyectos/proyecto-adecuacion-cie-algeciras--siepse-sme-sa.webp
+  - title: Proyecto de reforma en el Centro Penitenciario de Jaén
+    md: SIEPSE, S.M.E , S.A.
+    img: /u/proyectos/proyecto-reforma-centro-penitenciario-jaen--siepse-sme-sa.webp
+  - title: Proyecto de reforma en el Hospital Psiquiátrico Penitenciario de Alicante
+    md: SIEPSE, S.M.E , S.A.
+    img: /u/proyectos/proyecto-reforma-hospital-psiquiatrico-penitenciario-alicante--siepse-sme-sa.webp

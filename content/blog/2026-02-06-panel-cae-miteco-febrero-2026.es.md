@@ -1,22 +1,21 @@
 ---
 slug: panel-cae-miteco-febrero-2026
 title: 'El panel del sistema CAE del MITECO febrero: más ahorro, más solicitudes y foco en las actuaciones'
-summary: 'Actualización del panel CAE del MITECO (02/02/2026): suben ahorro y solicitudes, y Murcia destaca por actuaciones estandarizadas.'
-image: /06.-portada-panel-cae.png
+sum: 'Actualización del panel CAE del MITECO (02/02/2026): suben ahorro y solicitudes, y Murcia destaca por actuaciones estandarizadas.'
+img: /u/blog/06-portada-panel-cae.webp
 date: 2026-02-06 10:21:20
-lastmod: 2026-02-06 10:21:20
-toc: false
-author: null
-category: null
-draft: false
-hide: false
-description: 'Panel CAE MITECO 02/02/2026: 7,81 mil GWh y 4.830 solicitudes. Industria lidera y Murcia destaca por actuaciones estandarizadas'
+mod: 2026-02-06 10:21:20
+toc: n
+draft: n
+hide: n
+seo:
+  desc: 'Panel CAE MITECO 02/02/2026: 7,81 mil GWh y 4.830 solicitudes. Industria lidera y Murcia destaca por actuaciones estandarizadas'
 ---
 Con la última actualización del [panel de seguimiento del Sistema de Certificados de Ahorro Energético de MITECO](https://www.miteco.gob.es/es/energia/eficiencia/cae/seguimiento-del-sistema-de-cae.html) (CAE) podemos apreciar con claridad la evolución del sistema durante los últimos meses: acelerón en el volumen de ahorro solicitado, picos muy marcados en el último tramo de 2025, y un mapa de actuaciones cada vez  más “identificable” por territorios y tipología de medidas.
 
-## 1.	Radiografía general: ahorro solicitado, solicitudes y precio medio por MWh
+## 1.	Radiografía general: /u/ahorro solicitado, solicitudes y precio medio por MWh
 
-![](/06.-panel-resumen.png)
+![](/u/blog/06-panel-resumen.webp)
 La primera pantalla resume tres mensajes clave:
 
 •	Ahorro de energía solicitado: 7,81 mil GWh.
@@ -55,7 +54,7 @@ Tras ese pico, el panel ya muestra diciembre 2025 y enero 2026 con valores más 
 
 ## 2.	Solicitudes: estado de tramitación y perfil del solicitante
 
-![](/06.-panel-solicitudes.png)
+![](/u/blog/06-panel-solicitudes.webp)
 La segunda pantalla permite entender el “pulso administrativo” del sistema:
 
 •	En tramitación: 413
@@ -88,7 +87,7 @@ Ese tramo final de 2025 refleja claramente maduración del mercado: más proyect
 
 ## 3.	Actuaciones: qué medidas “tiran” del sistema
 
-![](/06.-panel-actuaciones.png)
+![](/u/blog/06-panel-actuaciones.webp)
 En la pestaña de actuaciones, el panel marca:
 
 •	Total de actuaciones: 20 mil
@@ -119,9 +118,9 @@ El ranking de actuaciones estandarizadas aporta pistas claras sobre dónde está
 
 Traducción práctica: rehabilitación de edificios y electrificación (bomba de calor + movilidad) están siendo el gran “motor” de volumen en estandarizadas, con la industria empujando en paralelo con mejoras muy típicas de proceso (como variadores).
 
-## 4.	Región de Murcia: volumen y tipología de actuaciones
+## 4.	Región de Murcia: /u/volumen y tipología de actuaciones
 
-![](/06.-panel-actuaciones-region-de-murcia.png)
+![](/u/blog/06-panel-actuaciones-region-de-murcia.webp)
 Concretamente, sobre la Región de Murcia el panel muestra:
 
 •	Total de actuaciones en Murcia: 276

@@ -1,12 +1,13 @@
 ---
 title: 'Certificado energético: lo que deberías saber'
-seo: 'Certificado energético: lo que deberías saber'
+seo:
+  title: 'Certificado energético: lo que deberías saber'
+  desc: El certificado energético es un documento oficial que incluye información sobre las características de un inmueble
 slug: certificado-energetico-todo
-description: El certificado energético es un documento oficial que incluye información sobre las características de un inmueble
-image: blog/certificado-energetico-todo.png
+img: /u/blog/certificado-energetico-todo.webp
 category:
 - eficiencia-energetica
-toc: true
+toc: y
 date: 2020-04-30 00:00:00
 ---
 ## ¿Qué es el certificado energético?
@@ -39,7 +40,7 @@ Dependiendo de si el consumo eléctrico de un aparato es mayor o menor, se clasi
 - **F**: Los aparatos consumen entre el 55% y el 75%.
 - **G**: Es el peor grupo ya que tienen la menor eficiencia energética. En esta categoría están los electrodomésticos que generan entre el 75% y el 100% del consumo**.**
 
-![certificado energético](blog/energy-efficiency.jpg)
+![certificado energético](/u/blog/energy-efficiency.jpg)
 
 ## Ventajas del certificado energético
 

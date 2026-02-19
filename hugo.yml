@@ -1,5 +1,5 @@
 baseURL: https://solventie.es
-buildFuture: true
+buildFuture: y
 theme: [sansoul]
 params:
   domain: solventie.es
@@ -7,5 +7,5 @@ params:
   netlify_id: 23e4a232-b796-4795-9f71-17f574c48bfe
   netlify_hook: NjRmMWUyMDRhZmNjZDE2OGFkNjk0MTUx
   cloudflare_id: 
-  drive_link: https://drive.google.com/file/d/1GvIJGYxRdTgC7J8l4lpKJnKkKKCRDdYx
+  drive_url: https://drive.google.com/file/d/1GvIJGYxRdTgC7J8l4lpKJnKkKKCRDdYx
   drive_mails: solventiemarketing@gmail.com

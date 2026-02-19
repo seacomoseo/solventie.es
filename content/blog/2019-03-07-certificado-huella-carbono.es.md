@@ -1,12 +1,13 @@
 ---
 title: 'Huella de Carbono: Solvent comprometida con el entorno'
-seo: 'Huella de Carbono: Solvent comprometida con el entorno - Ingeniería Solvent'
+seo:
+  title: 'Huella de Carbono: Solvent comprometida con el entorno - Ingeniería Solvent'
+  desc: La Huella de Carbono es un certificado que indica la cantidad de CO2 que se emite a la atmósfera por el ser humano.
 slug: certificado-huella-carbono
-description: La Huella de Carbono es un certificado que indica la cantidad de CO2 que se emite a la atmósfera por el ser humano.
-image: blog/certificado-huella-carbono.jpg
+img: /u/blog/certificado-huella-carbono.jpg
 category:
 - sostenibilidad
-toc: true
+toc: y
 date: 2019-03-07 00:00:00
 ---
 Todos sabemos que el **cambio climático** es un hecho y cada vez es más evidente. En pocos años será obligatorio registrar y reducir nuestra emisión de gases de efecto invernadero.

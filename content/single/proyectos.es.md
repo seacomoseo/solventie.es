@@ -1,9 +1,10 @@
 ---
 title: Proyectos
-seo: Proyectos realizados - Ingeniería Solvent
+seo:
+  title: Proyectos realizados - Ingeniería Solvent
+  desc: llll➤ Nuestro compromiso con los clientes es tan alto ✅ que garantizamos nuestros proyectos y soluciones en producción, tiempo y dinero.
 slug: proyectos
-description: llll➤ Nuestro compromiso con los clientes es tan alto ✅ que garantizamos nuestros proyectos y soluciones en producción, tiempo y dinero.
-image: servicios/autoconsumo-fotovoltaico/paneles.jpg
+img: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg
 tpl:
   sections:
   - file: proyectos-_header

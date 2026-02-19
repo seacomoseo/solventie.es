@@ -1,10 +1,11 @@
 name: Proyectos ➡️ Header
-hanchor: Ingeniería, eficiencia y fotovoltaica
-title: Proyectos
-hs: 0
-bi: servicios/autoconsumo-fotovoltaico/paneles.jpg
+bi: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg
 color: dark
-md: |
-  Nuestro compromiso con los clientes es tan alto que garantizamos nuestros proyectos y soluciones en producción, tiempo y dinero.
+boxes:
+- hanchor: Ingeniería, eficiencia y fotovoltaica
+  title: Proyectos
+  hs: 0.2
+  md: |
+    Nuestro compromiso con los clientes es tan alto que garantizamos nuestros proyectos y soluciones en producción, tiempo y dinero.
 
-  Así es como nos gustaría que fuera para nosotros.
+    Así es como nos gustaría que fuera para nosotros.

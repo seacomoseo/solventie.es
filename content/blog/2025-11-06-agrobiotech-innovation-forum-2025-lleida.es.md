@@ -1,21 +1,21 @@
 ---
 slug: agrobiotech-innovation-forum-2025-lleida
 title: 'AGROBIOTECH Innovation Forum 2025: innovación, sostenibilidad y tecnología al servicio del futuro del campo'
-summary: El Agrobiotech Innovation Forum 2025 reunirá en Lleida innovación, sostenibilidad y tecnología para impulsar el futuro del sector agroalimentario.
-image: /portada-fira-de-lleida-agro-bio-tech-blog.png
+sum: El Agrobiotech Innovation Forum 2025 reunirá en Lleida innovación, sostenibilidad y tecnología para impulsar el futuro del sector agroalimentario.
+img: /u/blog/portada-fira-de-lleida-agro-bio-tech.webp
 date: 2025-11-10 09:50:01
-lastmod: 2025-11-10 09:50:01
-category: null
+mod: 2025-11-10 09:50:01
 author: admin
-related:
+rel:
 - 2019-06-06-importancia-energias-renovables
 - 2020-04-30-certificado-energetico-todo
 - 2019-04-04-subvenciones-eficiencia-energetica
 - 2021-12-16-paneles-solares-flotantes-alternativa-energia-solar
 - 2024-07-12-espana-avanza-panel-solar-flotante
 - 2025-09-18-primera-estacion-de-esqui-en-espana-con-energia-solar-flotante
-draft: false
-noindex: true
+draft: n
+seo:
+  noindex: y
 ---
 La innovación agrícola y biotecnológica tiene una cita en Lleida. Desde el 25 al 27 de noviembre, la [Fira de Lleida](https://firadelleida.com/es/) acoge una nueva edición del [Agrobiotech Innovation Forum](https://agrobiotechforum.com/), un encuentro destacado como referente en el impulso de la transformación, la eficiencia y la sostenibilidad el sector agroalimentario y biotecnológico. 
 
@@ -59,7 +59,7 @@ Durante el evento compartiremos nuestra visión sobre cómo la eficiencia energ�
 
 Acércate a preguntarnos cualquier duda sobre plantas fotovoltaicas flotantes en balsas o sobre los certificados de ahorro energético (CAE). 
 
-![](/banner-blog-agrobiotech.png)
+![](/u/blog/banner-agrobiotech.webp)
 **Una cita que marca el rumbo del futuro agroalimentario**
 
 Más que un evento, el Agrobiotech Innovation Forum, es una ventana al futuro del campo. Un lugar donde el sector agroalimentario, la biotecnología, la energía y la digitalización se encuentran para redefinir cómo producimos, transformamos y consumimos los recursos naturales.

@@ -1,0 +1,207 @@
+# general
+
+- { from: http://solventie.com/* , to: https://solventie.es/:splat }
+- { from: https://solventie.com/* , to: https://solventie.es/:splat }
+
+
+# sitemap
+
+- { from: /sitemap_index.xml , to: /sitemap.xml }
+- { from: /category-sitemap.xml , to: /sitemap.xml }
+- { from: /page-sitemap.xml , to: /sitemap.xml }
+- { from: /post-sitemap.xml , to: /sitemap.xml }
+
+# pages
+
+- { from: /aviso-legal/ , to: /legal/ }
+- { from: /politica-de-cookies/ , to: /cookies/ }
+- { from: /politica-de-privacidad/ , to: /privacidad/ }
+- { from: /landing-page-industria-precio-kw-futuro/ , to: / }
+- { from: /landing-page-comunidad-regantes/ , to: / }
+- { from: /landing-page-invernaderos/ , to: / }
+- { from: /landing-page-agricultores/ , to: / }
+- { from: /estudio-fotovoltaico-gratuito/ , to: /autoconsumo-fotovoltaico/#estudio }
+
+
+# categories
+
+- { from: /category/sin-categoria/ , to: /categoria/general/ }
+- { from: /category/electricidad/ , to: /categoria/electricidad/ }
+- { from: /category/sostenibilidad/ , to: /categoria/sostenibilidad/ }
+- { from: /category/ayudas/ , to: /categoria/ayudas/ }
+- { from: /category/eficiencia-energetica/ , to: /categoria/eficiencia-energetica/ }
+- { from: /category/energia-solar/ , to: /categoria/energia-solar/ }
+- { from: /category/ingenieria/ , to: /categoria/ingenieria/ }
+- { from: /category/noticias/ , to: /categoria/noticias/ }
+
+
+# blog
+
+- { from: /subvenciones-eficiencia-energetica/ , to: /subvenciones-eficiencia-energetica/ }
+- { from: /tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas/ , to: /tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas/ }
+- { from: /subvenciones-de-fotovoltaica-de-la-region-de-murcia/ , to: /subvenciones-fotovoltaica-region-murcia/ }
+- { from: /subvenciones-eficiencia-energetica-idae-murcia/ , to: /subvenciones-eficiencia-energetica-idae-murcia/ }
+- { from: /visitamos-las-instalaciones-del-centro-de-media-estancia-de-monteagudo-en-murcia/ , to: /visitamos-instalaciones-centro-media-estancia-monteagudo-murcia/ }
+- { from: /subida-precio-de-la-luz/ , to: /subida-precio-luz/ }
+- { from: /nueva-tarifa-electrica-cambios/ , to: /nueva-tarifa-electrica-cambios/ }
+- { from: /paneles-solares-flotantes-alternativa-energia-solar/ , to: /paneles-solares-flotantes-alternativa-energia-solar/ }
+- { from: /prefabricados-montalban-y-rodriguez-s-a-sigue-avanzando-hacia-la-sostenibilidad/ , to: /prefabricados-montalban-rodriguez-sostenibilidad/ }
+- { from: /necesita-mantenimiento-mi-instalacion-solar-fotovoltaica/ , to: /necesita-mantenimiento-instalacion-solar-fotovoltaica/ }
+- { from: /los-beneficios-de-la-auditoria-energetica-en-tu-empresa/ , to: /beneficios-auditoria-energetica-empresa/ }
+- { from: /limpieza-de-placas-solares-3-tipos-de-suciedad/ , to: /limpieza-placas-solares-tipos-suciedad/ }
+- { from: /licencia-de-actividad-y-apertura/ , to: /licencia-actividad-apertura/ }
+- { from: /la-importancia-de-las-energias-renovables/ , to: /importancia-energias-renovables/ }
+- { from: /la-fotovoltaica-por-fin-esta-de-moda/ , to: /fotovoltaica-moda/ }
+- { from: /industrias-sostenibles-energeticamente/ , to: /industrias-sostenibles-energeticamente/ }
+- { from: /energia-solar-como-sacarle-el-maximo-partido/ , to: /energia-solar-sacarle-partido/ }
+- { from: /descubre-las-4-claves-para-instalar-energia-solar/ , to: /claves-instalar-energia-solar/ }
+- { from: /el-sol-el-gran-aliado-de-semilleros-jimenado-le-ahorrara-casi-21-000-euros-en-un-ano/ , to: /sol-aliado-semilleros-jimenado/ }
+- { from: /doscadesa-apuesta-por-un-futuro-mas-verde-con-su-ultimo-compromiso-medioambiental/ , to: /doscadesa-compromiso-medioambiental/ }
+- { from: /el-ayuntamiento-de-molina-presenta-el-proyecto-de-rehabilitacion-energetica-desarrollado-por-solvent/ , to: /ayuntamiento-molina-proyecto-rehabilitacion-energetica/ }
+- { from: /descubre-los-diferentes-tipos-de-paneles-solares/ , to: /tipos-paneles-solares/ }
+- { from: /consejos-de-eficiencia-energetica-para-la-industria/ , to: /consejos-eficiencia-energetica-industria/ }
+- { from: /consejos-cuidar-medio-ambiente/ , to: /consejos-cuidar-medio-ambiente/ }
+- { from: /conoce-como-realizamos-una-instalacion-fotovoltaica/ , to: /como-realizamos-instalacion-fotovoltaica/ }
+- { from: /certificado-energetico-todo-lo-que-deberias-saber/ , to: /certificado-energetico-todo/ }
+- { from: /aumento-precio-electricidad/ , to: /aumento-precio-electricidad/ }
+- { from: /certificado-de-huella-de-carbono/ , to: /certificado-huella-carbono/ }
+- { from: /acciones-para-reducir-la-huella-de-carbono-de-tu-empresa/ , to: /acciones-reducir-huella-carbono-empresa/ }
+- { from: /ahorra-en-tu-factura-durante-covid19/ , to: /ahorra-factura-covid19/ }
+- { from: /8-razones-para-apostar-por-la-fotovoltaica/ , to: /razones-apostar-fotovoltaica/ }
+- { from: /zamora-company-sigue-mejorando-su-huella-energetica/ , to: /zamora-company-mejora-huella-energetica/ }
+- { from: /terrazos-fortuna-apuesta-por-la-energia-solar/ , to: /terrazos-fortuna-apuesta-energia-solar/ }
+
+- { from: /blog/page/*/ , to: /blog/pagina/:slug/ }
+
+
+# images pages
+
+- { from: /wp-content/uploads/2022/11/imagen-autoconsumo-solar-optimized.webp , to: /u/servicios/autoconsumo-fotovoltaico/portada.webp }
+- { from: /wp-content/uploads/2023/05/bomba-de-agua-optimized.jpg , to: /u/servicios/bombeo-solar/portada.jpg }
+- { from: /wp-content/uploads/2022/11/servicios-de-ingenieria-optimized.webp , to: /u/servicios/ingenieria/portada.webp }
+- { from: /wp-content/uploads/2022/11/industria-optimized.webp , to: /u/servicios/eficiencia-energetica/portada.webp }
+- { from: /wp-content/uploads/2023/08/laptop-g83a38760a_1280-optimized.webp , to: /u/otros/dudas.webp }
+- { from: /wp-content/uploads/2022/11/imagen-encabezado-nosotros-optimized.webp , to: /u/nosotros.webm }
+- { from: /wp-content/uploads/2021/06/IMG_20200921_103545_edit-scaled-optimized.jpg , to: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg }
+- { from: /wp-content/uploads/2021/06/DJI_0480-scaled-e1624370132106-optimized.jpg , to: /u/servicios/autoconsumo-fotovoltaico/proceso.jpg }
+- { from: /wp-content/uploads/2021/06/paneles-optimized.jpg , to: /u/servicios/autoconsumo-fotovoltaico/estudio.webp }
+- { from: /wp-content/uploads/2023/04/photovoltaic-system-2742302_1280-optimized.jpg , to: /u/servicios/bombeo-solar/paneles.webp }
+- { from: /wp-content/uploads/2023/08/photovoltaic-2814504_1280-optimized.webp , to: /u/servicios/bombeo-solar/proceso.webp }
+- { from: /wp-content/uploads/2021/07/IMG-20210706-WA0048-optimized.jpg , to: /u/servicios/ingenieria/proceso.jpg }
+- { from: /wp-content/uploads/2021/07/IMG-20210706-WA0047-optimized.jpg , to: /u/servicios/ingenieria/garatias.jpg }
+- { from: /wp-content/uploads/2023/08/IMG_20190503_121354-optimized.webp , to: /u/servicios/eficiencia-energetica/proceso.webp }
+
+- { from: /wp-content/uploads/2023/07/DJI_0430_W-300x225-optimized.webp , to: /u/resenas/semilleros-jimenado.webp }
+- { from: /wp-content/uploads/2023/04/foto-2_1-300x225-optimized.webp , to: /u/resenas/prefabricados-montalban.webp }
+- { from: /wp-content/uploads/2023/05/imagen-oferta-penaplast-e1686925894524-300x195-optimized.webp , to: /u/resenas/penaplast.webp }
+
+- { from: /wp-content/uploads/2021/11/POLITICA-DE-CALIDAD-Y-MEDIO-AMBIENTE_2-1448x2048-optimized.png , to: /u/otros/2024-02-07-politica-calidad-medio-ambiente.png }
+
+
+# images blog
+
+- { from: /wp-content/uploads/2023/07/Logo-Accem-02-1-scaled-optimized.webp , to: /u/blog/subvenciones-eficiencia-energetica.jpg }
+- { from: /wp-content/uploads/2021/06/imagen_subv-2-1080x559-1-optimized.jpg , to: /u/blog/tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas.jpg }
+- { from: /wp-content/uploads/2021/06/paneles-scaled-optimized.jpg , to: /u/blog/subvenciones-fotovoltaica-region-murcia.jpg }
+- { from: /wp-content/uploads/2021/06/pexels-heiko-ruth-7859953-optimized.jpg , to: /u/blog/subvenciones-eficiencia-energetica-idae-murcia.jpg }
+- { from: /wp-content/uploads/2020/07/termog_paneles_-optimized.jpg , to: /u/blog/visitamos-instalaciones-centro-media-estancia-monteagudo-murcia.webp }
+- { from: /wp-content/uploads/2023/04/foto-2_1-optimized.webp , to: /u/blog/subida-precio-luz.jpg }
+- { from: /wp-content/uploads/2021/12/Foto-mar-optimized.jpeg , to: /u/blog/nueva-tarifa-electrica-cambios.jpg }
+- { from: /wp-content/uploads/2021/04/pexels-mikhail-nilov-6963847-optimized.jpg , to: /u/blog/paneles-solares-flotantes-alternativa-energia-solar.jpg }
+- { from: /wp-content/uploads/2019/11/paneles-solares-optimized.jpg , to: /u/blog/prefabricados-montalban-rodriguez-sostenibilidad.webp }
+- { from: /wp-content/uploads/2021/06/Articulo_auditoria2-1080x633-1-optimized.jpg , to: /u/blog/necesita-mantenimiento-instalacion-solar-fotovoltaica.jpg }
+- { from: /wp-content/uploads/2022/12/limpieza-paneles-solares-scaled-optimized.jpg , to: /u/blog/beneficios-auditoria-energetica-empresa.jpg }
+- { from: /wp-content/uploads/2022/02/architectural-plans-project-drawing-and-pen-scaled-optimized.jpg , to: /u/blog/limpieza-placas-solares-tipos-suciedad.jpg }
+- { from: /wp-content/uploads/2021/06/articulo_renovables_portada-1080x675-1-optimized.jpg , to: /u/blog/licencia-actividad-apertura.jpg }
+- { from: /wp-content/uploads/2021/06/DJI_0480-scaled-optimized.jpg , to: /u/blog/importancia-energias-renovables.jpg }
+- { from: /wp-content/uploads/2022/05/pexels-pixabay-301599-scaled-optimized.jpg , to: /u/blog/fotovoltaica-moda.jpg }
+- { from: /wp-content/uploads/2019/07/isfv1-optimized.jpg , to: /u/blog/industrias-sostenibles-energeticamente.jpg }
+- { from: /wp-content/uploads/2023/07/DJI_0430_W-optimized.webp , to: /u/blog/energia-solar-sacarle-partido.jpg }
+- { from: /wp-content/uploads/2021/07/pexels-pok-rie-189524-optimized.jpg , to: /u/blog/claves-instalar-energia-solar.webp }
+- { from: /wp-content/uploads/2023/07/Logo-Ayuntamiento-horizontal-e1690189021293-optimized.png , to: /u/blog/sol-aliado-semilleros-jimenado.webp }
+- { from: /wp-content/uploads/2023/05/DJI_0304_W.00_00_02_18.Imagen-fija001-1-optimized.webp , to: /u/blog/doscadesa-compromiso-medioambiental.webp }
+- { from: /wp-content/uploads/2022/01/pexels-photo-356036-optimized.jpeg , to: /u/blog/ayuntamiento-molina-proyecto-rehabilitacion-energetica.jpg }
+- { from: /wp-content/uploads/2023/07/Foto-noticia-1-solvent-1-optimized.webp , to: /u/blog/tipos-paneles-solares.jpg }
+- { from: /wp-content/uploads/2021/06/pexels-pixabay-257700-optimized.jpg , to: /u/blog/consejos-eficiencia-energetica-industria.jpg }
+- { from: /wp-content/uploads/2021/07/pexels-matthias-cooper-580900-optimized.jpg , to: /u/blog/consejos-cuidar-medio-ambiente.jpg }
+- { from: /wp-content/uploads/2022/12/1665057919772_v2-scaled-optimized.jpg , to: /u/blog/como-realizamos-instalacion-fotovoltaica.jpg }
+- { from: /wp-content/uploads/2021/06/Sin-titulo-1-optimized.png , to: /u/blog/certificado-energetico-todo.png }
+- { from: /wp-content/uploads/2021/06/Articulo-HCpeq-1-optimized.jpg , to: /u/blog/aumento-precio-electricidad.jpg }
+- { from: /wp-content/uploads/2021/05/hydroelectric-power-station-1264100_1920-e1534855379397-1080x408-1-optimized.jpg , to: /u/blog/certificado-huella-carbono.jpg }
+- { from: /wp-content/uploads/2021/06/scott-graham-5fNmWej4tAA-unsplash-optimized.jpg , to: /u/blog/acciones-reducir-huella-carbono-empresa.jpg }
+- { from: /wp-content/uploads/2021/06/pexels-pixabay-50565-optimized.jpg , to: /u/blog/ahorra-factura-covid19.jpg }
+- { from: /wp-content/uploads/2021/06/DJI_0480-scaled-e1624370132106-optimized.jpg , to: /u/blog/razones-apostar-fotovoltaica.jpg }
+
+- { from: /wp-content/uploads/2022/05/imagen-blog/optimized.png , to: /u/blog/potencia-electrica-instalada-espana.png }
+- { from: /wp-content/uploads/2021/09/1-optimized.png , to: /u/blog/ayuntamiento-molina-proyecto-rehabilitacion-energetica.jpg }
+- { from: /wp-content/uploads/2022/01/Grafico-consumo-energia-bueno-optimized.png , to: /u/blog/consumo-energia-2021.png }
+- { from: /wp-content/uploads/2022/01/paneles-solares-optimized.jpg , to: /u/blog/paneles-solares.jpg }
+- { from: /wp-content/uploads/2022/12/3D-optimized.webp , to: /u/blog/nave-industrial-3d.webp }
+- { from: /wp-content/uploads/2022/12/imagen-termografia-optimized.webp , to: /u/blog/termografia-paneles-solares.webp }
+- { from: /wp-content/uploads/2020/04/energy-efficiency-5974213_960_720-optimized.jpg , to: /u/blog/energy-efficiency.jpg }
+
+- { from: /wp-content/uploads/2023/10/DJI_0349_W_recortada-scaled-optimized.webp , to: /u/blog/zamora-company-mejora-huella-energetica.webp }
+- { from: /wp-content/uploads/2023/10/imagen-terrazos-1-optimized.webp , to: /u/blog/terrazos-fortuna-apuesta-energia-solar.webp }
+
+- { from: /wp-content/uploads/2020/04/Reducci%C3%B3n_potencia_SOLVENT.xlsx , to: /u/blog/reduccion-potencia-solvent.xlsx }
+
+- { from: /media/blog-* , to: /u/blog/:slug }
+
+# videos pages
+
+- { from: /wp-content/uploads/2022/11/Video-Dron-Lord-Spices2-1.webm , to: /u/otros/paneles-solares-fotovoltaicos.webm }
+
+- { from: /wp-content/uploads/2023/06/Semilleros-El-Jimenado-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm }
+- { from: /wp-content/uploads/2023/06/Natural-Frio-web.mp4 , to: /u/proyectos/instalacion-fotovoltaica-66-kwp--natural-frio.mp4 }
+- { from: /wp-content/uploads/2023/04/Apellan-web1.webm , to: /u/proyectos/instalacion-fotovoltaica-68-kwp--apellan.webm }
+- { from: /wp-content/uploads/2023/04/Video-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm }
+
+- { from: /wp-content/uploads/2022/11/1-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp }
+- { from: /wp-content/uploads/2022/11/2-optimized.webp , to: /u/proyectos/diseno-vivienda-instalaciones-gama-alta--varios.webp }
+- { from: /wp-content/uploads/2022/11/3-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-3-75-mwp--cartagena-murcia.webp }
+- { from: /wp-content/uploads/2022/11/4-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-6-mwp--fuente-alamo-murcia.webp }
+
+- { from: /wp-content/uploads/2022/11/prefabricados-montalban-webm.webm , to: /u/proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm }
+- { from: /wp-content/uploads/2022/11/Pasteleria-Gimar-Webm.webm , to: /u/proyectos/instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm }
+- { from: /wp-content/uploads/2022/11/El-Ejido-1-1-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-400-kw--acrena-sat-el-ejido.webp }
+- { from: /wp-content/uploads/2022/11/Lord-Spices-formato-webp.webm , to: /u/proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm }
+- { from: /wp-content/uploads/2022/11/Omega-Spice--optimized.webp , to: /u/proyectos/auditoria-energetica-industria--omega-spice.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-1-1-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-autoconsumo-199-98-kwp--edar-yecla-murcia.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-1-optimized.webp , to: /u/proyectos/diseno-calculo-instalaciones-vivienda-unifamiliar--abeman-arquitectos-slp.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-2-optimized.webp , to: /u/proyectos/proyecto-reforma-cie-tenerife--siepse-sme-sa.webp }
+- { from: /wp-content/uploads/2022/11/1-2-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-19-95-mwp--torre-pacheco-cartagena.webp }
+- { from: /wp-content/uploads/2023/04/campotejar-45mwp-scaled-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp }
+- { from: /wp-content/uploads/2022/11/albacete--optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-192-93-mwp--ayora-albacete.webp }
+- { from: /wp-content/uploads/2022/11/badajoz--optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-24-mwp--burguillos-del-cerro-badajoz.webp }
+- { from: /wp-content/uploads/2022/11/marin_gimenez-optimized.webp , to: /u/proyectos/auditoria-energetica-industria--marin-gimenez.webp }
+- { from: /wp-content/uploads/2022/11/proyecto1-optimized.webp , to: /u/proyectos/automatizacion-compuerta-rio-segura--confederacion-hidrografica-del-segura.webp }
+- { from: /wp-content/uploads/2022/11/transportes-fuentes-optimized.webp , to: /u/proyectos/auditoria-energetica-industria--transportes-fuentes.webp }
+- { from: /wp-content/uploads/2022/11/FRUVECO-optimized.webp , to: /u/proyectos/auditoria-energetica-industria--fruveco.webp }
+- { from: /wp-content/uploads/2023/04/Westaflex-Iberica-1.webm , to: /u/proyectos/instalacion-fotovoltaica-132-kwp--westaflex-iberica.webm }
+- { from: /wp-content/uploads/2023/04/Diego-Zamora-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm }
+- { from: /wp-content/uploads/2023/04/Ies-Profesor-Pedro-Antonio-Ruiz-Riquelme.Prproj-1.webm , to: /u/proyectos/instalacion-fotovoltaica-20-52-kwp--ies-pedro-antonio-ruiz-riquelme.webm }
+- { from: /wp-content/uploads/2023/04/Terrazos-Fortuna-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-129-15-kwp--terrazos-fortuna.webm }
+- { from: /wp-content/uploads/2022/11/8-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-31-5-mwp--solbikes-la-aljorra.webp }
+- { from: /wp-content/uploads/2022/11/DJI_0480-scaled-e1624370132106-1-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-autoconsumo-188-1-kwp--penaplast.webp }
+- { from: /wp-content/uploads/2022/11/IMG_20200921_103545_edit-scaled-1-optimized.webp , to: /u/proyectos/instalacion-fotovoltaica-autoconsumo-595-kwp--jisap.webp }
+- { from: /wp-content/uploads/2022/11/penaplast-industria-optimized.webp , to: /u/proyectos/auditoria-energetica-industria--penaplast.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-2-1-optimized.webp , to: /u/proyectos/proyecto-adecuacion-cie-algeciras--siepse-sme-sa.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-3-optimized.webp , to: /u/proyectos/proyecto-reforma-centro-penitenciario-jaen--siepse-sme-sa.webp }
+- { from: /wp-content/uploads/2022/11/Diseno-sin-titulo-4-optimized.webp , to: /u/proyectos/proyecto-reforma-hospital-psiquiatrico-penitenciario-alicante--siepse-sme-sa.webp }
+- { from: /wp-content/uploads/2022/11/albarado-optimized.webp , to: /u/proyectos/instalacion-solar-fotovoltaica-50-mw-alvarado--incosa.webp }
+- { from: /wp-content/uploads/2023/10/Yefrut-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-60-kwp--yefrut.webm }
+- { from: /wp-content/uploads/2023/10/Promociones-Tesy-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-79-8-kwp--promociones-tesy.webm }
+- { from: /wp-content/uploads/2023/10/Jcc-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-60-5-kwp--jcc.webm }
+- { from: /wp-content/uploads/2023/10/Venta-Hermanos-Mula-Web-1.webm , to: /u/proyectos/instalacion-fotovoltaica-58-31-kwp--venta-hermanos-mula.webm }
+
+- { from: /media/proyecto--* , to: /u/proyectos/:slug }
+
+
+# 2024-12-26
+
+- { from: /instalaciones-solares-fotovoltaicas/ , to: /autoconsumo-fotovoltaico/ }
+
+
+# 2025-06-25
+
+- { from: /blog/ , to: /actualidad/ }

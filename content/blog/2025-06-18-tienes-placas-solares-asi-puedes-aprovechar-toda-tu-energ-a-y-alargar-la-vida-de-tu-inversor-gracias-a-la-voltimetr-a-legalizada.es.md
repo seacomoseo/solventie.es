@@ -1,7 +1,7 @@
 ---
 slug: tienes-placas-solares-asi-puedes-aprovechar-toda-tu-energ-a-y-alargar-la-vida-de-tu-inversor-gracias-a-la-voltimetr-a-legalizada
 title: ¿Tienes placas solares? Así puedes aprovechar toda tu energía (y alargar la vida de tu inversor) gracias a la voltimetría legalizada
-image: blog/voltimetria-legalizada.webp
+img: /u/blog/voltimetria-legalizada.webp
 date: 2025-06-02 00:00:00
 category:
 - eficiencia-energetica

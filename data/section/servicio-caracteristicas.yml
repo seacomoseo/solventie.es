@@ -1,16 +1,16 @@
 name: Servicio ➡️ Características
 id: caracteristicas
 if: features
-title: ¿En qué te vamos a ayudar?
-subtitle: En Solvent estamos contigo desde el inicio hasta el final
 size: xl
-box:
-  cols: 4
-  gap: 4
-  gap_vs: 2
-  gap_ny: 1
-  align_y: top
-  icon_size: 3
-params:
-- from: features
-  to: boxes
+boxes:
+- title: ¿En qué te vamos a ayudar?
+  sub: En Solvent estamos contigo desde el inicio hasta el final
+  get:
+  - from: features
+    to: boxes
+  box:
+    cols: 4
+    gap: 4
+    gap_vs: 2
+    align_y: top
+    icon_size: 3

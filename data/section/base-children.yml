@@ -9,7 +9,7 @@ boxes:
   list:
     type: '{{ type }}'
 - if: taxonomy
-  params:
+  get:
   - from: filename
     to: list.{{ type }}
   list:

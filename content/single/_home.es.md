@@ -1,9 +1,10 @@
 ---
 slug: inicio
 title: Inicio
-seo: 'Ingeniería Solvent: Eficiencia y Fotovoltaica'
-description: llll➤ Con Solvent genera tu propia energía renovable ✅ con tu instalación fotovoltaica y ahorra en tu factura mientras cuidas del planeta.
-image: base/poster.svg
+seo:
+  title: 'Ingeniería Solvent: Eficiencia y Fotovoltaica'
+  desc: llll➤ Con Solvent genera tu propia energía renovable ✅ con tu instalación fotovoltaica y ahorra en tu factura mientras cuidas del planeta.
+img: /u/base/poster.svg
 tpl:
   sections:
   - file: _inicio-_header
@@ -25,18 +26,18 @@ org:
   - Solvent IE
   - solventie
   - Solvent Iniciativas Empresariales
-  description: Somos expertos en energías renovables y eficiencia energética. Optimizamos tu sistema solar para obtener el máximo rendimiento y mejoramos la infraestructura de tu empresa para reducir su consumo y aumentar su eficiencia.
+  desc: Somos expertos en energías renovables y eficiencia energética. Optimizamos tu sistema solar para obtener el máximo rendimiento y mejoramos la infraestructura de tu empresa para reducir su consumo y aumentar su eficiencia.
   legal: Solvent Iniciativas Empresariales S.L.
   nif: B30874754
-  email: info@solventie.es
-  logo: base/poster.svg
-  images:
-  - base/logo.svg
-  - base/icon.svg
-  - servicios/autoconsumo-fotovoltaico/portada.webp
-  - servicios/bombeo-solar/portada.jpg
-  - servicios/ingenieria/portada.webp
-  - servicios/eficiencia-energetica/portada.webp
+  mail: info@solventie.es
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/base/logo.svg
+  - /u/base/icon.svg
+  - /u/servicios/autoconsumo-fotovoltaico/portada.webp
+  - /u/servicios/bombeo-solar/portada.jpg
+  - /u/servicios/ingenieria/portada.webp
+  - /u/servicios/eficiencia-energetica/portada.webp
   as:
   - https://www.facebook.com/Solventiee/
   - https://www.facebook.com/solventie/
@@ -48,7 +49,7 @@ org:
   - 621 056 510
   - 644 546 418
   address:
-    name: Solvent Ingeniería
+  - name: Solvent Ingeniería
     street: Calle Molina de Segura, 5, bloque 3, 2ºC-D
     pc: '30007'
     locality: Murcia
@@ -59,29 +60,29 @@ org:
   - Murcia
   - Alicante
   - España
-  schedule:
+  when:
   - days:
-      mon: true
-      tue: true
-      wed: true
-      thu: true
-      fri: true
+      mon: y
+      tue: y
+      wed: y
+      thu: y
+      fri: y
     hours:
     - open: 7:30
       close: 15:30
   prices: €€
   services:
   - title: Autoconsumo solar
-    description: Genera tu propia energía con una instalación solar fotovoltaica y ahorra en tu factura mientras cuidas del planeta
+    desc: Genera tu propia energía con una instalación solar fotovoltaica y ahorra en tu factura mientras cuidas del planeta
     url: /autoconsumo-fotovoltaico/
   - title: Bombeo
-    description: Elimina los costes de energía eléctrica adaptando el bombeo de agua a las horas solares
+    desc: Elimina los costes de energía eléctrica adaptando el bombeo de agua a las horas solares
     url: /bombeo-solar/
   - title: Ingeniería
-    description: Escuchamos lo que necesitas y realizamos el diseño pensando en lo mejor para tu empresa, siempre con el objetivo de reducir los costes de implantación
+    desc: Escuchamos lo que necesitas y realizamos el diseño pensando en lo mejor para tu empresa, siempre con el objetivo de reducir los costes de implantación
     url: /ingenieria/
   - title: Eficiencia energética
-    description: Reducir la energía que cuesta producir cada unidad de lo que fábricas y cómo optimizar tus procesos para mejorar la eficiencia de tu empresa
+    desc: Reducir la energía que cuesta producir cada unidad de lo que fábricas y cómo optimizar tus procesos para mejorar la eficiencia de tu empresa
     url: /eficiencia-energetica/
 ---
 

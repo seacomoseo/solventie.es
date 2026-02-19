@@ -1,5 +1,6 @@
 name: Precio de la Electricidad ➡️ Gráfico
-hanchor: Gráfico
-md: |
-  {{< precio-electricidad-grafico >}}
 size: xl
+boxes:
+- hanchor: Gráfico
+  md: |
+    {{< precio-electricidad-grafico >}}

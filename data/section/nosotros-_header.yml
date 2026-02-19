@@ -1,6 +1,7 @@
 name: Nosotros ➡️ Header
-title: Conoce la empresa de ingeniería Solvent
 color: dark
-bi: otros/nosotros.webp
-md: |
-  Somos la empresa de ingeniería que te va a ayudar a desarrollar cualquier proyecto que necesites, de la forma más innovadora. Nuestro fin es mejorar la eficiencia de tu empresa y facilitar tu día a día, contribuyendo juntos a mejorar la sostenibilidad del planeta.
+bi: /u/otros/nosotros.webp
+boxes:
+- title: Conoce la empresa de ingeniería Solvent
+  md: |
+    Somos la empresa de ingeniería que te va a ayudar a desarrollar cualquier proyecto que necesites, de la forma más innovadora. Nuestro fin es mejorar la eficiencia de tu empresa y facilitar tu día a día, contribuyendo juntos a mejorar la sostenibilidad del planeta.

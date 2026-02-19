@@ -1,9 +1,10 @@
 ---
 slug: privacidad
 title: Política de Privacidad
-icon: shield-keyhole
-toc: true
-noindex: true
+icon: encrypted
+toc: y
+seo:
+  noindex: y
 weight: 2
 ---
 
@@ -40,5 +41,5 @@ Solvent Iniciativas Empresariales se reserva el derecho de cambiar los términos
 3. En la recogida y el tratamiento de los datos de carácter personal se han adoptado las medidas de seguridad adecuadas para evitar la pérdida, el acceso no autorizado o la manipulación de los mismos, de acuerdo con lo establecido en el **RGPD**. Los datos de contacto de los potenciales clientes se conservaran durante **1 AÑO**.
 4. **la empresa** se compromete a proteger la información confidencial a la que tenga acceso.
 5. **la empresa** no empleará en ningún caso los datos de carácter personal que usted ponga a su disposición para prestar servicios a terceros distintos a los referidos en el apartado a) del presente documento o, en su caso, para lograr una utilidad propia.
-6. El Usuario puede, en todo momento, ejercitar sus derechos de acceso, rectificación, supresión y portabilidad de datos y oposición y limitación a su tratamiento sobre sus datos personales así como el de revocación del consentimiento para cualquiera de las finalidades antes señaladas, enviando a **{{% legal name %}}** carta debidamente firmada a nuestra dirección postal **{{% legal location %}}** o bien al correo electrónico **{{% legal email %}}**, donde consten claramente los datos de contacto, a la cual deberá acompañarse fotocopia de su DNI/NIF o documento que acredite su identidad.Si considera que no ha obtenido satisfacción plena en el ejercicio de sus derechos, podrá presentar una reclamación ante la autoridad nacional de control dirigiéndose a estos efectos a la **Agencia Española de Protección de Datos** , C/ Jorge Juan, 6 – 28001 Madrid.
+6. El Usuario puede, en todo momento, ejercitar sus derechos de acceso, rectificación, supresión y portabilidad de datos y oposición y limitación a su tratamiento sobre sus datos personales así como el de revocación del consentimiento para cualquiera de las finalidades antes señaladas, enviando a **{{% legal name %}}** carta debidamente firmada a nuestra dirección postal **{{% legal location %}}** o bien al correo electrónico **{{% legal mail %}}**, donde consten claramente los datos de contacto, a la cual deberá acompañarse fotocopia de su DNI/NIF o documento que acredite su identidad.Si considera que no ha obtenido satisfacción plena en el ejercicio de sus derechos, podrá presentar una reclamación ante la autoridad nacional de control dirigiéndose a estos efectos a la **Agencia Española de Protección de Datos** , C/ Jorge Juan, 6 – 28001 Madrid.
 7. El Usuario autoriza al tratamiento automatizado de los datos personales suministrados en los términos indicados. Para ello pulse el botón **"ENVIAR"** que se encuentra tras el formulario de contacto.

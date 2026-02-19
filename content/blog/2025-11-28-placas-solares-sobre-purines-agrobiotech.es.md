@@ -1,12 +1,10 @@
 ---
 slug: placas-solares-sobre-purines-agrobiotech
 title: 'Hacia una agricultura más inteligente: placas solares sobre purines, la última apuesta del sector fotovoltaico'
-summary: 'Innovar en el sector agro pasa por ver oportunidades donde antes no las había. En nuestro nuevo artículo analizamos una propuesta presentada en la feria agrobiotech: instalar placas solares sobre purines para generar energía limpia aprovechando espacios ya existentes. Solvent estuvo presente en el evento, con la participación de nuestro compañero Salvador Navarro, conociendo de cerca esta solución que combina eficiencia, sostenibilidad e ingenio.'
-image: /blog4-segre-placas-purines.png
+sum: 'Innovar en el sector agro pasa por ver oportunidades donde antes no las había. En nuestro nuevo artículo analizamos una propuesta presentada en la feria agrobiotech: instalar placas solares sobre purines para generar energía limpia aprovechando espacios ya existentes. Solvent estuvo presente en el evento, con la participación de nuestro compañero Salvador Navarro, conociendo de cerca esta solución que combina eficiencia, sostenibilidad e ingenio.'
+img: /u/blog/blog4-segre-placas-purines.webp
 date: 2025-11-28 13:15:15
-lastmod: 2025-11-28 13:15:15
-category: null
-author: null
+mod: 2025-11-28 13:15:15
 ---
 La industria de las energías renovables y el sector agropecuario convergen hoy en una idea que hasta hace poco sonaba a experimento: colocar placas solares directamente sobre purines en explotaciones agrícolas y ganaderas. Esta innovadora propuesta, recogida por Segre bajo el título [«Los fabricantes de placas solares ya ensayan colocarlas sobre purines»](https://www.segre.com/es/comarcas/251128/los-fabricantes-de-placas-solares-ya-ensayan-colocarlas-sobre-purines_1036492.html), pone en evidencia la búsqueda de nuevas sinergias para optimizar recursos en el mundo rural.
 

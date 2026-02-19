@@ -1,12 +1,13 @@
 ---
 title: Tecnología dron en instalaciones solares fotovoltaicas
-seo: Tecnología dron en instalaciones solares fotovoltaicas - Ingeniería Solvent
+seo:
+  title: Tecnología dron en instalaciones solares fotovoltaicas - Ingeniería Solvent
+  desc: ¿Sabías que entre el 6 y 8% de los módulos solares instalados hace 10 años presenta fallos o errores en su funcionamiento diario?. Un problema de éstos en un
 slug: tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas
-description: ¿Sabías que entre el 6 y 8% de los módulos solares instalados hace 10 años presenta fallos o errores en su funcionamiento diario?. Un problema de éstos en un
-image: blog/tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas.jpg
+img: /u/blog/tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas.jpg
 category:
 - energia-solar
-toc: true
+toc: y
 date: 2020-07-30 00:00:00
 ---
 ¿Sabías que entre el 6 y 8% de los módulos solares instalados hace 10 años presenta fallos o errores en su funcionamiento diario?. Un problema de éstos en un módulo puede afectar a la producción de la instalación hasta en un 20%.

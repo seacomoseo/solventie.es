@@ -1,0 +1,9 @@
+- name: author
+  value: admin
+  path:
+  - /blog/*
+- name: index
+  value: 'false'
+  type: bool
+  path:
+  - /blog/*

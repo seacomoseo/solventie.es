@@ -1,5 +1,6 @@
 ---
 slug: ayudas
 title: Ayudas
-noindex: true
+seo:
+  noindex: y
 ---

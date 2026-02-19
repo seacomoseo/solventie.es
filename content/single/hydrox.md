@@ -1,9 +1,10 @@
 ---
 slug: hydrox
 title: Hydrox
-seo: 'Hydrox de Solvent: Bombeo Agrícola Inteligente y más Barato'
-description: Optimiza el bombeo agrícola activando la bomba en las horas más baratas. Analiza precios, peajes y cargos para reducir costes. Control desde app móvil.
-image: servicios/gestion-cae/portada.webp
+seo:
+  title: 'Hydrox de Solvent: Bombeo Agrícola Inteligente y más Barato'
+  desc: Optimiza el bombeo agrícola activando la bomba en las horas más baratas. Analiza precios, peajes y cargos para reducir costes. Control desde app móvil.
+img: /u/servicios/hydrox/portada.webp
 
 tpl:
   sections:

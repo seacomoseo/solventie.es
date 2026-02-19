@@ -1,9 +1,10 @@
 ---
 slug: gestion-cae
 title: Gestión CAE
-seo: Gestión de Certificados de Ahorro Energético (CAE)
-description: 'l➤ Gestión de Certificados de Ahorro Energético (CAE) para empresas: maximizamos ingresos y rentabilidad cumpliendo la normativa. ✅ Pide valoración.'
-image: servicios/gestion-cae/portada.jpg
+seo:
+  title: Gestión de Certificados de Ahorro Energético (CAE)
+  desc: 'l➤ Gestión de Certificados de Ahorro Energético (CAE) para empresas: maximizamos ingresos y rentabilidad cumpliendo la normativa. ✅ Pide valoración.'
+img: /u/servicios/gestion-cae/portada.jpg
 
 tpl:
   sections:

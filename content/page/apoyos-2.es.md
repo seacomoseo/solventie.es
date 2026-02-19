@@ -1,14 +1,15 @@
 ---
 slug: apoyos
 title: Apoyos
-image: apoyos/union-europea.webp
-icon: handshake-angle
-noindex: true
+img: /u/apoyos/union-europea.webp
+icon: support
+seo:
+  noindex: y
 weight: 8
 ---
 **Programa de apoyo a Inversiones Productivas y Tecnológicas COVID-19**
 
-Expediente: 2021.07.ITCO.0120
+Expediente: /u/2021.07.ITCO.0120
 
 Cofinanciada por el fondo europeo de desarrollo regional (FEDER) y el INFO.
 
@@ -16,7 +17,7 @@ Cofinanciada por el fondo europeo de desarrollo regional (FEDER) y el INFO.
 
 
 
-![](apoyos/feder-info-ris3-mur.png)
+![](/u/apoyos/feder-info-ris3-mur.png)
 
 > Una manera de hacer Europa
 

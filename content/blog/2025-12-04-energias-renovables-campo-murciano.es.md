@@ -1,26 +1,25 @@
 ---
 slug: energias-renovables-campo-murciano
 title: 'Energías renovables y campo murciano: juntos por el progreso'
-summary: Las energías renovables y el campo murciano avanzan juntos hacia un desarrollo económico sostenible, compatible con la agricultura y la industria.
-image: /portada-blogs-2-noticia-rocio-sector-renovables.png
+sum: Las energías renovables y el campo murciano avanzan juntos hacia un desarrollo económico sostenible, compatible con la agricultura y la industria.
+img: /u/blog/portada-2-noticia-rocio-sector-renovables.webp
 date: 2025-12-05 09:00:01
-lastmod: 2025-12-05 09:00:00
-toc: false
-category: null
-author: null
-draft: false
-hide: false
-noindex: false
+mod: 2025-12-05 09:00:00
+toc: n
+draft: n
+hide: n
+seo:
+  noindex: n
 ---
 El sector de las energías renovables en la Región de Murcia ha reivindicado la importancia de tramitar todos los proyectos fotovoltaicos bajo un título habilitante y en cumplimiento estricto de la normativa vigente. El objetivo es garantizar un desarrollo ordenado, transparente y sostenible del territorio, favoreciendo la convivencia entre las distintas actividades productivas.
 
-## Renovables y agricultura: dos sectores que pueden convivir
+## Renovables y agricultura: /u/dos sectores que pueden convivir
 
 Desde el ámbito empresarial y técnico se subraya que las energías renovables y la agricultura no son sectores enfrentados, sino complementarios. La implantación responsable de instalaciones solares puede reducir los costes energéticos de las explotaciones agrícolas y ganaderas, mejorar su competitividad y reforzar su sostenibilidad a largo plazo.
 
 El diálogo entre ambos sectores se consolida como una vía para impulsar un desarrollo rural equilibrado, capaz de combinar innovación, aprovechamiento de recursos y respeto medioambiental. La cooperación entre energía y agricultura permite avanzar hacia un modelo de crecimiento que genera empleo, valor y estabilidad en el territorio.
 
-![](/segunda-noticia-foto-mitad.png)
+![](/u/blog/segunda-noticia-foto-mitad.webp)
 ## Energía limpia y desarrollo industrial
 
 Las entidades del sector recuerdan que las instalaciones fotovoltaicas y de almacenamiento energético deben considerarse infraestructuras esenciales, no usos industriales. Este enfoque contribuye a una planificación territorial más coherente y alineada con los objetivos del Plan Industrial Regional, basado en el acceso a una energía limpia, estable y competitiva.

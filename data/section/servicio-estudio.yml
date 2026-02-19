@@ -1,31 +1,31 @@
 name: Servicio ➡️ Estudio
 id: estudio
 if: study
-title: Consigue tu estudio fotovoltaico gratuito
-subtitle: ¿En qué consiste?
-bi: servicios/autoconsumo-fotovoltaico/estudio.webp
+bi: /u/servicios/autoconsumo-fotovoltaico/estudio.webp
 color: cta
-box_color: white
-box:
-  cols: 3
-  gap: 3
-  gap_vs: 2
-  gap_ny: 1
-  grow: true
-  icon_size: 3
 boxes:
-- title: Consumo de energía
-  md: Analizamos la potencia que consumes cada hora y día del año. Así, diseñamos con precisión cual es la mejor instalación fotovoltaica para ti.
-  icon: bolt
-- title: Implantación
-  md: Diseñamos una implantación óptima con la inclinación y orientación adecuada en función de la ubicación de tu industria y la superficie que dispongas.
-  icon: earth-americas
-- title: Simulación 3D
-  md: Estudiamos todos los elementos y obstáculos que puedan generar sombras en tu instalación y te mostramos en 3D como quedaría.
-  icon: desktop
-- title: Ajuste de la curva de consumo
-  md: Cruzamos la producción con tu consumo diario para proponerte la instalación fotovoltaica más eficiente, ofreciéndote la potencia que necesitas.
-  icon: chart-column
-- title: Estudio de viabilidad
-  md: Realizamos un estudio de viabilidad de amortización de la inversión, teniendo en cuenta tanto el ahorro y subvención como los gastos de mantenimiento y financiación de la instalación.
-  icon: check
+- title: Consigue tu estudio fotovoltaico gratuito
+  sub: ¿En qué consiste?
+  color: white
+  box:
+    cols: 3
+    gap: 3
+    gap_vs: 2
+    grow: y
+    icon_size: 3
+  boxes:
+  - title: Consumo de energía
+    md: Analizamos la potencia que consumes cada hora y día del año. Así, diseñamos con precisión cual es la mejor instalación fotovoltaica para ti.
+    icon: bolt
+  - title: Implantación
+    md: Diseñamos una implantación óptima con la inclinación y orientación adecuada en función de la ubicación de tu industria y la superficie que dispongas.
+    icon: globe_location_pin
+  - title: Simulación 3D
+    md: Estudiamos todos los elementos y obstáculos que puedan generar sombras en tu instalación y te mostramos en 3D como quedaría.
+    icon: deployed_code
+  - title: Ajuste de la curva de consumo
+    md: Cruzamos la producción con tu consumo diario para proponerte la instalación fotovoltaica más eficiente, ofreciéndote la potencia que necesitas.
+    icon: monitoring
+  - title: Estudio de viabilidad
+    md: Realizamos un estudio de viabilidad de amortización de la inversión, teniendo en cuenta tanto el ahorro y subvención como los gastos de mantenimiento y financiación de la instalación.
+    icon: check

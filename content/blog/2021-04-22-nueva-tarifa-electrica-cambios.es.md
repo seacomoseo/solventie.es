@@ -1,12 +1,13 @@
 ---
 title: 'La nueva tarifa eléctrica: descubre los nuevos cambios'
-seo: 'Nueva tarifa eléctrica: los cambios | Ingeniería Solvent'
+seo:
+  title: 'Nueva tarifa eléctrica: los cambios | Ingeniería Solvent'
+  desc: La nueva tarifa eléctrica, debería haber entrado en vigor en el año 2020, pero a raíz de la pandemia de la COVID-19, se ha ido retrasando
 slug: nueva-tarifa-electrica-cambios
-description: La nueva tarifa eléctrica, debería haber entrado en vigor en el año 2020, pero a raíz de la pandemia de la COVID-19, se ha ido retrasando
-image: blog/nueva-tarifa-electrica-cambios.jpg
+img: /u/blog/nueva-tarifa-electrica-cambios.jpg
 category:
 - electricidad
-toc: true
+toc: y
 date: 2021-04-22 00:00:00
 ---
 **La nueva tarifa eléctrica** que estaba prevista entrar el vigor el 1 de abril se retrasa al [1 de junio](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4565) de este mismo año. La nueva tarifa eléctrica, debería haber entrado en vigor en el año 2020, pero a raíz de la pandemia de la COVID-19, se ha ido retrasando. Hablamos del cambio de las 6 tarifas de acceso actual (2.0A, 2.0ODHA, 2ODHS, 2.1, 2.1DHA, 2.1DHS) por **una única tarifa**, la 2OTD.
@@ -28,7 +29,7 @@ Como ya mencionábamos anteriormente, desaparecen todas las tarifas para convert
 En este caso, en todas las tarifas va a existir un tipo de **discriminación horaria**, denominado **periodificación**, donde dentro de cada tarifa vamos a encontrar periodos diferentes tanto en potencia como en consumo. No obstante, estos periodos, varían en función de la zona geográfica, (Ceuta y Melilla, tienen los mismos tramos, pero con un horario distinto)
 
 | PUNTA                                  | LLANO                                               | VALLE                            |
-| :------------------------------------: | :-------------------------------------------------: | :------------------------------: |
+| ::------------------------------------:: | ::-------------------------------------------------:: | ::------------------------------:: |
 | 10:00 - 14:00 <br>18:00 - 22:00 <br> - | 08:00 - 10.00 <br> 14:00 - 18:00 <br> 22:00 - 00:00 | 00:00 - 08:00 <br> - <br> -      |
 
 ### ¿Cómo afecta esta periodificación?

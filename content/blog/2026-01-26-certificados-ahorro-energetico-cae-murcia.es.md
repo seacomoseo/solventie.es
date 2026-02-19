@@ -1,20 +1,19 @@
 ---
 slug: certificados-ahorro-energetico-cae-murcia
 title: La Región de Murcia impulsa los Certificados de Ahorro Energético (CAE) para mejorar la eficiencia energética
-summary: La Región de Murcia impulsa el uso de los Certificados de Ahorro Energético (CAE), alcanzando 187 millones de kWh certificados. Este sistema fomenta inversiones en eficiencia energética y permite acreditar ahorros reales tras aplicar mejoras en instalaciones y procesos. Además, es importante diferenciar que las instalaciones solares fotovoltaicas (ISFV) no están cubiertas por los CAE, ya que estos certificados se basan en ahorro energético verificable y no en generación renovable.
-image: /26.-blog-cae-carm.png
+sum: La Región de Murcia impulsa el uso de los Certificados de Ahorro Energético (CAE), alcanzando 187 millones de kWh certificados. Este sistema fomenta inversiones en eficiencia energética y permite acreditar ahorros reales tras aplicar mejoras en instalaciones y procesos. Además, es importante diferenciar que las instalaciones solares fotovoltaicas (ISFV) no están cubiertas por los CAE, ya que estos certificados se basan en ahorro energético verificable y no en generación renovable.
+img: /u/blog/26-cae-carm.webp
 date: 2026-01-26 08:16:33
-lastmod: 2026-01-26 08:16:33
-toc: false
-category: null
-author: null
-related:
+mod: 2026-01-26 08:16:33
+toc: n
+rel:
 - 2025-07-16-somos-sujeto-delegado-cae
 - 2025-08-26-cae-murcia
-draft: false
-hide: false
-noindex: false
-description: Murcia impulsa los Certificados de Ahorro Energético (CAE) y alcanza 187 millones de kWh certificados. Descubre qué son, cómo funcionan y por qué las ISFV no están cubiertas por este sistema.
+draft: n
+hide: n
+seo:
+  desc: Murcia impulsa los Certificados de Ahorro Energético (CAE) y alcanza 187 millones de kWh certificados. Descubre qué son, cómo funcionan y por qué las ISFV no están cubiertas por este sistema.
+  noindex: n
 ---
 La Comunidad Autónoma de la Región de Murcia refuerza su apuesta por la eficiencia energética como herramienta clave para mejorar la competitividad empresarial y avanzar en la transición energética. Según los últimos datos publicados por la administración regional, el Sistema de Certificados de Ahorro Energético (CAE) ya suma **187 millones de kWh certificados,** tras registrarse más de **160 solicitudes** por parte de empresas y entidades en la Región.
 

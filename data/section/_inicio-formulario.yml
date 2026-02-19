@@ -1,23 +1,24 @@
 name: Inicio ➡️ Formulario
 id: consultas
-title: ¿Tienes alguna duda o consulta?
-subtitle: Te respondemos encantados
 color: dark
-bi: otros/dudas.webp
+bi: /u/otros/dudas.webp
 size: sm
-form:
-  id: formulario
-  email: formularios-web@solventie.es
-inputs:
-- type: text
-  name: Nombre
-  label: Tu nombre
-  required: true
-- type: email
-  name: Email
-  label: Tu correo electrónico
-  required: true
-- type: textarea
-  name: Mensaje
-  label: Cuéntanos
-  required: true
+boxes:
+- title: ¿Tienes alguna duda o consulta?
+  sub: Te respondemos encantados
+  form:
+    id: formulario
+    mail: formularios-web@solventie.es
+  inputs:
+  - type: text
+    name: Nombre
+    label: Tu nombre
+    req: y
+  - type: mail
+    name: Email
+    label: Tu correo electrónico
+    req: y
+  - type: area
+    name: Mensaje
+    label: Cuéntanos
+    req: y

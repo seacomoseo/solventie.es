@@ -1,11 +1,12 @@
 name: CAE ➡️ Header
-title: Certificados de Ahorro Energético (CAE)
-hs: 0
 color: dark
-bi: servicios/gestion-cae/portada.jpg
+bi: /u/servicios/gestion-cae/portada.jpg
 pt: 8
 pb: 8
-md: |
-  Convierte tu ahorro energético en ingresos reales
+boxes:
+- title: Certificados de Ahorro Energético (CAE)
+  hs: 0.2
+  md: |
+    Convierte tu ahorro energético en ingresos reales
 
-  [[Ver más]](#more)
+    [[Ver más]](#more)

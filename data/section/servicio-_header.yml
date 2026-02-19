@@ -1,22 +1,24 @@
 name: Servicio ➡️ Header
-hanchor: Empresa de {{ param kw }} en Murcia y Alicante
-title: Título por defecto
-subtitle: Subtítulo por defecto
 color: dark
-bi: fondo.jpg
-hs: 0
-box:
-  cols: 3
-  gap: 4
-  align_y: top
-  icon_size: 3
-  icon_color: light
-params:
-- from: image
+bi: /u/fondo.jpg
+get:
+- from: img
   to: bi
-- from: title
-  to: title
-- from: subtitle
-  to: subtitle
-- from: advantages
-  to: boxes
+boxes:
+- hanchor: Empresa de {{ get kw }} en Murcia y Alicante
+  title: Título por defecto
+  sub: Subtítulo por defecto
+  hs: 0.2
+  get:
+  - from: title
+    to: title
+  - from: sub
+    to: sub
+  - from: advantages
+    to: boxes
+  box:
+    cols: 3
+    gap: 4
+    align_y: top
+    icon_size: 3
+    icon_color: light

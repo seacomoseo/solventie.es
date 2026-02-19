@@ -1,12 +1,13 @@
 name: Hydrox ➡️ Header
-title: Hydrox
-hs: 0
 color: dark
-bi: servicios/hydrox/portada.webp
-parallax: soft
+bi: /u/servicios/hydrox/portada.webp
+scroll: soft
 pt: 8
 pb: 8
-md: |
-  El nuevo sistema inteligente de **Solvent** para un bombeo más eficiente
+boxes:
+- title: Hydrox
+  hs: 0.2
+  md: |
+    El nuevo sistema inteligente de **Solvent** para un bombeo más eficiente
 
-  [[Ver más]](#more)
+    [[Ver más]](#more)

@@ -1,6 +1,6 @@
 # solventie.es
 
-[![solventie.es](/assets/media/logo.svg)](https://solventie.es/)
+[![solventie.es](/uploads/logo.svg)](https://solventie.es/)
 
 
 ## STEPS
@@ -54,7 +54,7 @@
     - `assets/css/` ⏩ `_variables-custom.scss` + `_custom.scss`
     - `data/config.yml ⏩ custom_code.css.code`
   - IMG
-    - `assets/media/*`
+    - `uploads/*`
   - REDIRECTS
     - `assets/redirects.md`
   - ROBOTS
@@ -101,13 +101,13 @@
 
 - Add property
 - Verify versions ⏩ `data/config.yml`
-  - `google_analytics`
-  - `google_site_verification`
-  - `google_file_verification`
+  - `ga4`
+  - `g_site_verify`
+  - `g_file_verify`
   - DNS:
     From: `@`
     DNS Record: `TXT`
-    To: `google-site-verification=[google_site_verification]`
+    To: `google-site-verification=[g_site_verify]`
 - Link with Analytics
 - Add sitemap.xml
 

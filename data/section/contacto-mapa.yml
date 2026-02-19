@@ -1,7 +1,8 @@
 name: Contacto ➡️ Mapa
-hanchor: Mapa
-ph: true
+ph: y
 size: fluid
-geos:
-- type: point
-  geo: '{"type":"Point","coordinates":[-1.1147510,37.9926277]}'
+boxes:
+- hanchor: Mapa
+  geos:
+  - type: point
+    geo: '{"type":"Point","coordinates":[-1.1147510,37.9926277]}'

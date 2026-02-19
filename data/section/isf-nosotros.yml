@@ -1,17 +1,18 @@
 name: ISF ➡️ Nosotros
-hanchor: Nosotros
 pt: 8
-box:
-  duo: 1
-  gap: 4
-  gap_vs: 2
 boxes:
-- bi: servicios/instalaciones-solares-flotantes/nosotros.jpg
-- title: Solvent
-  subtitle: Tu socio de confianza en soluciones solares flotantes
-  md: |
-    Solvent es especialista en instalaciones solares flotantes para comunidades de regantes y empresas agrícolas, con más de 20 años de experiencia en soluciones innovadoras, sostenibles y rentables.
+- hanchor: Nosotros
+  box:
+    duo: 1
+    gap: 4
+    gap_vs: 2
+  boxes:
+  - bi: /u/servicios/instalaciones-solares-flotantes/nosotros.jpg
+  - title: Solvent
+    sub: Tu socio de confianza en soluciones solares flotantes
+    md: |
+      Solvent es especialista en instalaciones solares flotantes para comunidades de regantes y empresas agrícolas, con más de 20 años de experiencia en soluciones innovadoras, sostenibles y rentables.
 
-    Diseñamos proyectos que te ayudan a ahorrar costes, optimizar recursos como el agua y la energía, y a cuidar del medio ambiente, facilitando el trabajo diario en el campo.
-  align: left
-  align_y: center
+      Diseñamos proyectos que te ayudan a ahorrar costes, optimizar recursos como el agua y la energía, y a cuidar del medio ambiente, facilitando el trabajo diario en el campo.
+    align: left
+    align_y: center

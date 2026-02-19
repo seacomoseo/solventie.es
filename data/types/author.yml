@@ -1,4 +1,4 @@
-title: Autor
+title: Autores
 base: author
 weight: 1
 tax_of:
@@ -6,6 +6,6 @@ tax_of:
   schema: author
 tpl:
   list:
-    card: false
-    color: similar
+    card: n
+    color: such
     rate: 1

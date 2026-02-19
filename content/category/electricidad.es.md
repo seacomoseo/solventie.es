@@ -1,5 +1,6 @@
 ---
 slug: electricidad
 title: Electricidad
-noindex: true
+seo:
+  noindex: y
 ---

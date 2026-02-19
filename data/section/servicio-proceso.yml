@@ -1,13 +1,15 @@
 name: Servicio ➡️ Proceso
 id: proceso
 if: process.steps
-title: ¿Cuál es el proceso?
 color: dark
-bi: fondo.jpg
-step:
-  icon_size: 1
-params:
-- from: process.image
+bi: /u/fondo.jpg
+get:
+- from: process.img
   to: bi
-- from: process.steps
-  to: steps
+boxes:
+- title: ¿Cuál es el proceso?
+  step:
+    icon_size: 1
+  get:
+  - from: process.steps
+    to: steps

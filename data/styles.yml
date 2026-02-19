@@ -1,89 +1,83 @@
 icons:
-  type: regular
-  sharp: false
-  emojis: false
-  play: youtube-iframe
-  up:
-  down:
-  left:
-  right:
+  fill: n
+  weight: 500
+  grade: 0
+  optical: 24
+  style: rounded
+  defs:
+    play: svg:youtube-iframe
 fonts:
   base:
-    google: false
     family: Akkurat
     weight: 300
     bold: 0
-    italic: false
+    italic: n
     line_height: 1.45 # 1.65
   cursive:
-    google: false
     family: Akkurat
     weight: 300
     bold: 0
-    italic: false
+    italic: n
     line_height: 1.45 # 1.65
     size: 1
-    top: 0
   title:
-    google: false
     family: Akkurat
     weight: 700
     bold: 0
-    italic: false
+    italic: n
     line_height: 1.25
     size: 1
-    top: 0
-  blockquote_cursive: true
+  blockquote_cursive: y
 colors:
   main:
     color: '#00acc8'
-    light: ''
-    dark: ''
-    contrast:
-      fill: false
-      in: true
-      text: true
+    light: '#ffffff'
+    dark: '#ffffff'
+    turn:
+      fill: n
+      in: y
+      text: y
   alt:
-    color: '#ccc'
-    light: ''
-    dark: ''
-    contrast:
-      fill: true
-      in: true
-      text: true
+    color: '#cccccc'
+    light: '#ffffff'
+    dark: '#ffffff'
+    turn:
+      fill: y
+      in: y
+      text: y
   cta:
     color: '#ff9d00'
-    light: ''
-    dark: ''
-    contrast:
-      fill: false
-      in: false
-      text: false
+    light: '#ffffff'
+    dark: '#ffffff'
+    turn:
+      fill: n
+      in: n
+      text: n
   base:
-    white: '#fff'
-    light: '#eee'
+    white: '#ffffff'
+    light: '#eeeeee'
     gray: '#767676'
     dark: '#0a2a3b'
-    black: '#000'
+    black: '#000000'
 rounded:
   radius: 0.25
-  chamfer: false
-buttons:
-  sides_round: false
-  icon_circle: true
-  deep: false
-  outline: false
+  chamfer: n
+btns:
+  pill: n
+  disc: y
+  deep: n
+  outline: n
   font:
     type: base
-    bold: false
-    uppercase: false
+    bold: n
+    uppercase: n
   swap:
     type: base
-    bold: false
-    uppercase: false
+    bold: n
+    uppercase: n
 inputs:
-  fill: false
-  labels_out: false
+  fill: n
+  labels: in
 shadow:
   left: 0.3
   top: 0.3

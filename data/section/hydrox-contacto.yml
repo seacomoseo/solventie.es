@@ -1,20 +1,21 @@
 name: Hydrox ➡️ Contacto
-hanchor: Contacto
-title: ¿Quieres ser de los primeros en beneficiarte de Hydrox?
-md: |
-  Tenemos una oferta de lanzamiento solo para los 5 primeros clientes. Contáctanos hoy para conocer todos los detalles y descubre cómo HYDROX puede ayudarte a ahorrar desde el primer día.
-
-  Contáctanos :bullseye-pointer:
-  {.subtitle}
 size: sm
-align: center
 color: dark
-bi: servicios/hydrox/asi-funciona.jpg
-contact:
+bi: /u/servicios/hydrox/asi-funciona.jpg
+links:
 - type: phone
   label: 968 27 16 89
 - type: whatsapp
   label: 621 056 510
 - type: mail
   label: info@solventie.es
-  button: light
+  btn: light
+boxes:
+- hanchor: Contacto
+  title: ¿Quieres ser de los primeros en beneficiarte de Hydrox?
+  md: |
+    Tenemos una oferta de lanzamiento solo para los 5 primeros clientes. Contáctanos hoy para conocer todos los detalles y descubre cómo HYDROX puede ayudarte a ahorrar desde el primer día.
+
+    Contáctanos ::ads_click::
+    {.sub}
+  align: center

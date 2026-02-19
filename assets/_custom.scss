@@ -1,0 +1,67 @@
+// Menu
+.body-top.body-menu--sticky--active {
+  --menu-py: .75em;
+}
+
+// Blog list
+@media (min-width: $viewport-lg) {
+  #body-blog #lists .box--1 {
+    --box-width: 100cqw;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    // grid-auto-rows: auto;
+    grid-template-rows: auto 1fr auto;
+    .img {
+      --img-width: 50cqw;
+      grid-row: 1 / span 3;
+      margin-right: 0;
+      margin-bottom: calc(var(--box-pd) * -1);
+    }
+    .img__in {
+      --radius-end: var(--radius-calc) 0em 0em var(--radius-calc);
+    }
+    .box__title {
+      font-size: 1.5em;
+    }
+    .box__md {
+      font-size: .9em;
+    }
+  }
+}
+.box__link:not(.box--card *) {
+  --cta-text: var(--main);
+}
+
+// Home
+#body-home {
+  #header {
+    @mixin show-from($delay) {
+      animation: show-from .5s (.5 + .25s * $delay) both;
+    }
+    .box__title  { @include show-from(1); }
+    .md p        { @include show-from(2); }
+    .md .btns { @include show-from(3); }
+    // &.bg--img-fixed > .bg-fig .bg-fig-img {
+    //   object-position: center -120px;
+    // }
+  }
+  #proyectos {
+    .boxes {
+      .sub {
+        font-size: 1.5em;
+      }
+    }
+  }
+  #servicios {
+    .box {
+      --radius-pd: 0em;
+    }
+    .box__icon--top {
+      margin-bottom: 1rem;
+    }
+    .box__btn {
+      width: auto;
+      flex-direction: row-reverse;
+    }
+  }
+}

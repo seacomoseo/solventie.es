@@ -1,7 +1,8 @@
 name: Precio de la Electricidad ➡️ CLAIM
-hanchor: Entiende tu factura
-md: |
-  Cuanto mejor entiendas tu factura, más control tendrás sobre tus costes energéticos 🚀
-  {.h2}
 color: light
-align: center
+boxes:
+- hanchor: Entiende tu factura
+  md: |
+    Cuanto mejor entiendas tu factura, más control tendrás sobre tus costes energéticos 🚀
+    {.h2}
+  align: center

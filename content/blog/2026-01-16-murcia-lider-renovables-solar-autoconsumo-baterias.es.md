@@ -1,11 +1,11 @@
 ---
 slug: /murcia-lider-renovables-solar-autoconsumo-baterias/
 title: 'La Región de Murcia refuerza su liderazgo en renovables tras el apagón: más fotovoltaica, agrovoltaica, autoconsumo y baterías'
-summary: La Región de Murcia refuerza su posición líder en renovables con más energía solar fotovoltaica y agrovoltaica, autoconsumo y proyectos de almacenamiento en baterías para un sistema más eficiente y estable.
-image: /16.-blog.png
+sum: La Región de Murcia refuerza su posición líder en renovables con más energía solar fotovoltaica y agrovoltaica, autoconsumo y proyectos de almacenamiento en baterías para un sistema más eficiente y estable.
+img: /u/blog/16.webp
 date: 2026-01-16 11:02:32
-lastmod: 2026-01-16 11:02:32
-toc: false
+mod: 2026-01-16 11:02:32
+toc: n
 category:
 - baterias
 - eficiencia-energetica
@@ -13,11 +13,11 @@ category:
 - energia-solar
 - noticias
 - sostenibilidad
-author: null
-draft: false
-hide: false
-noindex: false
-description: La Región de Murcia refuerza su liderazgo en renovables con más energía solar fotovoltaica y agrovoltaica, autoconsumo y baterías para un sistema eficiente y estable.
+draft: n
+hide: n
+seo:
+  desc: La Región de Murcia refuerza su liderazgo en renovables con más energía solar fotovoltaica y agrovoltaica, autoconsumo y baterías para un sistema eficiente y estable.
+  noindex: n
 ---
 En los últimos meses, la conversación energética en España ha cambiado de tono. Ya no solo se trata de sostenibilidad o de reducir emisiones, sino de seguridad, estabilidad y, sobre todo, autonomía energética.
 

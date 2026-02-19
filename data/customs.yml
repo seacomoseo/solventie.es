@@ -1,0 +1,68 @@
+- name: footer
+  label: Footer
+  widget: dict
+  sub:
+  - var: dots
+  - name: boxes
+    label: Cajas
+    widget: slice
+    sub:
+    - var: md
+  - name: certificates
+    label: Certificados
+    widget: slice
+    sub:
+    - var: img
+    - var: ratio
+    - var: url
+
+
+- types: [ service ]
+  name: kw
+  label: KW
+  hint: Palabra clave principal
+
+- types: [ service ]
+  name: sub
+  label: Subtítulo
+
+- types: [ service ]
+  name: advantages
+  label: Ventajas
+  widget: slice
+  sub:
+  - var: title
+  - var: md
+  - var: icon
+
+- types: [ service ]
+  name: features
+  label: Características
+  widget: slice
+  sub:
+  - var: title
+  - var: md
+  - var: icon
+
+- types: [ service ]
+  name: process
+  label: Proceso
+  widget: dict
+  sub:
+  - var: img
+  - var: steps
+
+- types: [ service ]
+  name: study
+  label: Estudio
+  hint: Muestra info y formulario
+  widget: bool
+
+- types: [ service ]
+  name: warranties
+  label: Garantías
+  widget: slice
+  sub:
+  - var: title
+  - var: md
+  - var: icon

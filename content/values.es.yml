@@ -1,36 +1,35 @@
-title: Valores Globales
 menu:
-  image: base/logo.svg
+  img: /u/base/logo.svg
   items:
   - label: Inicio
-    link: /
+    url: /
   - label: Conócenos
-    link: /nosotros/
+    url: /nosotros/
   - label: Servicios
     items:
     - label: Autoconsumo industrial
-      link: /autoconsumo-fotovoltaico/
+      url: /autoconsumo-fotovoltaico/
     - label: Instalaciones Flotantes
-      link: /instalaciones-solares-flotantes/
+      url: /instalaciones-solares-flotantes/
     - label: Gestión CAE
-      link: /gestion-cae/
+      url: /gestion-cae/
     - label: Bombeo solar
-      link: /bombeo-solar/
+      url: /bombeo-solar/
     - label: Ingeniería
-      link: /ingenieria/
+      url: /ingenieria/
     - label: Eficiencia energética
-      link: /eficiencia-energetica/
+      url: /eficiencia-energetica/
     - label: Hydrox
-      link: /hydrox/
+      url: /hydrox/
   - label: Proyectos
-    link: /proyectos/
+    url: /proyectos/
   - label: Precios E.
-    link: /precio-electricidad/
+    url: /precio-electricidad/
   - label: Actualidad
-    link: /actualidad/
+    url: /actualidad/
   - label: Contacto
-    link: /contacto/
-    button: cta
+    url: /contacto/
+    btn: cta
 callnows:
 - type: whatsapp
   label: 621 056 510
@@ -38,39 +37,39 @@ callnows:
   label: 968 27 16 89
 footer:
   dots:
-  - link: https://www.facebook.com/Solventiee/
-  - link: https://www.instagram.com/solventie_/
-  - link: https://www.linkedin.com/company/solventie/
-  - link: https://g.page/r/CT7T0hQ29sriEB0
+  - url: https://www.facebook.com/Solventiee/
+  - url: https://www.instagram.com/solventie_/
+  - url: https://www.linkedin.com/company/solventie/
+  - url: https://g.page/r/CT7T0hQ29sriEB0
   boxes:
   - md: |
-      - :none: [Autoconsumo Industrial](/autoconsumo-fotovoltaico/)
-      - :none: [Instalaciones Flotantes](/instalaciones-solares-flotantes/)
-      - :none: [Gestión CAE](/gestion-cae/)
-      - :none: [Bombeo Solar](/bombeo-solar/)
-      - :none: [Ingeniería](/ingenieria/)
-      - :none: [Eficiencia Energética](/eficiencia-energetica/)
-      - :none: [Hydrox](/hydrox/)
+      - ::none:: [Autoconsumo Industrial](/autoconsumo-fotovoltaico/)
+      - ::none:: [Instalaciones Flotantes](/instalaciones-solares-flotantes/)
+      - ::none:: [Gestión CAE](/gestion-cae/)
+      - ::none:: [Bombeo Solar](/bombeo-solar/)
+      - ::none:: [Ingeniería](/ingenieria/)
+      - ::none:: [Eficiencia Energética](/eficiencia-energetica/)
+      - ::none:: [Hydrox](/hydrox/)
   - md: |
-      - :none: [Conócenos](/nosotros/)
-      - :none: [Proyectos](/proyectos/)
-      - :none: [Precio de la Electricidad](/precio-electricidad/)
-      - :none: [Actualidad](/actualidad/)
-      - :none: [Contacto](/contacto/)
-      - :none: [© Solvent](/)
+      - ::none:: [Conócenos](/nosotros/)
+      - ::none:: [Proyectos](/proyectos/)
+      - ::none:: [Precio de la Electricidad](/precio-electricidad/)
+      - ::none:: [Actualidad](/actualidad/)
+      - ::none:: [Contacto](/contacto/)
+      - ::none:: [© Solvent](/)
   - md: |
-      - :none: [Apoyos](/apoyos/ "[nofollow]")
-      - :none: [Avisos Legales](/legal/ "[nofollow]")
-      - :none: [Política de Privacidad](/privacidad/ "[nofollow]")
-      - :none: [Política de Cookies](/cookies/ "[nofollow]")
-      - :none: [Política de Calidad y Medio Ambiente](/politica-calidad-medio-ambiente/ "[nofollow]")
-      - :none: [Diseño web seacomoseo.com](https://seacomoseo.com/)
+      - ::none:: [Apoyos](/apoyos/ "[nofollow]")
+      - ::none:: [Avisos Legales](/legal/ "[nofollow]")
+      - ::none:: [Política de Privacidad](/privacidad/ "[nofollow]")
+      - ::none:: [Política de Cookies](/cookies/ "[nofollow]")
+      - ::none:: [Política de Calidad y Medio Ambiente](/politica-calidad-medio-ambiente/ "[nofollow]")
+      - ::none:: [Diseño web seacomoseo.com](https://seacomoseo.com/)
   certificates:
-  - image: otros/iso-9001-14001.svg
+  - img: /u/otros/iso-9001-14001.svg
     ratio: 4/1
-  - image: otros/a3e.png
+  - img: /u/otros/a3e.png
     ratio: 6/1
-    link: https://a3e.es/organization/7090/
-  - image: otros/cae.svg
+    url: https://a3e.es/organization/7090/
+  - img: /u/otros/cae.svg
     ratio: 3/1
-    link: https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html
+    url: https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html

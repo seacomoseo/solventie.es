@@ -1,31 +1,31 @@
 name: IFS ➡️ Garantías
 id: garantias
-title: ¿Por qué elegir Solvent?
 color: dark
-bi: servicios/instalaciones-solares-flotantes/garantias.jpg
-box:
-  cols: 3
-  gap: 4
-  gap_ny: 1
-  align_y: top
-  icon: badge-check
-  icon_size: 3
+bi: /u/servicios/instalaciones-solares-flotantes/garantias.jpg
 boxes:
-- icon: helmet-safety
-  title: Experiencia Comprobada
-  md: Más de 20 años desarrollando soluciones solares
-- icon: layer-group
-  title: Soluciones Escalables <br> y Flexibles
-  md: Instalaciones adaptables a futuras necesidades energéticas
-- icon: clipboard-list
-  title: Soporte <br> Integral
-  md: Gestión y asesoría en subvenciones y ayudas energéticas
-- icon: piggy-bank
-  title: Alta Rentabilidad
-  md: Retorno rápido de la inversión gracias a menores costes energéticos
-- icon: battery-full
-  title: Hibridación
-  md: Instalación de baterías para almacenar la energía que no consumes
-- icon: bolt
-  title: Ahorro de Energía
-  md: Sistema propio de gestión de la energía en función del precio del mercado (Hydrox)
+- title: ¿Por qué elegir Solvent?
+  box:
+    cols: 3
+    gap: 4
+    align_y: top
+    icon: verified
+    icon_size: 3
+  boxes:
+  - icon: construction
+    title: Experiencia Comprobada
+    md: Más de 20 años desarrollando soluciones solares
+  - icon: stacks
+    title: Soluciones Escalables <br> y Flexibles
+    md: Instalaciones adaptables a futuras necesidades energéticas
+  - icon: assignment
+    title: Soporte <br> Integral
+    md: Gestión y asesoría en subvenciones y ayudas energéticas
+  - icon: savings
+    title: Alta Rentabilidad
+    md: Retorno rápido de la inversión gracias a menores costes energéticos
+  - icon: battery_full
+    title: Hibridación
+    md: Instalación de baterías para almacenar la energía que no consumes
+  - icon: bolt
+    title: Ahorro de Energía
+    md: Sistema propio de gestión de la energía en función del precio del mercado (Hydrox)
