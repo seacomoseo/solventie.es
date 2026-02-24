@@ -53,6 +53,38 @@
             max-width: 85%;
         }
 
+        .nav-btn {
+            background-color: #ff9d00;
+            color: #ffffff;
+            border: none;
+            border-radius: 999px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 2px 8px rgba(255, 157, 0, 0.35);
+        }
+
+        .nav-btn:hover {
+            background-color: #e08a00;
+            transform: translateY(-1px);
+        }
+
+        .nav-btn:active {
+            transform: translateY(0);
+        }
+
+        .nav-btn:disabled {
+            background-color: #ccc;
+            box-shadow: none;
+            cursor: not-allowed;
+            transform: none;
+        }
+
         .loading-indicator {
             display: none;
             font-size: 12px;
@@ -168,20 +200,18 @@
 
 <div id="precio-electricidad">
     <div class="controls">
-        <button id="prevDay" class="button main">
+        <button id="prevDay" class="nav-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                style="vertical-align: middle; margin-right: 5px;">
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M15 18l-6-6 6-6"></path>
             </svg>
-            <i>Día anterior</i>
+            Día anterior
         </button>
-        <span id="currentDate" class="button similar"><i></i></span>
-        <button id="nextDay" class="button main">
-            <i>Día siguiente</i>
+        <span id="currentDate"><i></i></span>
+        <button id="nextDay" class="nav-btn">
+            Día siguiente
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                style="vertical-align: middle; margin-left: 5px;">
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M9 18l6-6-6-6"></path>
             </svg>
         </button>
