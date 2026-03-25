@@ -1,0 +1,22 @@
+name: Hydrox - Como funciona
+id: como-funciona
+boxes:
+- title: Cómo funciona
+  box:
+    cols: 2
+    gap: 4
+  boxes:
+  - img: /u/servicios/hydrox/ahorro.png
+    order: 2
+    fit_vs: 0.75
+  - steps:
+    - md: Lee los costes eléctricos del día, incluyendo energía, peajes y cargos por franja horaria
+      icon: query_stats
+    - md: Calcula el coste total de cada franja horaria considerando todos los componentes que afectan a tu factura
+      icon: calculate
+    - md: Selecciona las horas de menor coste total para completar el tiempo de bombeo que necesitas
+      icon: checklist
+    - md: Activa el bombeo de forma automática en esas franjas, sin intervención manual
+      icon: power_settings_new
+    - md: Permite supervisión y ajuste cuando el usuario lo necesita, desde la aplicación
+      icon: monitoring

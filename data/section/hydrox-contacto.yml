@@ -1,4 +1,4 @@
-name: Hydrox ➡️ Contacto
+name: Hydrox - Contacto
 size: sm
 color: dark
 bi: /u/servicios/hydrox/asi-funciona.jpg
@@ -12,9 +12,9 @@ links:
   btn: light
 boxes:
 - hanchor: Contacto
-  title: ¿Quieres ser de los primeros en beneficiarte de Hydrox?
+  title: Analiza si Hydrox encaja en tu instalación
   md: |
-    Tenemos una oferta de lanzamiento solo para los 5 primeros clientes. Contáctanos hoy para conocer todos los detalles y descubre cómo HYDROX puede ayudarte a ahorrar desde el primer día.
+    Si quieres optimizar el coste de tu bombeo conectado a red, estudiaremos tu caso y te orientaremos sobre la mejor solución. Cuéntanos tu instalación, tus necesidades de bombeo y tu operativa actual.
 
     Contáctanos ::ads_click::
     {.sub}

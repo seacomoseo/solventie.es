@@ -2,25 +2,26 @@
 slug: hydrox
 title: Hydrox
 seo:
-  title: 'Hydrox de Solvent: Bombeo Agrícola Inteligente y más Barato'
-  desc: Optimiza el bombeo agrícola activando la bomba en las horas más baratas. Analiza precios, peajes y cargos para reducir costes. Control desde app móvil.
+  title: 'Hydrox: bombeo inteligente al menor coste total eléctrico | Solvent'
+  desc: Hydrox activa tu bomba en las horas de menor coste total eléctrico. Control automático del bombeo conectado a red para regadío. Sin gestión manual diaria.
 img: /u/servicios/hydrox/portada.webp
 
 tpl:
   sections:
   - file: hydrox-_header
   - file: hydrox-que-es
-  - file: hydrox-interesa
+  - file: hydrox-como-funciona
   - file: hydrox-beneficios
-  - file: hydrox-asi-funciona
-  - file: hydrox-contacto
+  - file: hydrox-ejemplo
+  - file: hydrox-integracion
   - file: hydrox-faq
+  - file: hydrox-contacto
 
 base: service
 service_types:
 - Hydrox
-- Bombeo Agrícola Inteligente
-- Bombeo Agrícola Barato
+- Control de Bombeo Conectado a Red
+- Optimización Energética de Regadío
 service_areas:
 - Región de Murcia
 - Alicante

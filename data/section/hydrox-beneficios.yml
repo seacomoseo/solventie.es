@@ -1,18 +1,27 @@
-name: Hydrox ➡️ Beneficios
+name: Hydrox - Beneficios
 id: beneficios
 size: xl
 boxes:
-- title: Optimización inteligente del bombeo agrícola
+- title: Qué aporta Hydrox
   box:
-    cols: 5
+    cols: 4
     color: dark
     pd: 2
     align: left
-    icon: verified
-    icon_size: 3
   boxes:
-  - md: HYDROX es un dispositivo innovador que se integra fácilmente en el sistema de bombeo para maximizar la eficiencia energética y reducir los costes eléctricos.
-  - md: Cada día, el sistema analiza el mercado eléctrico, considerando todos los factores que influyen en el precio de la energía —como peajes, desvíos y variaciones horarias— y predice el coste del kWh para las siguientes 24 horas.
-  - md: Con esta información, HYDROX programa automáticamente las horas más económicas para el funcionamiento del bombeo, garantizando un uso inteligente y rentable de la energía.
-  - md: Puede trabajar de forma totalmente autónoma o ser gestionado desde una aplicación móvil, que permite al agricultor controlar el sistema, supervisar el bombeo y consultar los consumos en tiempo real.
-  - md: De esta forma, HYDROX consigue un ahorro significativo sin renunciar a la eficacia del bombeo ni a la comodidad en la gestión diaria.
+  - title: Automatiza la decisión de cuándo bombear
+    md: |
+      - El sistema decide y actúa solo, cada día.
+      - No necesitas programar horarios ni vigilar precios.
+  - title: Reduce el coste operativo del bombeo
+    md: |
+      - Opera siempre en las horas de menor coste total eléctrico.
+      - El ahorro se refleja directamente en tu factura.
+  - title: Evita depender de una gestión manual diaria
+    md: |
+      - Hydrox trabaja de forma autónoma sin intervención continua.
+      - Adapta la selección de horas al coste real de cada jornada.
+  - title: Permite mantener control y supervisión
+    md: |
+      - Consulta estado, horarios y consumos desde la aplicación.
+      - Modifica o anula la programación cuando lo necesites.

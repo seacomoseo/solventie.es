@@ -1,4 +1,4 @@
-name: Hydrox ➡️ Qué es
+name: Hydrox - Que es
 id: que-es
 pt: 8
 size: md
@@ -11,7 +11,10 @@ boxes:
   - img: /u/servicios/hydrox/coste.png
     fit_vs: 0.75
   - title: ¿Qué es Hydrox?
-    md: Hydrox es un sistema **inteligente** que se conecta con la bomba de agua y **programa** su funcionamiento en **las horas más baratas** para funcionar.
+    md: |
+      Hydrox es un sistema de control para instalaciones de bombeo conectadas a red que decide automáticamente cuándo conviene poner en marcha la bomba para pagar menos por cada jornada de funcionamiento.
+
+      Analiza el **coste total eléctrico** por hora —energía, peajes, cargos y cualquier otro componente que afecte a tu factura— y selecciona las horas óptimas para cubrir el tiempo de bombeo necesario sin depender de una gestión manual diaria.
     align: left
     align_y: center
     fit: 1.25

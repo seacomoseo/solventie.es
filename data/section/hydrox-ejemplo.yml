@@ -1,0 +1,21 @@
+name: Hydrox - Ejemplo operativo
+id: ejemplo
+size: md
+boxes:
+- title: Ejemplo de funcionamiento
+  box:
+    cols: 2
+    gap: 4
+    gap_vs: 2
+    align_y: center
+  boxes:
+  - md: |
+      Si una instalación necesita **5 horas de bombeo al día**, Hydrox analiza las 24 horas del día siguiente, calcula el **coste total eléctrico** de cada franja y selecciona automáticamente las 5 de menor coste.
+
+      La bomba se activa sola en esas franjas. El usuario no tiene que revisar precios ni programar manualmente la instalación cada día.
+    align: left
+  - md: |
+      El ahorro se consigue sin reducir las horas de riego ni cambiar la instalación de bombeo existente.
+
+      Hydrox trabaja de forma autónoma cada día y adapta la selección de horas al coste real de cada jornada.
+    align: left
