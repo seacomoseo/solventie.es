@@ -8,7 +8,7 @@ boxes:
     gap: 4
     gap_vs: 2
   boxes:
-  - img: /u/servicios/hydrox/coste.png
+  - img: /u/servicios/hydrox/que-es.svg
     fit_vs: 0.75
   - title: ¿Qué es Hydrox?
     md: |

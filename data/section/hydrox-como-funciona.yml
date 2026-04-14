@@ -6,7 +6,7 @@ boxes:
     cols: 2
     gap: 4
   boxes:
-  - img: /u/servicios/hydrox/ahorro.png
+  - img: /u/servicios/hydrox/como-funciona.svg
     order: 2
     fit_vs: 0.75
   - steps:

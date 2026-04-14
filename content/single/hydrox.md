@@ -1,6 +1,6 @@
 ---
 slug: hydrox
-title: Hydrox
+title: HYDROX
 seo:
   title: 'Hydrox: bombeo inteligente al menor coste total eléctrico | Solvent'
   desc: Hydrox activa tu bomba en las horas de menor coste total eléctrico. Control automático del bombeo conectado a red para regadío. Sin gestión manual diaria.

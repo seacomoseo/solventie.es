@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title-qe">
+  <title id="title-qe">Qué es Hydrox — optimización de bombeo al menor coste eléctrico</title>
+  <defs>
+    <linearGradient id="g-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d6fa5"/>
+      <stop offset="100%" stop-color="#0d3f6e"/>
+    </linearGradient>
+    <linearGradient id="g-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3dd6ef"/>
+      <stop offset="100%" stop-color="#0faacb"/>
+    </linearGradient>
+    <linearGradient id="g-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2fc98e"/>
+      <stop offset="100%" stop-color="#1a9e6e"/>
+    </linearGradient>
+    <filter id="card-shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#0d3f6e" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="560" fill="#f5f9fc"/>
+
+  <!-- === CARD 1: Precio eléctrico === -->
+  <rect x="36" y="100" width="196" height="360" rx="20" fill="#fff" stroke="#dce8f0" stroke-width="1.5" filter="url(#card-shadow)"/>
+  <!-- header pill -->
+  <rect x="56" y="124" width="90" height="22" rx="11" fill="#dff4fb"/>
+  <rect x="154" y="124" width="56" height="22" rx="11" fill="#edf2f7"/>
+  <!-- bar chart -->
+  <g transform="translate(60 168)">
+    <rect x="0"   y="60" width="20" height="60"  rx="6" fill="#e2eef5"/>
+    <rect x="26"  y="40" width="20" height="80"  rx="6" fill="#e2eef5"/>
+    <rect x="52"  y="20" width="20" height="100" rx="6" fill="url(#g-cyan)"/>
+    <rect x="78"  y="50" width="20" height="70"  rx="6" fill="#e2eef5"/>
+    <rect x="104" y="10" width="20" height="110" rx="6" fill="url(#g-cyan)"/>
+    <rect x="130" y="70" width="20" height="50"  rx="6" fill="#e2eef5"/>
+    <!-- baseline -->
+    <line x1="0" y1="122" x2="152" y2="122" stroke="#dce8f0" stroke-width="2"/>
+    <!-- label -->
+    <rect x="0" y="134" width="100" height="12" rx="6" fill="#e2eef5"/>
+  </g>
+  <!-- price tag rows -->
+  <g transform="translate(60 304)">
+    <rect x="0" y="0" width="156" height="36" rx="10" fill="#f5fafc" stroke="#dce8f0" stroke-width="1"/>
+    <circle cx="18" cy="18" r="8" fill="url(#g-cyan)"/>
+    <rect x="34" y="8" width="80" height="10" rx="5" fill="#cde0eb"/>
+    <rect x="34" y="22" width="52" height="8" rx="4" fill="#e0eaf1"/>
+
+    <rect x="0" y="46" width="156" height="36" rx="10" fill="#f5fafc" stroke="#dce8f0" stroke-width="1"/>
+    <circle cx="18" cy="64" r="8" fill="#e2eef5"/>
+    <rect x="34" y="54" width="64" height="10" rx="5" fill="#cde0eb"/>
+    <rect x="34" y="68" width="40" height="8" rx="4" fill="#e0eaf1"/>
+
+    <rect x="0" y="92" width="156" height="36" rx="10" fill="#f5fafc" stroke="#dce8f0" stroke-width="1"/>
+    <circle cx="18" cy="110" r="8" fill="url(#g-cyan)" opacity=".6"/>
+    <rect x="34" y="100" width="90" height="10" rx="5" fill="#cde0eb"/>
+    <rect x="34" y="114" width="60" height="8" rx="4" fill="#e0eaf1"/>
+  </g>
+
+  <!-- === ARROW 1 === -->
+  <g transform="translate(244 258)">
+    <line x1="0" y1="22" x2="68" y2="22" stroke="#8ecfe0" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
+    <polygon points="68,14 84,22 68,30" fill="#8ecfe0"/>
+  </g>
+
+  <!-- === CARD 2: Motor Hydrox (centro) === -->
+  <rect x="316" y="80" width="168" height="400" rx="24" fill="url(#g-blue)" filter="url(#card-shadow)"/>
+  <!-- inner glow -->
+  <circle cx="400" cy="232" r="72" fill="#ffffff" opacity="0.06"/>
+  <!-- logo icon -->
+  <circle cx="400" cy="220" r="52" fill="#fff" opacity="0.10"/>
+  <circle cx="400" cy="220" r="36" fill="#fff" opacity="0.14"/>
+  <!-- bolt -->
+  <path d="M404 194 l-18 30 h14 l-4 32 20 -36 h-14 z" fill="#3dd6ef"/>
+  <!-- label -->
+  <rect x="344" y="296" width="112" height="18" rx="9" fill="#fff" opacity="0.18"/>
+  <rect x="360" y="322" width="80" height="12" rx="6" fill="#fff" opacity="0.10"/>
+  <!-- bottom status dots -->
+  <g transform="translate(356 380)">
+    <circle cx="12" cy="12" r="8" fill="#3dd6ef"/>
+    <circle cx="36" cy="12" r="8" fill="#fff" opacity="0.4"/>
+    <circle cx="60" cy="12" r="8" fill="#3dd6ef" opacity="0.7"/>
+  </g>
+  <!-- top tabs -->
+  <rect x="340" y="104" width="60" height="20" rx="10" fill="#fff" opacity="0.18"/>
+  <rect x="410" y="104" width="44" height="20" rx="10" fill="#fff" opacity="0.10"/>
+
+  <!-- === ARROW 2 === -->
+  <g transform="translate(496 258)">
+    <line x1="0" y1="22" x2="68" y2="22" stroke="#8ecfe0" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
+    <polygon points="68,14 84,22 68,30" fill="#8ecfe0"/>
+  </g>
+
+  <!-- === CARD 3: Bomba + ahorro === -->
+  <rect x="568" y="100" width="196" height="360" rx="20" fill="#fff" stroke="#dce8f0" stroke-width="1.5" filter="url(#card-shadow)"/>
+  <!-- pump illustration -->
+  <g transform="translate(616 140)">
+    <!-- pipe vertical -->
+    <rect x="42" y="0" width="16" height="60" rx="6" fill="#cde0eb"/>
+    <!-- pump body -->
+    <rect x="20" y="58" width="60" height="48" rx="14" fill="url(#g-blue)"/>
+    <!-- pump highlight -->
+    <rect x="30" y="66" width="40" height="12" rx="6" fill="#fff" opacity="0.2"/>
+    <!-- indicator dots -->
+    <circle cx="36" cy="90" r="5" fill="#3dd6ef"/>
+    <circle cx="50" cy="90" r="5" fill="#fff" opacity="0.5"/>
+    <circle cx="64" cy="90" r="5" fill="#3dd6ef" opacity="0.7"/>
+    <!-- pipe horizontal -->
+    <rect x="80" y="72" width="20" height="16" rx="6" fill="#cde0eb"/>
+    <!-- pipe left -->
+    <rect x="0"  y="72" width="20" height="16" rx="6" fill="#cde0eb"/>
+    <!-- water drop -->
+    <path d="M50 130 C50 130 34 148 34 158 a16 16 0 0 0 32 0 C66 148 50 130 50 130 z" fill="#3dd6ef" opacity="0.8"/>
+  </g>
+
+  <!-- savings badge -->
+  <g transform="translate(596 340)">
+    <rect x="0" y="0" width="140" height="88" rx="18" fill="url(#g-green)" opacity="0.95"/>
+    <text x="70" y="32" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#fff" opacity=".85" text-anchor="middle">AHORRO ANUAL</text>
+    <text x="70" y="60" font-family="system-ui,sans-serif" font-size="28" font-weight="800" fill="#fff" text-anchor="middle">-38%</text>
+    <text x="70" y="78" font-family="system-ui,sans-serif" font-size="10" fill="#fff" opacity=".7" text-anchor="middle">en coste eléctrico</text>
+  </g>
+
+  <!-- === Labels below cards === -->
+  <text x="134" y="484" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#5a7a91" text-anchor="middle">Precio eléctrico</text>
+  <text x="400" y="496" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0d3f6e" text-anchor="middle">HYDROX</text>
+  <text x="666" y="484" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#5a7a91" text-anchor="middle">Bombeo</text>
+</svg>
