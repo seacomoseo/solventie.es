@@ -38,6 +38,6 @@ Ambas líneas de apoyo se enmarcan en la **distribución territorial de fondos**
 
 Según la información publicada, las actuaciones financiadas con estos recursos deberán estar **ejecutadas antes del 31 de diciembre de 2030.** El horizonte temporal de margen para que empresas y titulares de edificios terciarios pueden planificar inversiones orientadas al ahorro energético, la reducción de costes y la mejora del desempeño ambiental.
 
-##  **Una oportunidad relevante para empresas y edificios terciarios en Murcia**
+## Una oportunidad relevante para empresas y edificios terciarios en Murcia
 
 La autorización de estos **19,11 millones de euros** refuerza el papel de la eficiencia energética como herramienta de modernización económica en la Región de Murcia. La industria podrá acceder a recursos para optimizar equipos, procesos y sistemas de gestión, mientras que el sector terciario contará con apoyo para intervenir sobre edificios existentes y mejorar su comportamiento energético.
