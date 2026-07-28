@@ -63,7 +63,7 @@ footer:
       - ::none:: [Política de Privacidad](/privacidad/ "[nofollow]")
       - ::none:: [Política de Cookies](/cookies/ "[nofollow]")
       - ::none:: [Política de Calidad y Medio Ambiente](/politica-calidad-medio-ambiente/ "[nofollow]")
-      - ::none:: [Diseño web seacomoseo.com](https://seacomoseo.com/)
+      - ::none:: [Diseño web seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
   certificates:
   - img: /u/otros/iso-9001-14001.svg
     ratio: 4/1
