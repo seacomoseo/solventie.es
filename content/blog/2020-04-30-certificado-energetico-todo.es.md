@@ -7,7 +7,7 @@ slug: certificado-energetico-todo
 img: /u/blog/certificado-energetico-todo.webp
 category:
 - eficiencia-energetica
-toc: y
+toc: 1
 date: 2020-04-30 00:00:00
 ---
 ## ¿Qué es el certificado energético?

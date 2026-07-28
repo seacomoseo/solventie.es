@@ -9,4 +9,4 @@ boxes:
     type: rel
     max: 4
   box:
-    slider: y
+    slider: 1

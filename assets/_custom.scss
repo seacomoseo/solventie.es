@@ -1,10 +1,12 @@
+@use "css/variables";
+
 // Menu
 .body-top.body-menu--sticky--active {
   --menu-py: .75em;
 }
 
 // Blog list
-@media (min-width: $viewport-lg) {
+@media (min-width: variables.$viewport-lg) {
   #body-blog #lists .box--1 {
     --box-width: 100cqw;
     display: grid;

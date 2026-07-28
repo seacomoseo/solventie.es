@@ -1,7 +1,8 @@
 baseURL: https://solventie.es
-buildFuture: y
+buildFuture: true
 theme: [sansoul]
 params:
+  owner: seacomoseo
   domain: solventie.es
   name: solventie
   netlify_id: 23e4a232-b796-4795-9f71-17f574c48bfe

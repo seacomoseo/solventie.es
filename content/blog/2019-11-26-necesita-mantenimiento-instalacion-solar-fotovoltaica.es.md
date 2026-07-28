@@ -7,7 +7,7 @@ slug: necesita-mantenimiento-instalacion-solar-fotovoltaica
 img: /u/blog/necesita-mantenimiento-instalacion-solar-fotovoltaica.jpg
 category:
 - energia-solar
-toc: y
+toc: 1
 date: 2019-11-26 00:00:00
 ---
 Los paneles solares están compuestos por células fotovoltaicas de silicio por lo que son muy resistentes a agentes externos. Por ello, no hace falta preocuparse demasiado por su **mantenimiento**.

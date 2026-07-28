@@ -1,58 +1,58 @@
 icons:
-  fill: n
+  fill: 0
   weight: 500
   grade: 0
   optical: 24
   style: rounded
-  defs:
+  def:
     play: svg:youtube-iframe
 fonts:
   base:
     family: Akkurat
     weight: 300
     bold: 0
-    italic: n
+    italic: 0
     line_height: 1.45 # 1.65
   cursive:
     family: Akkurat
     weight: 300
     bold: 0
-    italic: n
+    italic: 0
     line_height: 1.45 # 1.65
     size: 1
   title:
     family: Akkurat
     weight: 700
     bold: 0
-    italic: n
+    italic: 0
     line_height: 1.25
     size: 1
-  blockquote_cursive: y
+  blockquote_cursive: 1
 colors:
   main:
     color: '#00acc8'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: n
-      in: y
-      text: y
+      fill: 0
+      in: 1
+      text: 1
   alt:
     color: '#cccccc'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: y
-      in: y
-      text: y
+      fill: 1
+      in: 1
+      text: 1
   cta:
     color: '#ff9d00'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: n
-      in: n
-      text: n
+      fill: 0
+      in: 0
+      text: 0
   base:
     white: '#ffffff'
     light: '#eeeeee'
@@ -61,22 +61,22 @@ colors:
     black: '#000000'
 rounded:
   radius: 0.25
-  chamfer: n
+  chamfer: 0
 btns:
-  pill: n
-  disc: y
-  deep: n
-  outline: n
+  pill: 0
+  disc: 1
+  deep: 0
+  outline: 0
   font:
     type: base
-    bold: n
-    uppercase: n
+    bold: 0
+    uppercase: 0
   swap:
     type: base
-    bold: n
-    uppercase: n
+    bold: 0
+    uppercase: 0
 inputs:
-  fill: n
+  fill: 0
   labels: in
 shadow:
   left: 0.3

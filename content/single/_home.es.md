@@ -62,11 +62,11 @@ org:
   - España
   when:
   - days:
-      mon: y
-      tue: y
-      wed: y
-      thu: y
-      fri: y
+      mon: 1
+      tue: 1
+      wed: 1
+      thu: 1
+      fri: 1
     hours:
     - open: 7:30
       close: 15:30

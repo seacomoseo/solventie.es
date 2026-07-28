@@ -7,7 +7,7 @@ slug: ahorra-factura-covid19
 img: /u/blog/ahorra-factura-covid19.jpg
 category:
 - eficiencia-energetica
-draft: y
+draft: 1
 date: 2020-04-07 00:00:00
 ---
 Son tiempos difíciles y **desde Solvent queremos poner nuestro granito de arena** ayudando a todas aquellas **empresas que vayan a estar inactivas** durante este periodo.

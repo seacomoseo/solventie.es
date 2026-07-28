@@ -7,7 +7,7 @@ slug: subvenciones-fotovoltaica-region-murcia
 img: /u/blog/subvenciones-fotovoltaica-region-murcia.jpg
 category:
 - ayudas
-toc: y
+toc: 1
 date: 2020-06-23 00:00:00
 ---
 Hoy te traemos 7 claves que te servirán para conseguir las ayudas para fotovoltaica de autoconsumo de la Región de Murcia. 2020 es el ultimo año de este programa de subvenciones. Estas ayudas pueden ser para ti si estas dentro del sector industrial (secciones B, C y D) o sector terciario (secciones E - N y P - S).
@@ -54,4 +54,4 @@ Consulta con los técnicos de industria, es imprescindible conocer el criterio d
 
 Como **novedad** este año, también son **subvencionables las instalaciones solares con compensación**, es decir las que vierten sus excedentes a la red eléctrica. **El plazo de presentación es muy corto**, finaliza el 4 de agosto, por lo que te recomendamos que no te esperes hasta el ultimo día. Prepara toda la documentación con antelación. Esperamos haberte ayudado para aumentar tus posibilidades de conseguir subvención. Cualquier duda que tengas con tu instalación solar, puedes consultarnos.
 
-![Las 7 claves para conseguir las ayudas para energías renovables de la Región de Murcia | Solvent](https://www.youtube.com/watch?v=lTJW5gHXLJw)
+![](https://www.youtube.com/watch?v=lTJW5gHXLJw "Las 7 claves para conseguir las ayudas para energías renovables de la Región de Murcia")

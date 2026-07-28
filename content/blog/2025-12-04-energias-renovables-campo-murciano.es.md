@@ -5,11 +5,11 @@ sum: Las energías renovables y el campo murciano avanzan juntos hacia un desarr
 img: /u/blog/portada-2-noticia-rocio-sector-renovables.webp
 date: 2025-12-05 09:00:01
 mod: 2025-12-05 09:00:00
-toc: n
-draft: n
-hide: n
+toc: 0
+draft: 0
+hide: 0
 seo:
-  noindex: n
+  noindex: 0
 ---
 El sector de las energías renovables en la Región de Murcia ha reivindicado la importancia de tramitar todos los proyectos fotovoltaicos bajo un título habilitante y en cumplimiento estricto de la normativa vigente. El objetivo es garantizar un desarrollo ordenado, transparente y sostenible del territorio, favoreciendo la convivencia entre las distintas actividades productivas.
 

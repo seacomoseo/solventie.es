@@ -5,7 +5,7 @@ sum: Para 2060, casi la mitad de la capacidad fotovoltaica mundial irá acompañ
 img: /u/blog/tercera-noticia-foto-mitad.webp
 date: 2025-12-12 13:39:41
 mod: 2025-12-12 13:39:43
-toc: n
+toc: 0
 ---
 Un reciente estudio internacional prevé que, para el año 2060, casi la mitad de la capacidad fotovoltaica mundial estará acompañada de sistemas de almacenamiento energético. Este dato evidencia un cambio estructural en la manera de gestionar la energía: ya no se trata solo de generar electricidad a partir del sol, sino de controlar cuándo y cómo se utiliza.
 

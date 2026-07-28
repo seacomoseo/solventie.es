@@ -2,18 +2,18 @@
 slug: rdl-7-2026-eficiencia-energetica-cae-industria
 title: 'RDL 7/2026: qué cambia para la eficiencia energética, los CAE y la industria'
 img: /u/27-rdl-7-2026.webp
-toc: y
-draft: n
-hide: n
+toc: 1
+draft: 0
+hide: 0
 sum: Análisis breve del RDL 7/2026 y de sus principales medidas con impacto en eficiencia energética, electrificación, CAE, acceso a red e industria electrointensiva.
 seo:
   title: 'RDL 7/2026: claves para eficiencia energética, CAE e industria'
   desc: Descubre qué cambia con el RDL 7/2026 en eficiencia energética, CAE, electrificación, acceso a red e industria electrointensiva.
-  noindex: n
+  noindex: 0
 llms:
   title: 'RDL 7/2026 en España: impacto en eficiencia energética, CAE y competitividad industrial'
   desc: Resumen claro del RDL 7/2026 y de las medidas que introduce en electrificación, certificados de ahorro energético, acceso a red, industria electrointensiva y descarbonización.
-  hide: n
+  hide: 0
 date: 2026-03-27 13:15:00
 mod: 2026-03-27 13:15:00
 ---

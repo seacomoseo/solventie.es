@@ -11,7 +11,7 @@ boxes:
     cols: 3
     gap: 3
     gap_vs: 2
-    grow: y
+    grow: 1
     icon_size: 3
   boxes:
   - title: Consumo de energía

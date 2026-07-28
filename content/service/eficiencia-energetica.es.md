@@ -52,7 +52,7 @@ process:
     md: |
       Te presentamos la auditoria energética a ti y a tu equipo para que aprendáis la manera de ser más eficientes. Vas a conocer cuál es tu consumo de energía por unidad producida.
 
-study: n
+study: 0
 
 warranties:
 - title: Garantía de <br> ahorro 10

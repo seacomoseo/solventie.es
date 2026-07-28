@@ -6,7 +6,7 @@ boxes:
     cols: 4
     cols_vs: 2
     pd: 2
-    slider: y
+    slider: 1
     time: 8
   boxes:
   - box:
@@ -21,7 +21,7 @@ boxes:
     - img: /u/aliados/blancasol.svg
     - img: /u/aliados/comunidad-regantes-campotejar.svg
     - img: /u/aliados/confederacion-hidrografica.png
-      contain: y
+      contain: 1
   - box:
       ratio: 16/9
     boxes:

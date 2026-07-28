@@ -7,7 +7,7 @@ slug: limpieza-placas-solares-tipos-suciedad
 img: /u/blog/limpieza-placas-solares-tipos-suciedad.jpg
 category:
 - energia-solar
-toc: y
+toc: 1
 date: 2022-12-21 00:00:00
 ---
 En este blog, vamos a comentar uno de los temas en los que existe más disparidad de opiniones: la limpieza de placas solares.

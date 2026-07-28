@@ -4,7 +4,7 @@ title: El Gobierno impulsa el binomio renovables + almacenamiento con un nuevo m
 sum: La nueva normativa del MITECO adapta la regulación eléctrica a los precios bajos del mercado y apuesta por un sistema más flexible, sostenible y seguro.
 img: /u/blog/renovables-y-almacenamiento-miteco-real-decreto-15-oct.jpg
 date: 2025-10-15 10:34:42
-toc: y
+toc: 1
 rel:
 - 2025-10-08-miteco-autoconsumo-colectivo-5km
 - 2025-07-17-almacenamiento-energetico

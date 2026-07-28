@@ -6,14 +6,14 @@ sum: |+
 
 img: /u/blog/precio-energia.jpg
 date: 2025-09-05 15:04:48
-toc: n
+toc: 0
 category:
 - electricidad
 - noticias
 rel:
 - 2021-03-15-subida-precio-luz
 - 2021-04-22-nueva-tarifa-electrica-cambios
-draft: n
+draft: 0
 ---
 ## ⚡ ¿Cuánto pagarás por la luz mañana? En SOLVENT te lo contamos desde hace meses
 

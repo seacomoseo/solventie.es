@@ -5,7 +5,7 @@ sum: Solvent se forma en la nueva Ley de Simplificación Administrativa para ofr
 img: /u/blog/portada-charla-rocio.webp
 date: 2025-10-23 11:57:10
 mod: 2025-10-23 11:57:12
-toc: n
+toc: 0
 category:
 - noticias
 - eficiencia-energetica

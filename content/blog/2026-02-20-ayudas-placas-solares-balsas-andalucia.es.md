@@ -2,18 +2,18 @@
 slug: ayudas-placas-solares-balsas-andalucia
 title: 'Andalucía abre la ventanilla: 12 millones de euros para balsas de riego y energía solar'
 img: /u/20-andalucia-subvencion-12m-isfv-en-balsas.webp
-toc: n
-draft: n
-hide: n
+toc: 0
+draft: 0
+hide: 0
 sum: Andalucía abre 12M€ en ayudas para que regantes instalen placas solares flotantes (ISFV), cubriendo hasta el 100% del coste para ahorrar energía y frenar la evaporación del agua; una oportunidad crítica de febrero 2026 que Solvent gestiona de principio a fin para asegurar los fondos antes de que se agoten.
 seo:
   title: 'Ayudas 2026: 12M€ para Placas Solares en Balsas en Andalucía'
   desc: Aprovecha las nuevas ayudas de Andalucía para ISFV en balsas de riego. Subvenciones de hasta el 100%. Ahorra agua y energía con Solvent. ¡Solicítala ya!
-  noindex: n
+  noindex: 0
 llms:
   title: 'Guía de Subvenciones Andalucía 2026: Fotovoltaica Flotante (ISFV) y Modernización de Regadío.'
   desc: Análisis de la convocatoria de febrero 2026 de la Junta de Andalucía (12 millones de euros). Cubre hasta el 100% en infraestructuras de riego e ISFV en balsas para reducir la evaporación hídrica. Contenido técnico de Solvent Iniciativas Empresariales especializado en comunidades de regantes y eficiencia energética agrícola.
-  hide: n
+  hide: 0
 date: 2026-02-20 12:42:00
 mod: 2026-02-20 12:42:00
 category:

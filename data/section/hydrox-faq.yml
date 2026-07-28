@@ -5,7 +5,7 @@ boxes:
 - title: Preguntas Frecuentes
   faq:
     hs: 6
-    headers: y
+    headers: 1
   faqs:
   - title: ¿Qué es Hydrox?
     md: |

@@ -4,7 +4,7 @@ boxes:
   box:
     cols: 4
     color: white
-    inset: y
+    inset: 1
     ratio: 16/9
     hs: 6
     space: 0
@@ -12,14 +12,14 @@ boxes:
   - title: Instalación fotovoltaica <br> 240 kWp
     md: Etiquetas Adhegrafic
     vid: /u/proyectos/etiquetas-adhegrafic.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 5.000 kWp
     md: Molina de Segura, Murcia
     img: /u/proyectos/instalacion-fotovoltaica-5-mwp--molina-de-segura-murcia.webp
   - title: Instalación fotovoltaica <br> 248,8 KWp
     md: Prefabricados Montalbán
     vid: /u/proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 6.000 KWp
     md: Fuente Álamo, Murcia
     img: /u/proyectos/instalacion-fotovoltaica-6-mwp--fuente-alamo-murcia.webp
@@ -29,42 +29,42 @@ boxes:
   - title: Instalación fotovoltaica <br> 149,6 KWp
     md: Zamora Company, Licor 43
     vid: /u/proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 80 KWp
     md: Semilleros el Jimenado
     vid: /u/proyectos/instalacion-fotovoltaica-80-kwp--semilleros-el-jimenado.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 3.750 kWp
     md: Cartagena, Murcia
     img: /u/proyectos/instalacion-fotovoltaica-3-75-mwp--cartagena-murcia.webp
   - title: Instalación fotovoltaica <br> 168 KWp
     md: Lord Spices
     vid: /u/proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 132 KWp
     md: Westaflex Ibérica
     vid: /u/proyectos/instalacion-fotovoltaica-132-kwp--westaflex-iberica.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 68 KWp
     md: Apellán
     vid: /u/proyectos/instalacion-fotovoltaica-68-kwp--apellan.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 121 KWp
     md: Doscadesa 2000
     vid: /u/proyectos/instalacion-fotovoltaica-121-kwp--doscadesa-2000.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 98 KWp
     md: Pastelería Gimar
     vid: /u/proyectos/instalacion-fotovoltaica-98-kwp--pasteleria-gimar.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 66 KWp
     md: Naturalfrío
     vid: /u/proyectos/instalacion-fotovoltaica-66-kwp--natural-frio.webm
-    mute: y
+    mute: 1
   - title: Auditoría energética en la industria
     md: Omega Spice
     img: /u/proyectos/auditoria-energetica-industria--omega-spice.webp
-    contain: y
+    contain: 1
   - title: Instalación fotovoltaica <br> 4.500 kWp
     md: Puerto Lumbreras, Murcia
     img: /u/proyectos/instalacion-fotovoltaica-4-5-mwp--puerto-lumbreras-murcia.webp
@@ -77,15 +77,15 @@ boxes:
   - title: Instalación fotovoltaica <br> 60 KWp
     md: Yefrut
     vid: /u/proyectos/instalacion-fotovoltaica-60-kwp--yefrut.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 79,8 KWp
     md: Promociones Tesy
     vid: /u/proyectos/instalacion-fotovoltaica-79-8-kwp--promociones-tesy.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 60,5 KWp
     md: JCC
     vid: /u/proyectos/instalacion-fotovoltaica-60-5-kwp--jcc.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> para autoconsumo <br> 595 KWp
     md: Jisap
     img: /u/proyectos/instalacion-fotovoltaica-autoconsumo-595-kwp--jisap.webp
@@ -95,7 +95,7 @@ boxes:
   - title: Instalación fotovoltaica <br> 58,31 KWp
     md: Venta Hermanos Mula
     vid: /u/proyectos/instalacion-fotovoltaica-58-31-kwp--venta-hermanos-mula.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 19,95 MWp
     md: Torre Pacheco, Cartagena
     img: /u/proyectos/instalacion-fotovoltaica-19-95-mwp--torre-pacheco-cartagena.webp
@@ -108,7 +108,7 @@ boxes:
   - title: Auditoría energética en la industria
     md: Marín Giménez
     img: /u/proyectos/auditoria-energetica-industria--marin-gimenez.webp
-    contain: y
+    contain: 1
   - title: Automatización de la compuerta del Río Segura
     md: Confederación Hidrográfica del Segura
     img: /u/proyectos/automatizacion-compuerta-rio-segura--confederacion-hidrografica-del-segura.webp
@@ -121,14 +121,14 @@ boxes:
   - title: Instalación fotovoltaica <br> 20,52 KWp
     md: IES Pedro Antonio Ruiz Riquelme
     vid: /u/proyectos/instalacion-fotovoltaica-20-52-kwp--ies-pedro-antonio-ruiz-riquelme.webm
-    mute: y
+    mute: 1
   - title: Diseño y cálculo de instalaciones para una vivienda unifamiliar
     md: Abeman Arquitectos, S.L.P.
     img: /u/proyectos/diseno-calculo-instalaciones-vivienda-unifamiliar--abeman-arquitectos-slp.webp
   - title: Instalación fotovoltaica <br> 129,15 KWp
     md: Terrazos Fortuna
     vid: /u/proyectos/instalacion-fotovoltaica-129-15-kwp--terrazos-fortuna.webm
-    mute: y
+    mute: 1
   - title: Instalación fotovoltaica <br> 31,5 MWp
     md: SOLBIKES, La Aljorra
     img: /u/proyectos/instalacion-fotovoltaica-31-5-mwp--solbikes-la-aljorra.webp

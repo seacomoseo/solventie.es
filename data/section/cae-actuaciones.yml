@@ -11,7 +11,7 @@ boxes:
   boxes:
   - box:
       cols: 3
-      card: y
+      card: 1
       rate: 1/1
       hs: 5
       img: /u/servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg

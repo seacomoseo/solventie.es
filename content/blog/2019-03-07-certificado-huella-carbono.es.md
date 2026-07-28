@@ -7,7 +7,7 @@ slug: certificado-huella-carbono
 img: /u/blog/certificado-huella-carbono.jpg
 category:
 - sostenibilidad
-toc: y
+toc: 1
 date: 2019-03-07 00:00:00
 ---
 Todos sabemos que el **cambio climático** es un hecho y cada vez es más evidente. En pocos años será obligatorio registrar y reducir nuestra emisión de gases de efecto invernadero.

@@ -7,7 +7,7 @@ slug: tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas
 img: /u/blog/tecnologia-dron-mejorar-rendimiento-instalaciones-solares-fotovoltaicas.jpg
 category:
 - energia-solar
-toc: y
+toc: 1
 date: 2020-07-30 00:00:00
 ---
 ¿Sabías que entre el 6 y 8% de los módulos solares instalados hace 10 años presenta fallos o errores en su funcionamiento diario?. Un problema de éstos en un módulo puede afectar a la producción de la instalación hasta en un 20%.

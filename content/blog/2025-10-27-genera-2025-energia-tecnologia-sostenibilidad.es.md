@@ -5,7 +5,7 @@ sum: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas del sector ener
 img: /u/blog/portada-genera.webp
 date: 2025-10-27 12:33:00
 mod: 2025-10-27 12:33:02
-toc: n
+toc: 0
 category:
 - eficiencia-energetica
 - electricidad
@@ -21,7 +21,7 @@ rel:
 - 2020-04-30-certificado-energetico-todo
 - 2020-02-27-subvenciones-eficiencia-energetica-idae-murcia
 - 2019-06-06-importancia-energias-renovables
-draft: n
+draft: 0
 seo:
   desc: GENERA 2025 reunirá en IFEMA Madrid a más de 800 empresas ⚡ Innovación, eficiencia y sostenibilidad energética para un futuro más verde.
 ---

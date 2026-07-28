@@ -7,7 +7,7 @@ slug: subvenciones-eficiencia-energetica
 img: /u/blog/subvenciones-eficiencia-energetica.jpg
 category:
 - ayudas
-toc: y
+toc: 1
 date: 2019-04-04 00:00:00
 ---
 El pasado lunes 01 de abril, se presentaron las **Subvenciones de Eficiencia Energética y Energías Renovables** de la **Región de Murcia**. Estas ayudas son financiadas por el Programa Operativo **FEDER**de la Región de Murcia para el periodo 2014-2020 y se encuentran en el Marco del Fondo Europeo de Desarrollo Regional (FEDER).

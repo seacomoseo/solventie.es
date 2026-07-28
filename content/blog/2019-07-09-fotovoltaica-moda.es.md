@@ -7,7 +7,7 @@ slug: fotovoltaica-moda
 img: /u/blog/fotovoltaica-moda.jpg
 category:
 - energia-solar
-toc: y
+toc: 1
 date: 2019-07-09 00:00:00
 ---
 ## La fotovoltaica en el momento actual

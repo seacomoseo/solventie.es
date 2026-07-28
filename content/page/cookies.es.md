@@ -2,9 +2,9 @@
 slug: cookies
 title: Política de Cookies
 icon: cookie
-toc: y
+toc: 1
 seo:
-  noindex: y
+  noindex: 1
 weight: 3
 ---
 

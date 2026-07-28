@@ -14,17 +14,17 @@ boxes:
   inputs:
   - type: text
     name: Nombre
-    req: y
+    req: 1
   - type: mail
     name: Email
     label: Correo electrónico
-    req: y
+    req: 1
   - type: phone
     name: Teléfono
-    req: y
+    req: 1
   - type: file
     name: Factura
     hint: Adjunta tu factura eléctrica
     accept: image/*,application/pdf
-    req: y
+    req: 1
     btn: such

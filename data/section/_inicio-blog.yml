@@ -6,6 +6,6 @@ boxes:
     type: blog
     max: 2
   box:
-    slider: y
+    slider: 1
 - url: /actualidad/
   label: Ver más

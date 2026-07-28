@@ -7,7 +7,7 @@ slug: como-realizamos-instalacion-fotovoltaica
 img: /u/blog/como-realizamos-instalacion-fotovoltaica.jpg
 category:
 - energia-solar
-toc: y
+toc: 1
 date: 2022-12-09 00:00:00
 ---
 La instalación fotovoltaica con la que tanto sueñas está más cerca de lo que crees. Sabemos que estás ansioso de autoconsumir tu propia energía y comenzar a ahorrar en tu factura. Has soportado durante muchos meses el desorbitado precio de la electricidad. Por eso, ya es el momento que te pases a la energía solar. No te preocupes por nada, nosotros nos encargamos de todo.

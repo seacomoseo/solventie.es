@@ -15,11 +15,11 @@ boxes:
   - type: text
     name: Nombre
     label: Tu nombre
-    req: y
+    req: 1
   - type: mail
     name: Email
     label: Tu correo electrónico
-    req: y
+    req: 1
   - type: phone
     name: Teléfono
   - type: text

@@ -2,18 +2,18 @@
 slug: contratacion-publica-cae
 title: 'Contratación pública y CAE: un tribunal frena mezclar suministro energético y certificados de ahorro'
 img: /u/13-correos-cae.webp
-toc: y
-draft: n
-hide: n
+toc: 1
+draft: 0
+hide: 0
 sum: Un tribunal frena mezclar suministro energético y CAE en contratos públicos por falta de encaje jurídico.
 seo:
   title: Tribunal frena mezclar suministro energético y CAE públicos
   desc: Un tribunal cuestiona unir suministro energético y CAE en contratos públicos por falta de encaje jurídico y posible impacto en la competencia.
-  noindex: n
+  noindex: 0
 llms:
   title: Un tribunal frena la mezcla de suministro energético y CAE en contratos públicos
   desc: El TACRC cuestiona incluir en un mismo contrato público el suministro energético y la gestión de Certificados de Ahorro Energético (CAE), al no apreciar una conexión funcional suficiente entre ambas prestaciones. La resolución puede influir en futuras licitaciones y en cómo administraciones y empresas estructuran proyectos de eficiencia energética.
-  hide: n
+  hide: 0
 date: 2026-03-13 13:15:00
 mod: 2026-03-13 13:15:00
 ---

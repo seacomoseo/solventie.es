@@ -7,7 +7,7 @@ slug: consejos-eficiencia-energetica-industria
 img: /u/blog/consejos-eficiencia-energetica-industria.jpg
 category:
 - eficiencia-energetica
-toc: y
+toc: 1
 date: 2019-10-31 00:00:00
 ---
 ## 1 Monitoriza y analiza el consumo de energía de tus procesos
