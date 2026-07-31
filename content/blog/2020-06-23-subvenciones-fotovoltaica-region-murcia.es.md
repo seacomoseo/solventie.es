@@ -7,7 +7,7 @@ slug: subvenciones-fotovoltaica-region-murcia
 img: /u/blog/subvenciones-fotovoltaica-region-murcia.jpg
 category:
 - ayudas
-toc: 1
+toc: true
 date: 2020-06-23 00:00:00
 ---
 Hoy te traemos 7 claves que te servirán para conseguir las ayudas para fotovoltaica de autoconsumo de la Región de Murcia. 2020 es el ultimo año de este programa de subvenciones. Estas ayudas pueden ser para ti si estas dentro del sector industrial (secciones B, C y D) o sector terciario (secciones E - N y P - S).

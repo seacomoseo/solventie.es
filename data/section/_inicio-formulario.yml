@@ -13,12 +13,12 @@ boxes:
   - type: text
     name: Nombre
     label: Tu nombre
-    req: 1
+    req: true
   - type: mail
     name: Email
     label: Tu correo electrónico
-    req: 1
+    req: true
   - type: area
     name: Mensaje
     label: Cuéntanos
-    req: 1
+    req: true

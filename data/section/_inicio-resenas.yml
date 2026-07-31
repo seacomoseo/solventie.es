@@ -5,7 +5,7 @@ boxes:
     cols: 3
     color: white
     hs: 5
-    slider: 1
+    slider: true
   reviews:
   - title: Torre S.
     md: |
@@ -79,4 +79,4 @@ boxes:
     md: Servicio e ingenieros muy atentos
 - label: Ver más reseñas
   url: https://g.page/r/CT7T0hQ29sriEB0/review
-  lock: 1
+  lock: true

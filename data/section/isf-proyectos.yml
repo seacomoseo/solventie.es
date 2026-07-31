@@ -4,10 +4,10 @@ boxes:
   box:
     cols: 3
     color: white
-    inset: 1
+    inset: true
     ratio: 16/9
     hs: 6
-    caps: 1
+    caps: true
     label: Ver más
   boxes:
   - img: /u/servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg
@@ -39,8 +39,8 @@ boxes:
     url: '#balsa-de-santa-eulalia-des-riu'
 modal:
   color: white
-  inset: 1
-  caps: 1
+  inset: true
+  caps: true
   size: xs
 modals:
 - img: /u/servicios/instalaciones-solares-flotantes/proyectos/capdepera.jpg

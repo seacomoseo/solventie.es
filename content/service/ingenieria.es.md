@@ -55,7 +55,7 @@ process:
   - title: Te asesoramos
     md: Te informamos de los próximos pasos y consejos que tienes que dar una vez finalicemos nuestro trabajo.
 
-study: 0
+study: false
 
 warranties:
 - title: Garantía de <br> calidad

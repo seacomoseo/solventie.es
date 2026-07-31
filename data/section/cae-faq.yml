@@ -5,7 +5,7 @@ boxes:
 - title: Preguntas Frecuentes
   faq:
     hs: 6
-    headers: 1
+    headers: true
   faqs:
   - title: ¿Qué es un CAE y por qué te interesa?
     md: Certificado oficial que reconoce tu ahorro tras una mejora de eficiencia. **1 CAE = 1 kWh ahorrado/año**. En SOLVENT lo convertimos en ingresos para ti.

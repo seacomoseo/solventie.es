@@ -3,9 +3,9 @@ slug: politica-calidad-medio-ambiente
 title: Política de Calidad y Medio Ambiente
 img: /u/otros/2024-02-07-politica-calidad-medio-ambiente.png
 icon: star
-toc: 1
+toc: true
 seo:
-  noindex: 1
+  noindex: true
 weight: /u/7
 ---
 

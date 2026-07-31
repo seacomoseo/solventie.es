@@ -2,5 +2,5 @@
 slug: ingenieria
 title: Ingeniería
 seo:
-  noindex: 1
+  noindex: true
 ---

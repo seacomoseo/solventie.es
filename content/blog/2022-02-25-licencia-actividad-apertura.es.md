@@ -3,7 +3,7 @@ slug: licencia-actividad-apertura
 title: 'Licencia de actividad y apertura: todo lo que debes saber'
 img: /u/blog/licencia-actividad-apertura.jpg
 date: 2025-05-13 00:00:00
-toc: 1
+toc: true
 category:
 - ingenieria
 seo:

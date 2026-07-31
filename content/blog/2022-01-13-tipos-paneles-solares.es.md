@@ -7,7 +7,7 @@ slug: tipos-paneles-solares
 img: /u/blog/tipos-paneles-solares.jpg
 category:
 - energia-solar
-toc: 1
+toc: true
 date: 2022-01-13 00:00:00
 ---
 Cada vez la energía [renovable](/u/importancia-energias-renovables/) representa un porcentaje mayor sobre el total de energía generada. Este último año 2021, tuvo una representación del 46,8%, consiguiendo equilibrar cada vez más la balanza entre el consumo de energías renovables y no renovables. En concreto, la energía que se obtiene de los paneles solares representa el 10,3% del total.

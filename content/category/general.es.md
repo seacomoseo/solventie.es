@@ -2,5 +2,5 @@
 slug: general
 title: General
 seo:
-  noindex: 1
+  noindex: true
 ---

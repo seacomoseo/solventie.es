@@ -3,11 +3,11 @@ tpl:
   bg:
     color: white
   menu:
-    logo: 1
+    logo: true
     logo_align: center
     size: lg
     sticky: auto
-    logo_sticky: 1
+    logo_sticky: true
     color: white
   callnow: custom
   section:
@@ -25,7 +25,7 @@ tpl:
   - file: base-rel
   list:
     cols: 4
-    card: 1
+    card: true
     align: center
     icon: hide
     hs: 3
@@ -33,7 +33,7 @@ tpl:
     btn: hide
     tags:
     - type: date
-      hide_hour: 1
-      hide_lastmod: 1
+      hide_hour: true
+      hide_lastmod: true
   rel:
-    slider: 1
+    slider: true

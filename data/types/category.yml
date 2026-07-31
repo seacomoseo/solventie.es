@@ -4,12 +4,12 @@ weight: 2
 name: category
 tax_of:
 - name: blog
-  multi: 1
-  crumbs: 1
+  multi: true
+  crumbs: true
   schema: articleSection
 - name: category
-  multi: 1
-  crumbs: 1
+  multi: true
+  crumbs: true
 tpl:
   list:
     color: dark

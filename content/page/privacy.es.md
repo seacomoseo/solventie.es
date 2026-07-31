@@ -2,9 +2,9 @@
 slug: privacidad
 title: Política de Privacidad
 icon: encrypted
-toc: 1
+toc: true
 seo:
-  noindex: 1
+  noindex: true
 weight: 2
 ---
 

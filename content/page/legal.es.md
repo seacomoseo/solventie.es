@@ -2,9 +2,9 @@
 slug: legal
 title: Avisos Legales
 icon: balance
-toc: 1
+toc: true
 seo:
-  noindex: 1
+  noindex: true
 weight: 1
 ---
 

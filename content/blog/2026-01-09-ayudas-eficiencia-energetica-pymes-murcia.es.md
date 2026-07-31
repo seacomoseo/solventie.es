@@ -6,7 +6,7 @@ sum: |
 img: /u/blog/09-ayudas-pyme.webp
 date: 2026-01-09 10:29:34
 mod: 2026-01-09 10:29:34
-toc: 0
+toc: false
 rel:
 - 2019-04-04-subvenciones-eficiencia-energetica
 - 2019-05-06-beneficios-auditoria-energetica-empresa

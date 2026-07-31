@@ -69,7 +69,7 @@ process:
 
       Cada año, realizamos el mantenimiento de tu instalación de forma presencial comprobando las conexiones, el cableado, el estado de los módulos mediante termografía, los inversores y el anclaje a la estructura.
 
-study: 1
+study: true
 
 warranties:
 - title: Garantía de <br> eficiencia

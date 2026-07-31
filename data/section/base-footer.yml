@@ -45,5 +45,5 @@ boxes:
       align: left
       align_y: center
       btn: hide
-      lock: 1
-      contain: 1
+      lock: true
+      contain: true

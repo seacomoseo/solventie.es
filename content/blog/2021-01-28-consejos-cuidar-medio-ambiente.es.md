@@ -7,7 +7,7 @@ slug: consejos-cuidar-medio-ambiente
 img: /u/blog/consejos-cuidar-medio-ambiente.jpg
 category:
 - sostenibilidad
-toc: 1
+toc: true
 date: 2021-01-28 00:00:00
 ---
 ## Solo el 23% de los españoles cuidan el medio ambiente

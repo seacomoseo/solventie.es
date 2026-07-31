@@ -1,5 +1,5 @@
 icons:
-  fill: 0
+  fill: false
   weight: 500
   grade: 0
   optical: 24
@@ -11,48 +11,48 @@ fonts:
     family: Akkurat
     weight: 300
     bold: 0
-    italic: 0
+    italic: false
     line_height: 1.45 # 1.65
   cursive:
     family: Akkurat
     weight: 300
     bold: 0
-    italic: 0
+    italic: false
     line_height: 1.45 # 1.65
     size: 1
   title:
     family: Akkurat
     weight: 700
     bold: 0
-    italic: 0
+    italic: false
     line_height: 1.25
     size: 1
-  blockquote_cursive: 1
+  blockquote_cursive: true
 colors:
   main:
     color: '#00acc8'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: 0
-      in: 1
-      text: 1
+      fill: false
+      in: true
+      text: true
   alt:
     color: '#cccccc'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: 1
-      in: 1
-      text: 1
+      fill: true
+      in: true
+      text: true
   cta:
     color: '#ff9d00'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: 0
-      in: 0
-      text: 0
+      fill: false
+      in: false
+      text: false
   base:
     white: '#ffffff'
     light: '#eeeeee'
@@ -61,22 +61,22 @@ colors:
     black: '#000000'
 rounded:
   radius: 0.25
-  chamfer: 0
+  chamfer: false
 btns:
-  pill: 0
-  disc: 1
-  deep: 0
-  outline: 0
+  pill: false
+  disc: true
+  deep: false
+  outline: false
   font:
     type: base
-    bold: 0
-    uppercase: 0
+    bold: false
+    uppercase: false
   swap:
     type: base
-    bold: 0
-    uppercase: 0
+    bold: false
+    uppercase: false
 inputs:
-  fill: 0
+  fill: false
   labels: in
 shadow:
   left: 0.3

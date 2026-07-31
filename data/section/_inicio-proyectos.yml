@@ -12,7 +12,7 @@ boxes:
       cols: 4
       gap_vs: 1
       color: white
-      inset: 1
+      inset: true
       ratio: 16/9
       hs: 6
       space: 0
@@ -20,19 +20,19 @@ boxes:
     - title: Autoconsumo de <br> 248,8 KWp
       md: Prefabricados Hormigones Montalbán y Rodríguez
       vid: /u/proyectos/instalacion-fotovoltaica-248-8-kwp--prefabricados-montalban.webm
-      mute: 1
+      mute: true
     - title: Autoconsumo de <br> 168 KWp
       md: Lord Spices Group
       vid: /u/proyectos/instalacion-fotovoltaica-168-kwp--lord-spices.webm
-      mute: 1
+      mute: true
     - title: Autoconsumo de <br> 149,6kWp
       md: Zamora Company
       vid: /u/proyectos/instalacion-fotovoltaica-149-6-kwp--zamora-company-licor-43.webm
-      mute: 1
+      mute: true
     - title: Autoconsumo de <br> 240 KWp
       md: Etiquetas adhegrafic
       vid: /u/proyectos/etiquetas-adhegrafic.webm
-      mute: 1
+      mute: true
   - box:
       cols: 1
     boxes:

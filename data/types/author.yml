@@ -6,6 +6,6 @@ tax_of:
   schema: author
 tpl:
   list:
-    card: 0
+    card: false
     color: such
     rate: 1

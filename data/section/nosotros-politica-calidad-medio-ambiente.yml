@@ -5,7 +5,7 @@ boxes:
   align: left
   box:
     cols: 2
-    grow: 1
+    grow: true
     align_y: top
   boxes:
   - fit: 2

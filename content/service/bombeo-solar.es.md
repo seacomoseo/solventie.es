@@ -66,7 +66,7 @@ process:
     md: |
       Supervisamos el funcionamiento de tu instalación solar mediante monitorización semanal. Revisamos presencialmente el estado de tu instalación cada año comprobando las conexiones, el cableado, el estado de los módulos mediante termografía, los inversores y el anclaje a la estructura.
 
-study: 0
+study: false
 
 warranties:
 - title: Garantía de <br> eficiencia

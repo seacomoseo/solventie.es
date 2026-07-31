@@ -10,7 +10,7 @@ img: /u/blog/autoconsumo-eficiencia-energetica-industria.webp
 category:
 - eficiencia-energetica
 - energia-solar
-toc: 1
+toc: true
 date: 2025-04-01 00:00:00
 ---
 En el ámbito industrial, la gestión eficiente de la energía es un factor clave para mejorar la competitividad, reducir los costes operativos y minimizar el impacto ambiental. Una cuestión recurrente es si la implementación de sistemas de [autoconsumo fotovoltaico](/como-realizamos-instalacion-fotovoltaica/) conlleva una mejora en la **eficiencia energética** de una instalación industrial.

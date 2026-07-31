@@ -5,9 +5,9 @@ sum: 'Actualización del panel CAE del MITECO (02/02/2026): suben ahorro y solic
 img: /u/blog/06-portada-panel-cae.webp
 date: 2026-02-06 10:21:20
 mod: 2026-02-06 10:21:20
-toc: 0
-draft: 0
-hide: 0
+toc: false
+draft: false
+hide: false
 seo:
   desc: 'Panel CAE MITECO 02/02/2026: 7,81 mil GWh y 4.830 solicitudes. Industria lidera y Murcia destaca por actuaciones estandarizadas'
 ---

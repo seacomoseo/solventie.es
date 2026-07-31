@@ -1,5 +1,5 @@
 name: Contacto ➡️ Mapa
-ph: 1
+ph: true
 size: fluid
 boxes:
 - hanchor: Mapa

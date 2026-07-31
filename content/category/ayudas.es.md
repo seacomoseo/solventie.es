@@ -2,5 +2,5 @@
 slug: ayudas
 title: Ayudas
 seo:
-  noindex: 1
+  noindex: true
 ---

@@ -7,7 +7,7 @@ slug: paneles-solares-flotantes-alternativa-energia-solar
 img: /u/blog/paneles-solares-flotantes-alternativa-energia-solar.jpg
 category:
 - energia-solar
-toc: 1
+toc: true
 date: 2021-12-16 00:00:00
 ---
 Hace unos años surgió un nuevo tipo de instalación de placas solares que soluciona el problema de espacio en las superficies terrestres. Esta obtención de [energía renovable](/importancia-energias-renovables/) es la implementación de [paneles solares](/autoconsumo-fotovoltaico/) flotantes que aprovecha la disponibilidad de espacio en superficies acuáticas.

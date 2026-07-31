@@ -7,7 +7,7 @@ slug: beneficios-auditoria-energetica-empresa
 img: /u/blog/beneficios-auditoria-energetica-empresa.jpg
 category:
 - eficiencia-energetica
-toc: 1
+toc: true
 date: 2019-05-06 00:00:00
 ---
 La **eficiencia energética** está a la orden del día y se trata de una tarea pendiente en casi todos los sectores. La **auditoría energética** es una herramienta esencial para lograr la eficiencia y ahorro energético.

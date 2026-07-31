@@ -2,18 +2,18 @@
 slug: soluciones-energeticas-comunidades-regantes-isfv-cae
 title: 'Comunidades de regantes: del coste energético a la oportunidad de generar ahorro y valor'
 img: /u/17-isfv-sobre-balsas-y-cae.webp
-toc: 1
-draft: 0
-hide: 0
+toc: true
+draft: false
+hide: false
 sum: En el marco del XVI Congreso Nacional de Comunidades de Regantes, analizamos cómo las comunidades pueden afrontar el aumento de los costes energéticos mediante soluciones como la instalación solar fotovoltaica flotante sobre balsas y los Certificados de Ahorro Energético (CAE), mejorando su eficiencia, sostenibilidad y retorno económico.
 seo:
   title: 'Soluciones energéticas para comunidades de regantes: ISFV y CAE'
   desc: Las comunidades de regantes pueden ganar eficiencia y reducir costes con ISFV sobre balsas y Certificados de Ahorro Energético. Te contamos cómo.
-  noindex: 0
+  noindex: false
 llms:
   title: 'Soluciones de Solvent para comunidades de regantes: solar flotante y certificados CAE'
   desc: Contenido enfocado en los retos energéticos del regadío y en cómo Solvent ayuda a las comunidades de regantes con solar flotante sobre balsas y CAE.
-  hide: 0
+  hide: false
 date: 2026-04-17 11:43:00
 mod: 2026-04-17 11:43:00
 ---

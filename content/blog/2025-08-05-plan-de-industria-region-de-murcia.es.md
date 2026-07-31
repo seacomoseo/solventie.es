@@ -4,7 +4,7 @@ title: 'Murcia necesita energía para su industria: el reto que puede convertirs
 sum: 'La Región de Murcia avanza hacia un nuevo modelo industrial con la elaboración de su Plan Industrial, pero se enfrenta a un gran desafío: la falta de infraestructura energética. Desde SOLVENT analizamos cómo esta carencia puede transformarse en una oportunidad estratégica para impulsar el autoconsumo solar, el almacenamiento energético y la eficiencia industrial. Con un borrador del plan previsto para finales de 2025, es el momento de actuar con visión y compromiso sostenible.'
 img: /u/blog/plan-de-industria.jpg
 date: 2025-08-18 11:06:32
-toc: 0
+toc: false
 category:
 - eficiencia-energetica
 - baterias

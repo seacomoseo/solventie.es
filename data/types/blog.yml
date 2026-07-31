@@ -2,14 +2,14 @@ title: Actualidad
 weight: 1
 base: article
 name: blog
-rel: 1
+rel: true
 tpl:
   list:
     cols: 2
-    card: 0
+    card: false
     color: such
     align: left
     ratio: 16/9
-    inset: 1
+    inset: true
     md: '.'
     hs: 6

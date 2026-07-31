@@ -4,7 +4,7 @@ title: Apoyos
 img: /u/apoyos/union-europea.webp
 icon: support
 seo:
-  noindex: 1
+  noindex: true
 weight: 8
 ---
 **Programa de apoyo a Inversiones Productivas y Tecnológicas COVID-19**

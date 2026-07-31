@@ -7,7 +7,7 @@ slug: energia-solar-sacarle-partido
 img: /u/blog/energia-solar-sacarle-partido.jpg
 category:
 - energia-solar
-toc: 1
+toc: true
 date: 2022-05-23 00:00:00
 ---
 ## Energía solar: /u/situación en España
