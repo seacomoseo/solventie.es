@@ -7,7 +7,7 @@ slug: proyectos
 img: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg
 tpl:
   sections:
-  - file: proyectos-_header
+  - file: proyectos-_hero
   - file: proyectos-portfolio
 ---
 

@@ -7,7 +7,7 @@ seo:
 img: /u/base/poster.svg
 tpl:
   sections:
-  - file: _inicio-_header
+  - file: _inicio-_hero
   - file: _inicio-proyectos
   - file: _inicio-resenas
   - file: _inicio-servicios

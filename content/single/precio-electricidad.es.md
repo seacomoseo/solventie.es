@@ -6,7 +6,7 @@ seo:
 img: /u/25.png
 tpl:
   sections:
-  - file: precio-electricidad-_header
+  - file: precio-electricidad-_hero
   - file: precio-electricidad-grafico
   - file: precio-electricidad-caracteristicas
   - file: precio-electricidad-ahorrar

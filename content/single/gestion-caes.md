@@ -8,7 +8,7 @@ img: /u/servicios/gestion-cae/portada.jpg
 
 tpl:
   sections:
-  - file: cae-_header
+  - file: cae-_hero
   - file: cae-que-es
   - file: cae-beneficios
   - file: cae-contacto

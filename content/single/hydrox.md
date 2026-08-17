@@ -8,7 +8,7 @@ img: /u/servicios/hydrox/portada.webp
 
 tpl:
   sections:
-  - file: hydrox-_header
+  - file: hydrox-_hero
   - file: hydrox-que-es
   - file: hydrox-como-funciona
   - file: hydrox-beneficios

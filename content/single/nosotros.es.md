@@ -7,7 +7,7 @@ slug: nosotros
 img: /u/otros/nosotros.webp
 tpl:
   sections:
-  - file: nosotros-_header
+  - file: nosotros-_hero
   - file: nosotros-caracteristicas
   - file: nosotros-politica-calidad-medio-ambiente
 ---

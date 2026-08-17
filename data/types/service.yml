@@ -8,7 +8,7 @@ tpl:
     scroll: fix
     alpha: 0.6
   sections:
-  - file: servicio-_header
+  - file: servicio-_hero
   - file: servicio-caracteristicas
   - file: servicio-proceso
   - file: servicio-estudio

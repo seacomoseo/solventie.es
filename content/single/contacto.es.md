@@ -7,7 +7,7 @@ slug: contacto
 img: /u/servicios/autoconsumo-fotovoltaico/paneles.jpg
 tpl:
   sections:
-  - file: contacto-_header
+  - file: contacto-_hero
   - file: contacto-formulario
   - file: contacto-mapa
 ---

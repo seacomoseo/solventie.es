@@ -8,7 +8,7 @@ img: /u/servicios/instalaciones-solares-flotantes/portada.jpg
 
 tpl:
   sections:
-  - file: isf-_header
+  - file: isf-_hero
   - file: isf-nosotros
   - file: isf-beneficios
   - file: isf-expectativas
