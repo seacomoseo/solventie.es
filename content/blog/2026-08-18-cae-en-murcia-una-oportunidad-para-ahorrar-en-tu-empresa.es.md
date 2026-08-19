@@ -49,13 +49,13 @@ Una actuación sobre iluminación, climatización, motores, procesos productivos
 
 Con los CAE aparece una segunda vía de rentabilidad.
 
-### **Ahorras energía**
+### **1. Ahorras energía**
 
 El primer beneficio sigue siendo reducir el consumo. Una instalación o un proceso más eficiente necesita menos energía para desarrollar la misma actividad.
 
 Eso permite disminuir los costes energéticos y mejorar la competitividad de la empresa.
 
-### **Puedes monetizar el ahorro conseguido**
+### **2. Puedes monetizar el ahorro conseguido**
 
 Si la actuación cumple los requisitos del sistema, los ahorros generados pueden transformarse en CAE y posteriormente obtener una contraprestación económica por ellos.
 
@@ -63,7 +63,7 @@ No existe una cantidad fija que pueda garantizarse para cualquier proyecto. El r
 
 Por eso es importante estudiar cada proyecto antes de ejecutar la inversión.
 
-### **Mejoras la rentabilidad de una inversión que quizá ya necesitas hacer**
+### **3. Mejoras la rentabilidad de una inversión que quizá ya necesitas hacer**
 
 Muchas empresas tienen equipos que deben renovar tarde o temprano.
 
