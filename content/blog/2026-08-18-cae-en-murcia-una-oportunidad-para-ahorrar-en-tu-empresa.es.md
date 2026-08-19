@@ -14,7 +14,7 @@ llms:
   title: Cómo pueden aprovechar las empresas de Murcia los CAE en 2026
   desc: 'Guía práctica sobre los Certificados de Ahorro Energético en Murcia: qué son, qué actuaciones pueden generar CAE y cómo pueden mejorar la rentabilidad de una inversión en eficiencia energética.'
   hide: false
-date: 2026-08-18 12:06:00
+date: 2026-08-19 09:55:00
 ---
 
 Reducir el consumo energético de una empresa ya no significa únicamente pagar menos en la factura. Las inversiones en eficiencia también pueden generar un **retorno económico adicional gracias a los Certificados de Ahorro Energético (CAE)**.
