@@ -5,7 +5,6 @@ sum: La CNMC aprueba medidas para que las energías renovables participen en el 
 img: /u/blog/portada-cnmc.webp
 date: 2025-11-04 08:24:27
 mod: 2025-11-04 08:24:28
-toc: false
 category:
 - eficiencia-energetica
 - electricidad
@@ -14,7 +13,6 @@ category:
 author: admin
 rel:
 - 2018-08-21-aumento-precio-electricidad
-draft: false
 seo:
   desc: La CNMC exige que las instalaciones renovables colaboren en el control de tensión ⚡ Medida clave para una red más estable y sostenible.
 ---

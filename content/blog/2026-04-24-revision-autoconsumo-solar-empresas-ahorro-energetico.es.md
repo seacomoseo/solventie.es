@@ -3,8 +3,6 @@ slug: revision-autoconsumo-solar-empresas-ahorro-energetico
 title: 'Autoconsumo solar en empresas: cómo saber si tu instalación está ahorrando lo previsto'
 img: /u/24-isfv-mantenimiento-y-rentabilidad.webp
 toc: true
-draft: false
-hide: false
 sum: Tener placas solares instaladas no garantiza por sí solo el máximo ahorro energético. Las empresas deben revisar periódicamente el rendimiento, la documentación, la legalización y la monitorización de sus instalaciones fotovoltaicas de autoconsumo para detectar incidencias y optimizar resultados.
 seo:
   title: 'Autoconsumo solar en empresas: revisa si ahorras lo previsto'

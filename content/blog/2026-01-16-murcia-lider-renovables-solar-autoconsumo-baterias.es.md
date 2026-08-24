@@ -5,7 +5,6 @@ sum: La Región de Murcia refuerza su posición líder en renovables con más en
 img: /u/blog/16.webp
 date: 2026-01-16 11:02:32
 mod: 2026-01-16 11:02:32
-toc: false
 category:
 - baterias
 - eficiencia-energetica
@@ -13,8 +12,6 @@ category:
 - energia-solar
 - noticias
 - sostenibilidad
-draft: false
-hide: false
 seo:
   desc: La Región de Murcia refuerza su liderazgo en renovables con más energía solar fotovoltaica y agrovoltaica, autoconsumo y baterías para un sistema eficiente y estable.
   noindex: false

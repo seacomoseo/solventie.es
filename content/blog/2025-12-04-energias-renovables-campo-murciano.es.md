@@ -5,9 +5,6 @@ sum: Las energías renovables y el campo murciano avanzan juntos hacia un desarr
 img: /u/blog/portada-2-noticia-rocio-sector-renovables.webp
 date: 2025-12-05 09:00:01
 mod: 2025-12-05 09:00:00
-toc: false
-draft: false
-hide: false
 seo:
   noindex: false
 ---

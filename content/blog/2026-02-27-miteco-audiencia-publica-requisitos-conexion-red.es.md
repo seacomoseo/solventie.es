@@ -2,9 +2,6 @@
 slug: miteco-audiencia-publica-requisitos-conexion-red
 title: 'El MITECO abre audiencia pública del nuevo real decreto de requisitos de conexión: más capacidad de red y más seguridad del sistema'
 img: /u/27-miteco-audiencia-publica-requisitos-conexion-a-red-electrica.webp
-toc: false
-draft: false
-hide: false
 sum: El MITECO abre audiencia pública del proyecto de Real Decreto que actualizará los requisitos técnicos de conexión para instalaciones de generación, demanda y almacenamiento. La norma busca aumentar la capacidad disponible en redes de transporte y distribución y reforzar la seguridad del sistema, incorporando nuevas obligaciones sobre huecos de tensión, oscilaciones, calidad de producto y amortiguamiento. El plazo de alegaciones está abierto hasta el 16 de marzo.
 seo:
   title: 'MITECO abre audiencia pública del RD de requisitos de conexión a red: más capacidad y seguridad'

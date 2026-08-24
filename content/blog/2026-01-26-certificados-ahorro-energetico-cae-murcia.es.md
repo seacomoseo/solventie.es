@@ -5,12 +5,9 @@ sum: La Región de Murcia impulsa el uso de los Certificados de Ahorro Energéti
 img: /u/blog/26-cae-carm.webp
 date: 2026-01-26 08:16:33
 mod: 2026-01-26 08:16:33
-toc: false
 rel:
 - 2025-07-16-somos-sujeto-delegado-cae
 - 2025-08-26-cae-murcia
-draft: false
-hide: false
 seo:
   desc: Murcia impulsa los Certificados de Ahorro Energético (CAE) y alcanza 187 millones de kWh certificados. Descubre qué son, cómo funcionan y por qué las ISFV no están cubiertas por este sistema.
   noindex: false

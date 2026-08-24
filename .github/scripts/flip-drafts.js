@@ -58,7 +58,7 @@ function shouldPublish (publishDate, nowMadrid) {
 
 function flipDraftFlag (rawContent) {
   // Cambia draft: true/y/yes a draft: n (solo en YAML)
-  return rawContent.replace(/^draft:\s*(true|y|yes|"true"|'true'|"y"|'y'|"yes"|'yes')\s*$/mi, 'draft: n')
+  return rawContent.replace(/^draft:\s*(true|y|yes|"true"|'true'|"y"|'y'|"yes"|'yes')\s*$/mi, 'draft: false')
 }
 
 function main () {

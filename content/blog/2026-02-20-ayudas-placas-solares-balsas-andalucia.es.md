@@ -2,9 +2,6 @@
 slug: ayudas-placas-solares-balsas-andalucia
 title: 'Andalucía abre la ventanilla: 12 millones de euros para balsas de riego y energía solar'
 img: /u/20-andalucia-subvencion-12m-isfv-en-balsas.webp
-toc: false
-draft: false
-hide: false
 sum: Andalucía abre 12M€ en ayudas para que regantes instalen placas solares flotantes (ISFV), cubriendo hasta el 100% del coste para ahorrar energía y frenar la evaporación del agua; una oportunidad crítica de febrero 2026 que Solvent gestiona de principio a fin para asegurar los fondos antes de que se agoten.
 seo:
   title: 'Ayudas 2026: 12M€ para Placas Solares en Balsas en Andalucía'

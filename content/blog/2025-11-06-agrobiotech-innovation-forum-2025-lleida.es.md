@@ -13,7 +13,6 @@ rel:
 - 2021-12-16-paneles-solares-flotantes-alternativa-energia-solar
 - 2024-07-12-espana-avanza-panel-solar-flotante
 - 2025-09-18-primera-estacion-de-esqui-en-espana-con-energia-solar-flotante
-draft: false
 seo:
   noindex: true
 ---

@@ -5,7 +5,6 @@ sum: El Plan Industrial de la Región de Murcia 2026-2035 impulsa energías reno
 img: /u/blog/13-plan-industrial-carm-2026-20235.webp
 date: 2026-02-13 12:10:28
 mod: 2026-02-13 12:10:28
-toc: false
 seo:
   desc: 'Plan Industrial Murcia 2026-2035: renovables y almacenamiento para autoconsumo industrial, PPA, microrredes y descarbonización.'
   noindex: false

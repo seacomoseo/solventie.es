@@ -3,8 +3,6 @@ slug: panel-cae-miteco-marzo-2026
 title: 'El panel del sistema CAE del MITECO, actualización de marzo: sigue creciendo y Murcia suma más actuaciones'
 img: /u/06-panel-cae-portada.webp
 toc: true
-draft: false
-hide: false
 sum: 'El panel CAE del MITECO de marzo confirma que el sistema sigue ganando tracción: aumenta la actividad (ahorro y solicitudes), se consolidan industria y transporte como motores principales y el residencial continúa creciendo. En Murcia también se aprecia un avance en el número de actuaciones, manteniendo el interés por medidas de eficiencia con tramitación ágil.'
 seo:
   title: 'Panel CAE MITECO marzo 2026: evolución del sistema y foco en Murcia'

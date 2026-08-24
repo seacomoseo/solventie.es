@@ -3,17 +3,14 @@ slug: cae-2026-certificados-ahorro-energetico
 title: 'CAE en 2026: cómo convertir el ahorro energético en valor'
 img: /u/cae-2026-certificados-ahorro-energetico.webp
 toc: true
-draft: false
-hide: false
+draft: true
 sum: Descubre cómo funcionan los Certificados de Ahorro Energético en 2026 y cómo aprovechar tus mejoras de eficiencia para obtener un retorno económico.
 seo:
   title: 'CAE en 2026: cómo aprovechar el ahorro energético'
   desc: Descubre cómo funcionan los Certificados de Ahorro Energético en 2026 y cómo aprovechar tus mejoras de eficiencia para obtener un retorno económico.
-  noindex: false
 llms:
   title: 'Certificados de Ahorro Energético (CAE) en España en 2026: qué son, cómo funcionan y qué empresas pueden beneficiarse'
   desc: Guía actualizada sobre los Certificados de Ahorro Energético (CAE) en España en 2026. Explica qué es un CAE, cómo permite monetizar ahorros de energía, qué actuaciones de eficiencia energética pueden generar certificados y cómo gestionar el proceso.
-  hide: false
 date: 2026-09-01 08:00:00
 ---
 
