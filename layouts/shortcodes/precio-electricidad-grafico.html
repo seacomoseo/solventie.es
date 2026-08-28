@@ -666,15 +666,14 @@
         const labels = data.map(item => item.hour + 'h');
 
         const tooltipLabels = data.map(item =>
-            '(' + item.period + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
+            '(' + item.period_30TD_61TD + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
         );
 
         const priceMarket = data.map(item => item.pr_market_cents / 100);
         const priceComponents = data.map(item => (item.pr_components_cents - item.pr_market_cents) / 100);
-        const periods = data.map(item => item.period);
-        const pricePeriods = data.map(item => item.pr_period_cents / 100);
+        // const periods = data.map(item => item.period_30TD_61TD);
+        const pricePeriods = data.map(item => item.pr_period_cents_61TD / 100);
 
-        const periodPricesValues = data.map(item => item.period_price_cents / 100);
         const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
 
         const maxTotal = Math.max(...totalValues);
