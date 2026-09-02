@@ -85,6 +85,225 @@
             transform: none;
         }
 
+        .tariff-picker {
+            margin: 0 auto 4px;
+            text-align: center;
+        }
+
+        .tariff-switch {
+            position: relative;
+            display: inline-flex;
+            align-items: stretch;
+            gap: 2px;
+            padding: 5px;
+            border-radius: 999px;
+            background: #f1f3f5;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, .09);
+        }
+
+        .tariff-pill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #ffb524, #ff9d00);
+            box-shadow: 0 4px 12px rgba(255, 157, 0, .38);
+            transform: translateX(0);
+            pointer-events: none;
+        }
+
+        /* La transición se activa tras medir con la tipografía ya cargada,
+           para que la posición inicial no se anime desde una medida falsa. */
+        .tariff-switch--ready .tariff-pill {
+            transition: transform .34s cubic-bezier(.34, 1.32, .64, 1),
+                        width .34s cubic-bezier(.34, 1.32, .64, 1);
+        }
+
+        .tariff-btn {
+            position: relative;
+            z-index: 1;
+            background: transparent;
+            border: none;
+            border-radius: 999px;
+            padding: 9px 22px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #58626d;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: color .22s ease;
+        }
+
+        .tariff-btn:hover {
+            color: #2a363b;
+        }
+
+        .tariff-btn[aria-pressed="true"] {
+            color: #ffffff;
+        }
+
+        .tariff-btn:focus-visible {
+            outline: 2px solid #ff9d00;
+            outline-offset: 3px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .tariff-btn {
+                padding: 9px 14px;
+                font-size: 13px;
+            }
+        }
+
+        .tariff-guide {
+            width: 100%;
+            margin: 32px auto 0;
+        }
+
+        @media screen and (min-width: 768px) {
+            .tariff-guide {
+                width: 95%;
+            }
+        }
+
+        /* El tema da a las listas de .md width: fit-content y estira cada
+           <li>; ambas cosas se anulan para que la rejilla ocupe el bloque. */
+        .tariff-guide__list {
+            display: grid !important;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            width: 100% !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            list-style: none;
+        }
+
+        @media screen and (min-width: 900px) {
+            .tariff-guide__list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .tariff-guide__item {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            text-align: left;
+            /* El tema declara grid-column: 1 / -1 en los <li> de .md, que
+               estiraba cada tarjeta sobre las tres columnas. */
+            grid-column: auto !important;
+            width: auto !important;
+            min-width: 0;
+            margin: 0 !important;
+            padding: 18px 20px !important;
+            background: #ffffff;
+            border: 1px solid rgba(42, 54, 59, .12);
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+            transition: border-color .25s ease, box-shadow .25s ease, transform .25s ease;
+        }
+
+        .tariff-guide__item:before {
+            content: none;
+        }
+
+        /* El tema envuelve el contenido de cada <li> en un <div>, así que la
+           columna se define también sobre ese hijo intermedio. */
+        .tariff-guide__item > div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .tariff-guide__item:hover {
+            border-color: rgba(255, 157, 0, .55);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, .08);
+            transform: translateY(-2px);
+        }
+
+        .tariff-guide__item:focus-visible {
+            outline: 2px solid #ff9d00;
+            outline-offset: 3px;
+        }
+
+        .tariff-guide__item--active {
+            border-color: #ff9d00;
+            box-shadow: 0 8px 20px rgba(255, 157, 0, .18);
+            transform: translateY(-2px);
+        }
+
+        .tariff-guide__code {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: .04em;
+            color: #55606b;
+            background: #f1f3f5;
+            border-radius: 999px;
+            padding: 5px 12px;
+            transition: background-color .25s ease, color .25s ease;
+        }
+
+        .tariff-guide__item--active .tariff-guide__code {
+            background: linear-gradient(135deg, #ffb524, #ff9d00);
+            color: #ffffff;
+        }
+
+        .tariff-guide__who {
+            margin: 0 !important;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.35;
+            color: #2a363b;
+        }
+
+        .tariff-guide__desc {
+            margin: 0 !important;
+            font-size: 14px;
+            line-height: 1.55;
+            color: #55606b;
+        }
+
+        .tariff-guide__help {
+            margin: 20px 0 0 !important;
+            padding: 14px 18px;
+            background: #f8f9fa;
+            border-left: 3px solid #ff9d00;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 1.55;
+            text-align: left;
+            color: #2a363b;
+        }
+
+        /* El tema convierte las comillas angulares en <q class="aquotes"> y las
+           pinta con el color de acento; aquí basta un gris discreto. */
+        .tariff-guide__help q::before,
+        .tariff-guide__help q::after {
+            color: #8a919b;
+        }
+
+        .tariff-guide__source {
+            margin: 10px 0 0 !important;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #8a919b;
+        }
+
+        .tariff-guide__source a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        .tariff-guide__source a:hover {
+            color: #ff9d00;
+        }
+
         .loading-indicator {
             display: none;
             font-size: 12px;
@@ -199,6 +418,15 @@
 </style>
 
 <div id="precio-electricidad">
+    <div class="tariff-picker">
+        <div class="tariff-switch" id="tariffSwitch" role="group" aria-label="Selector de tarifa de acceso">
+            <span class="tariff-pill" id="tariffPill"></span>
+            <button type="button" class="tariff-btn" data-tariff="20TD" aria-pressed="false">2.0 TD</button>
+            <button type="button" class="tariff-btn" data-tariff="30TD" aria-pressed="false">3.0 TD</button>
+            <button type="button" class="tariff-btn" data-tariff="61TD" aria-pressed="true">6.1 TD</button>
+        </div>
+    </div>
+
     <div class="controls">
         <button id="prevDay" class="nav-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -223,9 +451,46 @@
         <div class="loading-indicator" id="loadingIndicator">Cargando datos históricos...</div>
         <div id="external-tooltip"></div>
     </div>
+    <div class="tariff-guide" id="tariffGuide">
+        <ul class="tariff-guide__list">
+            <li class="tariff-guide__item" data-tariff="20TD" role="button" tabindex="0" aria-pressed="false" aria-label="Ver la gráfica con la tarifa 2.0 TD">
+                <span class="tariff-guide__code">2.0 TD</span>
+                <p class="tariff-guide__who">Hogares y pequeños negocios</p>
+                <p class="tariff-guide__desc">La tarifa habitual de las viviendas: suministros en baja tensión con una potencia contratada de hasta 15 kW en todos los periodos.</p>
+            </li>
+            <li class="tariff-guide__item" data-tariff="30TD" role="button" tabindex="0" aria-pressed="false" aria-label="Ver la gráfica con la tarifa 3.0 TD">
+                <span class="tariff-guide__code">3.0 TD</span>
+                <p class="tariff-guide__who">Negocios y locales con mayor potencia</p>
+                <p class="tariff-guide__desc">Para suministros en baja tensión con más de 15 kW contratados en al menos un periodo.</p>
+            </li>
+            <li class="tariff-guide__item" data-tariff="61TD" role="button" tabindex="0" aria-pressed="true" aria-label="Ver la gráfica con la tarifa 6.1 TD">
+                <span class="tariff-guide__code">6.1 TD</span>
+                <p class="tariff-guide__who">Industrias y grandes instalaciones</p>
+                <p class="tariff-guide__desc">Para suministros conectados en alta tensión, superior a 1 kV e inferior a 30 kV.</p>
+            </li>
+        </ul>
+        <p class="tariff-guide__help"><strong>¿Cuál es la tuya?</strong> Busca en tu factura el apartado «Peaje de acceso» o «Tarifa de acceso»: aparecerá uno de estos códigos.</p>
+        <p class="tariff-guide__source">Definiciones basadas en la <a href="https://www.boe.es/eli/es/cir/2020/01/15/3" target="_blank" rel="noopener noreferrer">normativa de la CNMC</a>.</p>
+    </div>
 </div>
 
 <script>
+(function () {
+    const TARIFFS = {
+        '20TD': { name: '2.0 TD', priceField: 'pr_period_cents_20TD', periodField: 'period_20TD' },
+        '30TD': { name: '3.0 TD', priceField: 'pr_period_cents_30TD', periodField: 'period_30TD_61TD' },
+        '61TD': { name: '6.1 TD', priceField: 'pr_period_cents_61TD', periodField: 'period_30TD_61TD' }
+    };
+    const TARIFF_STORAGE_KEY = 'solventie.precioElectricidad.tarifa';
+
+    let currentTariff = '61TD';
+    try {
+        const stored = window.localStorage.getItem(TARIFF_STORAGE_KEY);
+        if (stored && TARIFFS[stored]) currentTariff = stored;
+    } catch (error) { /* almacenamiento no disponible */ }
+
+    let currentTooltipLabels = [];
+
     let currentDate = new Date();
     let allData = [];
     let datepicker;
@@ -665,14 +930,17 @@
 
         const labels = data.map(item => item.hour + 'h');
 
+        const tariff = TARIFFS[currentTariff];
+
         const tooltipLabels = data.map(item =>
-            '(' + item.period_30TD_61TD + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
+            '(' + item[tariff.periodField] + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
         );
+        currentTooltipLabels = tooltipLabels;
 
         const priceMarket = data.map(item => item.pr_market_cents / 100);
         const priceComponents = data.map(item => (item.pr_components_cents - item.pr_market_cents) / 100);
         // const periods = data.map(item => item.period_30TD_61TD);
-        const pricePeriods = data.map(item => item.pr_period_cents_61TD / 100);
+        const pricePeriods = data.map(item => (item[tariff.priceField] || 0) / 100);
 
         const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
 
@@ -698,91 +966,104 @@
             }
         };
 
-        const ctx = document.getElementById('barChart').getContext('2d');
+        const datasets = [
+            {
+                shortLabel: 'Precio mercado (€/MWh)',
+                label: 'Precio mercado (€/MWh): Costes de la energía eléctrica en el mercado mayorista, que se establece diariamente',
+                data: priceMarket,
+                backgroundColor: colors.market.bg,
+                borderColor: colors.market.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Precio peajes ' + tariff.name + ' (€/MWh)',
+                label: 'Precio peajes ' + tariff.name + ' (€/MWh): Costes de acceso a la red en función de los periodos horarios y fijados por Real Decreto. (Se establecen 1 vez al año)',
+                data: pricePeriods,
+                backgroundColor: colors.periods.bg,
+                borderColor: colors.periods.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Precio componentes (€/MWh)',
+                label: 'Precio componentes (€/MWh): Costes regulados adicionales que el operador de la red establece diariamente en función de la oferta y la demanda',
+                data: priceComponents,
+                backgroundColor: colors.components.bg,
+                borderColor: colors.components.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Total (€/MWh)',
+                label: 'Total (€/MWh): Suma total del precio de mercado, peajes ' + tariff.name + ' y componentes.',
+                data: totalValues,
+                borderColor: colors.total.border,
+                borderWidth: 2,
+                type: 'line',
+                fill: false,
+                tension: 0.2,
+                pointBackgroundColor: colors.total.border,
+                pointBorderColor: '#fff',
+                pointBorderWidth: isMobile ? 0 : 1,
+                pointRadius: isMobile ? 0 : 3,
+                pointHoverRadius: isMobile ? 3 : 5,
+                pointStyle: 'circle',
+                pointShadowBlur: 1,
+                pointShadowColor: 'rgba(0, 0, 0, 0.4)',
+                order: -1,
+                borderShadowColor: 'rgba(0, 0, 0, 0.7)',
+                borderShadowBlur: 15,
+                borderShadowOffsetX: 5,
+                borderShadowOffsetY: 5,
+                shadowOffsetX: 5,
+                shadowOffsetY: 5,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.6)',
+            }
+        ];
+
+        const suggestedMin = minTotal < 0 ? minTotal * 1.1 : 0;
+        const suggestedMax = maxTotal * 1.05;
+
+        // Cambio de tarifa o de día sin recrear el gráfico: transición animada.
         if (window.barChartInstance) {
-            window.barChartInstance.destroy();
+            const chart = window.barChartInstance;
+            chart.data.labels = labels;
+            datasets.forEach((dataset, index) => Object.assign(chart.data.datasets[index], dataset));
+            chart.options.scales.y.suggestedMin = suggestedMin;
+            chart.options.scales.y.suggestedMax = suggestedMax;
+            chart.update();
+            return;
         }
+
+        const ctx = document.getElementById('barChart').getContext('2d');
         window.barChartInstance = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: labels,
-                datasets: [
-                    {
-                        shortLabel: 'Precio mercado (€/MWh)',
-                        label: 'Precio mercado (€/MWh): Costes de la energía eléctrica en el mercado mayorista, que se establece diariamente',
-                        data: priceMarket,
-                        backgroundColor: colors.market.bg,
-                        borderColor: colors.market.border,
-                        borderWidth: 1,
-                        borderRadius: 6,
-                        stack: 'combined',
-                        fill: true,
-                        stepped: true,
-                        shadowOffsetX: 6,
-                        shadowOffsetY: 6,
-                        shadowBlur: 15,
-                        shadowColor: 'rgba(0, 0, 0, 0.4)',
-                    },
-                    {
-                        shortLabel: 'Precio peajes 6.1 TD (€/MWh)',
-                        label: 'Precio peajes 6.1TD (€/MWh): Costes de acceso a la red en función de los periodos horarios y fijados por Real Decreto. (Se establecen 1 vez al año)',
-                        data: pricePeriods,
-                        backgroundColor: colors.periods.bg,
-                        borderColor: colors.periods.border,
-                        borderWidth: 1,
-                        borderRadius: 6,
-                        stack: 'combined',
-                        fill: true,
-                        stepped: true,
-                        shadowOffsetX: 6,
-                        shadowOffsetY: 6,
-                        shadowBlur: 15,
-                        shadowColor: 'rgba(0, 0, 0, 0.4)',
-                    },
-                    {
-                        shortLabel: 'Precio componentes (€/MWh)',
-                        label: 'Precio componentes (€/MWh): Costes regulados adicionales que el operador de la red establece diariamente en función de la oferta y la demanda',
-                        data: priceComponents,
-                        backgroundColor: colors.components.bg,
-                        borderColor: colors.components.border,
-                        borderWidth: 1,
-                        borderRadius: 6,
-                        stack: 'combined',
-                        fill: true,
-                        stepped: true,
-                        shadowOffsetX: 6,
-                        shadowOffsetY: 6,
-                        shadowBlur: 15,
-                        shadowColor: 'rgba(0, 0, 0, 0.4)',
-                    },
-                    {
-                        shortLabel: 'Total (€/MWh)',
-                        label: 'Total (€/MWh): Suma total del precio de mercado, peajes 6.1 TD y componentes.',
-                        data: totalValues,
-                        borderColor: colors.total.border,
-                        borderWidth: 2,
-                        type: 'line',
-                        fill: false,
-                        tension: 0.2,
-                        pointBackgroundColor: colors.total.border,
-                        pointBorderColor: '#fff',
-                        pointBorderWidth: isMobile ? 0 : 1,
-                        pointRadius: isMobile ? 0 : 3,
-                        pointHoverRadius: isMobile ? 3 : 5,
-                        pointStyle: 'circle',
-                        pointShadowBlur: 1,
-                        pointShadowColor: 'rgba(0, 0, 0, 0.4)',
-                        order: -1,
-                        borderShadowColor: 'rgba(0, 0, 0, 0.7)',
-                        borderShadowBlur: 15,
-                        borderShadowOffsetX: 5,
-                        borderShadowOffsetY: 5,
-                        shadowOffsetX: 5,
-                        shadowOffsetY: 5,
-                        shadowBlur: 15,
-                        shadowColor: 'rgba(0, 0, 0, 0.6)',
-                    }
-                ]
+                datasets: datasets
             },
             options: {
                 responsive: true,
@@ -826,7 +1107,7 @@
                         displayColors: true,
                         callbacks: {
                             title: function (tooltipItems) {
-                                return tooltipLabels[tooltipItems[0].dataIndex];
+                                return currentTooltipLabels[tooltipItems[0].dataIndex];
                             },
                             label: function (context) {
                                 return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
@@ -843,8 +1124,8 @@
                 scales: {
                     y: {
                         stacked: true,
-                        suggestedMin: minTotal < 0 ? minTotal * 1.1 : 0,
-                        suggestedMax: maxTotal * 1.05,
+                        suggestedMin: suggestedMin,
+                        suggestedMax: suggestedMax,
                         ticks: {
                             stepSize: 10,
                             font: {
@@ -953,7 +1234,108 @@
         await setCurrentDateAndUpdate(newDate);
     });
 
+    function positionTariffPill() {
+        const swtch = document.getElementById('tariffSwitch');
+        const active = swtch && swtch.querySelector('.tariff-btn[aria-pressed="true"]');
+        const pill = document.getElementById('tariffPill');
+        if (!swtch || !active || !pill) return;
+
+        // getBoundingClientRect en lugar de offsetLeft/offsetWidth: estos
+        // redondean a enteros y la píldora acababa sobresaliendo del carril.
+        const track = swtch.getBoundingClientRect();
+        const button = active.getBoundingClientRect();
+        if (!button.width) return;
+
+        pill.style.width = button.width + 'px';
+        pill.style.height = button.height + 'px';
+        pill.style.top = (button.top - track.top) + 'px';
+        pill.style.transform = 'translateX(' + (button.left - track.left) + 'px)';
+    }
+
+    function syncTariffButtons() {
+        document.querySelectorAll('#tariffSwitch .tariff-btn').forEach(btn => {
+            btn.setAttribute('aria-pressed', btn.dataset.tariff === currentTariff ? 'true' : 'false');
+        });
+
+        document.querySelectorAll('#tariffGuide .tariff-guide__item').forEach(item => {
+            const active = item.dataset.tariff === currentTariff;
+            item.classList.toggle('tariff-guide__item--active', active);
+            item.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+
+        positionTariffPill();
+    }
+
+    function setTariff(tariff) {
+        if (!TARIFFS[tariff] || tariff === currentTariff) return;
+
+        currentTariff = tariff;
+        try {
+            window.localStorage.setItem(TARIFF_STORAGE_KEY, tariff);
+        } catch (error) { /* almacenamiento no disponible */ }
+
+        syncTariffButtons();
+        renderChart();
+    }
+
+    document.querySelectorAll('#tariffSwitch .tariff-btn').forEach(btn => {
+        btn.addEventListener('click', () => setTariff(btn.dataset.tariff));
+    });
+
+    // La gráfica queda por encima de las tarjetas: si al pulsar una no se ve
+    // nada de ella, se acerca para que el cambio sea visible.
+    function revealChart() {
+        const chart = document.querySelector('#precio-electricidad .chart-container');
+        if (!chart) return;
+
+        const rect = chart.getBoundingClientRect();
+        const partiallyVisible = rect.bottom > 80 && rect.top < window.innerHeight - 80;
+        if (partiallyVisible) return;
+
+        const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        chart.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+    }
+
+    document.querySelectorAll('#tariffGuide .tariff-guide__item').forEach(item => {
+        item.addEventListener('click', () => {
+            setTariff(item.dataset.tariff);
+            revealChart();
+        });
+
+        item.addEventListener('keydown', event => {
+            if (event.key !== 'Enter' && event.key !== ' ' && event.key !== 'Spacebar') return;
+            event.preventDefault();
+            setTariff(item.dataset.tariff);
+            revealChart();
+        });
+    });
+
+    window.addEventListener('resize', positionTariffPill);
+
+    // El primer cálculo cae antes de que la tipografía web esté aplicada, así
+    // que se repite en cuanto el ancho de los botones deja de cambiar.
+    const tariffSwitch = document.getElementById('tariffSwitch');
+
+    if (window.ResizeObserver && tariffSwitch) {
+        new ResizeObserver(positionTariffPill).observe(tariffSwitch);
+        tariffSwitch.querySelectorAll('.tariff-btn').forEach(btn => {
+            new ResizeObserver(positionTariffPill).observe(btn);
+        });
+    }
+
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(positionTariffPill);
+    }
+
+    syncTariffButtons();
+
+    requestAnimationFrame(() => {
+        positionTariffPill();
+        if (tariffSwitch) tariffSwitch.classList.add('tariff-switch--ready');
+    });
+
     renderChart().catch(error => {
         // console.error('Error al inicializar el gráfico:', error);
     });
+})();
 </script>
