@@ -1,0 +1,7 @@
+name: Precio de la Electricidad ➡️ Gráfico (test)
+size: xl
+pt: 1
+boxes:
+- hanchor: Gráfico
+  md: |
+    {{< precio-electricidad-grafico-test >}}

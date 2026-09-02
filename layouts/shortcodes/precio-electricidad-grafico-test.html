@@ -1,0 +1,1137 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<style>
+    #precio-electricidad-test {
+        .chart-container {
+            width: 100%;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .chart-container {
+                width: 95%;
+            }
+        }
+
+        #legend-container-test ul {
+            display: flex;
+            flex-direction: column !important;
+            align-items: flex-start;
+            gap: 12px;
+            margin: 24px auto !important;
+            padding: 0;
+        }
+
+        #legend-container-test li {
+            margin: 0 !important;
+            padding: 8px 0;
+            transition: transform 0.2s ease;
+        }
+
+        #legend-container-test li:hover {
+            transform: translateX(3px);
+        }
+
+        #legend-container-test li:before {
+            content: none;
+        }
+
+        .controls {
+            text-align: center;
+            margin: 24px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            max-width: 85%;
+        }
+
+        .nav-btn {
+            background-color: #ff9d00;
+            color: #ffffff;
+            border: none;
+            border-radius: 999px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 2px 8px rgba(255, 157, 0, 0.35);
+        }
+
+        .nav-btn:hover {
+            background-color: #e08a00;
+            transform: translateY(-1px);
+        }
+
+        .nav-btn:active {
+            transform: translateY(0);
+        }
+
+        .nav-btn:disabled {
+            background-color: #ccc;
+            box-shadow: none;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .tariff-picker {
+            margin: 0 auto 4px;
+            text-align: center;
+        }
+
+        .tariff-switch {
+            position: relative;
+            display: inline-flex;
+            align-items: stretch;
+            gap: 2px;
+            padding: 5px;
+            border-radius: 999px;
+            background: #f1f3f5;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, .09);
+        }
+
+        .tariff-pill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #ffb524, #ff9d00);
+            box-shadow: 0 4px 12px rgba(255, 157, 0, .38);
+            transform: translateX(0);
+            pointer-events: none;
+        }
+
+        /* La transición se activa tras medir con la tipografía ya cargada,
+           para que la posición inicial no se anime desde una medida falsa. */
+        .tariff-switch--ready .tariff-pill {
+            transition: transform .34s cubic-bezier(.34, 1.32, .64, 1),
+                        width .34s cubic-bezier(.34, 1.32, .64, 1);
+        }
+
+        .tariff-btn {
+            position: relative;
+            z-index: 1;
+            background: transparent;
+            border: none;
+            border-radius: 999px;
+            padding: 9px 22px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #58626d;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: color .22s ease;
+        }
+
+        .tariff-btn:hover {
+            color: #2a363b;
+        }
+
+        .tariff-btn[aria-pressed="true"] {
+            color: #ffffff;
+        }
+
+        .tariff-btn:focus-visible {
+            outline: 2px solid #ff9d00;
+            outline-offset: 3px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .tariff-btn {
+                padding: 9px 14px;
+                font-size: 13px;
+            }
+        }
+
+        .loading-indicator {
+            display: none;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        .loading-indicator.show {
+            display: block;
+        }
+
+        @media screen and (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            #currentDateTest {
+                order: -1;
+                margin-bottom: 16px;
+            }
+        }
+
+        /* Estilos específicos para tooltip en móviles */
+        @media screen and (max-width: 768px) {
+            .chart-container {
+                position: relative;
+                padding-bottom: 60px;
+            }
+
+            .chart-container canvas {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Tooltip externo para móviles */
+        #external-tooltip-test {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+            color: #666;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 1000;
+            /* word-wrap: break-word; */
+        }
+
+        /* Ancho específico para móviles */
+        @media screen and (max-width: 768px) {
+            #external-tooltip-test {
+                width: 96% !important;
+                left: 2% !important;
+                right: 2% !important;
+                transform: none !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                padding: 5px !important;
+                box-sizing: border-box !important;
+                max-width: none !important;
+            }
+
+            .chart-container {
+                overflow-x: hidden !important;
+            }
+        }
+
+        #external-tooltip-test.show {
+            opacity: 1;
+        }
+
+        #external-tooltip-test .tooltip-title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        #external-tooltip-test .tooltip-item {
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+        }
+
+        #external-tooltip-test .tooltip-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            margin-right: 8px;
+            display: inline-block;
+        }
+    }
+
+    .flatpickr-day.disabled {
+        color: rgba(57, 57, 57, 0.3);
+    }
+
+    .flatpickr-day.has-data {
+        background-color: #e6f7ff;
+        border-color: #1976d2;
+    }
+
+    .flatpickr-day.has-data:hover {
+        background-color: #bae7ff;
+    }
+</style>
+
+<div id="precio-electricidad-test">
+    <div class="tariff-picker">
+        <div class="tariff-switch" id="tariffSwitchTest" role="group" aria-label="Selector de tarifa de acceso">
+            <span class="tariff-pill" id="tariffPillTest"></span>
+            <button type="button" class="tariff-btn" data-tariff="20TD" aria-pressed="false">2.0 TD</button>
+            <button type="button" class="tariff-btn" data-tariff="30TD" aria-pressed="false">3.0 TD</button>
+            <button type="button" class="tariff-btn" data-tariff="61TD" aria-pressed="true">6.1 TD</button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="prevDayTest" class="nav-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+            Día anterior
+        </button>
+        <span id="currentDateTest"><i></i></span>
+        <button id="nextDayTest" class="nav-btn">
+            Día siguiente
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="barChartTest"></canvas>
+        <div id="legend-container-test"></div>
+        <div class="loading-indicator" id="loadingIndicatorTest">Cargando datos históricos...</div>
+        <div id="external-tooltip-test"></div>
+    </div>
+</div>
+
+<script>
+(function () {
+    const TARIFFS = {
+        '20TD': { name: '2.0 TD', priceField: 'pr_period_cents_20TD', periodField: 'period_20TD' },
+        '30TD': { name: '3.0 TD', priceField: 'pr_period_cents_30TD', periodField: 'period_30TD_61TD' },
+        '61TD': { name: '6.1 TD', priceField: 'pr_period_cents_61TD', periodField: 'period_30TD_61TD' }
+    };
+    const TARIFF_STORAGE_KEY = 'solventie.precioElectricidad.tarifa';
+
+    let currentTariff = '61TD';
+    try {
+        const stored = window.localStorage.getItem(TARIFF_STORAGE_KEY);
+        if (stored && TARIFFS[stored]) currentTariff = stored;
+    } catch (error) { /* almacenamiento no disponible */ }
+
+    let currentTooltipLabels = [];
+
+    let currentDate = new Date();
+    let allData = [];
+    let datepicker;
+    let availableDates = [];
+    let currentPage = 1;
+    let totalPages = 1;
+    let minAvailableDate = new Date('2025-02-25');
+
+    function formatDate(date) {
+        return date.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    async function fetchData(page = 1) {
+        try {
+            const response = await fetch(`https://n8n.dobbox.com/webhook/3c01ca15-36a2-4b23-acb2-f1b050e1f241?page=${page}`);
+            const fetchResponse = await response.json();
+
+            currentPage = fetchResponse.page;
+            totalPages = Math.ceil(fetchResponse.totalItems / fetchResponse.perPage);
+
+            return fetchResponse.data.map(item => {
+                const dateUtc = new Date(item.datetime_utc);
+                const dateMadrid = new Date(dateUtc);
+                return {
+                    ...item,
+                    datetime: dateMadrid,
+                    hour: dateMadrid.getHours()
+                };
+            });
+        } catch (error) {
+            // console.error('Error en fetchData:', error);
+            return [];
+        }
+    }
+
+    async function loadAllAvailableData() {
+        allData = [];
+        const firstPageData = await fetchData(1);
+
+        if (firstPageData.length > 0) {
+            allData = firstPageData;
+            allData.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+            initDatepicker();
+            loadRemainingPagesInBackground();
+        }
+    }
+
+    async function loadRemainingPagesInBackground() {
+        const loadingIndicatorTest = document.getElementById('loadingIndicatorTest');
+        if (loadingIndicatorTest) {
+            loadingIndicatorTest.classList.add('show');
+        }
+
+        let page = 2;
+        let hasMoreData = true;
+
+        while (hasMoreData) {
+            try {
+                const pageData = await fetchData(page);
+                if (pageData.length === 0) {
+                    hasMoreData = false;
+                } else {
+                    const existingDatetimes = new Set(allData.map(item => item.datetime.getTime()));
+                    const newData = pageData.filter(item => !existingDatetimes.has(item.datetime.getTime()));
+
+                    if (newData.length > 0) {
+                        allData = allData.concat(newData);
+                        allData.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+
+                        updateDatepickerWithNewDates();
+                    }
+
+                    page++;
+                    if (page > 100) break;
+
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                }
+            } catch (error) {
+                // console.error(`Error cargando página ${page}:`, error);
+                hasMoreData = false;
+            }
+        }
+
+        if (loadingIndicatorTest) {
+            loadingIndicatorTest.classList.remove('show');
+        }
+
+        // console.log(`Carga completa: ${allData.length} registros de ${page - 1} páginas`);
+    }
+
+    function updateDatepickerWithNewDates() {
+        if (!datepicker) return;
+
+        const newAvailableDates = extractAvailableDates();
+        const enabledDates = newAvailableDates.map(date => date.toISOString().split('T')[0]);
+
+        datepicker.set('enable', enabledDates);
+    }
+
+    function calculatePageForDate(targetDate) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const targetDateCopy = new Date(targetDate);
+        targetDateCopy.setHours(0, 0, 0, 0);
+
+        if (targetDateCopy >= today) {
+            return 1;
+        }
+
+        if (targetDateCopy < minAvailableDate) {
+            return 1;
+        }
+
+        const diffTime = today.getTime() - targetDateCopy.getTime();
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+        const estimatedPage = Math.max(1, Math.ceil(diffDays / 30));
+
+        return estimatedPage;
+    }
+
+    async function ensureDataForDate(targetDate) {
+        const dateData = filterDataByDate(targetDate);
+
+        if (dateData.length >= 23) {
+            return true;
+        }
+
+        const requiredPage = calculatePageForDate(targetDate);
+
+        try {
+            const pageData = await fetchData(requiredPage);
+
+            if (pageData.length > 0) {
+                const existingDatetimes = new Set(allData.map(item => item.datetime.getTime()));
+                const newData = pageData.filter(item => !existingDatetimes.has(item.datetime.getTime()));
+
+                if (newData.length > 0) {
+                    allData = allData.concat(newData);
+                    allData.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+
+                    updateDatepickerWithNewDates();
+                }
+
+                return filterDataByDate(targetDate).length >= 23;
+            }
+        } catch (error) {
+            // console.error(`Error cargando datos para fecha ${targetDate}:`, error);
+        }
+
+        return false;
+    }
+
+    function filterDataByDate(date) {
+        const targetDate = new Date(date);
+        targetDate.setHours(0, 0, 0, 0);
+
+        return allData.filter(item => {
+            const itemDate = new Date(item.datetime);
+            itemDate.setHours(0, 0, 0, 0);
+            return itemDate.getTime() === targetDate.getTime();
+        });
+    }
+
+    async function updateButtonStates() {
+        let prevDate = new Date(currentDate);
+        prevDate.setDate(prevDate.getDate() - 1);
+        let nextDate = new Date(currentDate);
+        nextDate.setDate(nextDate.getDate() + 1);
+
+        let prevHasData = filterDataByDate(prevDate).length >= 23;
+        if (!prevHasData) {
+            prevHasData = await ensureDataForDate(prevDate);
+        }
+
+        let nextHasData = filterDataByDate(nextDate).length >= 23;
+        if (!nextHasData) {
+            nextHasData = await ensureDataForDate(nextDate);
+        }
+
+        document.getElementById('prevDayTest').disabled = !prevHasData;
+        document.getElementById('nextDayTest').disabled = !nextHasData;
+    }
+
+    function extractAvailableDates() {
+        const uniqueDates = new Map();
+
+        allData.forEach(item => {
+            const itemDate = new Date(item.datetime);
+            itemDate.setHours(0, 0, 0, 0);
+            const dateString = itemDate.toISOString().split('T')[0];
+
+            if (!uniqueDates.has(dateString)) {
+                uniqueDates.set(dateString, {
+                    date: new Date(itemDate),
+                    count: 1
+                });
+            } else {
+                const current = uniqueDates.get(dateString);
+                uniqueDates.set(dateString, {
+                    ...current,
+                    count: current.count + 1
+                });
+            }
+        });
+
+        const validDates = Array.from(uniqueDates.values())
+            .filter(item => {
+                return item.count >= 23;
+            })
+            .map(item => item.date);
+
+        return validDates;
+    }
+
+    function initDatepicker() {
+        availableDates = extractAvailableDates();
+
+        const enabledDates = availableDates.map(date => date.toISOString().split('T')[0]);
+
+        let defaultDate = new Date();
+        if (defaultDate < minAvailableDate) {
+            defaultDate = new Date(minAvailableDate);
+        }
+
+        const defaultDateString = defaultDate.toISOString().split('T')[0];
+        const defaultDateData = filterDataByDate(defaultDate);
+
+        if (!enabledDates.includes(defaultDateString) && defaultDateData.length >= 23) {
+            enabledDates.push(defaultDateString);
+        }
+
+        datepicker = flatpickr("#currentDateTest", {
+            inline: false,
+            enable: enabledDates,
+            minDate: minAvailableDate,
+            locale: {
+                firstDayOfWeek: 1,
+                weekdays: {
+                    shorthand: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+                    longhand: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
+                },
+                months: {
+                    shorthand: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+                    longhand: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+                }
+            },
+            onChange: function (selectedDates) {
+                if (selectedDates && selectedDates.length > 0) {
+                    setCurrentDateAndUpdate(selectedDates[0]);
+                }
+            }
+        });
+    }
+
+    // Función para tooltip externo en móviles
+    const getOrCreateTooltip = (chart) => {
+        let tooltipEl = document.getElementById('external-tooltip-test');
+        if (!tooltipEl) {
+            tooltipEl = document.createElement('div');
+            tooltipEl.id = 'external-tooltip-test';
+            document.body.appendChild(tooltipEl);
+        }
+        return tooltipEl;
+    };
+
+    const externalTooltipHandler = (context) => {
+        const { chart, tooltip } = context;
+        const tooltipEl = getOrCreateTooltip(chart);
+
+        if (tooltip.opacity === 0) {
+            tooltipEl.classList.remove('show');
+            return;
+        }
+
+        if (tooltip.body) {
+            const titleLines = tooltip.title || [];
+            const bodyLines = tooltip.body.map(b => b.lines);
+
+            const tableHead = document.createElement('div');
+            tableHead.className = 'tooltip-title';
+            titleLines.forEach(title => {
+                const span = document.createElement('span');
+                span.innerText = title;
+                tableHead.appendChild(span);
+            });
+
+            const tableBody = document.createElement('div');
+            bodyLines.forEach((body, i) => {
+                const colors = tooltip.labelColors[i];
+                const item = document.createElement('div');
+                item.className = 'tooltip-item';
+
+                const colorBox = document.createElement('span');
+                colorBox.className = 'tooltip-color';
+                colorBox.style.backgroundColor = colors.backgroundColor;
+                colorBox.style.borderColor = colors.borderColor;
+
+                const text = document.createElement('span');
+                text.innerText = body;
+
+                item.appendChild(colorBox);
+                item.appendChild(text);
+                tableBody.appendChild(item);
+            });
+
+            tooltipEl.innerHTML = '';
+            tooltipEl.appendChild(tableHead);
+            tooltipEl.appendChild(tableBody);
+        }
+
+        // Posicionar el tooltip debajo del gráfico
+        tooltipEl.style.position = 'absolute';
+        tooltipEl.style.top = (chart.canvas.offsetHeight + 30) + 'px';
+        // No sobreescribir left, width, transform para que el CSS funcione
+        tooltipEl.classList.add('show');
+    };
+
+
+    const getOrCreateLegendList = (chart, id) => {
+        const legendContainer = document.getElementById(id);
+        let listContainer = legendContainer.querySelector('ul');
+
+        if (!listContainer) {
+            listContainer = document.createElement('ul');
+            listContainer.style.display = 'flex';
+            listContainer.style.flexDirection = 'column';
+            listContainer.style.margin = '20px auto';
+            listContainer.style.padding = 0;
+
+            legendContainer.appendChild(listContainer);
+        }
+
+        return listContainer;
+    };
+
+    const htmlLegendPlugin = {
+        id: 'htmlLegend',
+        afterUpdate(chart, args, options) {
+            const ul = getOrCreateLegendList(chart, options.containerID);
+
+            while (ul.firstChild) {
+                ul.firstChild.remove();
+            }
+
+            const items = chart.options.plugins.legend.labels.generateLabels(chart);
+
+            items.forEach(item => {
+                const li = document.createElement('li');
+                li.style.alignItems = 'center';
+                li.style.cursor = 'pointer';
+                li.style.display = 'flex';
+                li.style.flexDirection = 'row';
+                li.style.marginLeft = '10px';
+                li.style.transition = 'all 0.2s ease';
+                li.style.padding = '8px 12px';
+                li.style.borderRadius = '8px';
+
+                li.onmouseover = () => {
+                    li.style.backgroundColor = 'rgba(0, 0, 0, 0.05)';
+                };
+
+                li.onmouseout = () => {
+                    li.style.backgroundColor = 'transparent';
+                };
+
+                li.onclick = () => {
+                    const { type } = chart.config;
+                    chart.setDatasetVisibility(item.datasetIndex, !chart.isDatasetVisible(item.datasetIndex));
+                    chart.update();
+                };
+
+                const boxSpan = document.createElement('span');
+                if (item.datasetIndex === chart.data.datasets.length - 1) {
+                    boxSpan.style.background = chart.data.datasets[item.datasetIndex].borderColor;
+                } else {
+                    boxSpan.style.background = item.fillStyle;
+                }
+                boxSpan.style.borderColor = item.strokeStyle;
+                boxSpan.style.borderWidth = item.lineWidth + 'px';
+                boxSpan.style.display = 'inline-block';
+                boxSpan.style.flexShrink = 0;
+                boxSpan.style.height = '20px';
+                boxSpan.style.marginRight = '12px';
+                boxSpan.style.width = '20px';
+                boxSpan.style.borderRadius = '4px';
+                boxSpan.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+
+                const textContainer = document.createElement('p');
+                textContainer.style.color = item.fontColor;
+                textContainer.style.margin = 0;
+                textContainer.style.padding = 0;
+                textContainer.style.textDecoration = item.hidden ? 'line-through' : '';
+                textContainer.style.fontWeight = '500';
+
+                const text = document.createTextNode(item.text);
+                textContainer.appendChild(text);
+
+                li.appendChild(boxSpan);
+                li.appendChild(textContainer);
+                ul.appendChild(li);
+            });
+        }
+    };
+
+    async function renderChart() {
+        if (allData.length === 0) {
+            await loadAllAvailableData();
+        }
+
+        let data = filterDataByDate(currentDate);
+        if (data.length < 23) {
+            const availableDates = extractAvailableDates();
+            if (availableDates.length > 0) {
+                currentDate = new Date(availableDates[availableDates.length - 1]);
+                data = filterDataByDate(currentDate);
+            }
+        }
+
+        if (data.length < 23) {
+            const hasData = await ensureDataForDate(currentDate);
+            if (hasData) {
+                data = filterDataByDate(currentDate);
+            } else {
+                // console.warn('No se pudieron cargar datos para mostrar el gráfico');
+                return;
+            }
+        }
+
+        data.sort((a, b) => a.hour - b.hour);
+
+        const isMobile = isMobileDevice();
+
+        document.getElementById('currentDateTest').innerText = formatDate(currentDate);
+        await updateButtonStates();
+
+        const labels = data.map(item => item.hour + 'h');
+
+        const tariff = TARIFFS[currentTariff];
+
+        const tooltipLabels = data.map(item =>
+            '(' + item[tariff.periodField] + ') de ' + item.hour + ':00 a ' + item.hour + ':59'
+        );
+        currentTooltipLabels = tooltipLabels;
+
+        const priceMarket = data.map(item => item.pr_market_cents / 100);
+        const priceComponents = data.map(item => (item.pr_components_cents - item.pr_market_cents) / 100);
+        // const periods = data.map(item => item.period_30TD_61TD);
+        const pricePeriods = data.map(item => (item[tariff.priceField] || 0) / 100);
+
+        const totalValues = data.map((_, i) => priceMarket[i] + priceComponents[i] + pricePeriods[i]);
+
+        const maxTotal = Math.max(...totalValues);
+        const minTotal = Math.min(...totalValues);
+
+        const colors = {
+            market: {
+                bg: 'rgba(0, 128, 128, 0.7)',
+                border: 'rgba(0, 105, 105, 1)'
+            },
+            periods: {
+                bg: 'rgba(214, 40, 40, 0.7)',
+                border: 'rgba(178, 34, 34, 1)'
+            },
+            components: {
+                bg: 'rgba(255, 191, 0, 0.7)',
+                border: 'rgba(230, 172, 0, 1)'
+            },
+            total: {
+                bg: 'rgba(42, 54, 59, 0.7)',
+                border: 'rgba(120, 144, 156, 0.9)'
+            }
+        };
+
+        const datasets = [
+            {
+                shortLabel: 'Precio mercado (€/MWh)',
+                label: 'Precio mercado (€/MWh): Costes de la energía eléctrica en el mercado mayorista, que se establece diariamente',
+                data: priceMarket,
+                backgroundColor: colors.market.bg,
+                borderColor: colors.market.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Precio peajes ' + tariff.name + ' (€/MWh)',
+                label: 'Precio peajes ' + tariff.name + ' (€/MWh): Costes de acceso a la red en función de los periodos horarios y fijados por Real Decreto. (Se establecen 1 vez al año)',
+                data: pricePeriods,
+                backgroundColor: colors.periods.bg,
+                borderColor: colors.periods.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Precio componentes (€/MWh)',
+                label: 'Precio componentes (€/MWh): Costes regulados adicionales que el operador de la red establece diariamente en función de la oferta y la demanda',
+                data: priceComponents,
+                backgroundColor: colors.components.bg,
+                borderColor: colors.components.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                stack: 'combined',
+                fill: true,
+                stepped: true,
+                shadowOffsetX: 6,
+                shadowOffsetY: 6,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.4)',
+            },
+            {
+                shortLabel: 'Total (€/MWh)',
+                label: 'Total (€/MWh): Suma total del precio de mercado, peajes ' + tariff.name + ' y componentes.',
+                data: totalValues,
+                borderColor: colors.total.border,
+                borderWidth: 2,
+                type: 'line',
+                fill: false,
+                tension: 0.2,
+                pointBackgroundColor: colors.total.border,
+                pointBorderColor: '#fff',
+                pointBorderWidth: isMobile ? 0 : 1,
+                pointRadius: isMobile ? 0 : 3,
+                pointHoverRadius: isMobile ? 3 : 5,
+                pointStyle: 'circle',
+                pointShadowBlur: 1,
+                pointShadowColor: 'rgba(0, 0, 0, 0.4)',
+                order: -1,
+                borderShadowColor: 'rgba(0, 0, 0, 0.7)',
+                borderShadowBlur: 15,
+                borderShadowOffsetX: 5,
+                borderShadowOffsetY: 5,
+                shadowOffsetX: 5,
+                shadowOffsetY: 5,
+                shadowBlur: 15,
+                shadowColor: 'rgba(0, 0, 0, 0.6)',
+            }
+        ];
+
+        const suggestedMin = minTotal < 0 ? minTotal * 1.1 : 0;
+        const suggestedMax = maxTotal * 1.05;
+
+        // Cambio de tarifa o de día sin recrear el gráfico: transición animada.
+        if (window.barChartTestInstance) {
+            const chart = window.barChartTestInstance;
+            chart.data.labels = labels;
+            datasets.forEach((dataset, index) => Object.assign(chart.data.datasets[index], dataset));
+            chart.options.scales.y.suggestedMin = suggestedMin;
+            chart.options.scales.y.suggestedMax = suggestedMax;
+            chart.update();
+            return;
+        }
+
+        const ctx = document.getElementById('barChartTest').getContext('2d');
+        window.barChartTestInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                },
+                animations: {
+                    tension: {
+                        duration: 1000,
+                        easing: 'easeOutQuad'
+                    },
+                    radius: {
+                        duration: 400
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        enabled: !isMobile,
+                        external: isMobile ? externalTooltipHandler : undefined,
+                        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                        titleColor: '#333',
+                        bodyColor: '#666',
+                        titleFont: {
+                            weight: 'bold',
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        padding: 12,
+                        cornerRadius: 8,
+                        boxPadding: 6,
+                        borderColor: 'rgba(0, 0, 0, 0.1)',
+                        borderWidth: 1,
+                        shadowColor: 'rgba(0, 0, 0, 0.3)',
+                        shadowBlur: 15,
+                        shadowOffsetX: 6,
+                        shadowOffsetY: 6,
+                        displayColors: true,
+                        callbacks: {
+                            title: function (tooltipItems) {
+                                return currentTooltipLabels[tooltipItems[0].dataIndex];
+                            },
+                            label: function (context) {
+                                return context.dataset.shortLabel + ': ' + context.parsed.y.toFixed(2) + ' €/MWh';
+                            },
+                        },
+                    },
+                    htmlLegend: {
+                        containerID: 'legend-container-test',
+                    },
+                    legend: {
+                        display: false,
+                    },
+                },
+                scales: {
+                    y: {
+                        stacked: true,
+                        suggestedMin: suggestedMin,
+                        suggestedMax: suggestedMax,
+                        ticks: {
+                            stepSize: 10,
+                            font: {
+                                size: 12
+                            },
+                            color: '#666'
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)',
+                            borderDash: [4, 4]
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 12,
+                                weight: 'bold'
+                            },
+                            color: '#333'
+                        },
+                        grid: {
+                            display: false
+                        }
+                    }
+                },
+                hover: {
+                    mode: 'index',
+                    axis: 'x',
+                    animationDuration: 0
+                },
+                layout: {
+                    padding: {
+                        left: 5,
+                        right: 5,
+                        top: 20,
+                        bottom: 5
+                    }
+                },
+                elements: {
+                    bar: {
+                        borderWidth: 2,
+                        borderRadius: 8,
+                        backgroundColor: function (context) {
+                            const index = context.dataIndex;
+                            const value = context.dataset.data[index];
+                            const alpha = 0.7;
+                            const bgColor = context.dataset.backgroundColor;
+
+                            const ctx = context.chart.ctx;
+                            const gradient = ctx.createLinearGradient(0, 0, 0, context.chart.height);
+                            gradient.addColorStop(0, bgColor.replace(alpha, alpha + 0.2));
+                            gradient.addColorStop(0.4, bgColor);
+                            gradient.addColorStop(1, bgColor.replace(alpha, alpha - 0.3));
+
+                            return gradient;
+                        }
+                    },
+                    line: {
+                        borderWidth: 2,
+                        borderColor: function (context) {
+                            const ctx = context.chart.ctx;
+                            const gradient = ctx.createLinearGradient(0, 0, 0, context.chart.height);
+                            const color = context.dataset.borderColor;
+
+                            gradient.addColorStop(0, color);
+                            gradient.addColorStop(1, color);
+
+                            return gradient;
+                        }
+                    }
+                },
+            },
+            plugins: [htmlLegendPlugin],
+        });
+    }
+
+    function isMobileDevice() {
+        return window.innerWidth < 768;
+    }
+
+    async function setCurrentDateAndUpdate(date) {
+        date.setHours(0, 0, 0, 0);
+
+        const hasData = await ensureDataForDate(date);
+
+        if (hasData) {
+            currentDate = new Date(date);
+            if (datepicker) {
+                datepicker.setDate(currentDate, false);
+            }
+            renderChart();
+        } else {
+            // console.warn('No se pudieron cargar datos para la fecha:', date);
+        }
+    }
+
+    document.getElementById('prevDayTest').addEventListener('click', async () => {
+        let newDate = new Date(currentDate);
+        newDate.setDate(newDate.getDate() - 1);
+        await setCurrentDateAndUpdate(newDate);
+    });
+
+    document.getElementById('nextDayTest').addEventListener('click', async () => {
+        let newDate = new Date(currentDate);
+        newDate.setDate(newDate.getDate() + 1);
+        await setCurrentDateAndUpdate(newDate);
+    });
+
+    function positionTariffPill() {
+        const swtch = document.getElementById('tariffSwitchTest');
+        const active = swtch && swtch.querySelector('.tariff-btn[aria-pressed="true"]');
+        const pill = document.getElementById('tariffPillTest');
+        if (!swtch || !active || !pill) return;
+
+        // getBoundingClientRect en lugar de offsetLeft/offsetWidth: estos
+        // redondean a enteros y la píldora acababa sobresaliendo del carril.
+        const track = swtch.getBoundingClientRect();
+        const button = active.getBoundingClientRect();
+        if (!button.width) return;
+
+        pill.style.width = button.width + 'px';
+        pill.style.height = button.height + 'px';
+        pill.style.top = (button.top - track.top) + 'px';
+        pill.style.transform = 'translateX(' + (button.left - track.left) + 'px)';
+    }
+
+    function syncTariffButtons() {
+        document.querySelectorAll('#tariffSwitchTest .tariff-btn').forEach(btn => {
+            btn.setAttribute('aria-pressed', btn.dataset.tariff === currentTariff ? 'true' : 'false');
+        });
+        positionTariffPill();
+    }
+
+    function setTariff(tariff) {
+        if (!TARIFFS[tariff] || tariff === currentTariff) return;
+
+        currentTariff = tariff;
+        try {
+            window.localStorage.setItem(TARIFF_STORAGE_KEY, tariff);
+        } catch (error) { /* almacenamiento no disponible */ }
+
+        syncTariffButtons();
+        renderChart();
+    }
+
+    document.querySelectorAll('#tariffSwitchTest .tariff-btn').forEach(btn => {
+        btn.addEventListener('click', () => setTariff(btn.dataset.tariff));
+    });
+
+    window.addEventListener('resize', positionTariffPill);
+
+    // El primer cálculo cae antes de que la tipografía web esté aplicada, así
+    // que se repite en cuanto el ancho de los botones deja de cambiar.
+    const tariffSwitch = document.getElementById('tariffSwitchTest');
+
+    if (window.ResizeObserver && tariffSwitch) {
+        new ResizeObserver(positionTariffPill).observe(tariffSwitch);
+        tariffSwitch.querySelectorAll('.tariff-btn').forEach(btn => {
+            new ResizeObserver(positionTariffPill).observe(btn);
+        });
+    }
+
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(positionTariffPill);
+    }
+
+    syncTariffButtons();
+
+    requestAnimationFrame(() => {
+        positionTariffPill();
+        if (tariffSwitch) tariffSwitch.classList.add('tariff-switch--ready');
+    });
+
+    renderChart().catch(error => {
+        // console.error('Error al inicializar el gráfico:', error);
+    });
+})();
+</script>
