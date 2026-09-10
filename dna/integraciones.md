@@ -25,18 +25,25 @@ contenido y configuración correspondientes.
 ## Precio horario de la electricidad
 
 La página de precio de la electricidad es una herramienta de apoyo a la
-decisión para empresas e industrias con tarifa indexada 6.1TD. No representa
-un precio universal de la electricidad ni debe orientarse a consumidores
-residenciales.
+decisión para quien tiene una factura indexada, con el foco comercial puesto
+en empresas e industrias. Cubre las tres tarifas de acceso —2.0TD, 3.0TD y
+6.1TD—, así que su alcance ya no es solo industrial, pero no representa un
+precio universal de la electricidad ni sustituye a un estudio de contrato.
 
 El gráfico:
 
 - consulta en el navegador un histórico horario servido por una automatización
   externa;
-- desglosa mercado, peajes 6.1TD y otros componentes, y muestra su total en
-  €/MWh;
+- desglosa mercado, peajes de la tarifa elegida y otros componentes, y muestra
+  su total en €/MWh;
+- permite elegir la tarifa de acceso —2.0TD, 3.0TD o 6.1TD— y repinta el mismo
+  histórico sin volver a consultarlo, recordando la elección en el navegador;
 - permite avanzar, retroceder o seleccionar únicamente días con datos
   completos;
+- explica bajo la gráfica a qué suministro corresponde cada tarifa, resaltando
+  la seleccionada, y dónde localizarla en la factura; esas tarjetas son
+  también un control: al pulsarlas cambian la tarifa y acercan la gráfica si
+  ha quedado fuera de vista;
 - usa Chart.js para la visualización y Flatpickr para el calendario, cargados
   desde un CDN.
 
@@ -54,18 +61,25 @@ comprobar, como mínimo:
 - frescura, zona horaria peninsular y fecha de la última actualización;
 - días de cambio horario con 23 o 25 registros;
 - unidades y cálculo de mercado, peajes, componentes y total;
+- coherencia, al cambiar de tarifa, entre la serie de peajes, los periodos
+  horarios del tooltip, las etiquetas de la leyenda y la tarjeta resaltada;
 - respuesta visible y comprensible cuando falten datos o falle la red;
 - navegación por fecha y lectura del gráfico en móvil y escritorio.
 
-La página debe explicar siempre que los valores corresponden a una factura
-indexada 6.1TD y tienen finalidad orientativa. No se presentarán como importe
+La página debe explicar siempre a qué tarifa de acceso corresponden los
+valores mostrados y que tienen finalidad orientativa. No se presentarán como importe
 final de factura ni como resultado aplicable a cualquier contrato. La fuente,
 el alcance y cualquier cambio regulatorio o metodológico deben poder
-verificarse antes de usar el gráfico como argumento comercial o editorial.
+verificarse antes de usar el gráfico como argumento comercial o editorial. Las
+descripciones de las tarifas se apoyan en la Circular 3/2020 de la CNMC, que
+la propia página enlaza; si cambian los límites de potencia o tensión, hay que
+revisarlas ahí.
 
 Además de las conversiones de contacto, interesa medir el uso de esta
-herramienta —cambio de fecha, consulta recurrente y paso posterior a un
-servicio o contacto— sin convertir una interacción exploratoria en un lead.
+herramienta —cambio de tarifa, cambio de fecha, consulta recurrente y paso
+posterior a un servicio o contacto— sin convertir una interacción exploratoria
+en un lead. La tarifa elegida indica el tipo de suministro de quien consulta y
+es el dato más útil para segmentar.
 
 ## Medición
 
