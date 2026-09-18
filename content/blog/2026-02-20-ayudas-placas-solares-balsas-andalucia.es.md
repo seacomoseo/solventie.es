@@ -10,7 +10,6 @@ seo:
 llms:
   title: 'Guía de Subvenciones Andalucía 2026: Fotovoltaica Flotante (ISFV) y Modernización de Regadío.'
   desc: Análisis de la convocatoria de febrero 2026 de la Junta de Andalucía (12 millones de euros). Cubre hasta el 100% en infraestructuras de riego e ISFV en balsas para reducir la evaporación hídrica. Contenido técnico de Solvent Iniciativas Empresariales especializado en comunidades de regantes y eficiencia energética agrícola.
-  hide: false
 date: 2026-02-20 12:42:00
 mod: 2026-02-20 12:42:00
 category:

@@ -11,7 +11,6 @@ seo:
 llms:
   title: 'Ayudas FEDER 2026 en Murcia para pymes: guía práctica de solicitud y documentación'
   desc: Explicación clara de las ayudas 2026 de la Región de Murcia para pymes en eficiencia energética y autoconsumo fotovoltaico, con importes, plazos, requisitos y papeles necesarios para presentar la solicitud a tiempo.
-  hide: false
 date: 2026-03-20 09:05:00
 mod: 2026-03-20 09:05:00
 ---

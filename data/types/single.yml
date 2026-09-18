@@ -1,11 +1,11 @@
 title: Páginas Únicas
-weight: 0
 base: single
+weight: 0
 tpl:
   section:
-  - size: lg
-    scroll: fix
+  - scroll: fix
     alpha: 0.6
+    size: lg
   list:
     cols: 3
     fade: light

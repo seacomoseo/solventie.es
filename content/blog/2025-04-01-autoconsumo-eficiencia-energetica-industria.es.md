@@ -1,11 +1,11 @@
 ---
+slug: autoconsumo-eficiencia-energetica-industria
 title: 'Autoconsumo y eficiencia energética en la industria: ¿sinónimos o conceptos complementarios?'
 seo:
   title: Cómo se complementan el autoconsumo y la eficiencia energética en la industria
   desc: |-
     ¿Son lo mismo el autoconsumo y la eficiencia energética?
     Descubre cómo se complementan en la industria para optimizar el consumo y el rendimiento.
-slug: autoconsumo-eficiencia-energetica-industria
 img: /u/blog/autoconsumo-eficiencia-energetica-industria.webp
 category:
 - eficiencia-energetica

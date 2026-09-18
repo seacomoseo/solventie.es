@@ -1,7 +1,6 @@
 title: Servicios
 base: service
 weight: 1
-name: service
 tpl:
   section:
   - size: lg

@@ -1,9 +1,9 @@
 ---
+slug: subida-precio-luz
 title: ¿Por qué sube el precio de la luz?
 seo:
   title: ¿Por qué sube el precio de la luz? - Ingeniería Solvent
   desc: Cada vez que sube el precio de la luz, es un tema muy hablado en todos los medios. Comentan y discuten las razones de esa subida en la factura
-slug: subida-precio-luz
 img: /u/blog/subida-precio-luz.jpg
 category:
 - electricidad

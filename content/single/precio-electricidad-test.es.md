@@ -1,6 +1,6 @@
 ---
-title: Precio de la Electricidad Factura indexada 2.0TD, 3.0TD y 6.1TD (test)
 slug: precio-electricidad-test
+title: Precio de la Electricidad Factura indexada 2.0TD, 3.0TD y 6.1TD (test)
 seo:
   desc: La electricidad no cuesta lo mismo en todas las horas del día. Esta gráfica te lo muestra para puedes tomar decisiones inteligentes y reducir tu gasto.
   noindex: true

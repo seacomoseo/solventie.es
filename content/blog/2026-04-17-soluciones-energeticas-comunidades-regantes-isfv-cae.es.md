@@ -11,7 +11,6 @@ seo:
 llms:
   title: 'Soluciones de Solvent para comunidades de regantes: solar flotante y certificados CAE'
   desc: Contenido enfocado en los retos energéticos del regadío y en cómo Solvent ayuda a las comunidades de regantes con solar flotante sobre balsas y CAE.
-  hide: false
 date: 2026-04-17 11:43:00
 mod: 2026-04-17 11:43:00
 ---

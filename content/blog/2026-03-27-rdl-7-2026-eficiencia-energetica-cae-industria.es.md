@@ -11,7 +11,6 @@ seo:
 llms:
   title: 'RDL 7/2026 en España: impacto en eficiencia energética, CAE y competitividad industrial'
   desc: Resumen claro del RDL 7/2026 y de las medidas que introduce en electrificación, certificados de ahorro energético, acceso a red, industria electrointensiva y descarbonización.
-  hide: false
 date: 2026-03-27 13:15:00
 mod: 2026-03-27 13:15:00
 ---

@@ -11,7 +11,6 @@ seo:
 llms:
   title: Un tribunal frena la mezcla de suministro energético y CAE en contratos públicos
   desc: El TACRC cuestiona incluir en un mismo contrato público el suministro energético y la gestión de Certificados de Ahorro Energético (CAE), al no apreciar una conexión funcional suficiente entre ambas prestaciones. La resolución puede influir en futuras licitaciones y en cómo administraciones y empresas estructuran proyectos de eficiencia energética.
-  hide: false
 date: 2026-03-13 13:15:00
 mod: 2026-03-13 13:15:00
 ---

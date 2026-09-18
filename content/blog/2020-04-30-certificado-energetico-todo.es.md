@@ -1,9 +1,9 @@
 ---
+slug: certificado-energetico-todo
 title: 'Certificado energético: lo que deberías saber'
 seo:
   title: 'Certificado energético: lo que deberías saber'
   desc: El certificado energético es un documento oficial que incluye información sobre las características de un inmueble
-slug: certificado-energetico-todo
 img: /u/blog/certificado-energetico-todo.webp
 category:
 - eficiencia-energetica

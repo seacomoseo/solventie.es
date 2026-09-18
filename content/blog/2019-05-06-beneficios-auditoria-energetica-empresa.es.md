@@ -1,9 +1,9 @@
 ---
+slug: beneficios-auditoria-energetica-empresa
 title: Los beneficios de la auditoría energética en tu empresa
 seo:
   title: Los beneficios de la auditoría energética en tu empresa - Ingeniería Solvent
   desc: La eficiencia energética está a la orden del día y se trata de una tarea pendiente en casi todos los sectores. La auditoría energética es una herramienta
-slug: beneficios-auditoria-energetica-empresa
 img: /u/blog/beneficios-auditoria-energetica-empresa.jpg
 category:
 - eficiencia-energetica

@@ -11,7 +11,6 @@ seo:
 llms:
   title: Murcia aprueba 19,1 millones para eficiencia energética en edificios terciarios y empresas industriales
   desc: El Consejo de Gobierno de la Región de Murcia ha autorizado 19.074.736 euros para impulsar actuaciones de eficiencia energética en edificios del sector terciario y en pymes y grandes empresas industriales. Los fondos proceden del Fondo Nacional de Eficiencia Energética, se enmarcan en la distribución territorial acordada en la Conferencia Sectorial de Energía y serán gestionados por el IDAE. Las actuaciones deberán ejecutarse antes del 31 de diciembre de 2030.
-  hide: false
 date: 2026-04-10 11:33:00
 mod: 2026-04-10 11:33:00
 ---

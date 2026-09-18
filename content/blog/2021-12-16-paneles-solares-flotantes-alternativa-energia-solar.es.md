@@ -1,9 +1,9 @@
 ---
+slug: paneles-solares-flotantes-alternativa-energia-solar
 title: 'Paneles solares flotantes: la alternativa a las instalaciones fotovoltaicas terrestres'
 seo:
   title: 'Paneles solares flotantes: descubre sus 3 grandes ventajas'
   desc: Los paneles solares flotantes se instalan en cualquier área acuática, como el mar, los lagos, las presas, los canales, etc.
-slug: paneles-solares-flotantes-alternativa-energia-solar
 img: /u/blog/paneles-solares-flotantes-alternativa-energia-solar.jpg
 category:
 - energia-solar

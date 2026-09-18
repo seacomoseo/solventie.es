@@ -11,7 +11,6 @@ seo:
 llms:
   title: 'Actualización CAE marzo 2026: el sistema sigue creciendo'
   desc: Repasamos la última actualización del panel CAE del MITECO y las tendencias del mes, con un vistazo a Murcia.
-  hide: false
 date: 2026-03-06 11:41:00
 mod: 2026-03-06 11:41:00
 ---

@@ -1,6 +1,6 @@
 ---
-title: Solvent
 slug: admin
+title: Solvent
 seo:
   desc: Somos expertos en energías renovables y eficiencia energética. Optimizamos tu sistema solar para obtener el máximo rendimiento y mejoramos la infraestructura de tu empresa para reducir su consumo y aumentar su eficiencia.
   noindex: true

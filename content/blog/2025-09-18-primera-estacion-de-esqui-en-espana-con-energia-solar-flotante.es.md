@@ -4,7 +4,7 @@ title: Primera estación de esquí en España con energía solar flotante
 sum: La estación de esquí de Espot impulsa la primera planta fotovoltaica flotante en una estación de esquí en España. La instalación, ubicada en la balsa de Los Estanyets a 2.120 metros de altura, generará energía limpia para los remontes durante todo el año y reducirá la evaporación del agua, convirtiéndose en un referente de sostenibilidad en alta montaña.
 img: /u/blog/estacion-de-ski.jpg
 date: 2025-09-18 10:15:04
-toc: /u/n
+toc: true
 ---
 ## Espot apuesta por la sostenibilidad con la primera planta fotovoltaica flotante en una estación de esquí en España
 

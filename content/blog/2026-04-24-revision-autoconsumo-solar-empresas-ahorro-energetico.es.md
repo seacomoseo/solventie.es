@@ -11,9 +11,7 @@ seo:
 llms:
   title: Cómo revisar si una instalación de autoconsumo solar en empresas está funcionando correctamente
   desc: Artículo práctico sobre revisión de instalaciones fotovoltaicas de autoconsumo en empresas. Explica qué aspectos técnicos, administrativos y de monitorización conviene comprobar para saber si la instalación está produciendo y ahorrando según lo previsto.
-  hide: false
 date: 2026-04-24 11:26:00
-mod: 2026-04-24 11:26:00
 ---
 
 En los últimos años, muchas empresas han apostado por el **autoconsumo solar fotovoltaico** para reducir su consumo eléctrico de la red y mejorar su eficiencia energética.

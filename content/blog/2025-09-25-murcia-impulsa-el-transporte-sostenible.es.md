@@ -4,7 +4,7 @@ title: Murcia impulsa el transporte sostenible con 38,5 millones y los CAE como 
 sum: La VIII Jornada del Transporte en Murcia destacó la apuesta por la sostenibilidad con 38,5M€ de inversión. Los CAE se consolidan como herramienta clave, y en Solvent, como Sujeto Delegado, ayudamos a las empresas a rentabilizar sus proyectos.
 img: /u/blog/murcia-impulsa-el-transporte-sostenible.jpg
 date: 2025-09-25 15:11:39
-toc: /u/n
+toc: true
 ---
 ## **Solvent presente en la VIII Jornada Sectorial del Transporte de la Región de Murcia**
 

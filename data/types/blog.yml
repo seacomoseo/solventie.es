@@ -1,7 +1,6 @@
 title: Actualidad
-weight: 1
 base: article
-name: blog
+weight: 1
 rel: true
 tpl:
   list:

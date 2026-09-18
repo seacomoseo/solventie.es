@@ -1,7 +1,6 @@
 title: Categorías
 base: page
 weight: 2
-name: category
 tax_of:
 - name: blog
   multi: true

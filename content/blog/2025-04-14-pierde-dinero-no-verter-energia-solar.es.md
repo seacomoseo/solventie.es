@@ -1,9 +1,9 @@
 ---
+slug: pierde-dinero-no-verter-energia-solar
 title: ¿Vas a seguir regalando dinero esta Semana Santa? Descubre cuánto podrías ganar con solo instalar protecciones voltimétricas
 seo:
   title: Cuánto pierde tu empresa sin verter energía solar
   desc: ¿Tu empresa cierra en Semana Santa? ⚡ Estás perdiendo dinero por no verter a red. ✓ Descubre cómo ganar más con protecciones voltimétricas.
-slug: pierde-dinero-no-verter-energia-solar
 img: /u/blog/semana-santa.webp
 category:
 - eficiencia-energetica

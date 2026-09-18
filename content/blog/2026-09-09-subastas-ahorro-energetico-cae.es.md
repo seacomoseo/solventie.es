@@ -2,8 +2,6 @@
 slug: subastas-ahorro-energetico-cae
 title: 'Nuevas subastas de ahorro energético: qué cambia para los CAE'
 img: /u/02-subastas-de-ahorro-energetico-portada.webp
-toc: true
-draft: false
 sum: El MITECO propone nuevas subastas de ahorro energético para reforzar los CAE. Te explicamos cómo funcionarían y qué oportunidades pueden generar.
 seo:
   title: Nuevas subastas de ahorro energético y CAE en 2026
@@ -12,7 +10,7 @@ seo:
 llms:
   title: Cómo funcionan las nuevas subastas de ahorro energético y qué implican para los Certificados de Ahorro Energético (CAE) en España
   desc: El MITECO ha propuesto crear nuevas subastas de ahorro energético para complementar el sistema de Certificados de Ahorro Energético (CAE) en España. Te explicamos cómo funcionarían, qué tipos de subasta contempla la propuesta y qué implicaciones pueden tener para las empresas que invierten en eficiencia energética.
-  hide: false
+toc: true
 date: 2026-09-09 13:11:00
 ---
 

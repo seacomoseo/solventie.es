@@ -10,9 +10,7 @@ seo:
 llms:
   title: 'MITECO abre audiencia pública del Real Decreto de requisitos de conexión a red: impacto en demanda, generación y almacenamiento'
   desc: 'Resumen claro del proyecto de RD en audiencia pública (hasta el 16/03/2026) que actualiza requisitos técnicos de conexión a redes de transporte y distribución. Explica objetivos (más capacidad y seguridad del sistema) y principales novedades: soporte ante huecos de tensión, estabilidad de inyección, calidad de producto, amortiguamiento y obligación de no introducir oscilaciones adversas. Incluye a quién afecta (industria, centros de datos, almacenamiento, hidrógeno renovable) y qué revisar para preparar proyectos y alegaciones.'
-  hide: false
 date: 2026-02-27 13:08:00
-mod: 2026-02-27 13:08:00
 ---
 
 El Ministerio para la Transición Ecológica y el Reto Demográfico ha iniciado la audiencia e información pública del _Proyecto del real decreto_ que fijará requisitos mínimos de diseño, equipamiento, funcionamiento y seguridad para las instalaciones de generación, demanda y almacenamiento que se conecten a las redes de transporte y distribución. El objetivo es doble: aumentar la capacidad de acceso disponible y reforzar la seguridad del sistema eléctrico.
