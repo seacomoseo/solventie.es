@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'./tests',outputDir:'./test-results',reporter:[['list'],['json',{outputFile:'evidence/results.json'}]],use:{baseURL:'http://127.0.0.1:4319',trace:'retain-on-failure'},projects:[{name:'desktop',use:{viewport:{width:1440,height:1000}}},{name:'mobile',use:{...devices['iPhone 13'],defaultBrowserType:'chromium'}}],webServer:{command:'python3 -m http.server 4319 --bind 127.0.0.1 --directory ../../static',url:'http://127.0.0.1:4319',reuseExistingServer:false}});

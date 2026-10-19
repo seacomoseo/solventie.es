@@ -121,3 +121,21 @@ no es copiarla entera al repositorio, sino:
 
 Las conclusiones de la auditoría deben distinguir evidencia, recomendación y
 decisión aprobada.
+
+## Landing de jornada técnica ACATCOR
+
+La landing estática bilingüe ES/CA de comunidades de regantes vive en
+`static/landing/jornada-tecnica-comunidades-de-regantes/`; sus fuentes,
+construcción y pruebas están en [`scripts/landing-solvent/`](../scripts/landing-solvent/README.md).
+Reutiliza el backend de formularios del tema, con atribución explícita ACATCOR,
+URL/UTM en captación y recuperación idempotente mediante la cola compartida.
+Por aprobación final de Loren, GA4 carga inmediatamente en producción, como
+en el sitio, sin aviso, controles ni gate de consentimiento, incluso con
+preferencias antiguas de rechazo. No carga en localhost ni previews.
+Solo emite `contact` de formulario tras recibo durable aceptado. `generate_lead`
+se deriva en GA4 y no debe duplicarse desde el cliente. La URL enviada a GA4
+es canónica, sin query/hash ni referrer; no se envían valores del formulario.
+Los UTM se usan como identificadores de campaña filtrados, sin atribución
+hardcodeada ACATCOR; nunca deben contener datos personales (reglas en README).
+Loren autorizó la publicación tras este ajuste; el agente padre la ejecuta,
+no el subagente de implementación.
