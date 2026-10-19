@@ -2,7 +2,7 @@
 slug: somos-sujeto-delegado-cae
 title: ¡Solvent ya es Sujeto Delegado del Sistema CAE!
 sum: Solvent ya es Sujeto Delegado del Sistema CAE y puede gestionar tus certificados de ahorro energético de forma completa y rentable.
-img: /u/blog/caes.jpg
+img: /u/blog/2025-07-16-somos-sujeto-delegado-cae.jpg
 date: 2025-07-16 13:52:24
 author: admin
 seo:

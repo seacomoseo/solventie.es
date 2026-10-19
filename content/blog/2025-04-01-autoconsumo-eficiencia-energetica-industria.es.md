@@ -6,7 +6,7 @@ seo:
   desc: |-
     ¿Son lo mismo el autoconsumo y la eficiencia energética?
     Descubre cómo se complementan en la industria para optimizar el consumo y el rendimiento.
-img: /u/blog/autoconsumo-eficiencia-energetica-industria.webp
+img: /u/blog/2025-04-01-autoconsumo-eficiencia-energetica-industria.webp
 category:
 - eficiencia-energetica
 - energia-solar

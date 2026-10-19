@@ -2,9 +2,8 @@
 slug: agrobiotech-innovation-forum-2025-lleida
 title: 'AGROBIOTECH Innovation Forum 2025: innovación, sostenibilidad y tecnología al servicio del futuro del campo'
 sum: El Agrobiotech Innovation Forum 2025 reunirá en Lleida innovación, sostenibilidad y tecnología para impulsar el futuro del sector agroalimentario.
-img: /u/blog/portada-fira-de-lleida-agro-bio-tech.webp
+img: /u/blog/2025-11-06-agrobiotech-innovation-forum-2025-lleida.webp
 date: 2025-11-10 09:50:01
-mod: 2025-11-10 09:50:01
 author: admin
 rel:
 - 2019-06-06-importancia-energias-renovables
@@ -58,7 +57,7 @@ Durante el evento compartiremos nuestra visión sobre cómo la eficiencia energ�
 
 Acércate a preguntarnos cualquier duda sobre plantas fotovoltaicas flotantes en balsas o sobre los certificados de ahorro energético (CAE). 
 
-![](/u/blog/banner-agrobiotech.webp)
+![](/u/blog/2025-11-06-banner-agrobiotech.webp)
 **Una cita que marca el rumbo del futuro agroalimentario**
 
 Más que un evento, el Agrobiotech Innovation Forum, es una ventana al futuro del campo. Un lugar donde el sector agroalimentario, la biotecnología, la energía y la digitalización se encuentran para redefinir cómo producimos, transformamos y consumimos los recursos naturales.

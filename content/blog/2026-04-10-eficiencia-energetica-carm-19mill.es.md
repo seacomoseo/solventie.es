@@ -1,7 +1,7 @@
 ---
 slug: eficiencia-energetica-carm-19mill
 title: 19,1 millones para impulsar la eficiencia energética en edificios del sector terciario y en la industria de la Región de Murcia
-img: /u/9-19-mill-carm-sector-terciario.webp
+img: /u/blog/2026-04-10-eficiencia-energetica-carm-19mill.webp
 toc: true
 sum: La Región de Murcia destinará 19.074.736 euros a impulsar la eficiencia energética en edificios del sector terciario y en pymes y grandes empresas industriales. Los fondos, gestionados a través del IDAE, deberán ejecutarse antes del 31 de diciembre de 2030.
 seo:
@@ -12,7 +12,6 @@ llms:
   title: Murcia aprueba 19,1 millones para eficiencia energética en edificios terciarios y empresas industriales
   desc: El Consejo de Gobierno de la Región de Murcia ha autorizado 19.074.736 euros para impulsar actuaciones de eficiencia energética en edificios del sector terciario y en pymes y grandes empresas industriales. Los fondos proceden del Fondo Nacional de Eficiencia Energética, se enmarcan en la distribución territorial acordada en la Conferencia Sectorial de Energía y serán gestionados por el IDAE. Las actuaciones deberán ejecutarse antes del 31 de diciembre de 2030.
 date: 2026-04-10 11:33:00
-mod: 2026-04-10 11:33:00
 ---
 
 El Consejo de Gobierno de la Región de Murcia ha autorizado destinar **19.074.736 euros** a nuevas actuaciones de eficiencia energética. La medida permitirá apoyar la **rehabilitación energética de edificios existentes del sector terciario** como la **modernización y optimización de procesos en pymes y grandes empresas industriales.**

@@ -1,7 +1,7 @@
 ---
 slug: espana-avanza-panel-solar-flotante
 title: España Avanza con Plantas Fotovoltaicas Flotantes en Embalses Públicos
-img: /u/blog/espana-avanza-panel-solar-flotante.jpg
+img: /u/blog/2024-07-12-espana-avanza-panel-solar-flotante.jpg
 date: 2025-03-21 00:00:00
 category:
 - energia-solar

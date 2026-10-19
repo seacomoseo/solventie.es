@@ -2,7 +2,7 @@
 slug: energias-renovables-campo-murciano
 title: 'Energías renovables y campo murciano: juntos por el progreso'
 sum: Las energías renovables y el campo murciano avanzan juntos hacia un desarrollo económico sostenible, compatible con la agricultura y la industria.
-img: /u/blog/portada-2-noticia-rocio-sector-renovables.webp
+img: /u/blog/2025-12-04-energias-renovables-campo-murciano.webp
 date: 2025-12-05 09:00:01
 mod: 2025-12-05 09:00:00
 seo:
@@ -16,7 +16,7 @@ Desde el ámbito empresarial y técnico se subraya que las energías renovables 
 
 El diálogo entre ambos sectores se consolida como una vía para impulsar un desarrollo rural equilibrado, capaz de combinar innovación, aprovechamiento de recursos y respeto medioambiental. La cooperación entre energía y agricultura permite avanzar hacia un modelo de crecimiento que genera empleo, valor y estabilidad en el territorio.
 
-![](/u/blog/segunda-noticia-foto-mitad.webp)
+![](/u/blog/2025-12-04-segunda-noticia-foto-mitad.webp)
 ## Energía limpia y desarrollo industrial
 
 Las entidades del sector recuerdan que las instalaciones fotovoltaicas y de almacenamiento energético deben considerarse infraestructuras esenciales, no usos industriales. Este enfoque contribuye a una planificación territorial más coherente y alineada con los objetivos del Plan Industrial Regional, basado en el acceso a una energía limpia, estable y competitiva.

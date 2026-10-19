@@ -4,7 +4,7 @@ title: 'Energía solar: ¿Cómo sacarle el máximo partido?'
 seo:
   title: 'Energía solar: ¿Cómo sacarle el máximo partido?'
   desc: La energía solar es una de las energías renovables que más crecimiento ha tenido en los últimos años.
-img: /u/blog/energia-solar-sacarle-partido.jpg
+img: /u/blog/2022-05-23-energia-solar-sacarle-partido.jpg
 category:
 - energia-solar
 toc: true
@@ -20,7 +20,7 @@ En 2021 se produjo un récord histórico de producción renovable de 110.450MWh.
 
 En el siguiente gráfico se muestra la potencia eléctrica instalada en España durante el mes de mayo de 2022. Se puede observar el peso de las fuentes de energía, tanto renovables como no renovables. La energía solar ocupa la 3º posición con un 15,93% de potencia eléctrica.
 
-![energía solar](/u/blog/potencia-electrica-instalada-espana.webp)
+![energía solar](/u/blog/2022-05-23-potencia-electrica-instalada-espana.png)
 
 ## Factores que afectan al rendimiento
 

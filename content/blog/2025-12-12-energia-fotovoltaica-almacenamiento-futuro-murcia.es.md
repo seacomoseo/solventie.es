@@ -2,7 +2,7 @@
 slug: energia-fotovoltaica-almacenamiento-futuro-murcia
 title: Hacia un futuro donde la energía fotovoltaica y el almacenamiento van de la mano
 sum: Para 2060, casi la mitad de la capacidad fotovoltaica mundial irá acompañada de sistemas de almacenamiento energético. Analizamos qué significa esta nueva forma de gestionar la energía, el papel estratégico de regiones solares como Murcia y cómo la combinación de generación y almacenamiento impulsa un modelo eléctrico más eficiente, estable y sostenible.
-img: /u/blog/tercera-noticia-foto-mitad.webp
+img: /u/blog/2025-12-12-energia-fotovoltaica-almacenamiento-futuro-murcia.webp
 date: 2025-12-12 13:39:41
 mod: 2025-12-12 13:39:43
 ---

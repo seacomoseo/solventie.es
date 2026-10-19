@@ -4,7 +4,7 @@ title: '¡Nueva Subvención 2025: Moderniza tu Empresa y Ahorra en tu Factura de
 seo:
   title: Subvención 2025 Fotovoltaica
   desc: 'Descubre la nueva Subvención 2025 para PYMEs, que abarca dos ramas: instalaciones solares fotovoltaicas para autoconsumo y medidas de ahorro y eficiencia energética. Moderniza tu empresa, reduce tu factura de luz e invierte en energía renovable.'
-img: /u/blog/subvencion-2025-fotovoltaica-ahorra-luz-moderniza-pyme.webp
+img: /u/blog/2025-04-07-subvencion-2025-fotovoltaica.webp
 category:
 - ayudas
 - eficiencia-energetica

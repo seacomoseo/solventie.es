@@ -1,5 +1,5 @@
 ---
-slug: inicio
+slug: /
 title: Inicio
 seo:
   title: 'Ingeniería Solvent: Eficiencia y Fotovoltaica'
@@ -7,13 +7,13 @@ seo:
 img: /u/base/poster.svg
 tpl:
   sections:
-  - file: _inicio-_hero
-  - file: _inicio-proyectos
-  - file: _inicio-resenas
-  - file: _inicio-servicios
-  - file: _inicio-aliados
-  - file: _inicio-formulario
-  - file: _inicio-blog
+  - file: _home-_hero
+  - file: _home-proyectos
+  - file: _home-resenas
+  - file: _home-servicios
+  - file: _home-aliados
+  - file: _home-formulario
+  - file: _home-blog
 base: org
 org:
   types:

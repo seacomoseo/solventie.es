@@ -1,7 +1,7 @@
 ---
 slug: revision-autoconsumo-solar-empresas-ahorro-energetico
 title: 'Autoconsumo solar en empresas: cómo saber si tu instalación está ahorrando lo previsto'
-img: /u/24-isfv-mantenimiento-y-rentabilidad.webp
+img: /u/blog/2026-04-24-revision-autoconsumo-solar-empresas-ahorro-energetico.webp
 toc: true
 sum: Tener placas solares instaladas no garantiza por sí solo el máximo ahorro energético. Las empresas deben revisar periódicamente el rendimiento, la documentación, la legalización y la monitorización de sus instalaciones fotovoltaicas de autoconsumo para detectar incidencias y optimizar resultados.
 seo:
@@ -20,7 +20,7 @@ El autoconsumo está regulado en España por el **Real Decreto 244/2019,** que e
 
 Sin embargo, instalar placas solares no debería ser el final del proceso. Una vez puesta en marcha la instalación, es recomendable comprobar periódicamente si está funcionando correctamente, si la documentación está en orden y si el ahorro obtenido se corresponde con las expectativas del proyecto.
 
-## **Por qué conviene revisar una instalación de autoconsumo**
+## Por qué conviene revisar una instalación de autoconsumo
 
 Una instalación fotovoltaica puede estar operativa y, aún así, no estar ofreciendo el rendimiento esperado.
 
@@ -30,33 +30,27 @@ Además, el autoconsumo no depende solo de cuánta energía produce la instalaci
 
 Por eso, revisar una instalación permite detectar posibles desviaciones y valorar si existen mejoras técnicas, operativas o administrativas.
 
-## **Qué aspectos técnicos hay que comprobar**
+## Qué aspectos técnicos hay que comprobar
 
 Una revisión básica de una instalación fotovoltaica de autoconsumo debería incluir, al menos, los siguientes puntos:
 
--          Estado general de los paneles
-
--          Funcionamiento de los inversores
-
--          Protecciones eléctricas y cuadros
-
--          Posibles sombras o pérdidas de producción
-
--          Limpieza y mantenimiento de la instalación
-
--          Producción real frente a producción estimada
-
--          Consumo eléctrico de la empresa y grado de aprovechamiento de la energía generada
+- Estado general de los paneles
+- Funcionamiento de los inversores
+- Protecciones eléctricas y cuadros
+- Posibles sombras o pérdidas de producción
+- Limpieza y mantenimiento de la instalación
+- Producción real frente a producción estimada
+- Consumo eléctrico de la empresa y grado de aprovechamiento de la energía generada
 
 El objetivo no es solo comprobar si la instalación produce energía, sino saber si produce de forma adecuada y si está contribuyendo realmente al ahorro energético de la empresa.
 
-## **Documentación y legalización: un punto clave**
+## Documentación y legalización: un punto clave
 
 La parte administrativa también es importante. El IDEA dispone de una **Guía profesional de tramitación del autoconsumo,** en la que se describen los pasos necesarios para tramitar instalaciones de generación eléctrica en autoconsumo.
 
 También es importante revisar si la instalación está correctamente inscrita y si la modalidad de autoconsumo aplicada se corresponde con el uso real de la energía.
 
-## **Monitorización: medir para poder mejorar**
+## Monitorización: medir para poder mejorar
 
 La monitorización es una herramienta fundamental para saber qué ocurre en una instalación fotovoltaica.
 
@@ -64,7 +58,7 @@ Permite observar la producción eléctrica, detectar caídas de rendimiento, ide
 
 Sin datos, es difícil saber si el autoconsumo está funcionando como se esperaba. Con datos, es posible tomar decisiones: ajustar hábitos de consumo, revisar equipos, plantear almacenamiento o estudiar ampliaciones futuras.
 
-## **Revisión y mejora de instalaciones de autoconsumo**
+## Revisión y mejora de instalaciones de autoconsumo
 
 La revisión de una instalación fotovoltaica permite comprobar si existe coherencia entre la producción estimada, la producción real y el consumo eléctrico de la empresa.
 

@@ -4,7 +4,7 @@ title: 'Reducción de potencia: ahorra durante el COVID-19'
 seo:
   title: 'Reducción de potencia: ahorra durante el COVID-19 - Ingeniería Solvent'
   desc: Una reducción de potencia os puede hacer ahorrar en vuestra factura eléctrica durante el COVID-19, como medida extraordinaria
-img: /u/blog/ahorra-factura-covid19.jpg
+img: /u/blog/2020-04-07-ahorra-factura-covid19.jpg
 category:
 - eficiencia-energetica
 draft: true

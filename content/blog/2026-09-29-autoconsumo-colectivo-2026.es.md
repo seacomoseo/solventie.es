@@ -1,17 +1,13 @@
 ---
 slug: autoconsumo-colectivo-2026
 title: 'Autoconsumo colectivo en 2026: qué cambia y cómo aprovecharlo'
-img: /u/03-autoconsumo-colectivo-portada.webp
-draft: false
-hide: false
+img: /u/blog/2026-09-29-autoconsumo-colectivo-2026.webp
 seo:
   title: 'Autoconsumo colectivo en 2026: principales cambios'
   desc: Descubre las novedades del autoconsumo colectivo en 2026 y cómo pueden ayudarte a compartir energía solar y reducir tus costes energéticos.
-  noindex: false
 llms:
   title: 'Autoconsumo colectivo en España en 2026: normativa, distancia de 5 km y cómo funciona'
   desc: 'Guía actualizada sobre autoconsumo colectivo en España en 2026: cómo funciona, quién puede beneficiarse, distancia máxima de 5 km, gestor de autoconsumo, reparto de energía y requisitos para compartir una instalación fotovoltaica.'
-  hide: false
 date: 2026-09-30 09:00:00
 ---
 

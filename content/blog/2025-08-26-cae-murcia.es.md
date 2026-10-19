@@ -2,7 +2,7 @@
 slug: cae-murcia
 title: 'Murcia pisa el acelerador de la eficiencia: los CAE crecen un 94%'
 sum: 'Los CAE despegan en Murcia: +94% este trimestre y 84,3M certificados. Somos sujeto delegado CAE: tramitamos tus CAE de principio a fin.'
-img: /u/blog/cae-crecen.jpg
+img: /u/blog/2025-08-26-cae-murcia.jpg
 date: 2025-08-26 10:41:52
 seo:
   desc: 'Murcia dispara el ahorro: +94% y 84,3M CAE. Somos sujeto delegado CAE y gestionamos tus CAE de principio a fin. ⚡'

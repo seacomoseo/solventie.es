@@ -10,4 +10,4 @@ tpl:
     cols: 3
     fade: light
     fade_to: t
-    rate: 2
+    rate: 2/1

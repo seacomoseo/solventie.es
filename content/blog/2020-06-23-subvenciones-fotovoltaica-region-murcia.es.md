@@ -4,7 +4,7 @@ title: Subvenciones de fotovoltaica para empresas de la Región de Murcia
 seo:
   title: Subvenciones de fotovoltaica para empresas de la Región de Murcia - Ingeniería Solvent
   desc: Hoy te traemos 7 claves que te servirán para conseguir las ayudas para fotovoltaica de autoconsumo de la Región de Murcia. 2020 es el ultimo año de este
-img: /u/blog/subvenciones-fotovoltaica-region-murcia.jpg
+img: /u/blog/2020-06-23-subvenciones-fotovoltaica-region-murcia.jpg
 category:
 - ayudas
 toc: true

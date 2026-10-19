@@ -1,7 +1,7 @@
 ---
 slug: cae-en-murcia-una-oportunidad-para-ahorrar-en-tu-empresa
 title: 'CAE en Murcia: una oportunidad para ahorrar en tu empresa'
-img: /u/01-cae-en-murcia.webp
+img: /u/blog/2026-08-18-cae-en-murcia-una-oportunidad-para-ahorrar-en-tu-empresa.webp
 toc: true
 sum: Los CAE crecen en Murcia y permiten monetizar el ahorro energético. Descubre cómo puede aprovecharlos tu empresa y qué actuaciones pueden generar CAE.
 seo:

@@ -4,7 +4,7 @@ title: 'Registro Industrial: garantía legal y técnica para tu instalación'
 seo:
   title: 'Registro Industrial: legaliza tu instalación y evita sanciones'
   desc: El Registro Industrial es clave para cumplir la normativa, legalizar tus instalaciones y acceder a ayudas públicas. Evita sanciones y mejora tu gestión técnica.
-img: /u/blog/registro-industrial-nave-fotovoltaica-solvent.webp
+img: /u/blog/2025-05-22-registro-industrial-legalizacion-instalaciones-1.webp
 category:
 - ingenieria
 - ayudas

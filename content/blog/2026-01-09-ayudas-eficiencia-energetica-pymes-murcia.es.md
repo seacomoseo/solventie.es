@@ -3,9 +3,8 @@ slug: ayudas-eficiencia-energetica-pymes-murcia
 title: Nuevas ayudas para mejorar la eficiencia energética en PYMEs de la Región de Murcia
 sum: |
   La Región de Murcia lanza nuevas ayudas dotadas con 14,3 millones de euros para PYMEs, destinadas a mejorar la eficiencia energética y el autoconsumo.
-img: /u/blog/09-ayudas-pyme.webp
+img: /u/blog/2026-01-09-ayudas-eficiencia-energetica-pymes-murcia.webp
 date: 2026-01-09 10:29:34
-mod: 2026-01-09 10:29:34
 rel:
 - 2019-04-04-subvenciones-eficiencia-energetica
 - 2019-05-06-beneficios-auditoria-energetica-empresa

@@ -2,9 +2,8 @@
 slug: plan-industrial-murcia-renovables-almacenamiento
 title: 'Plan Industrial de la Región de Murcia 2026-2035: el impulso a las energías renovables y el almacenamiento en la industria'
 sum: El Plan Industrial de la Región de Murcia 2026-2035 impulsa energías renovables y almacenamiento para reducir costes, descarbonizar y ganar competitividad.
-img: /u/blog/13-plan-industrial-carm-2026-20235.webp
+img: /u/blog/2026-02-13-plan-industrial-murcia-renovables-almacenamiento.webp
 date: 2026-02-13 12:10:28
-mod: 2026-02-13 12:10:28
 seo:
   desc: 'Plan Industrial Murcia 2026-2035: renovables y almacenamiento para autoconsumo industrial, PPA, microrredes y descarbonización.'
   noindex: false
@@ -17,17 +16,17 @@ En este contexto, la transición energética deja de ser solo un compromiso ambi
 
 
 
-## **Objetivo 6: “Más sostenible”, una agenda industrial para competir mejor**
+## Objetivo 6: “Más sostenible”, una agenda industrial para competir mejor
 
 Dentro del Plan, el **Objetivo 6: “Más Sostenible”** plantea que la sostenibilidad es el eje transformador de la política industrial europea: eficiencia energética, descarbonización, optimización de recursos y transición hacia modelos circulares pasan a ser determinantes para atraer inversión y asegurar competitividad. 
 
 Además, el Plan vincula esta transformación con una agenda práctica que combina **descarbonización, economía circular, integración de renovables, eficiencia hídrica, simbiosis industrial, comunidades energéticas y aprovechamiento responsable de recursos,** para anticiparse a la regulación europea y aprovechar oportunidades de financiación. 
 
-## **Acción O6-03: Energías renovables y almacenamiento (por qué importa a tu empresa)**
+## Acción O6-03: Energías renovables y almacenamiento (por qué importa a tu empresa)
 
 La **Acción O6-03: “Energías renovables y almacenamiento”** parte de una premisa clara: para avanzar hacia una industria descarbonizada y competitiva, será necesario un uso intensivo de **energías renovables y de soluciones avanzadas de almacenamiento energético.** La Región de Murcia, con alta radiación solar y una base industrial relevante, se posiciona para liderar la integración de autoconsumo, renovables y almacenamiento en **polígonos industriales, zonas logísticas y clústeres tecnológicos.** 
 
-## **Objetivos principales de la acción**
+## Objetivos principales de la acción
 
 Entre los objetivos destacados, el Plan apunta a: 
 
@@ -43,7 +42,7 @@ Entre los objetivos destacados, el Plan apunta a:
 
 •	Alinear la industria con objetivos y marcos europeos como **Fit for 55, REPowerEU y RED III.**
 
-## **¿Qué tipo de proyectos se van a ver impulsados?**
+## ¿Qué tipo de proyectos se van a ver impulsados?
 
 El Plan aterriza esta acción en líneas de actuación muy concretas, que sirven como “mapa” de oportunidades para empresas industriales (y para quienes quieran adelantarse con proyectos maduros y listos para financiación): 
 
@@ -59,7 +58,7 @@ El Plan aterriza esta acción en líneas de actuación muy concretas, que sirven
 
 6.	**Optimización energética con almacenamiento inteligente,** apoyado en software capaz de responder a precios horarios, curvas de demanda e incidencias de red.
 
-## **Claves prácticas para prepararse (y ganar tiempo cuando lleguen convocatorias)**
+## Claves prácticas para prepararse (y ganar tiempo cuando lleguen convocatorias)
 
 Aunque el Plan habla de programas de ayudas e incentivos, lo más importante para las empresas es entender que la ventaja competitiva suele estar en l**legar con el proyecto preparado:** diagnóstico, ingeniería, permisos, modelo económico y documentación. 
 
@@ -75,7 +74,7 @@ Una buena hoja de ruta interna suele incluir:
 
 •	**Documentación “lista para presentar”:** memoria técnica, presupuestos, cronograma, indicadores de impacto (energía, CO₂, competitividad), y trazabilidad de costes.
 
-## **En definitiva…**
+## En definitiva…
 
 El [Plan Industrial de la Región de Murcia 2026-2035](https://www.carm.es/web/descarga?ARCHIVO=Plan%20Industrial%20de%20la%20Regi%C3%B3n%20de%20Murcia%20-%20V.%20Digital_Comprimido.pdf&ALIAS=ARCH&&IDCONTENIDO=204322) marca una década donde la **transición energética industrial** (autoconsumo, PPA, almacenamiento, microrredes y comunidades energéticas) se convierte en una palanca directa de competitividad, resiliencia y cumplimiento normativo. 
 

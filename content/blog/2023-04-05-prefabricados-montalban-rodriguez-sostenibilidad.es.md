@@ -4,7 +4,7 @@ title: Prefabricados Montalbán y Rodríguez S.A. sigue avanzando hacia la soste
 seo:
   title: Prefabricados Montalbán y Rodríguez S.A. sigue avanzando hacia la sostenibilidad - Ingeniería Solvent
   desc: Gracias a la fotovoltaica, la factura eléctrica de Prefabricados Montalbán y Rodríguez se ha visto reducida en más de 30.000 euros cada año. Este ahorro les
-img: /u/blog/prefabricados-montalban-rodriguez-sostenibilidad.webp
+img: /u/blog/2023-04-05-prefabricados-montalban-rodriguez-sostenibilidad.webp
 category:
 - noticias
 date: 2023-04-05 00:00:00

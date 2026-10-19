@@ -4,7 +4,7 @@ title: Conoce como realizamos una instalación fotovoltaica
 seo:
   title: Conoce como realizamos una instalación fotovoltaica
   desc: Estudiamos tu industria para que la instalación fotovoltaica sea exactamente la que necesitas, analizando tu consumo de energía, entre otros.
-img: /u/blog/como-realizamos-instalacion-fotovoltaica.jpg
+img: /u/blog/2022-12-09-como-realizamos-instalacion-fotovoltaica.jpg
 category:
 - energia-solar
 toc: true
@@ -20,7 +20,7 @@ Para que la instalación fotovoltaica sea exactamente la que necesitas, primero 
 - La ubicación de la instalación. Esto es muy importante por 2 motivos. El primero es para saber la inclinación y orientación de los paneles adecuada, obteniendo el mayor rendimiento. El segundo motivo es por la suciedad. Si tu instalación fotovoltaica se encuentra en una zona donde hay polvo o mayor probabilidad de que se ensucien las placas con mayor frecuencia, es importante tenerlo en cuenta.
 - Las sombras. Conoceremos todos los elementos y obstáculos que puedan generar sombras, basándonos hora a hora y día a día en los datos climáticos y estudios de sombras a lo largo del año.
 
-![instalación fotovoltaica](/u/blog/nave-industrial-3d.webp "Imagen 3D de una instalación fotovoltaica")
+![instalación fotovoltaica](/u/blog/2022-12-09-nave-industrial-3d.webp "Imagen 3D de una instalación fotovoltaica")
 
 Y tacháaan, levantamos en 3D tu futura instalación fotovoltaica para saber con precisión cómo es la instalación que llevaremos a cabo. Así, podrás saber como será tu instalación antes de ejecutarse.
 
@@ -56,6 +56,6 @@ Y ojo, que la empresa instaladora cumpla con las normas de seguridad es muy impo
 
 Una vez realizada tu instalación fotovoltaica nos aseguramos de que todos los paneles funcionan correctamente mediante el vuelo de nuestro dron. Con él, obtenemos termografías de cada uno de los paneles y comprobamos que no hay puntos calientes.
 
-![instalación fotovoltaica](/u/blog/termografia-paneles-solares.webp "Punto caliente detectado en un panel solar")
+![instalación fotovoltaica](/u/blog/2022-12-09-termografia-paneles-solares.webp "Punto caliente detectado en un panel solar")
 
 ¿Después de leer el artículo te has imaginado consumiendo tu propia energía? Entonces es el momento de pasarte a la energía solar, [contacta](/contacto/) con nosotros.

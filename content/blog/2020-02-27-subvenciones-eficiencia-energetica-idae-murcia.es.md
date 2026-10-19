@@ -4,7 +4,7 @@ title: Subvenciones de eficiencia energética en la Región de Murcia
 seo:
   title: Subvenciones de eficiencia energética en la Región de Murcia - Ingeniería Solvent
   desc: Ya están aquí las subvenciones de eficiencia energética para empresas del sector industrial. Se encuentran dentro del Programa Operativo FEDER
-img: /u/blog/subvenciones-eficiencia-energetica-idae-murcia.jpg
+img: /u/blog/2020-02-27-subvenciones-eficiencia-energetica-idae-murcia.jpg
 category:
 - ayudas
 toc: true

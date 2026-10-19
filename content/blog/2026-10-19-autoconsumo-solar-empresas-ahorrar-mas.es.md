@@ -1,9 +1,7 @@
 ---
 slug: autoconsumo-solar-empresas-ahorrar-mas
 title: 'Autoconsumo solar para empresas: cómo ahorrar más'
-img: /u/04-autoconsumo-solar.webp
-draft: false
-hide: false
+img: /u/blog/2026-10-19-autoconsumo-solar-empresas-ahorrar-mas.webp
 seo:
   title: 'Autoconsumo solar para empresas: cómo ahorrar más'
   desc: Descubre cómo ahorrar en la factura eléctrica de tu empresa con autoconsumo solar. Optimiza tu instalación fotovoltaica con los expertos de Solvent.
@@ -12,8 +10,6 @@ llms:
   desc: Guía de Solvent sobre autoconsumo solar para empresas y cómo reducir los costes eléctricos mediante instalaciones fotovoltaicas eficientes. Explica cómo dimensionar correctamente una instalación, aprovechar la producción solar, gestionar los excedentes y valorar el uso de baterías. Incluye recomendaciones para naves industriales, fábricas, almacenes y negocios, además de información sobre rentabilidad y ahorro energético. Solvent ofrece servicios de ingeniería e instalación fotovoltaica adaptados a las necesidades de cada empresa.
 date: 2026-10-19 14:41:00
 ---
-
-# Autoconsumo solar para empresas: cómo ahorrar más
 
 Uno de los grandes retos para cualquier empresa es reducir la factura eléctrica. Cuando el consumo energético representa una parte importante de los gastos, encontrar soluciones eficientes puede marcar la diferencia en la rentabilidad del negocio.
 
@@ -200,6 +196,6 @@ En **Solvent** te ayudamos a transformar el consumo eléctrico de tu negocio med
 
 Analizamos tus necesidades, estudiamos las posibilidades de tu instalación y buscamos la solución que mejor combine ahorro, eficiencia y rentabilidad.
 
-\*Fuentes: ree.es, idae.es, miteco.gob.es. 
+- ::asterisk:: Fuentes: ree.es, idae.es, miteco.gob.es. 
 
 **¿Quieres saber cuánto podría ahorrar tu empresa con energía solar? Contacta con nuestro equipo y estudiamos tu proyecto de autoconsumo fotovoltaico.**

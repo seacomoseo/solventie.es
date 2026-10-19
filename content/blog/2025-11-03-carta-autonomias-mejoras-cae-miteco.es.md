@@ -2,9 +2,8 @@
 slug: carta-autonomias-mejoras-cae-miteco
 title: Doce comunidades autónomas, entre ellas la Región de Murcia, reclaman mejoras en el sistema de Certificados de Ahorro Energético
 sum: Doce comunidades autónomas, entre ellas la Región de Murcia, solicitan al MITECO mejoras en el sistema de Certificados de Ahorro Energético (CAE), pidiendo más financiación y plazos ampliados para reforzar su eficacia y facilitar la gestión técnica y administrativa.
-img: /u/blog/2-nov25.webp
+img: /u/blog/2025-11-03-carta-autonomias-mejoras-cae-miteco.webp
 date: 2025-11-21 09:29:21
-mod: 2025-11-21 09:29:21
 category:
 - sostenibilidad
 - subvenciones

@@ -2,9 +2,8 @@
 slug: certificados-ahorro-energetico-cae-murcia
 title: La Región de Murcia impulsa los Certificados de Ahorro Energético (CAE) para mejorar la eficiencia energética
 sum: La Región de Murcia impulsa el uso de los Certificados de Ahorro Energético (CAE), alcanzando 187 millones de kWh certificados. Este sistema fomenta inversiones en eficiencia energética y permite acreditar ahorros reales tras aplicar mejoras en instalaciones y procesos. Además, es importante diferenciar que las instalaciones solares fotovoltaicas (ISFV) no están cubiertas por los CAE, ya que estos certificados se basan en ahorro energético verificable y no en generación renovable.
-img: /u/blog/26-cae-carm.webp
+img: /u/blog/2026-01-26-certificados-ahorro-energetico-cae-murcia.webp
 date: 2026-01-26 08:16:33
-mod: 2026-01-26 08:16:33
 rel:
 - 2025-07-16-somos-sujeto-delegado-cae
 - 2025-08-26-cae-murcia

@@ -4,7 +4,7 @@ title: Consejos de eficiencia energética para la industria
 seo:
   title: Consejos de eficiencia energética para la industria - Ingeniería Solvent
   desc: La instalación de equipos de monitorización en tiempo real te permitirá tener bajo control el consumo de energía. Además, hay equipos que incluyen alertas,
-img: /u/blog/consejos-eficiencia-energetica-industria.jpg
+img: /u/blog/2019-10-31-consejos-eficiencia-energetica-industria.jpg
 category:
 - eficiencia-energetica
 toc: true

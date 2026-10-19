@@ -4,15 +4,15 @@ title: Los diferentes tipos de paneles solares
 seo:
   title: 'Paneles solares: descubre los diferentes tipos que existen'
   desc: 'Monocristalinos: La fabricación de este tipo de paneles solares consiste en dividir el silicio en láminas, lo que da una pureza y eficiencia mayor.'
-img: /u/blog/tipos-paneles-solares.jpg
+img: /u/blog/2022-01-13-tipos-paneles-solares.jpg
 category:
 - energia-solar
 toc: true
 date: 2022-01-13 00:00:00
 ---
-Cada vez la energía [renovable](/u/importancia-energias-renovables/) representa un porcentaje mayor sobre el total de energía generada. Este último año 2021, tuvo una representación del 46,8%, consiguiendo equilibrar cada vez más la balanza entre el consumo de energías renovables y no renovables. En concreto, la energía que se obtiene de los paneles solares representa el 10,3% del total.
+Cada vez la energía [renovable](/importancia-energias-renovables/) representa un porcentaje mayor sobre el total de energía generada. Este último año 2021, tuvo una representación del 46,8%, consiguiendo equilibrar cada vez más la balanza entre el consumo de energías renovables y no renovables. En concreto, la energía que se obtiene de los paneles solares representa el 10,3% del total.
 
-![paneles solares](/u/blog/consumo-energia-2021.webp)
+![paneles solares](/u/blog/2022-01-13-consumo-energia-2021.png)
 
 ## Tipos de radiación según la incidencia
 
@@ -46,6 +46,6 @@ Dependiendo de la forma en la que se obtenga la energía, los paneles solares so
 - Plano: Se compone de una plancha metálica, y dentro de ella hay unos tubos por los que pasa el agua que se calienta. Se utiliza para calentar poca cantidad de agua por su baja potencia.
 - Colector solar de tubo vacío: Estas placas están compuestas por tubos individuales por las que transita el calor. El rendimiento y temperaturas que se obtienen son mucho mayores que con el panel solar térmico plano. La instalación de estos paneles es ideal en zonas donde no hay demasiado sol.
 
-En las instalaciones fotovoltaicas que realizamos en [Solvent](/u/autoconsumo-fotovoltaico/), utilizamos paneles solares monocristalinos. Esta opción es la mejor por su eficiencia, ya que proporciona mayores rendimientos que los policristalinos y amorfos.
+En las instalaciones fotovoltaicas que realizamos en [Solvent](/autoconsumo-fotovoltaico/), utilizamos paneles solares monocristalinos. Esta opción es la mejor por su eficiencia, ya que proporciona mayores rendimientos que los policristalinos y amorfos.
 
-![paneles solares](/u/blog/paneles-solares.jpg)
+![paneles solares](/u/blog/2022-01-13-paneles-solares.jpg)

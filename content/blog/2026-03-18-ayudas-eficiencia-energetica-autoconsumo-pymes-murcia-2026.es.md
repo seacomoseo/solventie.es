@@ -1,7 +1,7 @@
 ---
 slug: ayudas-eficiencia-energetica-autoconsumo-pymes-murcia-2026
 title: 'Ayudas para eficiencia energética y autoconsumo solar en PYMES de la Región de Murcia: requisitos, plazos y documentación a preparar'
-img: /u/20-subvencion-carm.webp
+img: /u/blog/2026-03-18-ayudas-eficiencia-energetica-autoconsumo-pymes-murcia-2026.webp
 toc: true
 sum: Nueva convocatoria de ayudas FEDER para pymes de la Región de Murcia que quieran invertir en eficiencia energética o autoconsumo fotovoltaico. La ayuda se tramita por orden de presentación hasta agotar crédito, con 5,3 millones de euros de presupuesto, solicitud 100% electrónica y plazo abierto del 23 de marzo de 2026 a las 09:00 al 30 de abril de 2026 a las 23:59.
 seo:
@@ -12,7 +12,6 @@ llms:
   title: 'Ayudas FEDER 2026 en Murcia para pymes: guía práctica de solicitud y documentación'
   desc: Explicación clara de las ayudas 2026 de la Región de Murcia para pymes en eficiencia energética y autoconsumo fotovoltaico, con importes, plazos, requisitos y papeles necesarios para presentar la solicitud a tiempo.
 date: 2026-03-20 09:05:00
-mod: 2026-03-20 09:05:00
 ---
 
 Las pymes de la Región de Murcia tienen ya abierta una oportunidad importante para impulsar inversiones en ahorro energético, sostenibilidad y competitividad. La convocatoria 2026 del Programa Región de Murcia FEDER 2021-2027 financia dos grandes líneas de actuación: **medidas de ahorro y mejora de la eficiencia energética** e **instalaciones solares fotovoltaicas para autoconsumo eléctrico**. Además, se trata de subvenciones **a fondo perdido** y se conceden **por orden de presentación de solicitudes hasta agotar el crédito**, un punto clave que hace especialmente importante llegar con todo preparado.

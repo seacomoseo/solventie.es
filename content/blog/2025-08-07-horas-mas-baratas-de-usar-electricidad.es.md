@@ -3,7 +3,7 @@ slug: horas-mas-baratas-de-usar-electricidad
 title: Tenemos la herramienta que te dice cuándo es más barato usar electricidad
 sum: |
   Desde finales de febrero, en SOLVENT ponemos a tu disposición una herramienta actualizada que te permite consultar el precio de la electricidad para el día siguiente, hora a hora, así como acceder a un histórico detallado de precios. Desglosamos el coste total de la energía en sus tres componentes clave: precio de mercado, peajes 6.1TD y componentes regulados, para que sepas exactamente qué estás pagando y por qué. Una herramienta útil, clara y diseñada para ayudarte a gestionar mejor tu consumo energético.
-img: /u/blog/precio-energia.jpg
+img: /u/blog/2025-08-07-horas-mas-baratas-de-usar-electricidad.jpg
 date: 2025-09-05 15:04:48
 category:
 - electricidad
@@ -27,9 +27,9 @@ Una herramienta útil tanto para **empresas** como para **usuarios domésticos**
 
 Hemos desglosado el coste horario de la electricidad en tres componentes clave, para que entiendas claramente qué estás pagando:
 
-![](/u/blog/grafico.webp)
+![](/u/blog/2025-08-07-grafico.png)
 
-![](/u/blog/grafico-leyenda.webp)
+![](/u/blog/2025-08-07-grafico-leyenda.png)
 
 #### 💰 Total (€/MWh)
 

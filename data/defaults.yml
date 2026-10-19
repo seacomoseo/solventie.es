@@ -2,6 +2,11 @@
   value: admin
   path:
   - /blog/*
+- name: seo.noindex
+  value: 'true'
+  type: bool
+  path:
+  - /category/*
 - name: index
   value: 'false'
   type: bool
