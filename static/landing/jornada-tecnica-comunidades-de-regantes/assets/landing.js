@@ -14,8 +14,8 @@
   let busy = false;
   let loaded = false;
   const words = {
-    es: {nombre:'Indica tu nombre y apellidos',empresa:'Indica tu comunidad o empresa',telefono:'Introduce un teléfono válido',email:'Introduce un email válido',consentimiento:'Debes aceptar la política de privacidad',error:'No se pudo enviar. Inténtalo de nuevo.',storage:'No se pudo proteger una copia local del envío. Libera espacio del navegador y vuelve a intentarlo.',sending:'Enviando…',thanks:'¡Gracias por tu interés!',thanksSub:'Hemos recibido tus datos y pronto nos pondremos en contacto contigo.'},
-    ca: {nombre:'Indica el teu nom i cognoms',empresa:'Indica la teva comunitat o empresa',telefono:'Introdueix un telèfon vàlid',email:'Introdueix un correu vàlid',consentimiento:"Has d'acceptar la política de privacitat",error:"No s'ha pogut enviar. Torna-ho a provar.",storage:"No s'ha pogut protegir una còpia local. Allibera espai al navegador i torna-ho a provar.",sending:'Enviant…',thanks:'Gràcies pel teu interès!',thanksSub:'Hem rebut les teves dades i aviat ens posarem en contacte amb tu.'}
+    es: {nombre:'Indica tu nombre y apellidos',empresa:'Indica tu comunidad o empresa',telefono:'Introduce un teléfono válido',email:'Introduce un email válido',consentimiento:'Debes aceptar la política de privacidad',error:'No se pudo enviar. Inténtalo de nuevo.',storage:'No se pudo proteger una copia local del envío. Libera espacio del navegador y vuelve a intentarlo.',sending:'Enviando…',again:'Rellenar otro formulario',pending:'Hay un envío pendiente o activo. Espera a su confirmación antes de iniciar otro.',resetError:'No se pudo restablecer el formulario de forma segura. No se ha borrado ningún envío pendiente.',changed:'La confirmación ha cambiado en otra pestaña. Revisa la pantalla y vuelve a pulsar.',noLocks:'Este navegador no permite coordinar las pestañas. Usa un navegador compatible para iniciar otro formulario sin poner en riesgo envíos pendientes.',thanks:'¡Gracias por tu interés!',thanksSub:'Hemos recibido tus datos y pronto nos pondremos en contacto contigo.'},
+    ca: {nombre:'Indica el teu nom i cognoms',empresa:'Indica la teva comunitat o empresa',telefono:'Introdueix un telèfon vàlid',email:'Introdueix un correu vàlid',consentimiento:"Has d'acceptar la política de privacitat",error:"No s'ha pogut enviar. Torna-ho a provar.",storage:"No s'ha pogut protegir una còpia local. Allibera espai al navegador i torna-ho a provar.",sending:'Enviant…',again:'Omplir un altre formulari',pending:'Hi ha un enviament pendent o actiu. Espera la confirmació abans de començar-ne un altre.',resetError:'No s’ha pogut restablir el formulari de manera segura. No s’ha esborrat cap enviament pendent.',changed:'La confirmació ha canviat en una altra pestanya. Revisa la pantalla i torna a prémer.',noLocks:'Aquest navegador no permet coordinar les pestanyes. Utilitza un navegador compatible per començar un altre formulari sense posar en risc enviaments pendents.',thanks:'Gràcies pel teu interès!',thanksSub:'Hem rebut les teves dades i aviat ens posarem en contacte amb tu.'}
   };
   const t=()=>words[lang];
   const form=()=>document.getElementById(ID);
@@ -48,11 +48,52 @@
     const p=document.getElementById('form-feedback');
     if (p) {p.hidden=false;p.textContent=message;p.className='rounded-md bg-destructive/10 p-3 text-sm text-destructive';}
   }
+  // Fail closed on unreadable/ambiguous queue entries; never mutate the queue.
+  function resetHasPending() {
+    for(let i=0;i<localStorage.length;i++) {
+      const key=localStorage.key(i);if(!key || !key.startsWith(PREFIX))continue;
+      const raw=localStorage.getItem(key);if(raw===null)throw new Error('Queue changed');
+      const item=JSON.parse(raw);
+      if(!item || typeof item.action!=='string' || typeof item.body!=='string')throw new Error('Ambiguous queue');
+      if(item.action===ACTION && new URLSearchParams(item.body).get('_id')===ID)return true;
+    }
+    return false;
+  }
   function showThanks() {
     const f=form();if(!f)return;
     const box=document.createElement('div');box.id='lead-success';box.role='status';box.className='rounded-xl bg-card p-8 text-center text-card-foreground shadow-xl';
     box.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mx-auto h-14 w-14 text-primary"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg><p class="mt-4 text-xl font-bold"></p><p class="mt-2 text-muted-foreground"></p>';
     box.children[1].textContent=t().thanks;box.children[2].textContent=t().thanksSub;f.replaceWith(box);
+    let shownReceipt=store.get(RECEIPT);
+    const again=document.createElement('button');again.type='button';again.id='lead-new';again.textContent=t().again;
+    again.className='mt-4 rounded-md bg-accent px-6 py-3 font-bold text-accent-foreground';
+    again.style.outlineOffset='4px';
+    const note=document.createElement('p');note.id='lead-reset-feedback';note.role='status';note.setAttribute('aria-live','polite');note.setAttribute('aria-atomic','true');
+    again.setAttribute('aria-describedby',note.id);
+    const report=message=>{note.textContent=message;};
+    again.addEventListener('click',async()=>{
+      if(busy){report(t().pending);return;}
+      // No unsafe localStorage spinlock fallback: the existing sender does not use it.
+      if(!navigator.locks){report(t().noLocks);return;}
+      busy=true;again.disabled=true;
+      try {
+        await navigator.locks.request('solvent-acatcor-submit',{ifAvailable:true},lock=>{
+          if(!lock){report(t().pending);return;}
+          if(resetHasPending()){report(t().pending);return;}
+          const current=localStorage.getItem(RECEIPT);
+          if(current!==shownReceipt){shownReceipt=current;report(t().changed);return;}
+          localStorage.removeItem(RECEIPT);
+          if(localStorage.getItem(RECEIPT)!==null)throw new Error('Reset not persisted');
+          render(lang);form()?.querySelector('[name=nombre]')?.focus();
+        });
+      } catch {report(t().resetError);}
+      finally {
+        busy=false;again.disabled=false;
+        // A concurrent reset can emit storage while this tab is busy awaiting a lock.
+        // Reconcile that missed presentation update without sending or touching the queue.
+        try {if(document.getElementById('lead-success') && localStorage.getItem(RECEIPT)===null && !resetHasPending())render(lang);}catch{}
+      }
+    });box.append(again,note);
   }
   function render(l) {
     const old=form(); const values=old?new FormData(old):null;
@@ -137,6 +178,14 @@
     });
   }
   render(lang);
-  window.addEventListener('storage',()=>{analytics();if(store.get(RECEIPT))showThanks();});
+  window.addEventListener('storage',event=>{
+    if(event.key!==RECEIPT && event.key!==null)return;
+    try {
+      const receipt=localStorage.getItem(RECEIPT);
+      if(receipt)showThanks();
+      // Other tabs' explicit reset only changes presentation; never send/retry here.
+      else if(!busy && document.getElementById('lead-success') && !resetHasPending())render(lang);
+    }catch{}
+  });
   window.addEventListener('online',retry);analytics();retry();
 })();
