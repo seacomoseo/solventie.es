@@ -21,6 +21,11 @@ export function installSansoulForms ({ routes, formValid, changeValues, copy }) 
     event.preventDefault()
     event.stopImmediatePropagation()
     if (form.dataset.sending === 'true') return
+    // The pinned theme serializes numeric 1 as a bare HTML attribute. For a
+    // non-multiple file control, data-max="" therefore means one, not zero.
+    form.querySelectorAll('.form__file input[type="file"][data-max=""]').forEach(input => {
+      if (!input.multiple) input.dataset.max = '1'
+    })
     const { valid, message } = formValid(form)
     if (!valid) {
       const box = show(form, '', 'error'); box.append(message); return
