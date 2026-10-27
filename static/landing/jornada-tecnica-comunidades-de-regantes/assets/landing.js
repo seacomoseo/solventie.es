@@ -1,7 +1,8 @@
 /* Vanilla runtime. No lead/analytics request is made by the build. */
 (() => {
   'use strict';
-  const ACTION = 'https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec';
+  const LEGACY_ACTION = 'https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec';
+  const ACTION = '/api/forms?route=principal%3Asolventie.es%3Aform-jornada-tecnica-comunidades-de-regantes';
   const ID = 'form-jornada-tecnica-comunidades-de-regantes';
   const PREFIX = 'sansoul.form.pending.';
   const RECEIPT = 'solvent.acatcor.receipt';
@@ -55,7 +56,7 @@
       const raw=localStorage.getItem(key);if(raw===null)throw new Error('Queue changed');
       const item=JSON.parse(raw);
       if(!item || typeof item.action!=='string' || typeof item.body!=='string')throw new Error('Ambiguous queue');
-      if(item.action===ACTION && new URLSearchParams(item.body).get('_id')===ID)return true;
+      if([ACTION,LEGACY_ACTION].includes(item.action) && new URLSearchParams(item.body).get('_id')===ID)return true;
     }
     return false;
   }
@@ -111,11 +112,12 @@
   }
   function pending() {
     const result=[];
-    try { for(let i=0;i<localStorage.length;i++) {const k=localStorage.key(i);if(!k.startsWith(PREFIX))continue;try{const x=JSON.parse(store.get(k));const body=new URLSearchParams(x.body);if(x.action===ACTION && x.submissionId && body.get('_id')===ID && body.get('_submission_id')===x.submissionId)result.push(x);}catch{}} }catch{}
+    try { for(let i=0;i<localStorage.length;i++) {const k=localStorage.key(i);if(!k.startsWith(PREFIX))continue;try{const x=JSON.parse(store.get(k));const body=new URLSearchParams(x.body);if([ACTION,LEGACY_ACTION].includes(x.action) && x.submissionId && body.get('_id')===ID && body.get('_submission_id')===x.submissionId)result.push(x);}catch{}} }catch{}
     return result;
   }
-  function persisted(data,id) {
+  function persisted(data,id,strict=false) {
     if(!data || data.result!=='success')return false;
+    if(strict)return data.persisted===true && data.submissionId===id && ['accepted','review'].includes(data.status);
     if(typeof data.persisted==='undefined' && typeof data.submissionId==='undefined')return true;
     return data.persisted===true && Boolean(data.submissionId) && (data.submissionId===id || data.status==='review');
   }
@@ -124,7 +126,7 @@
     try {
       const response=await fetch(item.action,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:item.body,signal:controller.signal});
       if(!response.ok)throw new Error('HTTP '+response.status);
-      const data=await response.json();if(!persisted(data,item.submissionId))throw new Error('Missing durable receipt');
+      const data=await response.json();if(!persisted(data,item.submissionId,item.action===ACTION))throw new Error('Missing durable receipt');
       // A durable receipt contains no contact information. It prevents repeated clicks/reloads.
       store.set(RECEIPT,JSON.stringify({submissionId:item.submissionId,status:data.status||'accepted',at:new Date().toISOString()}));
       store.remove(PREFIX+item.submissionId);track(data);showThanks();

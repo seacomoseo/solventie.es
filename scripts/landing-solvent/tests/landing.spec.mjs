@@ -7,7 +7,7 @@ async function setup(page,{live=false,status='accepted',persisted=true,legacy=fa
  const requests=[],external=[];let failure=fail;
  await page.route('**/*',async route=>{
   const req=route.request(),u=new globalThis.URL(req.url());
-  if(u.hostname==='script.google.com'){
+  if(u.hostname==='script.google.com' || u.pathname==='/api/forms'){
    const body=new URLSearchParams(req.postData());requests.push({body,headers:req.headers()});
    if(failure){failure=false;await route.abort();return;}
    await route.fulfill({json:legacy?{result:'success'}:{result:'success',persisted,submissionId:body.get('_submission_id'),status}});return;
@@ -47,7 +47,7 @@ test('invalid y falta consentimiento no envían',async({page})=>{
  const x=await setup(page);await open(page);await click(page);await expect(page.locator('.field-error')).toHaveCount(5);
  await fill(page,false);await click(page);await expect(page.locator('.field-error')).toHaveCount(1);expect(x.requests).toHaveLength(0);
 });
-for(const status of ['accepted','review','spam'])test(`recibo ${status}, doble clic y GA4`,async({page})=>{
+for(const status of ['accepted','review'])test(`recibo ${status}, doble clic y GA4`,async({page})=>{
  const x=await setup(page,{live:true,status});await open(page,true);await fill(page);
  await page.evaluate(()=>{const f=document.querySelector('form');f.requestSubmit();f.requestSubmit();});await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(1);
  const {body,headers}=x.requests[0];expect(headers['content-type']).toContain('application/x-www-form-urlencoded');expect(body.get('CC')).toBe('formularios-web@solventie.es');expect(body.get('Nombre')).toBe('Persona Prueba');expect(body.get('Email')).toBe('prueba@example.invalid');expect(body.get('nombre')).toBeNull();expect(body.get('Campaña')).toBe('ACATCOR');expect(body.get('IP')).toBe('192.0.2.1');expect(body.get('_domain')).toBe('solventie.es');expect(body.get('URL')).toContain('utm_source=ACATCOR');expect(body.get('Timestamp')).toMatch(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/);expect(JSON.parse(body.get('_headers')).some(x=>x.name==='Campaña')).toBeTruthy();expect(body.get('_gotcha')).toBe('');
@@ -55,7 +55,9 @@ for(const status of ['accepted','review','spam'])test(`recibo ${status}, doble c
  expect(events.filter(e=>e[0]==='event'&&e[1]==='contact')).toHaveLength(status==='accepted'?1:0);expect(JSON.stringify(events)).not.toContain('secret@');expect(events.some(e=>e[1]==='generate_lead')).toBeFalsy();
  await page.reload();await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(1);
 });
-test('legacy success compatible',async({page})=>{const x=await setup(page,{live:true,legacy:true});await open(page,true);await fill(page);await click(page);await expect(page.locator('#lead-success')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);expect(x.requests).toHaveLength(1);});
+test('legacy queued success remains compatible',async({page})=>{const x=await setup(page,{live:true,legacy:true});await page.addInitScript(()=>{const id='legacy-pending-test';const action='https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec';localStorage.setItem('sansoul.form.pending.'+id,JSON.stringify({submissionId:id,action,body:'_id=form-jornada-tecnica-comunidades-de-regantes&_submission_id='+id}));});await open(page,true);await expect(page.locator('#lead-success')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);expect(x.requests).toHaveLength(1);});
+test('new endpoint rejects spam receipts',async({page})=>{const x=await setup(page,{live:true,status:'spam'});await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();await expect(page.locator('#lead-success')).toHaveCount(0);expect(x.requests).toHaveLength(1);expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);});
+test('new endpoint rejects incomplete legacy receipts',async({page})=>{const x=await setup(page,{live:true,legacy:true});await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();await expect(page.locator('#lead-success')).toHaveCount(0);expect(x.requests).toHaveLength(1);expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);});
 test('error y reintento idempotente al recargar',async({page})=>{
  const x=await setup(page,{fail:true});await open(page);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('sansoul.form.pending.')).length)).toBe(1);
  await page.reload();await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(2);expect(x.requests[0].body.toString()).toBe(x.requests[1].body.toString());expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('sansoul.form.pending.')).length)).toBe(0);
@@ -97,7 +99,7 @@ test('UTM reales sin atribución fija; valores sensibles se omiten de GA4',async
 test('localhost jamás carga analytics ni contact',async({page})=>{const x=await setup(page);await open(page);await fill(page);await click(page);await expect(page.locator('#lead-success')).toBeVisible();expect(x.external).toHaveLength(0);expect(await page.evaluate(()=>window.dataLayer)).toBeUndefined();});
 test('error backend no dispara contact; retry online conserva ID',async({page})=>{
  const x=await setup(page,{live:true});let fail=true;
- await page.route('https://script.google.com/macros/s/**/exec',async route=>{if(!fail){await route.fallback();return;}fail=false;x.requests.push({body:new URLSearchParams(route.request().postData())});await route.fulfill({json:{result:'error',message:'Intercepted error'}});});
+ await page.route('**/api/forms?*',async route=>{if(!fail){await route.fallback();return;}fail=false;x.requests.push({body:new URLSearchParams(route.request().postData())});await route.fulfill({json:{result:'error',message:'Intercepted error'}});});
  await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);
  await page.evaluate(()=>window.dispatchEvent(new Event('online')));await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(2);expect(x.requests[0].body.get('_submission_id')).toBe(x.requests[1].body.get('_submission_id'));expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);
 });

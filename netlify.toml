@@ -4,7 +4,7 @@ command = "sh do hugo"
 
 [build.environment]
 HUGO_VERSION = "0.164.0"
-NODE_VERSION = "23.5.0"
+NODE_VERSION = "22.22.2"
 
 [context.production]
 publish = "public"
@@ -12,3 +12,10 @@ command = "sh do hugo"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
+
+# Durable form reception, without Google in the public request path.
+[[redirects]]
+  from = "/api/forms"
+  to = "https://sansoul-forms.sansoul.workers.dev/v1/forms"
+  status = 200
+  force = true

@@ -1,3 +1,15 @@
+import { formValid } from './form-validate'
+import { changeValues } from './form-change-values'
+import copy from './params'
+import { installSansoulForms } from '../custom/sansoul-forms'
+
+installSansoulForms({
+  routes: { 'solventie.es:formulario': 'principal:solventie.es:formulario' },
+  formValid,
+  changeValues,
+  copy
+})
+
 // import { scrollShot } from './scroll-shot.js'
 
 // // SUSCRIPTION
