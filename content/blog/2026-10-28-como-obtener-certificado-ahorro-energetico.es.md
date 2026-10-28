@@ -288,4 +288,4 @@ Contacta con nuestro equipo y descubre si tu empresa puede transformar sus ahorr
 
 Descubre el potencial económico de tus mejoras en eficiencia energética. Con la **calculadora de CERAE** puedes estimar el valor de los Certificados de Ahorro Energético (CAE) que podría generar tu empresa de forma rápida y sencilla.
 
-[[Ir a la Calculadora]](https://cerae.es/calculadora "Calcula tu ahorro [dark blank ga4]")
+[[Ir a la Calculadora]](https://cerae.es/calculadora "Calcula tu ahorro [such blank ga4]")
