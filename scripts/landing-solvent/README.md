@@ -155,7 +155,8 @@ no en un evento real emitido desde esta implementación.
   carga única, UTM sin atribución fija, protección PII, localhost y
   honeypot. Se interceptan leads, ipify, GA y el resto de red externa.
 
-El subagente no hizo POST real. **El padre completó una prueba autorizada** con
+Evidencia histórica anterior al corte directo: el subagente inicial no hizo POST
+real. **El padre completó una prueba autorizada** con
 CC exclusivamente de validación, datos ficticios y asunto PRUEBA: HTTP 200,
 `result: success`, `persisted: true`, `status: accepted`, UI gracias y recibo;
 cero peticiones GA. Evidencia independiente:
@@ -184,5 +185,15 @@ Pruebas: `node --test scripts/landing-solvent/worker/worker.test.mjs`.
 Para preservar evidencia previa: `SOLVENT_TEST_EVIDENCE=/ruta/externa npm test
 --prefix scripts/landing-solvent`. El informe operativo verificable del corte
 está en `/home/achu/workspace/sansoul-forms-migration/solvent-direct/REPORT.md`.
-No se certifica cero errores, cold-start, carga arbitraria ni entrega al buzón
-comercial; la canary autorizada usa solo el buzón operacional.
+Corte directo verificado con 44 pruebas Playwright, 13 pruebas de adaptador,
+260 equivalencias de clasificación y normalización de 33 snapshots legacy.
+Dos canaries reales llegaron únicamente al buzón operacional, con recibos
+durables y reintentos sin nuevos efectos. El código final repitió la canary
+aceptada y la revisión de spam en navegador productivo con analítica bloqueada.
+La configuración temporal de canary fue retirada y leída de nuevo.
+
+Se conservó una muestra CPU de 11ms del primer adaptador (sin1102), que motivó
+una única corrección local: patrones de spam precompilados y normalización
+lineal con idéntico contrato. No se modificó connected. El informe distingue
+versiones y cobertura nativa; no se certifica cero errores, cold-start, carga
+arbitraria ni entrega al buzón comercial.

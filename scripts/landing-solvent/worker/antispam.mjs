@@ -65,10 +65,13 @@ export function validateInput (params, limits = HARD_LIMITS) {
   return null
 }
 
-function matchesPhrase (text, phrase) {
-  // Exact GAS ASCII boundary semantics; phrases are a fixed server-owned list.
+// Fixed policy patterns are immutable and non-global; compile once per isolate.
+const PHRASE_PATTERNS = new Map(SPAM_PHRASES.map(phrase => {
   const escaped = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  return new RegExp(`(^|[^a-z0-9])${escaped}(?=$|[^a-z0-9])`, 'i').test(text)
+  return [phrase, new RegExp(`(^|[^a-z0-9])${escaped}(?=$|[^a-z0-9])`, 'i')]
+}))
+function matchesPhrase (text, phrase) {
+  return PHRASE_PATTERNS.get(phrase).test(text)
 }
 
 function validGasEmail (email) {

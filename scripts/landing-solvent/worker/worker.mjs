@@ -9,13 +9,11 @@ const OP=new Set(['_headers','_subject','_domain','_id','_sheetname','_token','_
 const ALLOWED=new Set([...OP,'Nombre','Empresa','Teléfono','Email','Consentimiento','Intereses','Idioma','Campaña','URL','_gotcha','utm_source','utm_medium','utm_campaign','utm_term','utm_content']);
 const enc=new TextEncoder();
 const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
-const sha=async s=>hex(await crypto.subtle.digest('SHA-256',enc.encode(s)));
 function normalize(entries,headers){
- const names=[];for(const h of headers)if(!names.includes(h.name))names.push(h.name);
- for(const [k]of entries)if(!names.includes(k))names.push(k);
- return names.filter(k=>!OP.has(k)).flatMap(k=>{const vs=entries.filter(p=>p[0]===k);return vs.length?vs:[[k,'']];});
+ const grouped=new Map();for(const [k,v]of entries){if(!grouped.has(k))grouped.set(k,[]);grouped.get(k).push(v);}
+ const names=new Set(headers.map(h=>h.name));for(const k of grouped.keys())names.add(k);
+ return [...names].filter(k=>!OP.has(k)).flatMap(k=>(grouped.get(k)||['']).map(v=>[k,v]));
 }
-async function business(fields){const m=new Map();for(const [k,v]of fields){if(!m.has(k))m.set(k,[]);m.get(k).push(v);}return sha(JSON.stringify({fields:[...m.keys()].sort().map(k=>[k,m.get(k)]),files:[]}));}
 async function bounded(req){
  if(Number(req.headers.get('content-length')||0)>65536)throw Error('size');
  const reader=req.body?.getReader();if(!reader)throw Error('body');let n=0;const chunks=[];
@@ -66,4 +64,4 @@ export default {async fetch(req,env){
   return reply(200,{result:'success',persisted:true,submissionId:id,receipt:data.receipt,status:data.status});
  }catch{return error(503,'receipt_not_confirmed');}
 }};
-export {normalize,business,DOMAIN,FORM,CONSUMER};
+export {normalize,DOMAIN,FORM,CONSUMER};
