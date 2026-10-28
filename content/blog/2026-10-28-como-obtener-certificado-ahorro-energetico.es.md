@@ -283,3 +283,9 @@ Contacta con nuestro equipo y descubre si tu empresa puede transformar sus ahorr
 - MITECO — [Preguntas frecuentes sobre CAE](https://www.miteco.gob.es/es/energia/eficiencia/cae/preguntas-frecuentes.html "[blank]")
 - BOE — [Orden TED/815/2023, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2023-16734 "[blank]")
 - MITECO — [Agentes del sistema CAE](https://www.miteco.gob.es/es/energia/eficiencia/cae/agentes.html "[blank]")
+
+### ¿Cuánto podrías obtener por tus ahorros energéticos?
+
+Descubre el potencial económico de tus mejoras en eficiencia energética. Con la **calculadora de CERAE** puedes estimar el valor de los Certificados de Ahorro Energético (CAE) que podría generar tu empresa de forma rápida y sencilla.
+
+[[Ir a la Calculadora]](https://cerae.es/calculadora "Calcula tu ahorro [dark blank ga4]")
