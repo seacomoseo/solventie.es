@@ -2,13 +2,14 @@ import {test,expect} from '@playwright/test';
 import fs from 'node:fs';
 import {installValidationOverride} from '../validation-override.mjs';
 const URL='/landing/jornada-tecnica-comunidades-de-regantes/';
+const EVIDENCE=process.env.SOLVENT_TEST_EVIDENCE||'evidence';
 const STATIC=new globalThis.URL('../../../static/landing/jornada-tecnica-comunidades-de-regantes/',import.meta.url);
 async function setup(page,{live=false,status='accepted',persisted=true,legacy=false,fail=false}={}){
  const requests=[],external=[];let failure=fail;
  await page.route('**/*',async route=>{
   const req=route.request(),u=new globalThis.URL(req.url());
-  if(u.hostname==='script.google.com' || u.pathname==='/api/forms'){
-   const body=new URLSearchParams(req.postData());requests.push({body,headers:req.headers()});
+  if(u.hostname==='script.google.com' || u.pathname.startsWith('/api/forms')){
+   const body=new URLSearchParams(req.postData());requests.push({body,headers:req.headers(),url:req.url()});
    if(failure){failure=false;await route.abort();return;}
    await route.fulfill({json:legacy?{result:'success'}:{result:'success',persisted,submissionId:body.get('_submission_id'),status}});return;
   }
@@ -39,7 +40,7 @@ test('apariencia, todos los textos ES/CA, fotos locales y persistencia idioma',a
   }
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
   expect(await page.locator('#app img').evaluateAll(els=>els.every(e=>e.complete&&e.naturalWidth>0))).toBeTruthy();
-  await page.screenshot({path:`evidence/${info.project.name}-${l}.png`,fullPage:true});
+  await page.screenshot({path:`${EVIDENCE}/${info.project.name}-${l}.png`,fullPage:true});
  }
  await page.reload();await expect(page.locator('html')).toHaveAttribute('lang','ca');
 });
@@ -55,7 +56,7 @@ for(const status of ['accepted','review'])test(`recibo ${status}, doble clic y G
  expect(events.filter(e=>e[0]==='event'&&e[1]==='contact')).toHaveLength(status==='accepted'?1:0);expect(JSON.stringify(events)).not.toContain('secret@');expect(events.some(e=>e[1]==='generate_lead')).toBeFalsy();
  await page.reload();await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(1);
 });
-test('legacy queued success remains compatible',async({page})=>{const x=await setup(page,{live:true,legacy:true});await page.addInitScript(()=>{const id='legacy-pending-test';const action='https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec';localStorage.setItem('sansoul.form.pending.'+id,JSON.stringify({submissionId:id,action,body:'_id=form-jornada-tecnica-comunidades-de-regantes&_submission_id='+id}));});await open(page,true);await expect(page.locator('#lead-success')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);expect(x.requests).toHaveLength(1);});
+test('legacy queued ID reconciles through strict Worker receipt',async({page})=>{const x=await setup(page,{live:true});await page.addInitScript(()=>{const id='legacy-pending-test';const action='https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec';localStorage.setItem('sansoul.form.pending.'+id,JSON.stringify({submissionId:id,action,body:'_id=form-jornada-tecnica-comunidades-de-regantes&_submission_id='+id}));});await open(page,true);await expect(page.locator('#lead-success')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);expect(x.requests).toHaveLength(1);});
 test('new endpoint rejects spam receipts',async({page})=>{const x=await setup(page,{live:true,status:'spam'});await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();await expect(page.locator('#lead-success')).toHaveCount(0);expect(x.requests).toHaveLength(1);expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);});
 test('new endpoint rejects incomplete legacy receipts',async({page})=>{const x=await setup(page,{live:true,legacy:true});await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();await expect(page.locator('#lead-success')).toHaveCount(0);expect(x.requests).toHaveLength(1);expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);});
 test('error y reintento idempotente al recargar',async({page})=>{
@@ -99,7 +100,7 @@ test('UTM reales sin atribución fija; valores sensibles se omiten de GA4',async
 test('localhost jamás carga analytics ni contact',async({page})=>{const x=await setup(page);await open(page);await fill(page);await click(page);await expect(page.locator('#lead-success')).toBeVisible();expect(x.external).toHaveLength(0);expect(await page.evaluate(()=>window.dataLayer)).toBeUndefined();});
 test('error backend no dispara contact; retry online conserva ID',async({page})=>{
  const x=await setup(page,{live:true});let fail=true;
- await page.route('**/api/forms?*',async route=>{if(!fail){await route.fallback();return;}fail=false;x.requests.push({body:new URLSearchParams(route.request().postData())});await route.fulfill({json:{result:'error',message:'Intercepted error'}});});
+ await page.route('**/api/forms/acatcor',async route=>{if(!fail){await route.fallback();return;}fail=false;x.requests.push({body:new URLSearchParams(route.request().postData())});await route.fulfill({json:{result:'error',message:'Intercepted error'}});});
  await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);
  await page.evaluate(()=>window.dispatchEvent(new Event('online')));await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(2);expect(x.requests[0].body.get('_submission_id')).toBe(x.requests[1].body.get('_submission_id'));expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(1);
 });
@@ -111,3 +112,14 @@ test('override de validación solo navegador, dry-run por defecto',async({page})
  const x=await setup(page);const captured=await installValidationOverride(page);await open(page);await fill(page);await click(page);await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(0);expect(captured).toHaveLength(1);expect(captured[0].forwarded).toBe(false);const body=new URLSearchParams(captured[0].body);expect(body.get('CC')).toBe('achucore@gmail.com');expect(body.get('Email')).toBe('achucore@gmail.com');expect(body.get('_subject')).toContain('PRUEBA');
 });
 test('honeypot no envía',async({page})=>{const x=await setup(page);await open(page);await fill(page);await page.locator('[name=_gotcha]').evaluate(e=>e.value='spam');await click(page);expect(x.requests).toHaveLength(0);});
+
+for(const action of ['/api/forms?route=principal%3Asolventie.es%3Aform-jornada-tecnica-comunidades-de-regantes','https://script.google.com/macros/s/AKfycbzEd6cjH5eTjzVxDVk6x-3Q9QwUHDMWpR8V1Ij1g6IG7MYwpPM_epAGpxJUR1__ljrWMQ/exec'])test('old pending transport is reconciled, not replayed: '+action,async({page})=>{
+ const x=await setup(page,{live:true});await page.addInitScript(action=>{const id='old-transport-id';localStorage.setItem('sansoul.form.pending.'+id,JSON.stringify({submissionId:id,action,body:'_id=form-jornada-tecnica-comunidades-de-regantes&_submission_id='+id+'&Nombre=Preservado'}));},action);
+ await open(page,true);await expect(page.locator('#lead-success')).toBeVisible();expect(x.requests).toHaveLength(1);expect(new globalThis.URL(x.requests[0].url).pathname).toBe('/api/forms/acatcor');expect(x.requests[0].body.get('_submission_id')).toBe('old-transport-id');expect(x.requests[0].body.get('Nombre')).toBe('Preservado');
+});
+for(const kind of ['conflict','mismatched-review'])test('strict failure keeps exact pending copy: '+kind,async({page})=>{
+ await setup(page,{live:true});let encoded;
+ await page.route('**/api/forms/acatcor',async route=>{encoded=route.request().postData();const body=new URLSearchParams(encoded);await route.fulfill(kind==='conflict'?{status:409,json:{code:'submission_conflict'}}:{json:{result:'success',persisted:true,submissionId:'wrong-ID',status:'review'}});});
+ await open(page,true);await fill(page);await click(page);await expect(page.locator('#form-feedback')).toBeVisible();await expect(page.locator('#lead-success')).toHaveCount(0);
+ const pending=await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('sansoul.form.pending.')).map(k=>JSON.parse(localStorage.getItem(k))));expect(pending).toHaveLength(1);expect(pending[0].body).toBe(encoded);expect(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='contact').length)).toBe(0);
+});

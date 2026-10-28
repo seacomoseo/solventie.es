@@ -1,0 +1,19 @@
+name = "solvent-acatcor-intake"
+main = "worker.mjs"
+account_id = "bf9e7c435731b26a87df2eb5b10acf6c"
+compatibility_date = "2026-10-01"
+workers_dev = true
+preview_urls = false
+
+[[services]]
+binding = "CONNECTED"
+service = "sansoul-forms-connected"
+environment = "production"
+
+[[ratelimits]]
+name = "ADMISSION"
+namespace_id = "2026102801"
+simple = {limit = 40, period = 60}
+
+# Required secret: BRIDGE_KEY, from existing protected connected operator state.
+# No mail/Drive/admin credentials. TEST_CONFIG is absent in final production.

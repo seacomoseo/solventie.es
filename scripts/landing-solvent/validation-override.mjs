@@ -1,11 +1,12 @@
 /* Parent-only validation helper. Dry-run by default; never changes production assets.
  * Use a NEW disposable browser context, on localhost, and close it after validation.
- * forward:true explicitly authorizes the actual lead POST to the existing endpoint.
+ * Real forwarding is disabled: public CC is not delivery authority.
  */
 export async function installValidationOverride(page,{forward=false}={}) {
+  if(forward)throw new Error('Public CC cannot override server destinations. Use the trusted, ID-bound server canary operator.');
   const captured=[];
   await page.route(/https:\/\/[^/]*(?:google-analytics\.com|googletagmanager\.com)\//,route=>route.abort());
-  await page.route(/(?:https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec|\/api\/forms\?)/,async route=>{
+  await page.route(/(?:https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec|\/api\/forms(?:\?|\/acatcor(?:\?|$)))/,async route=>{
     const request=route.request();
     if(request.method()!=='POST'){await route.abort();return;}
     const body=new URLSearchParams(request.postData());
@@ -22,12 +23,7 @@ export async function installValidationOverride(page,{forward=false}={}) {
       if(existing){existing.body=encoded;localStorage.setItem(key,JSON.stringify(existing));}
     },{id:body.get('_submission_id'),encoded});
     captured.push({url:request.url(),body:encoded,forwarded:forward});
-    if(forward){
-      if(new URL(request.url()).hostname==='script.google.com')throw new Error('Legacy forwarding is not an isolated production test');
-      const url=new URL(request.url());url.searchParams.set('route','test:sansoul-health.invalid:contact');
-      await route.continue({url:url.href,postData:encoded});
-    }
-    else await route.fulfill({json:{result:'success',persisted:true,submissionId:body.get('_submission_id'),status:'accepted'}});
+    await route.fulfill({json:{result:'success',persisted:true,submissionId:body.get('_submission_id'),status:'accepted'}});
   });
   return captured;
 }

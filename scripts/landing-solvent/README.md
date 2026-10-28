@@ -1,7 +1,8 @@
 # Landing estática ACATCOR
 
-Entrega local: `static/landing/jornada-tecnica-comunidades-de-regantes/index.html`.
-No se ha publicado ni se requiere React, TanStack o Supabase en el navegador.
+Artefacto: `static/landing/jornada-tecnica-comunidades-de-regantes/index.html`.
+Ruta pública: https://solventie.es/landing/jornada-tecnica-comunidades-de-regantes/.
+No requiere React, TanStack o Supabase en el navegador.
 
 ## Construcción y pruebas
 
@@ -63,8 +64,14 @@ igual que el componente original. Los archivos `.render*`, `.dictionary.mjs` y
 ## Captación y persistencia
 
 Se leyó `themes/sansoul/assets/js/form-send.js`, `form-change-values.js` y
-`layouts/partials/blocks/form.html`. Se conserva el endpoint Apps Script exacto
-allí declarado, `Content-Type: application/x-www-form-urlencoded`, destino
+`layouts/partials/blocks/form.html`. El transporte actual usa `/api/forms/acatcor` → proxy nativo Netlify →
+Worker dedicado `solvent-acatcor-intake.seacomoseo.workers.dev/v1/forms` →
+service binding HMAC servidor → `sansoul-forms-connected` vigente. No pasa por GAS.
+El receptor antiguo responde pero no se reutiliza: conserva la ruta de efectos
+legacy sin fencing de propietario y el espejo Sheets, fuera del contrato connected.
+El proxy compartido `/api/forms` permanece intacto salvo una regla con query exacta
+de esta landing para pestañas antiguas. Se conserva
+`Content-Type: application/x-www-form-urlencoded`, destino
 `formularios-web@solventie.es` (CC decodificado en el POST), `_headers` con
 Timestamp/CC/URL primero, `_domain`, `_id`, `_subject`, `_gotcha`,
 `_submission_id`, User Agent, IP best effort y Timestamp `Europe/Madrid`.
@@ -78,11 +85,14 @@ backend de captación; GA4 solo recibe los UTM de campaña filtrados descritos a
 No se habilita correo de confirmación al
 visitante (`_confirmation`), como en el formulario original del adjunto.
 
-La confirmación durable usa la misma regla del tema: `result === 'success'`,
-aceptando la respuesta legacy sin `persisted`/`submissionId`; si esos campos
-aparecen se exige `persisted === true` e ID coincidente (o `status === 'review'`,
-igual que el tema). No basta un HTTP 200. `review`/`spam` durables muestran la
-confirmación genérica, pero nunca una conversión.
+La confirmación exige siempre `result === 'success'`, `persisted === true`,
+`submissionId` exactamente coincidente y `status` accepted/review. No basta
+HTTP200, un recibo legacy incompleto ni un ID distinto en review. Solo accepted
+emite conversión; review muestra confirmación genérica sin conversión.
+Los registros pendientes con las URLs anteriores GAS o `/api/forms?route=…`
+se reconcilian por el mismo ID y cuerpo contra el nuevo proxy, sin reescribir
+la copia local en caso de error. Connected reconoce sus tombstones históricos;
+no se vuelven a enviar correos para los IDs ya comprometidos.
 
 Antes de enviar se protege una copia en
 `sansoul.form.pending.<submissionId>`, mismo esquema del tema:
@@ -108,7 +118,7 @@ Auditoría **read-only comunicada por el padre**, no modificación de GA4:
 
 El cliente emite únicamente `contact` con
 `{id:'contacto', type:'form', label:'form-jornada-tecnica-comunidades-de-regantes'}`
-tras recibo durable y `status` ausente o `accepted`. Nunca en error, `review` o
+tras recibo durable y `status === 'accepted'`. Nunca en error, `review` o
 `spam`; **no emite `generate_lead`** porque duplicaría la derivación del stream.
 
 Por aprobación final de Loren, GA4 carga inmediatamente, como en el sitio,
@@ -154,13 +164,25 @@ El padre además comunicó recepción verificada por Gmail API. Esa prueba ocurr
 antes de normalizar los nombres públicos del payload; la normalización final
 está cubierta por pruebas interceptadas y no se ha repetido el envío real.
 
-`validation-override.mjs` permite al padre instalar un override **solo en un
-contexto Playwright nuevo y desechable**: cambia CC a la dirección de validación,
-marca PRUEBA, usa datos ficticios y bloquea analítica. Su valor predeterminado
-es `forward:false`: devuelve un recibo simulado, sin POST real.
-`forward:true` requiere autorización específica; la prueba ya está hecha,
-**no repetirla**. No hay override de destinatario en código de producción,
-parámetros URL, variables públicas ni botones.
+`validation-override.mjs` es exclusivamente dry-run; rechaza `forward:true`.
+Cambiar CC en un navegador NO cambia el destinatario del nuevo receptor.
+Una prueba real requiere configuración temporal de confianza en el servidor,
+ligada a un único ID y secreto, con destino exclusivamente `achucore@gmail.com`;
+se retira tras verificar recibo/cola/correo. Nunca usar el destinatario comercial
+para pruebas, ni asumir aislamiento a partir de un parámetro público.
 
-No se ha hecho commit/stage/push/deploy. No se ha afirmado validación de entrega
-al correo comercial real ni emisión de eventos reales de GA4.
+## Operación del adaptador
+
+Fuentes y contrato de despliegue: `worker/worker.mjs`, `worker/antispam.mjs`,
+`worker/wrangler.toml`. Sin Functions/Edge Netlify, D1/colas nuevas ni claves de
+proveedores. BRIDGE_KEY solo se instala como secreto servidor desde la custodia
+protegida existente. Identidad, asunto y destinatario son fijos; campos repetidos,
+selectores desconocidos y archivos se rechazan. El límite de admisión es aproximado,
+40/minuto por POP, no un cupo global de correo. Origin es anti-CSRF, no autenticación.
+
+Pruebas: `node --test scripts/landing-solvent/worker/worker.test.mjs`.
+Para preservar evidencia previa: `SOLVENT_TEST_EVIDENCE=/ruta/externa npm test
+--prefix scripts/landing-solvent`. El informe operativo verificable del corte
+está en `/home/achu/workspace/sansoul-forms-migration/solvent-direct/REPORT.md`.
+No se certifica cero errores, cold-start, carga arbitraria ni entrega al buzón
+comercial; la canary autorizada usa solo el buzón operacional.

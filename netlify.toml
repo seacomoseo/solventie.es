@@ -13,7 +13,22 @@ command = "sh do hugo"
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
 
-# Durable form reception, without Google in the public request path.
+# Landing-only native proxies. Keep the shared site transport below unchanged.
+[[redirects]]
+  from = "/api/forms/acatcor"
+  to = "https://solvent-acatcor-intake.seacomoseo.workers.dev/v1/forms"
+  status = 200
+  force = true
+
+# Reconcile already-open landing tabs without changing any other form route.
+[[redirects]]
+  from = "/api/forms"
+  to = "https://solvent-acatcor-intake.seacomoseo.workers.dev/v1/forms"
+  status = 200
+  force = true
+  query = {route = "principal:solventie.es:form-jornada-tecnica-comunidades-de-regantes"}
+
+# Existing shared site transport (outside this landing change).
 [[redirects]]
   from = "/api/forms"
   to = "https://sansoul-forms.sansoul.workers.dev/v1/forms"
