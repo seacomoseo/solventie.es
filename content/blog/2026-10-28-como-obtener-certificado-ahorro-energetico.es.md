@@ -1,7 +1,7 @@
 ---
 slug: como-obtener-certificado-ahorro-energetico
 title: Cómo obtener un certificado de ahorro energético paso a paso
-img: /u/05-como-obtener-un-cae.webp
+img: /u/blog/2026-10-28-como-obtener-certificado-ahorro-energetico.webp
 toc: true
 draft: false
 hide: false
