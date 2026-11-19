@@ -60,7 +60,7 @@ En Internet puedes encontrar muchas páginas que muestran las horas más baratas
 
 En Solvent hemos desarrollado una herramienta que facilita esa consulta.
 
-Nuestra tabla de precios de la electricidad reúne distintos componentes del coste eléctrico para que puedas analizarlos de forma conjunta.
+Nuestra tabla de [precio de la electricidad](https://solventie.es/precio-electricidad/) reúne distintos componentes del coste eléctrico para que puedas analizarlos de forma conjunta.
 
 ### ¿Qué información puedes consultar?
 
