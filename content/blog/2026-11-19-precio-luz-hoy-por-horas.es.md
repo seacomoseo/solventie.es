@@ -1,7 +1,7 @@
 ---
 slug: precio-luz-hoy-por-horas
 title: 'Precio de la luz hoy: consulta cuánto cuesta cada hora'
-img: /u/06-precio-de-la-luz-hoy.webp
+img: /u/07-precio-de-la-luz-hoy.webp
 seo:
   title: 'Precio de la luz hoy por horas: consulta nuestra tabla'
   desc: Consulta el precio de la luz hoy por horas con nuestra tabla eléctrica. Compara precios, peajes y componentes del coste para gestionar mejor tu consumo.
