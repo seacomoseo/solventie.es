@@ -2,3 +2,6 @@ mail: info@solventie.es
 ga4: G-XT4VMEX7YT
 g_file_verify: google7467d923cbb3eb4c.html
 cms_logo: /u/base/icon.svg
+html:
+  head: |
+    <meta name="trustburn-site-verification" content="8da0c7c5c17026fb9614ea3721f15a71">

@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seacomoseo/sansoul.es.git"
+    "url": "git+https://github.com/seacomoseo/sansoul-demo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seacomoseo/sansoul.es/issues"
+    "url": "https://github.com/seacomoseo/sansoul-demo/issues"
   },
-  "homepage": "https://github.com/seacomoseo/sansoul.es",
+  "homepage": "https://github.com/seacomoseo/sansoul-demo",
   "standard": {
     "env": [
       "browser"

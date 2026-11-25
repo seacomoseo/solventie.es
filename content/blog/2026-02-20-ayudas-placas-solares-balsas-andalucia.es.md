@@ -46,4 +46,4 @@ Aunque la ayuda es para "infraestructuras de riego con fines ambientales", la in
 
 En **Solvent Iniciativas Empresariales** sabemos que la burocracia puede ser el mayor obstáculo para la innovación. Por eso, no solo te informamos: te acompañamos en todo el proceso de diseño de tu instalación ISFV sobre balsa y en la tramitación de esta ayuda para que no llegues tarde.
 
-Puedes ver los proyectos de ISFV flotante que hemos realizado [aquí](https://solventie.es/instalaciones-solares-flotantes/).
+Puedes ver los proyectos de ISFV flotante que hemos realizado [aquí](/instalaciones-solares-flotantes/).
